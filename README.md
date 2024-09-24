@@ -1,7 +1,12 @@
 # WebScraper
 
 ## Beskrivning
-Create a web scraper that scrapes a website for title of and content in order to present the content in the terminal.
+Create a web scraper that scrapes a website for founatonaal elements and outputs it into the console.
+
+## Krav
+Skrapa en webbsida på grundläggande element som p, h, li, ul, href, alt, src, title. Scrapa också div element för att strukturera informationen relativt till div element. 
+
+Scraper-modulen ska kunna användas på de flesta webbsidor utan dynamiska element för att få fram grundläggande information.
 
 ## Kodexempel
 
@@ -9,4 +14,6 @@ Create a web scraper that scrapes a website for title of and content in order to
 npm install webscraper
 
 ## Beroenden
+JSDOM
+node-fetch
 
