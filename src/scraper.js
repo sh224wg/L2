@@ -2,15 +2,19 @@ const fetch = require('node-fetch')
 const { JSDOM } = require('jsdom')
 
 class Scraper {
-    constructor(){}
+    constructor() { }
 
 
     async scrape(url) {
-        try{
+        try {
             const response = await fetch(url)
             if (!response.ok) {
                 throw new Error('Network response error')
             }
+            const text = await response.text()
+            const dom = new JSDOM(text)
+            const document = dom.window.document
+           
         }
     }
 
