@@ -28,11 +28,12 @@ class Scraper {
             for (let i = 0; i < hElements.length; i++) {
                 elements.push({
                     tag: hElements[i].tagName.toLowerCase(),
-                    text: hElements[i].textContenttrim()
+                    text: hElements[i].textContent.trim()
                 })
             }
             return elements
         } catch (error) {
+            console.log(`failed to scrape the URL: ${url}`, error)
             throw new Error('Failed to scrape')
         }
     }
@@ -42,6 +43,11 @@ class Scraper {
     }
 
     getText() {
+
+    }
+
+    // check if there are lists on the page and add them 
+    getLists() {
 
     }
     
