@@ -38,6 +38,10 @@ class Scraper {
         }
     }
 
+    getLinks() {
+
+    }
+
     getTitle() {
 
     }
@@ -48,6 +52,16 @@ class Scraper {
 
     // check if there are lists on the page and add them 
     getLists() {
+
+    }
+
+    // check src alt title
+    getImages() {
+
+    }
+
+    // organises the information for later use in the console.
+    getDivs() {
 
     }
     
