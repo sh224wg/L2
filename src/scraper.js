@@ -1,5 +1,5 @@
-const fetch = require('node-fetch')
-const { JSDOM } = require('jsdom')
+import fetch from 'node-fetch'
+import { JSDOM } from'jsdom'
 
 class Scraper {
     constructor() { }
@@ -46,4 +46,4 @@ class Scraper {
     }
     
 }
-module.exports = Scraper
+export default Scraper

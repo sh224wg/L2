@@ -1,4 +1,4 @@
-const Scraper = require('./scraper')
+import Scraper from './src/scraper.js'
 
 const scraper = new Scraper()
 

@@ -1,0 +1,5 @@
+# Reflektion
+
+Jag började med att skapa en grunläggande struktur på mappen. Jag skapade gitignore, README, package.json, en mapp för test, och en src map för min kod. Jag gjorde detta först för att förstå mig på storleken på uppgiften men främst för att etablera vad jag behövde så att allt skulle vara tillgängligt när jag skulle behöva det. Sedan satt jag ner och skrev pseudokod för att ge mig själv en ide kring hur scrapan skulle fungera. En separat fil för scrapan och sedan en index fil för att köra programmet.
+
+Jag började sedan med att etablera en Scraper class som kunde exporteras och började med att fokusera på p och h element för att testa om den grundläggande scrapan fungerade men också hur formatet skulle se ut när den skrevs ut i konsolen. Jag är osäker kring att scrapa efter länkar då jag tänkte att scrapan skulle fungera på en mer grundläggande nivå som module, något där en användare kunde ge en länk som input och få den grundläggande informationen från den webbsidan tillbaka.
