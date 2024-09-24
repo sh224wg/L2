@@ -14,7 +14,26 @@ class Scraper {
             const text = await response.text()
             const dom = new JSDOM(text)
             const document = dom.window.document
-           
+            const elements = []
+            // p and h elements
+            const pElements = document.querySelectorAll('p')
+            const hElements = document.querySelectorAll('h1, h2, h3, h4, h5, h6')
+            // add p elements to output
+            for (let i = 0; i < pElements.length; i++) {
+                elements.push({
+                    tag:'p',
+                    text: pElements[i].textContent.trim()
+                })
+            }
+            for (let i = 0; i < hElements.length; i++) {
+                elements.push({
+                    tag: hElements[i].tagName.toLowerCase(),
+                    text: hElements[i].textContenttrim()
+                })
+            }
+            return elements
+        } catch (error) {
+            throw new Error('Failed to scrape')
         }
     }
 
@@ -25,4 +44,6 @@ class Scraper {
     getText() {
 
     }
+    
 }
+module.exports = Scraper
