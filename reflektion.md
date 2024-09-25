@@ -4,3 +4,4 @@ Jag började med att skapa en grunläggande struktur på mappen. Jag skapade git
 
 Jag började sedan med att etablera en Scraper class som kunde exporteras och började med att fokusera på p och h element för att testa om den grundläggande scrapan fungerade men också hur formatet skulle se ut när den skrevs ut i konsolen. Efter att ha arbetat med detta och scrapat en variation av sidor som recept sidor, svt, wikipedia, och bloggsidor har jag inset att detta inte är nog. Jag tänker lägga till mer element som scrapas som HTML element: p, h, div, and li/ul.
 och CSS Element som kan ge mer information om det tex finns en bild på sidan : href, src, alt, och title. Senare ska dessa delas up i respektive div för bättre formatering. 
+

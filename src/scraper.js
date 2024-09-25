@@ -38,15 +38,11 @@ class WebScraper {
                 images: this.getImages(div),
                 links: this.getLinks(div)
             }
-            div.push(divContent)
+            divs.push(divContent)
         })
         return divs
     }
 
-    // check for hrefs
-    getLinks() {
-
-    }
 
     // h elements
     getTitle() {
@@ -68,16 +64,22 @@ class WebScraper {
             })
 
         }
+    }
 
-        // check if there are lists li/ul on the page and add them 
-        getLists() {
-
-        }
-
-        // check src alt title
-        getImages() {
-
-        }
+    // check if there are lists li/ul on the page and add them 
+    getLists() {
 
     }
+
+    // check src alt title
+    getImages() {
+
+    }
+
+    // check for hrefs
+    getLinks() {
+
+    }
+}
+
 export default WebScraper
