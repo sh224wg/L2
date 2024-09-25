@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Saskia Heinemann",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "jsdom": "^25.0.1",
     "node-fetch": "^3.3.2"

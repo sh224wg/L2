@@ -1,7 +1,7 @@
 import fetch from 'node-fetch'
 import { JSDOM } from'jsdom'
 
-class Scraper {
+class WebScraper {
     constructor() { }
 
 
@@ -14,6 +14,7 @@ class Scraper {
             const text = await response.text()
             const dom = new JSDOM(text)
             const document = dom.window.document
+
             const elements = []
             // p and h elements
             const pElements = document.querySelectorAll('p')
@@ -38,19 +39,41 @@ class Scraper {
         }
     }
 
+
+    // organises the information for later use in the console.
+    getDivs(document) {
+        const divs = []
+        const divElements = document.querySelectorAll('div')
+        divElements.forEach(div => {
+            const divContent = {
+                tag: 'div',
+                text: div.textContent.trim(),
+                titles: this.getTitle(div),
+                texts: this.getText(div),
+                lists: this.getLists(div),
+                images: this.getImages(div)
+            }
+            div.push(divContent)
+        })
+        return divs
+    }
+
+    // check for hrefs
     getLinks() {
 
     }
 
+    // h elements
     getTitle() {
 
     }
 
+    // p elements
     getText() {
 
     }
 
-    // check if there are lists on the page and add them 
+    // check if there are lists li/ul on the page and add them 
     getLists() {
 
     }
@@ -59,11 +82,6 @@ class Scraper {
     getImages() {
 
     }
-
-    // organises the information for later use in the console.
-    getDivs() {
-
-    }
     
 }
-export default Scraper
+export default WebScraper
