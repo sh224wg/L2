@@ -100,14 +100,27 @@ class WebScraper {
 
     // check src alt title
     getImages(element) {
-        // images in array
-
+        const images = []
+        const imageElements = element.querySelectorAll('img')
+        for(let i = 0; i < imageElements.length; i++) {
+            const img = imageElements[i]
+            const src = img.getAttribute('src')
+            if(src) {
+                const imageData = {
+                    src: src,
+                    alt: img.getAttribute('alt'),
+                    title: img.getAttribute('title')
+                }
+                images.push(imageData)
+            }
+        }
+        return images
     }
 
     // check for hrefs
     getLinks(element) {
         const links = []
-        const aElements = elements.querySelectorAll('a')
+        const aElements = element.querySelectorAll('a')
         for(let i = 0; i < aElements.length; i++) {
             const a = aElements[i]
             const href = a.getAttribute('href')
