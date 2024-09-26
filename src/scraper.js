@@ -77,11 +77,25 @@ class WebScraper {
 
     // check if there are lists li/ul on the page and add them 
     getLists(element) {
+        const lists = []
+        const ulElements = element.querySelectorAll('ul')
+        ulElements.forEach(ul => {
+            const items = []
+            const liElements = ul.querySelectorAll('li')
+            for(let i = 0; i <liElements.length; i++) {
+                const li = liElements[i]
+                if(li.textConent.trim()){
+                    items.push(li.textContent.trim())
+                }
+                // check lengths of items larger than 0 and push ul
+            }
+        })
 
     }
 
     // check src alt title
     getImages(element) {
+        // images in array
 
     }
 
