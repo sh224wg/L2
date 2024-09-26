@@ -13,6 +13,8 @@ Another focus i had was names. clean code names, changed text to paragraph to hi
 
 reflection 3
 
+Struggling with function length, book states it should be up to 3 lines but mine are 10 t0 15.
+
 reflection 4
 
 reflection 5

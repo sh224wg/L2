@@ -106,7 +106,19 @@ class WebScraper {
 
     // check for hrefs
     getLinks(element) {
-
+        const links = []
+        const aElements = elements.querySelectorAll('a')
+        for(let i = 0; i < aElements.length; i++) {
+            const a = aElements[i]
+            const href = a.getAttribute('href')
+            if(href){
+                links.push({
+                    href: href,
+                    text: a.textConent.trim()
+                })
+            }
+        }
+        return links
     }
 }
 
