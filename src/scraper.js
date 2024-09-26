@@ -4,7 +4,7 @@ import { JSDOM } from 'jsdom'
 class WebScraper {
     constructor() { }
 
-
+// use of try catch acceptable because its inherent to the function?
     async scrape(url) {
         try {
             const response = await fetch(url)
@@ -45,13 +45,18 @@ class WebScraper {
 
 
     // h elements
-    getTitle() {
-        for (let i = 0; i < hElements.length; i++) {
-            elements.push({
-                tag: hElements[i].tagName.toLowerCase(),
-                text: hElements[i].textContent.trim()
-            })
-        }
+    getTitle(element) {
+        const titles = []
+        const hElements = element.querySelectorAll('h1, h2, h3, h4, h5, h6')
+        hElements.forEach(h => {
+            if(h.textContent.trim()) {
+                titles.push({
+                    tag: h.tagName.toLowerCase(),
+                    text: h.textContent.trim()
+                })
+            }
+        })
+        return titles
     }
 
     // p elements
