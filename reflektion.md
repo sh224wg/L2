@@ -15,6 +15,8 @@ reflection 3
 
 Struggling with function length, book states it should be up to 3 lines but mine are 10 t0 15.
 
+in index for the run function the repetition of console.log is repeated for 9 lines in order to cover the seperate sections for the scraping. This is too long than is wanted in clean code. 
+
 reflection 4
 
 reflection 5
