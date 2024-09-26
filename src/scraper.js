@@ -87,10 +87,15 @@ class WebScraper {
                 if(li.textConent.trim()){
                     items.push(li.textContent.trim())
                 }
-                // check lengths of items larger than 0 and push ul
+                if(items.length > 0) {
+                    lists.push({
+                        tag: 'ul',
+                        items: items
+                    })
+                }
             }
         })
-
+        return lists
     }
 
     // check src alt title
