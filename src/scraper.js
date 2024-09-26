@@ -33,7 +33,7 @@ class WebScraper {
                 tag: 'div',
                 text: div.textContent.trim(),
                 titles: this.getTitle(div),
-                texts: this.getText(div),
+                texts: this.getParagraph(div),
                 lists: this.getLists(div),
                 images: this.getImages(div),
                 links: this.getLinks(div)
@@ -60,29 +60,33 @@ class WebScraper {
     }
 
     // p elements
-    getText() {
-        // add p elements to output
+    getParagraph(element) {
+        const paragraphs = []
+        const pElements = element.querySelectorAll('p')
         for (let i = 0; i < pElements.length; i++) {
-            elements.push({
-                tag: 'p',
-                text: pElements[i].textContent.trim()
-            })
-
+            const p = pElements[i]
+            if(p.textContent.trim()) {
+                paragraphs.push({
+                    tag: 'p',
+                    text: p.textContent.trim()
+                })
+            }
+            return paragraphs
         }
     }
 
     // check if there are lists li/ul on the page and add them 
-    getLists() {
+    getLists(element) {
 
     }
 
     // check src alt title
-    getImages() {
+    getImages(element) {
 
     }
 
     // check for hrefs
-    getLinks() {
+    getLinks(element) {
 
     }
 }
