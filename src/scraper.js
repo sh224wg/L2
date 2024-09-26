@@ -108,8 +108,8 @@ class WebScraper {
             if(src) {
                 const imageData = {
                     src: src,
-                    alt: img.getAttribute('alt'),
-                    title: img.getAttribute('title')
+                    alt: img.getAttribute('alt') || '',
+                    title: img.getAttribute('title') || ''
                 }
                 images.push(imageData)
             }
