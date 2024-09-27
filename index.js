@@ -9,12 +9,11 @@ async function run() {
         const elements = await webScraper.scrape(url)
         elements.forEach((div, index) => {
             console.log(`Div${index + 1}:`)
-            console.log('Text:')
-            console.log('Titles:')
-            console.log('Paragraphs:')
-            console.log('Lists:')
-            console.log('Images:')
-            console.log('Links:')
+            console.log('Titles:', div.titles)
+            console.log('Paragraphs:', div.paragraphs)
+            console.log('Lists:', div.lists)
+            console.log('Images:', div.images)
+            console.log('Links:', div.links)
         })
         //console.log('Elements: ', elements)
     } catch (error) {

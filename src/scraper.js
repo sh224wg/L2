@@ -33,7 +33,7 @@ class WebScraper {
                 tag: 'div',
                 text: div.textContent.trim(),
                 titles: this.getTitle(div),
-                texts: this.getParagraph(div),
+                paragraphs: this.getParagraph(div),
                 lists: this.getLists(div),
                 images: this.getImages(div),
                 links: this.getLinks(div)
