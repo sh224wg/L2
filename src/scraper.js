@@ -48,13 +48,16 @@ class WebScraper {
 
     getParagraphs(content) {
         const paragraphs = []
+        const uniqueParagraphs = new Set()
         const pElements = content.querySelectorAll('p')
         for (let i = 0; i < pElements.length; i++) {
             const p = pElements[i]
-            if (p.textContent && p.textContent.trim()) {
+            const text = p.textContent.trim()
+            if (text && !uniqueParagraphs.has(text)) {
+                uniqueParagraphs.add(text)
                 paragraphs.push({
                     tag: 'p',
-                    text: p.textContent.trim()
+                    text: text
                 })
             }
         }
@@ -105,8 +108,9 @@ class WebScraper {
             const src = img.getAttribute('src')
             const alt = img.getAttribute('alt') || ''
             const title = img.getAttribute('title') || ''
-            
-            const uniqueId = `${src}-${alt}-${title}`
+
+            const overlap = src.split('/').slice(-1)[0].split('?')[0]
+            const uniqueId = `${overlap}-${alt}-${title}`
             if (src && !uniqueImages.has(uniqueId)) {
                 uniqueImages.add(uniqueId)
                 const imageData = {

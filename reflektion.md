@@ -25,6 +25,7 @@ reflection 4
 Bättre att inte orgnaisera i div då det blir fler tomma divar i formatering och inte användarvänligt. bättre om använderen har en lista med olika element 
 
 introduktion av sets i varje för att se till att information inte repeteras
+difficult in image as titles alt alt may overlap while src differ slightly even though images are the same, split src to find commonality in url with identical alt and title. 
 
 reflection 5
 
