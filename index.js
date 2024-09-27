@@ -26,7 +26,7 @@ async function run(url) {
             images: content.images || [],
             links: content.links || [],
             spans: content.spans || [],
-            lists: content.lists || []
+            //lists: content.lists || []
         }
 
         const scrapedData = JSON.stringify(format, null, 2)

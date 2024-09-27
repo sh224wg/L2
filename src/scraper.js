@@ -33,37 +33,6 @@ class WebScraper {
         }
     }
 
-
-    // organises the information for later use in the console.
-   /*  getDivs(document) {
-        const divs = []
-        const divElements = document.querySelectorAll('div')
-        divElements.forEach(div => {
-            const divContent = {
-                tag: 'div',
-                text: div.textContent ? div.textContent.trim() : '',
-                titles: this.getTitles(div),
-                paragraphs: this.getParagraphs(div),
-                lists: this.getLists(div),
-                images: this.getImages(div),
-                links: this.getLinks(div)
-            }
-
-            /*  // remove empty arrays
-             for (const field in divContent) {
-                if ((Array.isArray(divContent[field]) && divContent[field].length === 0) || divContent[field] === '' || divContent[field] === undefined) {
-                    delete divContent[field]
-                }/*  else if (divContent[field] === undefined) {
-                    delete divContent[field]
-                } 
-            } 
-                divs.push(divContent)
-            
-        })
-        return divs
-    } */
-
-
     // h elements
     getTitles(content) {
         const titles = []
