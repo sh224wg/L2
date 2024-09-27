@@ -9,11 +9,26 @@ function askForUrl() {
         input: process.stdin,
         output: process.stdout
     })
-    // not valid url try again add
+
     rl.question('Please Enter URL to scrape: ', (url) => {
-        rl.close()
-        run(url)
+        if (isValid(url)) {
+            rl.close()
+            run(url)
+        } else {
+            console.log('Invalid URL, try again.')
+            rl.close()
+            askForUrl()
+        }
     })
+}
+
+function isValid() {
+    try {
+        new URL(url)
+        return true
+    } catch(error) {
+        return false
+    }
 }
 
 // seperate into two functions one that runs and another that asks user for url?
