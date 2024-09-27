@@ -15,8 +15,17 @@ class WebScraper {
             const dom = new JSDOM(text)
             const document = dom.window.document
 
-            const elements = this.getDivs(document)
-            return elements
+            const content = {
+                text: document.body.textContent ? document.body.textContent.trim() : '',
+                titles: this.getTitles(document.body),
+                paragraphs: this.getParagraphs(document.body),
+                lists: this.getLists(document.body),
+                images: this.getImages(document.body),
+                links: this.getLinks(document.body)
+            }
+
+          //  const elements = this.getDivs(document)
+            return content
         } catch (error) {
             console.log(`failed to scrape the URL: ${url}`, error)
             throw new Error('Failed to scrape')
@@ -25,7 +34,7 @@ class WebScraper {
 
 
     // organises the information for later use in the console.
-    getDivs(document) {
+  /*   getDivs(document) {
         const divs = []
         const divElements = document.querySelectorAll('div')
         divElements.forEach(div => {
@@ -38,37 +47,42 @@ class WebScraper {
                 images: this.getImages(div),
                 links: this.getLinks(div)
             }
-            // remove empty arrays
-            for (const field in divContent) {
-                if (Array.isArray(divContent[field]) && divContent[field].length === 0) {
+
+            /*  // remove empty arrays
+             for (const field in divContent) {
+                if ((Array.isArray(divContent[field]) && divContent[field].length === 0) || divContent[field] === '' || divContent[field] === undefined) {
                     delete divContent[field]
-                }
-            }
-            divs.push(divContent)
+                }/*  else if (divContent[field] === undefined) {
+                    delete divContent[field]
+                } 
+            } 
+                divs.push(divContent)
+            
         })
         return divs
-    }
+    } */
 
 
     // h elements
-    getTitles(element) {
+    getTitles(document) {
         const titles = []
-        const hElements = element.querySelectorAll('h1, h2, h3, h4, h5, h6')
+        const hElements = document.querySelectorAll('h1, h2, h3, h4, h5, h6')
         hElements.forEach(h => {
-            if(h.textContent.trim()) {
+            if (h.textContent && h.textContent.trim()) {
                 titles.push({
                     tag: h.tagName.toLowerCase(),
                     text: h.textContent.trim()
                 })
             }
         })
+
         return titles
     }
 
     // p elements
-    getParagraphs(element) {
+    getParagraphs(document) {
         const paragraphs = []
-        const pElements = element.querySelectorAll('p')
+        const pElements = document.querySelectorAll('p')
         for (let i = 0; i < pElements.length; i++) {
             const p = pElements[i]
             if(p.textContent && p.textContent.trim()) {
@@ -78,19 +92,20 @@ class WebScraper {
                 })
             }
         }
+
         return paragraphs
     }
 
     // check if there are lists li/ul on the page and add them 
-    getLists(element) {
+    getLists(document) {
         const lists = []
-        const ulElements = element.querySelectorAll('ul')
+        const ulElements = document.querySelectorAll('ul')
         ulElements.forEach(ul => {
             const items = []
             const liElements = ul.querySelectorAll('li')
             for(let i = 0; i <liElements.length; i++) {
                 const li = liElements[i]
-                if(li.textConent && li.textContent.trim()) {
+                if(li.textContent && li.textContent.trim()) {
                     items.push(li.textContent.trim())
                 }
                 if(items.length > 0) {
@@ -105,9 +120,9 @@ class WebScraper {
     }
 
     // check src alt title
-    getImages(element) {
+    getImages(document) {
         const images = []
-        const imageElements = element.querySelectorAll('img')
+        const imageElements = document.querySelectorAll('img')
         for(let i = 0; i < imageElements.length; i++) {
             const img = imageElements[i]
             const src = img.getAttribute('src')
@@ -124,9 +139,9 @@ class WebScraper {
     }
 
     // check for hrefs
-    getLinks(element) {
+    getLinks(document) {
         const links = []
-        const aElements = element.querySelectorAll('a')
+        const aElements = document.querySelectorAll('a')
         for(let i = 0; i < aElements.length; i++) {
             const a = aElements[i]
             const href = a.getAttribute('href')

@@ -17,6 +17,9 @@ Struggling with function length, book states it should be up to 3 lines but mine
 
 in index for the run function the repetition of console.log is repeated for 9 lines in order to cover the seperate sections for the scraping. This is too long than is wanted in clean code. 
 
+in divs to remove empty arrays added for loop which causes the empty arrays that are strings to become undefined and developed the for loop to include undefined. 
+considering clean code, instead of adding more lines, used && to make the line longer and the function shorter
+
 reflection 4
 
 reflection 5

@@ -6,15 +6,15 @@ const webScraper = new WebScraper()
 async function run() {
     const url = 'https://www.svt.se/nyheter/utrikes/experten-darfor-ar-konflikten-mellan-israel-och-hizbollah-att-klassa-som-ett-krig'
     try {
-        const elements = await webScraper.scrape(url)
-        elements.forEach((div, index) => {
-            console.log(`Div${index + 1}:`)
-            console.log('Titles:', div.titles)
-            console.log('Paragraphs:', div.paragraphs)
-            console.log('Lists:', div.lists)
-            console.log('Images:', div.images)
-            console.log('Links:', div.links)
-        })
+        const content = await webScraper.scrape(url)
+        //elements.forEach((div, index) => {
+          //  console.log(`Div${index + 1}:`)
+            console.log('Titles:', content.titles)
+            console.log('Paragraphs:', content.paragraphs)
+            console.log('Lists:', content.lists)
+            console.log('Images:', content.images)
+            console.log('Links:', content.links)
+        //})
         //console.log('Elements: ', elements)
     } catch (error) {
         console.error(error)
