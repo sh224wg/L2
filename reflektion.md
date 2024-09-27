@@ -24,5 +24,7 @@ reflection 4
 
 Bättre att inte orgnaisera i div då det blir fler tomma divar i formatering och inte användarvänligt. bättre om använderen har en lista med olika element 
 
+introduktion av sets i varje för att se till att information inte repeteras
+
 reflection 5
 

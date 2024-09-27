@@ -4,7 +4,7 @@ import { JSDOM } from 'jsdom'
 class WebScraper {
     constructor() { }
 
-// use of try catch acceptable because its inherent to the function?
+    // use of try catch acceptable because its inherent to the function?
     async scrape(url) {
         try {
             const response = await fetch(url)
@@ -25,7 +25,7 @@ class WebScraper {
                 spans: this.getSpans(document)
             };
 
-           // const elements = this.getDivs(document)
+            // const elements = this.getDivs(document)
             return content
         } catch (error) {
             console.log(`failed to scrape the URL: ${url}`, error)
@@ -55,7 +55,7 @@ class WebScraper {
         const pElements = content.querySelectorAll('p')
         for (let i = 0; i < pElements.length; i++) {
             const p = pElements[i]
-            if(p.textContent && p.textContent.trim()) {
+            if (p.textContent && p.textContent.trim()) {
                 paragraphs.push({
                     tag: 'p',
                     text: p.textContent.trim()
@@ -69,22 +69,34 @@ class WebScraper {
     // check if there are lists li/ul on the page and add them 
     getLists(content) {
         const lists = []
+        const uniqueList = new Set()
         const ulElements = content.querySelectorAll('ul')
         ulElements.forEach(ul => {
             const items = []
             const liElements = ul.querySelectorAll('li')
-            for(let i = 0; i <liElements.length; i++) {
-                const li = liElements[i]
-                if(li.textContent && li.textContent.trim()) {
+
+            liElements.forEach(li => {
+                if (li.textContent && li.textContent.trim()) {
                     items.push(li.textContent.trim())
                 }
-                if(items.length > 0) {
-                    lists.push({
-                        tag: 'ul',
-                        items: items
-                    })
+            })
+            if (items.length > 0) {
+                const itemString = JSON.stringify(items)
+                if (!uniqueList.has(itemString)) {
+                    uniqueList.add(itemString)
                 }
+                lists.push({
+                    tag: 'ul',
+                    items: items
+                })
             }
+            /*    for(let i = 0; i <liElements.length; i++) {
+                   const li = liElements[i]
+                   if(li.textContent && li.textContent.trim()) {
+                       items.push(li.textContent.trim())
+                   }
+                  
+               } */
         })
         return lists
     }
@@ -93,10 +105,10 @@ class WebScraper {
     getImages(content) {
         const images = []
         const imageElements = content.querySelectorAll('img')
-        for(let i = 0; i < imageElements.length; i++) {
+        for (let i = 0; i < imageElements.length; i++) {
             const img = imageElements[i]
             const src = img.getAttribute('src')
-            if(src) {
+            if (src) {
                 const imageData = {
                     src: src,
                     alt: img.getAttribute('alt') || '',
@@ -112,10 +124,10 @@ class WebScraper {
     getLinks(content) {
         const links = []
         const aElements = content.querySelectorAll('a')
-        for(let i = 0; i < aElements.length; i++) {
+        for (let i = 0; i < aElements.length; i++) {
             const a = aElements[i]
             const href = a.getAttribute('href')
-            if(href){
+            if (href) {
                 links.push({
                     href: href,
                     text: a.textContent ? a.textContent.trim() : ''
@@ -131,7 +143,7 @@ class WebScraper {
         const spanElements = document.querySelectorAll('span')
         spanElements.forEach(span => {
             const text = span.textContent.trim()
-            if(text && !uniqueSpans.has(text)) {
+            if (text && !uniqueSpans.has(text)) {
                 uniqueSpans.add(text)
                 spans.push(text)
             }
