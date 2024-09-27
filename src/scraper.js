@@ -38,6 +38,7 @@ class WebScraper {
                 images: this.getImages(div),
                 links: this.getLinks(div)
             }
+            // remove empty arrays
             divs.push(divContent)
         })
         return divs
