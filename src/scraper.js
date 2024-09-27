@@ -24,8 +24,6 @@ class WebScraper {
                 links: this.getLinks(document),
                 spans: this.getSpans(document)
             };
-
-            // const elements = this.getDivs(document)
             return content
         } catch (error) {
             console.log(`failed to scrape the URL: ${url}`, error)
@@ -33,7 +31,6 @@ class WebScraper {
         }
     }
 
-    // h elements
     getTitles(content) {
         const titles = []
         const hElements = content.querySelectorAll('h1, h2, h3, h4, h5, h6')
@@ -49,7 +46,6 @@ class WebScraper {
         return titles
     }
 
-    // p elements
     getParagraphs(content) {
         const paragraphs = []
         const pElements = content.querySelectorAll('p')
@@ -66,7 +62,6 @@ class WebScraper {
         return paragraphs
     }
 
-    // check if there are lists li/ul on the page and add them 
     getLists(content) {
         const lists = []
         const uniqueList = new Set()
@@ -101,7 +96,6 @@ class WebScraper {
         return lists
     }
 
-    // check src alt title
     getImages(content) {
         const images = []
         const imageElements = content.querySelectorAll('img')
@@ -120,11 +114,22 @@ class WebScraper {
         return images
     }
 
-    // check for hrefs
     getLinks(content) {
         const links = []
+        const uniqueLinks = new Set()
         const aElements = content.querySelectorAll('a')
-        for (let i = 0; i < aElements.length; i++) {
+
+        aElements.forEach(a => {
+            const href = a.getAttribute('href')
+            if(href && !uniqueLinks.has(href)) {
+                uniqueLinks.add(href)
+                links.push({
+                    href: href,
+                    text: a.textContent ? a.textContent.trim() : ''
+                })
+            }
+        })
+    /*     for (let i = 0; i < aElements.length; i++) {
             const a = aElements[i]
             const href = a.getAttribute('href')
             if (href) {
@@ -133,7 +138,7 @@ class WebScraper {
                     text: a.textContent ? a.textContent.trim() : ''
                 })
             }
-        }
+        } */
         return links
     }
 
