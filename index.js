@@ -11,11 +11,11 @@ async function run() {
           //  console.log(`Div${index + 1}:`)
             console.log('Titles:', content.titles)
             console.log('Paragraphs:', content.paragraphs)
-            console.log('Lists:', content.lists)
             console.log('Images:', content.images)
             console.log('Links:', content.links)
-        //})
-        //console.log('Elements: ', elements)
+            console.log('Spans:', content.spans)
+            console.log('Lists:', content.lists)
+
     } catch (error) {
         console.error(error)
     }

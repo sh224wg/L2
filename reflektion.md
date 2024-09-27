@@ -22,5 +22,7 @@ considering clean code, instead of adding more lines, used && to make the line l
 
 reflection 4
 
+Bättre att inte orgnaisera i div då det blir fler tomma divar i formatering och inte användarvänligt. bättre om använderen har en lista med olika element 
+
 reflection 5
 
