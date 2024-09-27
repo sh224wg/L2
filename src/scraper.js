@@ -39,6 +39,11 @@ class WebScraper {
                 links: this.getLinks(div)
             }
             // remove empty arrays
+            for (const field in divContent) {
+                if (Array.isArray(divContent[field]) && divContent[field].length === 0) {
+                    delete divContent[field]
+                }
+            }
             divs.push(divContent)
         })
         return divs
