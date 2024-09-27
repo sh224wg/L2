@@ -127,9 +127,15 @@ class WebScraper {
 
     getSpans(document) {
         const spans = []
+        const uniqueSpans = new Set()
         const spanElements = document.querySelectorAll('span')
         spanElements.forEach(span => {
-            spans.push(span.textContent.trim())
+            const text = span.textContent.trim()
+            if(text && !uniqueSpans.has(text)) {
+                uniqueSpans.add(text)
+                spans.push(text)
+            }
+            //spans.push(span.textContent.trim())
         })
         return spans
     }

@@ -9,6 +9,7 @@ function askForUrl() {
         input: process.stdin,
         output: process.stdout
     })
+    // not valid url try again add
     rl.question('Please Enter URL to scrape: ', (url) => {
         rl.close()
         run(url)
@@ -26,7 +27,7 @@ async function run(url) {
             images: content.images || [],
             links: content.links || [],
             spans: content.spans || [],
-            //lists: content.lists || []
+            lists: content.lists || []
         }
 
         const scrapedData = JSON.stringify(format, null, 2)
