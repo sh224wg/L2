@@ -22,7 +22,7 @@ function askForUrl() {
     })
 }
 
-function isValid() {
+function isValid(url) {
     try {
         new URL(url)
         return true

@@ -98,15 +98,21 @@ class WebScraper {
 
     getImages(content) {
         const images = []
+        const uniqueImages = new Set()
         const imageElements = content.querySelectorAll('img')
         for (let i = 0; i < imageElements.length; i++) {
             const img = imageElements[i]
             const src = img.getAttribute('src')
-            if (src) {
+            const alt = img.getAttribute('alt') || ''
+            const title = img.getAttribute('title') || ''
+            
+            const uniqueId = `${src}-${alt}-${title}`
+            if (src && !uniqueImages.has(uniqueId)) {
+                uniqueImages.add(uniqueId)
                 const imageData = {
                     src: src,
-                    alt: img.getAttribute('alt') || '',
-                    title: img.getAttribute('title') || ''
+                    alt: alt /*img.getAttribute('alt') || ''*/,
+                    title: title /*img.getAttribute('title') || ''*/
                 }
                 images.push(imageData)
             }
