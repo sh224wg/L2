@@ -31,9 +31,9 @@ class WebScraper {
         divElements.forEach(div => {
             const divContent = {
                 tag: 'div',
-                text: div.textContent.trim(),
-                titles: this.getTitle(div),
-                paragraphs: this.getParagraph(div),
+                text: div.textContent ? div.textContent.trim() : '',
+                titles: this.getTitles(div),
+                paragraphs: this.getParagraphs(div),
                 lists: this.getLists(div),
                 images: this.getImages(div),
                 links: this.getLinks(div)
@@ -45,7 +45,7 @@ class WebScraper {
 
 
     // h elements
-    getTitle(element) {
+    getTitles(element) {
         const titles = []
         const hElements = element.querySelectorAll('h1, h2, h3, h4, h5, h6')
         hElements.forEach(h => {
@@ -60,19 +60,19 @@ class WebScraper {
     }
 
     // p elements
-    getParagraph(element) {
+    getParagraphs(element) {
         const paragraphs = []
         const pElements = element.querySelectorAll('p')
         for (let i = 0; i < pElements.length; i++) {
             const p = pElements[i]
-            if(p.textContent.trim()) {
+            if(p.textContent && p.textContent.trim()) {
                 paragraphs.push({
                     tag: 'p',
                     text: p.textContent.trim()
                 })
             }
-            return paragraphs
         }
+        return paragraphs
     }
 
     // check if there are lists li/ul on the page and add them 
@@ -84,7 +84,7 @@ class WebScraper {
             const liElements = ul.querySelectorAll('li')
             for(let i = 0; i <liElements.length; i++) {
                 const li = liElements[i]
-                if(li.textConent.trim()){
+                if(li.textConent && li.textContent.trim()) {
                     items.push(li.textContent.trim())
                 }
                 if(items.length > 0) {
@@ -127,7 +127,7 @@ class WebScraper {
             if(href){
                 links.push({
                     href: href,
-                    text: a.textConent.trim()
+                    text: a.textContent ? a.textContent.trim() : ''
                 })
             }
         }
