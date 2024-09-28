@@ -27,5 +27,7 @@ Bättre att inte orgnaisera i div då det blir fler tomma divar i formatering oc
 introduktion av sets i varje för att se till att information inte repeteras
 difficult in image as titles alt alt may overlap while src differ slightly even though images are the same, split src to find commonality in url with identical alt and title. 
 
+repeated use of set uncertain for each function but inlikley to great function for it due to unique use of seat with each element
+
 reflection 5
 

@@ -33,16 +33,18 @@ class WebScraper {
 
     getTitles(content) {
         const titles = []
+        const uniqueTitles = new Set()
         const hElements = content.querySelectorAll('h1, h2, h3, h4, h5, h6')
         hElements.forEach(h => {
-            if (h.textContent && h.textContent.trim()) {
+            const text = h.textContent.trim()
+            if (text && !uniqueTitles.has(text)) {
+                uniqueTitles.add(text)
                 titles.push({
                     tag: h.tagName.toLowerCase(),
-                    text: h.textContent.trim()
+                    text: text
                 })
             }
         })
-
         return titles
     }
 
