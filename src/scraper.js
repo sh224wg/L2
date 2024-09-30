@@ -4,7 +4,6 @@ import { JSDOM } from 'jsdom'
 class WebScraper {
     constructor() { }
 
-    // use of try catch acceptable because its inherent to the function?
     async scrape(url, options = {}) {
         const userAgents = [
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3',
@@ -167,6 +166,17 @@ class WebScraper {
         return spans
     }
 
+    async scrapeNextPage(url, maxPages = 5) {
+        let startUrl = url
+        let content = []
+
+        for(//pages to scrape
+            )
+            // scrape
+            // push
+            // next button link
+    }
+
     // handle scraping multiple pages
 
     // error handling
@@ -177,7 +187,6 @@ class WebScraper {
 
     // meta data?
 
-    // proxy for 
 }
 
 export default WebScraper
