@@ -166,7 +166,23 @@ class WebScraper {
         return spans
     }
 
-    async scrapeNextPage(url, maxPages = 5) {
+    async retryScrape(url, tries = 3) {
+        for (let i = 1; attempt <= tries; attempt++) {
+            try {
+                console.log(`Attempt ${attempt} to scrape ${url}`)
+                return await this.scrape(url)
+            } catch (error) {
+                if (attempt < tries) {
+                    console.log('')
+                } else {
+                    console.log('failed')
+                    throw error
+                }
+            }
+        }
+    }
+
+ /*    async scrapeNextPage(url, maxPages = 5) {
         let startUrl = url
         let content = []
 
@@ -175,14 +191,23 @@ class WebScraper {
             const pageContent = await this.scrape(startUrl)
             if(pageContent) {
                 content.push(pageContent)
+
+                const nextLink = pageContent.links.find(link => link.text.toLowerCase().includes('next'))
+                if(nextLink && nextLink.href) {
+                    startUrl = nextLink.href
+                } else {
+                    break
+                }
+            } else {
+                break
             }
-            
+
         }
-            
+        return content 
             // scrape
             // push
             // next button link
-    }
+    } */
 
     // handle scraping multiple pages
 
