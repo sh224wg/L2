@@ -2,8 +2,6 @@ import WebScraper from './scraper.js'
 import readline from 'readline'
 import fs from 'fs'
 
-//const webScraper = new WebScraper()
-
 class StartWebScraper {
 
     constructor() {

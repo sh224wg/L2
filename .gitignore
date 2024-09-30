@@ -22,3 +22,9 @@ Thumbs.db
 *.user
 *.userosscache
 *.sln.docstates
+
+# Ignore Jest coverage directory
+coverage/
+
+# Ignore Jest cache directory
+jest-cache/
