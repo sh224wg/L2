@@ -1,5 +1,7 @@
 # Test Rapport
 
+because its a node applikation i cannot use a console or ui to test this and therefore i am creating a test application to run tests
+
 Varje rad blir ett test.
 
 
