@@ -170,8 +170,15 @@ class WebScraper {
         let startUrl = url
         let content = []
 
-        for(//pages to scrape
-            )
+        for(let i = 1; i <= maxPages; i++) {
+            console.log(`Scraping page ${i}: ${startUrl}`)
+            const pageContent = await this.scrape(startUrl)
+            if(pageContent) {
+                content.push(pageContent)
+            }
+            
+        }
+            
             // scrape
             // push
             // next button link
