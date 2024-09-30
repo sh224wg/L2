@@ -32,6 +32,7 @@ class WebScraper {
 
             const content = {
                 text: document.body.textContent ? document.body.textContent.trim() : '',
+                metaData: this.getMetaData(document),
                 titles: this.getTitles(document),
                 paragraphs: this.getParagraphs(document),
                 lists: this.getLists(document),
@@ -44,6 +45,20 @@ class WebScraper {
             console.log(`failed to scrape the URL: ${url}`, error)
             throw new Error('Failed to scrape')
         }
+    }
+
+    getMetaData(document) {
+        const metaData = {
+            title,
+            description,
+            keywords
+        }
+
+        const descriptionMeta = 
+
+        const keywordsMeta = 
+
+        return metaData
     }
 
     getTitles(content) {
@@ -173,9 +188,9 @@ class WebScraper {
                 return await this.scrape(url)
             } catch (error) {
                 if (attempt < tries) {
-                    console.log('')
+                    console.log(`Attempt ${attempt} failed. Trying again...`)
                 } else {
-                    console.log('failed')
+                    console.log(`All ${tries} failed.`)
                     throw error
                 }
             }
