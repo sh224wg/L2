@@ -48,17 +48,23 @@ class WebScraper {
     }
 
     getMetaData(document) {
-        const metaData = {
-            title,
-            description,
-            keywords
+        const metadata = {
+            title: document.querySelector('title') ? document.querySelector('title').textContent: '',
+            description: '',
+            keywords: ''
         }
 
-        const descriptionMeta = 
+        const descriptionMeta = document.querySelector('meta[name="description"]')
+        if (descriptionMeta){
+            metadata.description = descriptionMeta.getAttribute('content')
+        }
 
-        const keywordsMeta = 
+        const keywordsMeta = document.querySelector('meta[name="keyword"]')
+        if(keywordsMeta) {
+            metadata.keywords = keywordsMeta.getAttribute('content')
+        }
 
-        return metaData
+        return metadata
     }
 
     getTitles(content) {
