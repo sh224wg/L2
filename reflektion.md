@@ -7,9 +7,26 @@ och CSS Element som kan ge mer information om det tex finns en bild på sidan : 
 
 Reflection 2
 
+## Läs kapitel 2 i Clean Code. Skapa en tabell över fem namn på identifierare (ex. namn på klasser, metoder/funktioner och variabler) som finns i ditt publika interface hos modulen. Det publika interfacet är alltså den kod som andra programmerare ska använda. Utgå ifrån kapitel 2s titlar och ange de viktigaste “reglerna” som applicerats eller skulle kunna appliceras på just ditt namn. Försök variera vilka regler du analyserar mellan namnen så att inte alla har samma regel-titlar applicerade. Visa upp att ni förstår flera regler och inte bara ett par. 
+# Ange även en kort reflektion kring innehållet i kapitel 2. Ni kanske upptäcker en brist hos er tidigare namngivning, ni kanske inte håller med någon av “reglerna” från kursboken. Jag ser hellre att ni hittar och reflekterar över era brister än att ni döljer dem.
+
 I worked on applying clean code as i worked on each function. For example in the scrape function in the WebScraper Class I considered the isolation of error handling when using try and catch blocks. In the book it states that instead of try catch blocks a seperate error function should be used. However, as i placed the try keyword at the start of the function and ending the function with the catch block, ensuring that there is no functionality beyond the block i have isolated the functionality of the function to the error which i felt would be acceptable this time due to the lack of complexity of the function.(78 cc) Thereby focusing on the error handling of the function and improving readiblity and maintainablity while adhering to its primary function.
 
 Another focus i had was names. clean code names, changed text to paragraph to highlight book and indicate funcitonality to make it as clear as possible what each function is doing. 
+
+| Column 1 Header | Column 2 Header | Column 3 Header |
+|-----------------|-----------------|-----------------|
+| Row 1, Col 1    | Row 1, Col 2    | Row 1, Col 3    |
+|-----------------|-----------------|-----------------|
+| Row 2, Col 1    | Row 2, Col 2    | Row 2, Col 3    |
+|-----------------|-----------------|-----------------|
+| Row 2, Col 1    | Row 2, Col 2    | Row 2, Col 3    |
+|-----------------|-----------------|-----------------|
+| Row 2, Col 1    | Row 2, Col 2    | Row 2, Col 3    |
+|-----------------|-----------------|-----------------|
+| Row 2, Col 1    | Row 2, Col 2    | Row 2, Col 3    |
+|-----------------|-----------------|-----------------|
+
 
 reflection 3
 
@@ -19,6 +36,19 @@ in index for the run function the repetition of console.log is repeated for 9 li
 
 in divs to remove empty arrays added for loop which causes the empty arrays that are strings to become undefined and developed the for loop to include undefined. 
 considering clean code, instead of adding more lines, used && to make the line longer and the function shorter
+
+| Column 1 Header | Column 2 Header | Column 3 Header |
+|-----------------|-----------------|-----------------|
+| Row 1, Col 1    | Row 1, Col 2    | Row 1, Col 3    |
+|-----------------|-----------------|-----------------|
+| Row 2, Col 1    | Row 2, Col 2    | Row 2, Col 3    |
+|-----------------|-----------------|-----------------|
+| Row 2, Col 1    | Row 2, Col 2    | Row 2, Col 3    |
+|-----------------|-----------------|-----------------|
+| Row 2, Col 1    | Row 2, Col 2    | Row 2, Col 3    |
+|-----------------|-----------------|-----------------|
+| Row 2, Col 1    | Row 2, Col 2    | Row 2, Col 3    |
+|-----------------|-----------------|-----------------|
 
 reflection 4
 

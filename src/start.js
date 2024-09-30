@@ -48,25 +48,11 @@ class StartWebScraper {
                 links: content.links || [],
                 spans: content.spans || [],
                 lists: content.lists || []
-                /*      titles: this.webScraper.getTitles(content) || [],
-                     paragraphs: this.webScraper.getParagraphs(content) || [],
-                     images: this.webScraper.getImages(content) || [],
-                     links: this.webScraper.getLinks(content) || [],
-                     spans: this.webScraper.getSpans(content) || [],
-                     lists: this.webScraper.getLists(content) || [] */
             }
 
             const scrapedData = JSON.stringify(format, null, 2)
             fs.writeFileSync('scrapedContent.json', scrapedData)
             console.log('Scraped data can be found in scrapedContent.json')
-            //elements.forEach((div, index) => {
-            //  console.log(`Div${index + 1}:`)
-            /*    console.log('Titles:', content.titles)
-               console.log('Paragraphs:', content.paragraphs)
-               console.log('Images:', content.images)
-               console.log('Links:', content.links)
-               console.log('Spans:', content.spans)
-               console.log('Lists:', content.lists) */
 
         } catch (error) {
             console.error(error)

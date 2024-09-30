@@ -1,721 +1,2213 @@
 {
   "titles": [
     {
-      "tag": "h1",
-      "text": "Javascript är avstängt"
+      "tag": "h2",
+      "text": "Contents"
     },
     {
       "tag": "h1",
-      "text": "Experten: Därför är konflikten mellan Israel och Hizbollah att klassa som ett krig"
+      "text": "ELIZA"
     },
     {
       "tag": "h2",
-      "text": "Kan eskalera"
+      "text": "Overview"
     },
     {
       "tag": "h2",
-      "text": "Viktigt med tydlig definition"
+      "text": "Design"
     },
     {
       "tag": "h3",
-      "text": "Relaterat"
-    },
-    {
-      "tag": "h1",
-      "text": "Så arbetar vi"
-    },
-    {
-      "tag": "h1",
-      "text": "Upptrappning mellan Israel och Hizbollah i Libanon"
-    },
-    {
-      "tag": "h1",
-      "text": "Vem var Hizbollahs ledare Hassan Nasrallah?"
-    },
-    {
-      "tag": "h1",
-      "text": "”Alla ögon riktas nu mot Hizbollahs sponsor Iran”"
-    },
-    {
-      "tag": "h1",
-      "text": "Gazabor oroliga att bli bortglömda"
-    },
-    {
-      "tag": "h1",
-      "text": "Senaste avsnittet på SVT Play"
-    },
-    {
-      "tag": "h1",
-      "text": "Rapport"
-    },
-    {
-      "tag": "h1",
-      "text": "Mest tittat Utrikes"
-    },
-    {
-      "tag": "h1",
-      "text": "Fouads USA: Jim jagar migranter på sin ranch – ”Donald Trumps mur räddar liv”"
-    },
-    {
-      "tag": "h1",
-      "text": "Experten om Kinberg Batras agerande: ”Ren och skär korruption”"
-    },
-    {
-      "tag": "h1",
-      "text": "Hizbollahs högste ledare Nasrallah är död"
-    },
-    {
-      "tag": "h1",
-      "text": "Mest läst Utrikes"
-    },
-    {
-      "tag": "h1",
-      "text": "Hör av dig till våra granskande reportrar"
+      "text": "Pseudocode"
     },
     {
       "tag": "h2",
-      "text": "Nyheter"
+      "text": "Response and legacy"
     },
     {
       "tag": "h2",
-      "text": "Tjänster"
+      "text": "In popular culture"
     },
     {
       "tag": "h2",
-      "text": "Aktuella program"
+      "text": "See also"
     },
     {
       "tag": "h2",
-      "text": "Hjälp och kontakt"
+      "text": "References"
+    },
+    {
+      "tag": "h3",
+      "text": "Bibliography"
+    },
+    {
+      "tag": "h2",
+      "text": "Further reading"
+    },
+    {
+      "tag": "h2",
+      "text": "External links"
     }
   ],
   "paragraphs": [
     {
       "tag": "p",
-      "text": "Israel genomför allt intensivare attacker mot Libanon och Hizbollah svarar med raketbeskjutning."
+      "text": "ELIZA is an early natural language processing computer program developed from 1964 to 1967[1] at MIT by Joseph Weizenbaum.[2][3] Created to explore communication between humans and machines, ELIZA simulated conversation by using a pattern matching and substitution methodology that gave users an illusion of understanding on the part of the program, but had no representation that could be considered really understanding what was being said by either party.[4][5][6] Whereas the ELIZA program itself was written (originally)[7] in MAD-SLIP, the pattern matching directives that contained most of its language capability were provided in separate \"scripts\", represented in a lisp-like representation.[8] The most famous script, DOCTOR, simulated a psychotherapist of the Rogerian school (in which the therapist often reflects back the patient's words to the patient),[9][10][11] and used rules, dictated in the script, to respond with non-directional questions to user inputs. As such, ELIZA was one of the first chatterbots (\"chatbot\" modernly) and one of the first programs capable of attempting the Turing test.[12]"
     },
     {
       "tag": "p",
-      "text": "– Det är ingen tvekan om att det nu är att betrakta som ett regelrätt krig, säger Mellanösternexperten Anders Persson."
+      "text": "ELIZA's creator, Weizenbaum, intended the program as a method to explore communication between humans and machines. He was surprised and shocked that some people, including Weizenbaum's secretary, attributed human-like feelings to the computer program.[3] Many academics believed that the program would be able to positively influence the lives of many people, particularly those with psychological issues, and that it could aid doctors working on such patients' treatment.[3][13] While ELIZA was capable of engaging in discourse, it could not converse with true understanding.[14] However, many early users were convinced of ELIZA's intelligence and understanding, despite Weizenbaum's insistence to the contrary.[6] The original ELIZA source-code had been missing since its creation in the 1960s as it was not common to publish articles that included source code at that time. However, more recently the MAD-SLIP source-code has now been discovered in the MIT archives and published on various platforms, such as archive.org.[15] The source-code is of high historical interest since it demonstrates not only the specificity of programming languages and techniques at that time, but also the beginning of software layering and abstraction as a means of achieving sophisticated software programming."
     },
     {
       "tag": "p",
-      "text": "Israeliska styrkor och Iranstödda Hizbollah i Libanon har det senaste året regelbundet beskjutit varandra över gränsen mellan länderna. Men efter attackerna förra veckan där kommunikationsutrustning exploderade i Libanon har konflikten trappats upp."
+      "text": "Joseph Weizenbaum's ELIZA, running the DOCTOR script, created a conversational interaction somewhat similar to what might take place in the office of \"a [non-directive] psychotherapist in an initial psychiatric interview\"[16] and to \"demonstrate that the communication between man and machine was superficial\".[17] While ELIZA is best known for acting in the manner of a psychotherapist, the speech patterns are due to the data and instructions supplied by the DOCTOR script.[18] ELIZA itself examined the text for keywords, applied values to said keywords, and transformed the input into an output; the script that ELIZA ran determined the keywords, set the values of keywords, and set the rules of transformation for the output.[19] Weizenbaum chose to make the DOCTOR script in the context of psychotherapy to \"sidestep the problem of giving the program a data base of real-world knowledge\",[3] allowing it to reflect back the patient's statements in order to carry the conversation forward.[3] The result was a somewhat intelligent-seeming response that reportedly deceived some early users of the program.[20]"
     },
     {
       "tag": "p",
-      "text": "Bara det senaste dygnet har över 550 personer dödats och över 1 800 har skadats, bland dem 50 barn, enligt det libanesiska hälsodepartementet."
+      "text": "Weizenbaum named his program ELIZA after Eliza Doolittle, a working-class character in George Bernard Shaw's Pygmalion (also appearing in the musical My Fair Lady, which was based on the play and was hugely popular at the time). According to Weizenbaum, ELIZA's ability to be \"incrementally improved\" by various users made it similar to Eliza Doolittle,[19] since Eliza Doolittle was taught to speak with an upper-class accent in Shaw's play.[9][21] However, unlike the human character in Shaw's play, ELIZA is incapable of learning new patterns of speech or new words through interaction alone. Edits must be made directly to ELIZA's active script in order to change the manner by which the program operates."
     },
     {
       "tag": "p",
-      "text": "Under det senaste årets strider har dessutom ytterligare runt 600 personer dödats i Libanon. Mellanösternkännaren och statsvetaren Anders Persson tvekar därför inte att nu kalla konflikten för ett regelrätt krig – därmed alltså ännu ett krig i Mellanöstern utöver det som redan pågår i Gaza."
+      "text": "Weizenbaum first implemented ELIZA in his own SLIP list-processing language, where, depending upon the initial entries by the user, the illusion of human intelligence could appear, or be dispelled through several interchanges.[2] Some of ELIZA's responses were so convincing that Weizenbaum and several others have anecdotes of users becoming emotionally attached to the program, occasionally forgetting that they were conversing with a computer.[3] Weizenbaum's own secretary reportedly asked Weizenbaum to leave the room so that she and ELIZA could have a real conversation. Weizenbaum was surprised by this, later writing: \"I had not realized ... that extremely short exposures to a relatively simple computer program could induce powerful delusional thinking in quite normal people.\"[22]"
     },
     {
       "tag": "p",
-      "text": "Inom freds- och konfliktforskningen finns en tydlig definition av vad som är ett regelrätt krig: En konflikt mellan parter som strider om en politisk konfliktfråga och där striderna lett till minst 1 000 stridsrelaterade dödsfall på ett år."
+      "text": "In 1966, interactive computing (via a teletype) was new. It was 11 years before the personal computer became familiar to the general public, and three decades before most people encountered attempts at natural language processing in Internet services like Ask.com or PC help systems such as Microsoft Office Clippit.[23] Although those programs included years of research and work, ELIZA remains a milestone simply because it was the first time a programmer had attempted such a human-machine interaction with the goal of creating the illusion (however brief) of human–human interaction.[citation needed]"
     },
     {
       "tag": "p",
-      "text": "– Det pågår svåra strider på många håll i världen, men sett till eskalering är det här den värsta konflikten just nu, säger Therese Pettersson, freds- och konfliktforskare vid Uppsala universitet, om striderna mellan Israel och Hizbollah."
+      "text": "At the ICCC 1972, ELIZA was brought together with another early artificial-intelligence program named PARRY for a computer-only conversation. While ELIZA was built to speak as a doctor, PARRY was intended to simulate a patient with schizophrenia.[24]"
     },
     {
       "tag": "p",
-      "text": "Anders Persson pekar på att båda sidor kan trappa upp konflikten ytterligare, till exempel med beskjutning längre in i respektive länder och mot Beirut och Tel Aviv."
+      "text": "Weizenbaum originally wrote ELIZA in MAD-SLIP for CTSS on an IBM 7094 as a program to make natural-language conversation possible with a computer.[25] To accomplish this, Weizenbaum identified five \"fundamental technical problems\" for ELIZA to overcome: the identification of key words, the discovery of a minimal context, the choice of appropriate transformations, the generation of responses in the absence of key words, and the provision of an editing capability for ELIZA scripts.[19] Weizenbaum solved these problems and made ELIZA such that it had no built-in contextual framework or universe of discourse.[18] However, this required ELIZA to have a script of instructions on how to respond to inputs from users.[6]"
     },
     {
       "tag": "p",
-      "text": "– Men just nu är det ett krig som är geografiskt begränsat till norra Israel och flera delar av Libanon, och i det stora hela pågår det inte några strider i stadsmiljö."
+      "text": "ELIZA starts its process of responding to an input by a user by first examining the text input for a \"keyword\".[5] A \"keyword\" is a word designated as important by the acting ELIZA script, which assigns to each keyword a precedence number, or a RANK, designed by the programmer.[14] If such words are found, they are put into a \"keystack\", with the keyword of the highest RANK at the top. The input sentence is then manipulated and transformed as the rule associated with the keyword of the highest RANK directs.[19] For example, when the DOCTOR script encounters words such as \"alike\" or \"same\", it would output a message pertaining to similarity, in this case \"In what way?\",[4] as these words had high precedence number. This also demonstrates how certain words, as dictated by the script, can be manipulated regardless of contextual considerations, such as switching first-person pronouns and second-person pronouns and vice versa, as these too had high precedence numbers. Such words with high precedence numbers are deemed superior to conversational patterns and are treated independently of contextual patterns.[citation needed]"
     },
     {
       "tag": "p",
-      "text": "Vid Uppsala universitet följer Uppsala conflict data program, UCDP, regelbundet antalet dödade i alla väpnade konflikter i världen och UCDP:s definition av krig är den globala standarden för hur konflikter definieras och studeras. Att det finns en definition är enligt Therese Pettersson viktigt av flera anledningar, bland annat för att kunna studera konflikter över tid och att det inte ska bli en subjektiv bedömning från olika parter. Under 2023 pågick nio krig i världen, enligt UCDP."
+      "text": "Following the first examination, the next step of the process is to apply an appropriate transformation rule, which includes two parts: the \"decomposition rule\" and the \"reassembly rule\".[19] First, the input is reviewed for syntactical patterns in order to establish the minimal context necessary to respond. Using the keywords and other nearby words from the input, different disassembly rules are tested until an appropriate pattern is found. Using the script's rules, the sentence is then \"dismantled\" and arranged into sections of the component parts as the \"decomposition rule for the highest-ranking keyword\" dictates. The example that Weizenbaum gives is the input \"You are very helpful\", which is transformed to \"I are very helpful\". This is then broken into (1) empty (2) \"I\" (3) \"are\" (4) \"very helpful\". The decomposition rule has broken the phrase into four small segments that contain both the keywords and the information in the sentence.[19]"
     },
     {
       "tag": "p",
-      "text": "– Det är få konflikter som når upp i den nivån, många konflikter är väldigt mycket mindre. Och det är sällan det är ”nästan krig”, utan om det blir en eskalering brukar man tyvärr komma upp i det här antalet döda, säger Therese Pettersson."
+      "text": "The decomposition rule then designates a particular reassembly rule, or set of reassembly rules, to follow when reconstructing the sentence.[5] The reassembly rule takes the fragments of the input that the decomposition rule had created, rearranges them, and adds in programmed words to create a response. Using Weizenbaum's example previously stated, such a reassembly rule would take the fragments and apply them to the phrase \"What makes you think I am (4)\", which would result in \"What makes you think I am very helpful?\". This example is rather simple, since depending upon the disassembly rule, the output could be significantly more complex and use more of the input from the user. However, from this reassembly, ELIZA then sends the constructed sentence to the user in the form of text on the screen.[19]"
     },
     {
       "tag": "p",
-      "text": "Uppdaterad25 september 2024 kl 15:13"
+      "text": "These steps represent the bulk of the procedures that ELIZA follows in order to create a response from a typical input, though there are several specialized situations that ELIZA/DOCTOR can respond to. One Weizenbaum specifically wrote about was when there is no keyword. One solution was to have ELIZA respond with a remark that lacked content, such as \"I see\" or \"Please go on\".[19] The second method was to use a \"MEMORY\" structure, which recorded prior recent inputs, and would use these inputs to create a response referencing a part of the earlier conversation when encountered with no keywords.[26] This was possible due to Slip's ability to tag words for other usage, which simultaneously allowed ELIZA to examine, store, and repurpose words for usage in outputs.[19]"
     },
     {
       "tag": "p",
-      "text": "Publicerad24 september 2024 kl 16:17"
+      "text": "While these functions were all framed in ELIZA's programming, the exact manner by which the program dismantled, examined, and reassembled inputs is determined by the operating script. The script is not static and can be edited, or a new one created, as is necessary for the operation in the context needed. This would allow the program to be applied in multiple situations, including the well-known DOCTOR script, which simulates a Rogerian psychotherapist.[15]"
     },
     {
       "tag": "p",
-      "text": "SVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar."
+      "text": "A Lisp version of ELIZA, based on Weizenbaum's CACM paper, was written shortly after that paper's publication by Bernie Cosell.[27][28] A BASIC version appeared in Creative Computing in 1977 (although it was written in 1973 by Jeff Shrager).[29] This version, which was ported to many of the earliest personal computers, appears to have been subsequently translated into many other versions in many other languages. Shrager claims not to have seen either Weizenbaum's or Cosell's versions."
     },
     {
       "tag": "p",
-      "text": "Tipsa SVT Nyheter på ett säkert sätt"
+      "text": "In 2021, Jeff Shrager searched MIT's Weizenbaum archives, along with MIT archivist Myles Crowley, and found files labeled Computer Conversations. These included the complete source code listing of ELIZA in MAD-SLIP, with the DOCTOR script attached. The Weizenbaum estate has given permission to open-source this code under a Creative Commons CC0 public domain license. The code and other information can be found on the ELIZAGEN site.[28]"
+    },
+    {
+      "tag": "p",
+      "text": "Another version of Eliza popular among software engineers is the version that comes with the default release of GNU Emacs, and which can be accessed by typing M-x doctor from most modern Emacs implementations."
+    },
+    {
+      "tag": "p",
+      "text": "From Figure 15.5, Chapter 15 of Speech and Language Processing (third edition).[30]"
+    },
+    {
+      "tag": "p",
+      "text": "Lay responses to ELIZA were disturbing to Weizenbaum and motivated him to write his book Computer Power and Human Reason: From Judgment to Calculation, in which he explains the limits of computers, as he wants to make clear his opinion that the anthropomorphic views of computers are just a reduction of human beings or any life form for that matter.[31] In the independent documentary film Plug & Pray (2010) Weizenbaum said that only people who misunderstood ELIZA called it a sensation.[32]"
+    },
+    {
+      "tag": "p",
+      "text": "There are many programs based on ELIZA in different programming languages. For MS-DOS computers, some Sound Blaster cards came bundled with Dr. Sbaitso, which functions like the DOCTOR script. Other versions adapted ELIZA around a religious theme, such as ones featuring Jesus (both serious and comedic), and another Apple II variant called I Am Buddha. The 1980 game The Prisoner incorporated ELIZA-style interaction within its gameplay. In 1988, the British artist and friend of Weizenbaum Brian Reffin Smith created two art-oriented ELIZA-style programs written in BASIC, one called \"Critic\" and the other \"Artist\", running on two separate Amiga 1000 computers and showed them at the exhibition \"Salamandre\" in the Musée du Berry, Bourges, France. The visitor was supposed to help them converse by typing in to \"Artist\" what \"Critic\" said, and vice versa. The secret was that the two programs were identical. GNU Emacs formerly had a psychoanalyze-pinhead command that simulates a session between ELIZA and Zippy the Pinhead.[34] The Zippyisms were removed due to copyright issues, but the DOCTOR program remains."
+    },
+    {
+      "tag": "p",
+      "text": "ELIZA has been referenced in popular culture and continues to be a source of inspiration for programmers and developers focused on artificial intelligence. It was also featured in a 2012 exhibit at Harvard University titled \"Go Ask A.L.I.C.E.\", as part of a celebration of mathematician Alan Turing's 100th birthday. The exhibit explores Turing's lifelong fascination with the interaction between humans and computers, pointing to ELIZA as one of the earliest realizations of Turing's ideas.[1]"
+    },
+    {
+      "tag": "p",
+      "text": "ELIZA won a 2021 Legacy Peabody Award, and in 2023, it beat OpenAI's GPT-3.5 in a Turing test study.[35]"
+    },
+    {
+      "tag": "p",
+      "text": "In 1969, George Lucas and Walter Murch incorporated an Eliza-like dialogue interface in their screenplay for the feature film THX-1138. Inhabitants of the underground future world of THX, when stressed, would retreat to \"confession booths\" and initiate a one-sided Eliza-formula conversation with a Jesus-faced computer who claimed to be \"OMM\".[citation needed]"
+    },
+    {
+      "tag": "p",
+      "text": "ELIZA influenced a number of early computer games by demonstrating additional kinds of interface designs. Don Daglow claims he wrote an enhanced version of the program called Ecala on a DEC PDP-10 minicomputer at Pomona College in 1973.[citation needed]"
+    },
+    {
+      "tag": "p",
+      "text": "The 2011 video game Deus Ex: Human Revolution and the 2016 sequel Deus Ex: Mankind Divided features an artificial-intelligence Picus TV Network newsreader named Eliza Cassan.[36]"
+    },
+    {
+      "tag": "p",
+      "text": "In Adam Curtis's 2016 documentary, HyperNormalisation, ELIZA was referenced in relationship to post-truth.[37]"
+    },
+    {
+      "tag": "p",
+      "text": "The twelfth episode of the American sitcom Young Sheldon, aired in January 2018, included the protagonist \"conversing\" with ELIZA, hoping to resolve a domestic issue.[38]"
+    },
+    {
+      "tag": "p",
+      "text": "On August 12, 2019, independent game developer Zachtronics published a visual novel called Eliza, about an AI-based counseling service inspired by ELIZA.[39][40]"
+    },
+    {
+      "tag": "p",
+      "text": "In A Murder at the End of the World, the anthropomorphic LLM-powered character Ray cites ELIZA as an example of how some may seek refuge in a non-human therapist."
     }
   ],
   "images": [
     {
-      "src": "/static/build/svt-nyheter-logo-cc32e1bea0b4054b7735.svg",
-      "alt": "SVT Nyheter",
-      "title": ""
-    },
-    {
-      "src": "https://www.svtstatic.se/image-news/992/1:1/0.73/0.2/4ef38b550646fda4d39db061d3effab69b07dd4ee8dd519026005e3f7bcca2e1",
-      "alt": "En delad bild som visar två scener. Den vänstra sidan visar en strand med vågor som slår mot kusten och mörka moln efter attacker i himlen. Den högra sidan visar en person (Anders Persson) iförd en skjorta och slips som står framför en neutral bakgrund.",
-      "title": "Foto: Reuters/SVT"
-    },
-    {
-      "src": "https://www.svtstatic.se/image-news/600/square/0.53/0.36/6cd98e55ef270878ff2d6ac1aafaf0af8ce0ec01bd734269d5e0d3b8456e0597",
-      "alt": "Hassan Nasrallah  sitter vid ett podium omgivet av mikrofoner under en presskonferens. I bakgrunden syns flaggor, inklusive en libanesisk flagga och symboler relaterade till Hezbollah.",
-      "title": "Foto: Reuters"
-    },
-    {
-      "src": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+      "src": "/static/images/icons/wikipedia.png",
       "alt": "",
       "title": ""
     },
     {
-      "src": "https://www.svtstatic.se/image-news/600/square/0.28/0.33/e9c4b0f54e5715d87e2d6ebe282c03557f12edf81e935f2901811cacf1eec5cc",
-      "alt": "SVT:s Stina Blomgren och en rökpelare över Beirut.",
-      "title": "Foto: Pernilla Edholm/SVT & Reuters"
-    },
-    {
-      "src": "https://www.svtstatic.se/image-news/992/wide/0.43/0.44/9610196ba0d44afe5488179d7eaf2a50a5acccf0398643821b1cdcc62387a53f",
-      "alt": "Människor på flykt från södra Libanon färdas på ett lastbilsflak i Beirut.",
-      "title": "Foto: AP/TT"
-    },
-    {
-      "src": "https://www.svtstatic.se/image-news/992/ninesixteen/0.51/0.5/0c2968c40324f4d4932b7062816b121922331f37dfc88922c20d8306f5371f8b",
-      "alt": "Stina Blomgren, utrikesreporter om stämningen i Libanon nu.",
-      "title": "Foto: SVT"
-    },
-    {
-      "src": "https://www.svtstatic.se/image-news/992/ninesixteen/0.55/0.47/0fd0615ea9fed07e129708b7f794342a3968b3e15d693588c2e954454e607a89",
-      "alt": "Samir Abu Eid om stämningen i Israel.",
-      "title": "Foto: SVT"
-    },
-    {
-      "src": "https://www.svtstatic.se/image-news/992/ninesixteen/0.5/0.7/f592ff08f2363fdadb160d654448b318bc1074e861db4dffbc5763038dd3a3ae",
-      "alt": "",
-      "title": "Foto: Baz Ratner"
-    },
-    {
-      "src": "https://www.svtstatic.se/image-news/992/ninesixteen/0.39/0.44/893422dad6d63f16d35717b68734b0aabdb7e37d8acdd4fcf998ebff47015af4",
-      "alt": "",
-      "title": "Foto: Mohammed Zaatari"
-    },
-    {
-      "src": "https://www.svtstatic.se/image-news/992/ninesixteen/0.49/0.42/f23d81c5525b6c92d0ce4d638f604d9977d7a0c8c6d1f7caaa5ddb58182b3d8a",
-      "alt": "Rök stiger från en explosion på en kulle i fjärran, med en stadsbild i förgrunden som inkluderar bostadshus och vegetation i en torr, bergig omgivning.",
-      "title": "Foto: TT"
-    },
-    {
-      "src": "https://www.svtstatic.se/image-news/992/ninesixteen/0.59/0.61/ff7a9707c032440b739936a553975d66c32779b672ce4f7e6929dfcca8ea4feb",
-      "alt": "",
-      "title": "Foto: TT"
-    },
-    {
-      "src": "https://www.svtstatic.se/image-news/600/square/0.32/0.28/23861d25b859b623b141a2d9a14f2b47b338cc7cb9ed35ea47d10adebcba36df",
-      "alt": "”Anna” – boende i Kiryat Shmona, i norra Israel",
-      "title": "Foto: Fredrik Larsson/SVT"
-    },
-    {
-      "src": "https://www.svtstatic.se/image-news/600/square/0.7/0.44/3c114fcb6c5e9268fb5fe85ec68cd950234ea16af6f4c6cb262aca7f08c59d71",
-      "alt": "Kvinna och rökpelare från bebyggelse",
-      "title": "Foto: Sandra Tottie"
-    },
-    {
-      "src": "https://www.svtstatic.se/image-news/600/square/0.47/0.48/71cbb8891dd533133830a226610f0ee45e15f05913479b32d5c5b06991afe70b",
-      "alt": "Yossi Melman – journalist och underrättelseanalytiker",
-      "title": "Foto: SVT"
-    },
-    {
-      "src": "https://www.svtstatic.se/image-news/600/square/0.47/0.51/ff5076c0f3c304a5041c855b558c15281453e90d40b3c025b0a46849c3a948e6",
-      "alt": "Flicka och man i Khan Yunis, Gaza",
-      "title": "Foto: Mohammed Omer"
-    },
-    {
-      "src": "https://www.svtstatic.se/image/wide/992/35812861/1686133144?format=auto",
-      "alt": "Rapport",
+      "src": "/static/images/mobile/copyright/wikipedia-wordmark-en.svg",
+      "alt": "Wikipedia",
       "title": ""
     },
     {
-      "src": "https://www.svtstatic.se/image-news/600/square/0.24/0.51/547fb108d3191a2968aa1d41407e77274e31a83f5d4c498620f2590e62f7be1e",
-      "alt": "Ranschägaren Jim Chilton och SVT:s korrespondent Fouad Youcefi",
-      "title": "Foto: Sara Cosar/SVT"
+      "src": "/static/images/mobile/copyright/wikipedia-tagline-en.svg",
+      "alt": "The Free Encyclopedia",
+      "title": ""
     },
     {
-      "src": "https://www.svtstatic.se/image-news/600/square/0.71/0.42/200dcd062233d748c2404da6c607b9b08e0983aefbecd7e3d9099c04d6b9baf7",
-      "alt": "En delad bild som visar två personer. Den vänstra sektionen visar en person (Anna Kinberg Batra) klädd i en vit kavaj med svart blus, stående framför en bakgrund med en logo för Stockholms stad. Den högra sektionen visar en person (Olle Lundin) som sitter i ett inomhusutrymme, iklädd en mörk tröja.",
-      "title": "Foto: Pontus Lundahl/TT & SVT"
+      "src": "//upload.wikimedia.org/wikipedia/commons/thumb/7/79/ELIZA_conversation.png/330px-ELIZA_conversation.png",
+      "alt": "",
+      "title": ""
     },
     {
-      "src": "https://www.svtstatic.se/image-news/600/square/0.6/0.47/72d79f6efba3e0e1f8d23a0269c96f9dca428d328b0a46ff920db9dcf42db490",
-      "alt": "Nasrallah",
-      "title": "Foto: Hassan Ammar"
+      "src": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Video_Game_Museum_in_Berlin_%2844129332940%29.jpg/220px-Video_Game_Museum_in_Berlin_%2844129332940%29.jpg",
+      "alt": "",
+      "title": ""
     },
     {
-      "src": "https://www.svtstatic.se/image-news/480/cinema/0.5/0.42/2ea150e6fe5f16eb433b0a8d516c115e3a862dcd0157f50983356d1e4d87815d",
-      "alt": "Bilden föreställer SVT:s granskande journalister Max Sohl Stjernberg, Marja Grill, Aris Velizelos, Johan Wikén, Oskar Jönsson och Kristina Lagerström.",
-      "title": "Foto: Antonia Sehlstedt"
+      "src": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Noun-linguistics.svg/25px-Noun-linguistics.svg.png",
+      "alt": "icon",
+      "title": ""
     },
     {
-      "src": "/static/build/svt-nyheter-logo-inverted-7d508c15fa165f83bd48.svg",
-      "alt": "SVT Nyheter Förstasida",
+      "src": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Psi2.svg/28px-Psi2.svg.png",
+      "alt": "",
+      "title": ""
+    },
+    {
+      "src": "https://login.wikimedia.org/wiki/Special:CentralAutoLogin/start?type=1x1",
+      "alt": "",
+      "title": ""
+    },
+    {
+      "src": "/static/images/footer/wikimedia-button.svg",
+      "alt": "Wikimedia Foundation",
+      "title": ""
+    },
+    {
+      "src": "/w/resources/assets/poweredby_mediawiki.svg",
+      "alt": "Powered by MediaWiki",
       "title": ""
     }
   ],
   "links": [
     {
+      "href": "#bodyContent",
+      "text": "Jump to content"
+    },
+    {
+      "href": "/wiki/Main_Page",
+      "text": "Main page"
+    },
+    {
+      "href": "/wiki/Wikipedia:Contents",
+      "text": "Contents"
+    },
+    {
+      "href": "/wiki/Portal:Current_events",
+      "text": "Current events"
+    },
+    {
+      "href": "/wiki/Special:Random",
+      "text": "Random article"
+    },
+    {
+      "href": "/wiki/Wikipedia:About",
+      "text": "About Wikipedia"
+    },
+    {
+      "href": "//en.wikipedia.org/wiki/Wikipedia:Contact_us",
+      "text": "Contact us"
+    },
+    {
+      "href": "/wiki/Help:Contents",
+      "text": "Help"
+    },
+    {
+      "href": "/wiki/Help:Introduction",
+      "text": "Learn to edit"
+    },
+    {
+      "href": "/wiki/Wikipedia:Community_portal",
+      "text": "Community portal"
+    },
+    {
+      "href": "/wiki/Special:RecentChanges",
+      "text": "Recent changes"
+    },
+    {
+      "href": "/wiki/Wikipedia:File_upload_wizard",
+      "text": "Upload file"
+    },
+    {
+      "href": "/wiki/Special:Search",
+      "text": "Search"
+    },
+    {
+      "href": "https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en",
+      "text": "Donate"
+    },
+    {
+      "href": "/w/index.php?title=Special:CreateAccount&returnto=ELIZA",
+      "text": "Create account"
+    },
+    {
+      "href": "/w/index.php?title=Special:UserLogin&returnto=ELIZA",
+      "text": "Log in"
+    },
+    {
+      "href": "/wiki/Special:MyContributions",
+      "text": "Contributions"
+    },
+    {
+      "href": "/wiki/Special:MyTalk",
+      "text": "Talk"
+    },
+    {
       "href": "#",
+      "text": "(Top)"
+    },
+    {
+      "href": "#Overview",
+      "text": "1\n\t\t\t\tOverview"
+    },
+    {
+      "href": "#Design",
+      "text": "2\n\t\t\t\tDesign"
+    },
+    {
+      "href": "#Pseudocode",
+      "text": "2.1\n\t\t\t\t\tPseudocode"
+    },
+    {
+      "href": "#Response_and_legacy",
+      "text": "3\n\t\t\t\tResponse and legacy"
+    },
+    {
+      "href": "#In_popular_culture",
+      "text": "4\n\t\t\t\tIn popular culture"
+    },
+    {
+      "href": "#See_also",
+      "text": "5\n\t\t\t\tSee also"
+    },
+    {
+      "href": "#References",
+      "text": "6\n\t\t\t\tReferences"
+    },
+    {
+      "href": "#Bibliography",
+      "text": "6.1\n\t\t\t\t\tBibliography"
+    },
+    {
+      "href": "#Further_reading",
+      "text": "7\n\t\t\t\tFurther reading"
+    },
+    {
+      "href": "#External_links",
+      "text": "8\n\t\t\t\tExternal links"
+    },
+    {
+      "href": "https://ar.wikipedia.org/wiki/%D8%A5%D9%84%D9%8A%D8%B2%D8%A7",
+      "text": "العربية"
+    },
+    {
+      "href": "https://az.wikipedia.org/wiki/ELIZA",
+      "text": "Azərbaycanca"
+    },
+    {
+      "href": "https://ca.wikipedia.org/wiki/ELIZA",
+      "text": "Català"
+    },
+    {
+      "href": "https://cs.wikipedia.org/wiki/ELIZA",
+      "text": "Čeština"
+    },
+    {
+      "href": "https://da.wikipedia.org/wiki/ELIZA",
+      "text": "Dansk"
+    },
+    {
+      "href": "https://de.wikipedia.org/wiki/ELIZA",
+      "text": "Deutsch"
+    },
+    {
+      "href": "https://es.wikipedia.org/wiki/ELIZA",
+      "text": "Español"
+    },
+    {
+      "href": "https://eo.wikipedia.org/wiki/ELIZA",
+      "text": "Esperanto"
+    },
+    {
+      "href": "https://eu.wikipedia.org/wiki/ELIZA_programa_informatikoa",
+      "text": "Euskara"
+    },
+    {
+      "href": "https://fa.wikipedia.org/wiki/%D8%A7%D9%84%DB%8C%D8%B2%D8%A7_(%D8%A8%D8%A7%D8%AA_%D9%85%DA%A9%D8%A7%D9%84%D9%85%D9%87)",
+      "text": "فارسی"
+    },
+    {
+      "href": "https://fr.wikipedia.org/wiki/ELIZA",
+      "text": "Français"
+    },
+    {
+      "href": "https://ko.wikipedia.org/wiki/ELIZA",
+      "text": "한국어"
+    },
+    {
+      "href": "https://is.wikipedia.org/wiki/ELIZA",
+      "text": "Íslenska"
+    },
+    {
+      "href": "https://it.wikipedia.org/wiki/ELIZA_(chat_bot)",
+      "text": "Italiano"
+    },
+    {
+      "href": "https://he.wikipedia.org/wiki/%D7%90%D7%9C%D7%99%D7%99%D7%96%D7%94",
+      "text": "עברית"
+    },
+    {
+      "href": "https://hu.wikipedia.org/wiki/Eliza_(program)",
+      "text": "Magyar"
+    },
+    {
+      "href": "https://nl.wikipedia.org/wiki/ELIZA",
+      "text": "Nederlands"
+    },
+    {
+      "href": "https://ja.wikipedia.org/wiki/ELIZA",
+      "text": "日本語"
+    },
+    {
+      "href": "https://pl.wikipedia.org/wiki/ELIZA",
+      "text": "Polski"
+    },
+    {
+      "href": "https://pt.wikipedia.org/wiki/ELIZA",
+      "text": "Português"
+    },
+    {
+      "href": "https://ru.wikipedia.org/wiki/%D0%AD%D0%BB%D0%B8%D0%B7%D0%B0_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0)",
+      "text": "Русский"
+    },
+    {
+      "href": "https://simple.wikipedia.org/wiki/ELIZA",
+      "text": "Simple English"
+    },
+    {
+      "href": "https://sk.wikipedia.org/wiki/ELIZA",
+      "text": "Slovenčina"
+    },
+    {
+      "href": "https://uk.wikipedia.org/wiki/%D0%95%D0%BB%D1%96%D0%B7%D0%B0_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B0)",
+      "text": "Українська"
+    },
+    {
+      "href": "https://zh-yue.wikipedia.org/wiki/ELIZA",
+      "text": "粵語"
+    },
+    {
+      "href": "https://zh.wikipedia.org/wiki/ELIZA",
+      "text": "中文"
+    },
+    {
+      "href": "https://www.wikidata.org/wiki/Special:EntityPage/Q580318#sitelinks-wikipedia",
+      "text": "Edit links"
+    },
+    {
+      "href": "/wiki/ELIZA",
+      "text": "Article"
+    },
+    {
+      "href": "/wiki/Talk:ELIZA",
+      "text": "Talk"
+    },
+    {
+      "href": "/w/index.php?title=ELIZA&action=edit",
+      "text": "Edit"
+    },
+    {
+      "href": "/w/index.php?title=ELIZA&action=history",
+      "text": "View history"
+    },
+    {
+      "href": "/wiki/Special:WhatLinksHere/ELIZA",
+      "text": "What links here"
+    },
+    {
+      "href": "/wiki/Special:RecentChangesLinked/ELIZA",
+      "text": "Related changes"
+    },
+    {
+      "href": "/wiki/Wikipedia:File_Upload_Wizard",
+      "text": "Upload file"
+    },
+    {
+      "href": "/wiki/Special:SpecialPages",
+      "text": "Special pages"
+    },
+    {
+      "href": "/w/index.php?title=ELIZA&oldid=1248163118",
+      "text": "Permanent link"
+    },
+    {
+      "href": "/w/index.php?title=ELIZA&action=info",
+      "text": "Page information"
+    },
+    {
+      "href": "/w/index.php?title=Special:CiteThisPage&page=ELIZA&id=1248163118&wpFormIdentifier=titleform",
+      "text": "Cite this page"
+    },
+    {
+      "href": "/w/index.php?title=Special:UrlShortener&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FELIZA",
+      "text": "Get shortened URL"
+    },
+    {
+      "href": "/w/index.php?title=Special:QrCode&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FELIZA",
+      "text": "Download QR code"
+    },
+    {
+      "href": "https://www.wikidata.org/wiki/Special:EntityPage/Q580318",
+      "text": "Wikidata item"
+    },
+    {
+      "href": "/w/index.php?title=Special:DownloadAsPdf&page=ELIZA&action=show-download-screen",
+      "text": "Download as PDF"
+    },
+    {
+      "href": "/w/index.php?title=ELIZA&printable=yes",
+      "text": "Printable version"
+    },
+    {
+      "href": "/wiki/ELIZA_(disambiguation)",
+      "text": "ELIZA (disambiguation)"
+    },
+    {
+      "href": "/wiki/File:ELIZA_conversation.png",
       "text": ""
     },
     {
-      "href": "#innehall",
-      "text": "Gå direkt till textinnehållet"
+      "href": "/wiki/Natural_language_processing",
+      "text": "natural language processing"
     },
     {
-      "href": "/",
+      "href": "/wiki/Computer_program",
+      "text": "computer program"
+    },
+    {
+      "href": "#cite_note-turing-1",
+      "text": "[1]"
+    },
+    {
+      "href": "/wiki/MIT",
+      "text": "MIT"
+    },
+    {
+      "href": "/wiki/Joseph_Weizenbaum",
+      "text": "Joseph Weizenbaum"
+    },
+    {
+      "href": "#cite_note-:8-2",
+      "text": "[2]"
+    },
+    {
+      "href": "#cite_note-:0-3",
+      "text": "[3]"
+    },
+    {
+      "href": "/wiki/Pattern_matching",
+      "text": "pattern matching"
+    },
+    {
+      "href": "/wiki/Methodology",
+      "text": "methodology"
+    },
+    {
+      "href": "/wiki/Natural-language_understanding",
+      "text": "understanding"
+    },
+    {
+      "href": "#cite_note-:2-4",
+      "text": "[4]"
+    },
+    {
+      "href": "#cite_note-:6-5",
+      "text": "[5]"
+    },
+    {
+      "href": "#cite_note-Baranovska-6",
+      "text": "[6]"
+    },
+    {
+      "href": "#cite_note-7",
+      "text": "[7]"
+    },
+    {
+      "href": "/wiki/SLIP_(programming_language)",
+      "text": "MAD-SLIP"
+    },
+    {
+      "href": "/wiki/S-expression",
+      "text": "lisp-like representation"
+    },
+    {
+      "href": "#cite_note-8",
+      "text": "[8]"
+    },
+    {
+      "href": "/wiki/Rogerian_psychotherapy",
+      "text": "psychotherapist of the Rogerian school"
+    },
+    {
+      "href": "#cite_note-:9-9",
+      "text": "[9]"
+    },
+    {
+      "href": "#cite_note-rogers-10",
+      "text": "[10]"
+    },
+    {
+      "href": "#cite_note-The_Samantha_Test-11",
+      "text": "[11]"
+    },
+    {
+      "href": "/wiki/Chatterbot",
+      "text": "chatterbots"
+    },
+    {
+      "href": "/wiki/Turing_test",
+      "text": "Turing test"
+    },
+    {
+      "href": "#cite_note-12",
+      "text": "[12]"
+    },
+    {
+      "href": "#cite_note-13",
+      "text": "[13]"
+    },
+    {
+      "href": "#cite_note-:3-14",
+      "text": "[14]"
+    },
+    {
+      "href": "#cite_note-:7-15",
+      "text": "[15]"
+    },
+    {
+      "href": "/w/index.php?title=ELIZA&action=edit&section=1",
+      "text": "edit"
+    },
+    {
+      "href": "/wiki/File:Video_Game_Museum_in_Berlin_(44129332940).jpg",
       "text": ""
     },
     {
-      "href": "/nyheter/utrikes/experten-darfor-ar-konflikten-mellan-israel-och-hizbollah-att-klassa-som-ett-krig?mobilmeny=1",
+      "href": "#cite_note-16",
+      "text": "[16]"
+    },
+    {
+      "href": "#cite_note-17",
+      "text": "[17]"
+    },
+    {
+      "href": "#cite_note-:4-18",
+      "text": "[18]"
+    },
+    {
+      "href": "#cite_note-:1-19",
+      "text": "[19]"
+    },
+    {
+      "href": "#cite_note-Wardip-20",
+      "text": "[20]"
+    },
+    {
+      "href": "/wiki/Eliza_Doolittle",
+      "text": "Eliza Doolittle"
+    },
+    {
+      "href": "/wiki/George_Bernard_Shaw",
+      "text": "George Bernard Shaw"
+    },
+    {
+      "href": "/wiki/Pygmalion_(play)",
+      "text": "Pygmalion"
+    },
+    {
+      "href": "/wiki/My_Fair_Lady",
+      "text": "My Fair Lady"
+    },
+    {
+      "href": "/wiki/Upper-class",
+      "text": "upper-class"
+    },
+    {
+      "href": "/wiki/Accent_(sociolinguistics)",
+      "text": "accent"
+    },
+    {
+      "href": "#cite_note-weizenbaumobit-21",
+      "text": "[21]"
+    },
+    {
+      "href": "#cite_note-Weizenbaum1-22",
+      "text": "[22]"
+    },
+    {
+      "href": "/wiki/Ask.com",
+      "text": "Ask.com"
+    },
+    {
+      "href": "/wiki/Office_Assistant",
+      "text": "Clippit"
+    },
+    {
+      "href": "#cite_note-23",
+      "text": "[23]"
+    },
+    {
+      "href": "/wiki/Wikipedia:Citation_needed",
+      "text": "citation needed"
+    },
+    {
+      "href": "/wiki/International_Conference_on_Computer_Communications",
+      "text": "ICCC 1972"
+    },
+    {
+      "href": "/wiki/PARRY",
+      "text": "PARRY"
+    },
+    {
+      "href": "/wiki/Schizophrenia",
+      "text": "schizophrenia"
+    },
+    {
+      "href": "#cite_note-PerryElizaAtlantic-24",
+      "text": "[24]"
+    },
+    {
+      "href": "/w/index.php?title=ELIZA&action=edit&section=2",
+      "text": "edit"
+    },
+    {
+      "href": "/wiki/Compatible_Time-Sharing_System",
+      "text": "CTSS"
+    },
+    {
+      "href": "/wiki/IBM_7094",
+      "text": "IBM 7094"
+    },
+    {
+      "href": "#cite_note-25",
+      "text": "[25]"
+    },
+    {
+      "href": "#cite_note-:5-26",
+      "text": "[26]"
+    },
+    {
+      "href": "/wiki/Lisp_(programming_language)",
+      "text": "Lisp"
+    },
+    {
+      "href": "#cite_note-27",
+      "text": "[27]"
+    },
+    {
+      "href": "#cite_note-elizagen-28",
+      "text": "[28]"
+    },
+    {
+      "href": "/wiki/BASIC",
+      "text": "BASIC"
+    },
+    {
+      "href": "/wiki/Creative_Computing_(magazine)",
+      "text": "Creative Computing"
+    },
+    {
+      "href": "#cite_note-29",
+      "text": "[29]"
+    },
+    {
+      "href": "/wiki/Massachusetts_Institute_of_Technology",
+      "text": "MIT"
+    },
+    {
+      "href": "/wiki/Creative_Commons",
+      "text": "Creative Commons"
+    },
+    {
+      "href": "/wiki/Public_domain",
+      "text": "public domain"
+    },
+    {
+      "href": "/wiki/GNU_Emacs",
+      "text": "GNU Emacs"
+    },
+    {
+      "href": "/wiki/Meta_key",
+      "text": "M"
+    },
+    {
+      "href": "/wiki/Emacs",
+      "text": "Emacs"
+    },
+    {
+      "href": "/w/index.php?title=ELIZA&action=edit&section=3",
+      "text": "edit"
+    },
+    {
+      "href": "#cite_note-30",
+      "text": "[30]"
+    },
+    {
+      "href": "/w/index.php?title=ELIZA&action=edit&section=4",
+      "text": "edit"
+    },
+    {
+      "href": "/wiki/Computer_Power_and_Human_Reason",
+      "text": "Computer Power and Human Reason: From Judgment to Calculation"
+    },
+    {
+      "href": "#cite_note-31",
+      "text": "[31]"
+    },
+    {
+      "href": "/wiki/Plug_%26_Pray",
+      "text": "Plug & Pray"
+    },
+    {
+      "href": "#cite_note-32",
+      "text": "[32]"
+    },
+    {
+      "href": "/wiki/David_Avidan",
+      "text": "David Avidan"
+    },
+    {
+      "href": "/wiki/APL_(programming_language)",
+      "text": "APL"
+    },
+    {
+      "href": "/wiki/Hebrew_language",
+      "text": "Hebrew"
+    },
+    {
+      "href": "/wiki/Constrained_writing",
+      "text": "constrained writing"
+    },
+    {
+      "href": "#cite_note-33",
+      "text": "[33]"
+    },
+    {
+      "href": "/wiki/MS-DOS",
+      "text": "MS-DOS"
+    },
+    {
+      "href": "/wiki/Sound_Blaster",
+      "text": "Sound Blaster"
+    },
+    {
+      "href": "/wiki/Dr._Sbaitso",
+      "text": "Dr. Sbaitso"
+    },
+    {
+      "href": "/wiki/The_Prisoner_(video_game)",
+      "text": "The Prisoner"
+    },
+    {
+      "href": "/wiki/Brian_Reffin_Smith",
+      "text": "Brian Reffin Smith"
+    },
+    {
+      "href": "/wiki/Amiga_1000",
+      "text": "Amiga 1000"
+    },
+    {
+      "href": "/wiki/Bourges",
+      "text": "Bourges"
+    },
+    {
+      "href": "/wiki/Command_(computing)",
+      "text": "command"
+    },
+    {
+      "href": "/wiki/Zippy_the_Pinhead",
+      "text": "Zippy the Pinhead"
+    },
+    {
+      "href": "#cite_note-34",
+      "text": "[34]"
+    },
+    {
+      "href": "/wiki/Harvard_University",
+      "text": "Harvard University"
+    },
+    {
+      "href": "/wiki/Artificial_Linguistic_Internet_Computer_Entity",
+      "text": "A.L.I.C.E."
+    },
+    {
+      "href": "/wiki/Alan_Turing",
+      "text": "Alan Turing"
+    },
+    {
+      "href": "/wiki/Peabody_Award",
+      "text": "Peabody Award"
+    },
+    {
+      "href": "/wiki/OpenAI",
+      "text": "OpenAI"
+    },
+    {
+      "href": "/wiki/GPT-3",
+      "text": "GPT-3"
+    },
+    {
+      "href": "#cite_note-35",
+      "text": "[35]"
+    },
+    {
+      "href": "/w/index.php?title=ELIZA&action=edit&section=5",
+      "text": "edit"
+    },
+    {
+      "href": "/wiki/George_Lucas",
+      "text": "George Lucas"
+    },
+    {
+      "href": "/wiki/Walter_Murch",
+      "text": "Walter Murch"
+    },
+    {
+      "href": "/wiki/THX-1138",
+      "text": "THX-1138"
+    },
+    {
+      "href": "/wiki/Video_game",
+      "text": "computer games"
+    },
+    {
+      "href": "/wiki/Interface_design",
+      "text": "interface designs"
+    },
+    {
+      "href": "/wiki/Don_Daglow",
+      "text": "Don Daglow"
+    },
+    {
+      "href": "/w/index.php?title=Ecala&action=edit&redlink=1",
+      "text": "Ecala"
+    },
+    {
+      "href": "/wiki/Digital_Equipment_Corporation",
+      "text": "DEC"
+    },
+    {
+      "href": "/wiki/PDP-10",
+      "text": "PDP-10"
+    },
+    {
+      "href": "/wiki/Minicomputer",
+      "text": "minicomputer"
+    },
+    {
+      "href": "/wiki/Pomona_College",
+      "text": "Pomona College"
+    },
+    {
+      "href": "/wiki/Deus_Ex:_Human_Revolution",
+      "text": "Deus Ex: Human Revolution"
+    },
+    {
+      "href": "/wiki/Deus_Ex:_Mankind_Divided",
+      "text": "Deus Ex: Mankind Divided"
+    },
+    {
+      "href": "#cite_note-36",
+      "text": "[36]"
+    },
+    {
+      "href": "/wiki/Adam_Curtis",
+      "text": "Adam Curtis"
+    },
+    {
+      "href": "/wiki/HyperNormalisation",
+      "text": "HyperNormalisation"
+    },
+    {
+      "href": "/wiki/Post-truth",
+      "text": "post-truth"
+    },
+    {
+      "href": "#cite_note-37",
+      "text": "[37]"
+    },
+    {
+      "href": "/wiki/List_of_Young_Sheldon_episodes#ep12",
+      "text": "twelfth episode"
+    },
+    {
+      "href": "/wiki/Young_Sheldon",
+      "text": "Young Sheldon"
+    },
+    {
+      "href": "/wiki/Sheldon_Cooper",
+      "text": "protagonist"
+    },
+    {
+      "href": "#cite_note-38",
+      "text": "[38]"
+    },
+    {
+      "href": "/wiki/Independent_game_developer",
+      "text": "independent game developer"
+    },
+    {
+      "href": "/wiki/Zachtronics",
+      "text": "Zachtronics"
+    },
+    {
+      "href": "/wiki/Visual_novel",
+      "text": "visual novel"
+    },
+    {
+      "href": "/wiki/Eliza_(video_game)",
+      "text": "Eliza"
+    },
+    {
+      "href": "#cite_note-39",
+      "text": "[39]"
+    },
+    {
+      "href": "#cite_note-40",
+      "text": "[40]"
+    },
+    {
+      "href": "/wiki/A_Murder_at_the_End_of_the_World",
+      "text": "A Murder at the End of the World"
+    },
+    {
+      "href": "/wiki/Large_language_model",
+      "text": "LLM"
+    },
+    {
+      "href": "/w/index.php?title=ELIZA&action=edit&section=6",
+      "text": "edit"
+    },
+    {
+      "href": "/wiki/File:Noun-linguistics.svg",
       "text": ""
     },
     {
-      "href": "/nyheter/utrikes/experten-darfor-ar-konflikten-mellan-israel-och-hizbollah-att-klassa-som-ett-krig?nyhetsmeny=1",
+      "href": "/wiki/Portal:Linguistics",
+      "text": "Linguistics portal"
+    },
+    {
+      "href": "/wiki/Portal:Psychology",
+      "text": "Psychology portal"
+    },
+    {
+      "href": "/wiki/ELIZA_effect",
+      "text": "ELIZA effect"
+    },
+    {
+      "href": "/wiki/ChatGPT",
+      "text": "ChatGPT"
+    },
+    {
+      "href": "/w/index.php?title=ELIZA&action=edit&section=7",
+      "text": "edit"
+    },
+    {
+      "href": "#cite_ref-turing_1-0",
+      "text": "a"
+    },
+    {
+      "href": "#cite_ref-turing_1-1",
+      "text": "b"
+    },
+    {
+      "href": "http://news.harvard.edu/gazette/story/2012/09/alan-turing-at-100/",
+      "text": "\"Alan Turing at 100\""
+    },
+    {
+      "href": "#cite_ref-:8_2-0",
+      "text": "a"
+    },
+    {
+      "href": "#cite_ref-:8_2-1",
+      "text": "b"
+    },
+    {
+      "href": "/wiki/ISBN_(identifier)",
+      "text": "ISBN"
+    },
+    {
+      "href": "/wiki/Special:BookSources/9783897334670",
+      "text": "9783897334670"
+    },
+    {
+      "href": "#cite_ref-:0_3-0",
+      "text": "a"
+    },
+    {
+      "href": "#cite_ref-:0_3-1",
+      "text": "b"
+    },
+    {
+      "href": "#cite_ref-:0_3-2",
+      "text": "c"
+    },
+    {
+      "href": "#cite_ref-:0_3-3",
+      "text": "d"
+    },
+    {
+      "href": "#cite_ref-:0_3-4",
+      "text": "e"
+    },
+    {
+      "href": "#cite_ref-:0_3-5",
+      "text": "f"
+    },
+    {
+      "href": "/wiki/Special:BookSources/0-7167-0464-1",
+      "text": "0-7167-0464-1"
+    },
+    {
+      "href": "#cite_ref-:2_4-0",
+      "text": "a"
+    },
+    {
+      "href": "#cite_ref-:2_4-1",
+      "text": "b"
+    },
+    {
+      "href": "/wiki/Special:BookSources/1-55860-191-0",
+      "text": "1-55860-191-0"
+    },
+    {
+      "href": "#cite_ref-:6_5-0",
+      "text": "a"
+    },
+    {
+      "href": "#cite_ref-:6_5-1",
+      "text": "b"
+    },
+    {
+      "href": "#cite_ref-:6_5-2",
+      "text": "c"
+    },
+    {
+      "href": "http://www.universelle-automation.de/1966_Boston.pdf",
+      "text": "\"ELIZA--A Computer Program for the Study of Natural Language Communication Between Man and Machine\""
+    },
+    {
+      "href": "/wiki/Doi_(identifier)",
+      "text": "doi"
+    },
+    {
+      "href": "https://doi.org/10.1145%2F365153.365168",
+      "text": "10.1145/365153.365168"
+    },
+    {
+      "href": "/wiki/S2CID_(identifier)",
+      "text": "S2CID"
+    },
+    {
+      "href": "https://api.semanticscholar.org/CorpusID:1896290",
+      "text": "1896290"
+    },
+    {
+      "href": "#cite_ref-Baranovska_6-0",
+      "text": "a"
+    },
+    {
+      "href": "#cite_ref-Baranovska_6-1",
+      "text": "b"
+    },
+    {
+      "href": "#cite_ref-Baranovska_6-2",
+      "text": "c"
+    },
+    {
+      "href": "/wiki/Special:BookSources/978-3-89733-467-0",
+      "text": "978-3-89733-467-0"
+    },
+    {
+      "href": "/wiki/OCLC_(identifier)",
+      "text": "OCLC"
+    },
+    {
+      "href": "https://search.worldcat.org/oclc/1080933718",
+      "text": "1080933718"
+    },
+    {
+      "href": "#cite_ref-7",
+      "text": "^"
+    },
+    {
+      "href": "https://sites.google.com/view/elizagen-org/the-original-eliza",
+      "text": "\"ELIZAGEN - The Original ELIZA\""
+    },
+    {
+      "href": "#cite_ref-8",
+      "text": "^"
+    },
+    {
+      "href": "https://ojs.weizenbaum-institut.de/index.php/wjds/article/view/106",
+      "text": "\"The Limits of Computation: Joseph Weizenbaum and the ELIZA Chatbot\""
+    },
+    {
+      "href": "https://doi.org/10.34669%2FWI.WJDS%2F3.3.2",
+      "text": "10.34669/WI.WJDS/3.3.2"
+    },
+    {
+      "href": "/wiki/ISSN_(identifier)",
+      "text": "ISSN"
+    },
+    {
+      "href": "https://search.worldcat.org/issn/2748-5625",
+      "text": "2748-5625"
+    },
+    {
+      "href": "#cite_ref-:9_9-0",
+      "text": "a"
+    },
+    {
+      "href": "#cite_ref-:9_9-1",
+      "text": "b"
+    },
+    {
+      "href": "https://doi.org/10.1080/14797585.2020.1754642",
+      "text": "\"The Eliza effect and its dangers: from demystification to gender critique\""
+    },
+    {
+      "href": "https://doi.org/10.1080%2F14797585.2020.1754642",
+      "text": "10.1080/14797585.2020.1754642"
+    },
+    {
+      "href": "https://search.worldcat.org/issn/1479-7585",
+      "text": "1479-7585"
+    },
+    {
+      "href": "https://api.semanticscholar.org/CorpusID:219465727",
+      "text": "219465727"
+    },
+    {
+      "href": "#cite_ref-rogers_10-0",
+      "text": "^"
+    },
+    {
+      "href": "https://doi.org/10.1007%2Fs00146-018-0825-9",
+      "text": "\"The computational therapeutic: exploring Weizenbaum's ELIZA as a history of the present\""
+    },
+    {
+      "href": "#cite_ref-The_Samantha_Test_11-0",
+      "text": "^"
+    },
+    {
+      "href": "https://web.archive.org/web/20200731160448/https://www.newyorker.com/culture/culture-desk/the-samantha-test/ampwebsite=newyorker.com",
+      "text": "\"The Samantha Test\""
+    },
+    {
+      "href": "/wiki/The_New_Yorker",
+      "text": "The New Yorker"
+    },
+    {
+      "href": "https://www.newyorker.com/culture/culture-desk/the-samantha-test/ampwebsite=newyorker.com",
+      "text": "the original"
+    },
+    {
+      "href": "#cite_ref-12",
+      "text": "^"
+    },
+    {
+      "href": "https://www.proquest.com/openview/3c91805eb882d2a56d58aaa6f809fa50/",
+      "text": "Chatbot: The Gender and Race Performativity of Conversational Agents"
+    },
+    {
+      "href": "#cite_ref-13",
+      "text": "^"
+    },
+    {
+      "href": "https://doi.org/10.1097%2F00005053-196602000-00005",
+      "text": "10.1097/00005053-196602000-00005"
+    },
+    {
+      "href": "/wiki/PMID_(identifier)",
+      "text": "PMID"
+    },
+    {
+      "href": "https://pubmed.ncbi.nlm.nih.gov/5936301",
+      "text": "5936301"
+    },
+    {
+      "href": "https://api.semanticscholar.org/CorpusID:36947398",
+      "text": "36947398"
+    },
+    {
+      "href": "#cite_ref-:3_14-0",
+      "text": "a"
+    },
+    {
+      "href": "#cite_ref-:3_14-1",
+      "text": "b"
+    },
+    {
+      "href": "https://curve.coventry.ac.uk/open/items/d4c5572d-3a8f-4ed1-b085-c88f8124fd74/1/Can+Machines+Talk_+CHB_Shah-Warwick_2016+(1).pdf",
+      "text": "\"Can machines talk? Comparison of Eliza with modern dialogue systems\""
+    },
+    {
+      "href": "https://doi.org/10.1016%2Fj.chb.2016.01.004",
+      "text": "10.1016/j.chb.2016.01.004"
+    },
+    {
+      "href": "#cite_ref-:7_15-0",
+      "text": "a"
+    },
+    {
+      "href": "#cite_ref-:7_15-1",
+      "text": "b"
+    },
+    {
+      "href": "#cite_ref-16",
+      "text": "^"
+    },
+    {
+      "href": "#cite_ref-17",
+      "text": "^"
+    },
+    {
+      "href": "https://doi.org/10.1016%2FS0747-5632%2801%2900004-8",
+      "text": "10.1016/S0747-5632(01)00004-8"
+    },
+    {
+      "href": "#cite_ref-:4_18-0",
+      "text": "a"
+    },
+    {
+      "href": "#cite_ref-:4_18-1",
+      "text": "b"
+    },
+    {
+      "href": "https://doi.org/10.1162%2Fleon.2007.40.1.31",
+      "text": "10.1162/leon.2007.40.1.31"
+    },
+    {
+      "href": "/wiki/JSTOR_(identifier)",
+      "text": "JSTOR"
+    },
+    {
+      "href": "https://www.jstor.org/stable/20206337",
+      "text": "20206337"
+    },
+    {
+      "href": "https://api.semanticscholar.org/CorpusID:57565169",
+      "text": "57565169"
+    },
+    {
+      "href": "#cite_ref-:1_19-0",
+      "text": "a"
+    },
+    {
+      "href": "#cite_ref-:1_19-1",
+      "text": "b"
+    },
+    {
+      "href": "#cite_ref-:1_19-2",
+      "text": "c"
+    },
+    {
+      "href": "#cite_ref-:1_19-3",
+      "text": "d"
+    },
+    {
+      "href": "#cite_ref-:1_19-4",
+      "text": "e"
+    },
+    {
+      "href": "#cite_ref-:1_19-5",
+      "text": "f"
+    },
+    {
+      "href": "#cite_ref-:1_19-6",
+      "text": "g"
+    },
+    {
+      "href": "#cite_ref-:1_19-7",
+      "text": "h"
+    },
+    {
+      "href": "#cite_ref-:1_19-8",
+      "text": "i"
+    },
+    {
+      "href": "#cite_ref-Wardip_20-0",
+      "text": "^"
+    },
+    {
+      "href": "/wiki/Special:BookSources/9780262013437",
+      "text": "9780262013437"
+    },
+    {
+      "href": "https://search.worldcat.org/oclc/827013290",
+      "text": "827013290"
+    },
+    {
+      "href": "#cite_ref-weizenbaumobit_21-0",
+      "text": "^"
+    },
+    {
+      "href": "/wiki/John_Markoff",
+      "text": "Markoff, John"
+    },
+    {
+      "href": "https://www.nytimes.com/2008/03/13/world/europe/13weizenbaum.html",
+      "text": "\"Joseph Weizenbaum, Famed Programmer, Is Dead at 85\""
+    },
+    {
+      "href": "/wiki/The_New_York_Times",
+      "text": "The New York Times"
+    },
+    {
+      "href": "#cite_ref-Weizenbaum1_22-0",
+      "text": "^"
+    },
+    {
+      "href": "https://archive.org/details/computerpowerhum0000weiz",
+      "text": "Computer power and human reason: from judgment to calculation"
+    },
+    {
+      "href": "https://archive.org/details/computerpowerhum0000weiz/page/7",
+      "text": "7"
+    },
+    {
+      "href": "#cite_ref-23",
+      "text": "^"
+    },
+    {
+      "href": "https://www.theatlantic.com/technology/archive/2015/06/clippy-the-microsoft-office-assistant-is-the-patriarchys-fault/396653/",
+      "text": "\"Even Early Focus Groups Hated Clippy\""
+    },
+    {
+      "href": "#cite_ref-PerryElizaAtlantic_24-0",
+      "text": "^"
+    },
+    {
+      "href": "https://www.theatlantic.com/technology/archive/2014/06/when-parry-met-eliza-a-ridiculous-chatbot-conversation-from-1972/372428/",
+      "text": "\"When PARRY Met ELIZA: A Ridiculous Chatbot Conversation From 1972\""
+    },
+    {
+      "href": "https://web.archive.org/web/20170118165304/http://www.theatlantic.com/technology/archive/2014/06/when-parry-met-eliza-a-ridiculous-chatbot-conversation-from-1972/372428/",
+      "text": "Archived"
+    },
+    {
+      "href": "#cite_ref-25",
+      "text": "^"
+    },
+    {
+      "href": "/wiki/Tom_Van_Vleck",
+      "text": "Van Vleck, Tom"
+    },
+    {
+      "href": "https://multicians.org/thvv/compatible-time-sharing-system.pdf",
+      "text": "\"Compatible Time-Sharing System (1961-1973): Fiftieth Anniversary Commemorative Overview\""
+    },
+    {
+      "href": "#cite_ref-:5_26-0",
+      "text": "^"
+    },
+    {
+      "href": "#cite_ref-27",
+      "text": "^"
+    },
+    {
+      "href": "http://www.codersatwork.com/bernie-cosell.html",
+      "text": "\"Coders at Work: Bernie Cosell\""
+    },
+    {
+      "href": "#cite_ref-elizagen_28-0",
+      "text": "a"
+    },
+    {
+      "href": "#cite_ref-elizagen_28-1",
+      "text": "b"
+    },
+    {
+      "href": "http://elizagen.org/",
+      "text": "\"elizagen.org\""
+    },
+    {
+      "href": "#cite_ref-29",
+      "text": "^"
+    },
+    {
+      "href": "http://www.atariarchives.org/bigcomputergames/showpage.php?page=20",
+      "text": "Big Computer Games: Eliza – Your own psychotherapist"
+    },
+    {
+      "href": "#cite_ref-30",
+      "text": "^"
+    },
+    {
+      "href": "https://web.stanford.edu/~jurafsky/slp3/15.pdf",
+      "text": "\"Chatbots & Dialogue Systems\""
+    },
+    {
+      "href": "#cite_ref-31",
+      "text": "^"
+    },
+    {
+      "href": "https://www.worldcat.org/oclc/868488916",
+      "text": "Critical theory and the digital"
+    },
+    {
+      "href": "/wiki/Special:BookSources/978-1-4411-1830-1",
+      "text": "978-1-4411-1830-1"
+    },
+    {
+      "href": "https://search.worldcat.org/oclc/868488916",
+      "text": "868488916"
+    },
+    {
+      "href": "#cite_ref-32",
+      "text": "^"
+    },
+    {
+      "href": "http://www.plugandpray-film.de/en/content.html",
+      "text": "\"Content: Plug & Pray Film – Artificial Intelligence – Robots\""
+    },
+    {
+      "href": "#cite_ref-33",
+      "text": "^"
+    },
+    {
+      "href": "https://search.worldcat.org/oclc/804664009",
+      "text": "804664009"
+    },
+    {
+      "href": "#cite_ref-34",
+      "text": "^"
+    },
+    {
+      "href": "https://web.archive.org/web/20071023012103/http://www.ibm.com/developerworks/ibm/library/lol/pinhead.html",
+      "text": "\"lol:> psychoanalyze-pinhead\""
+    },
+    {
+      "href": "/wiki/IBM",
+      "text": "IBM"
+    },
+    {
+      "href": "http://www.ibm.com/developerworks/ibm/library/lol/pinhead.html",
+      "text": "the original"
+    },
+    {
+      "href": "#cite_ref-35",
+      "text": "^"
+    },
+    {
+      "href": "https://arstechnica.com/information-technology/2023/12/real-humans-appeared-human-63-of-the-time-in-recent-turing-test-ai-study/",
+      "text": "\"1960s chatbot ELIZA beat OpenAI's GPT-3.5 in a recent Turing test study\""
+    },
+    {
+      "href": "#cite_ref-36",
+      "text": "^"
+    },
+    {
+      "href": "https://www.forbes.com/sites/insertcoin/2016/08/25/deus-ex-mankind-divideds-ending-is-disappointing-in-a-different-way/",
+      "text": "\"'Deus Ex: Mankind Divided's Ending Is Disappointing In A Different Way\""
+    },
+    {
+      "href": "#cite_ref-37",
+      "text": "^"
+    },
+    {
+      "href": "https://thequietus.com/articles/21077-adam-curtis-hypernormalisation-review-bbc-politics-doom",
+      "text": "\"The Quietus | Opinion | Black Sky Thinking | HyperNormalisation: Is Adam Curtis, Like Trump, Just A Master Manipulator?\""
+    },
+    {
+      "href": "#cite_ref-38",
+      "text": "^"
+    },
+    {
+      "href": "http://www.foxnews.com/entertainment/2018/01/18/young-sheldon-episode-12-recap-familys-first-computer-almost-tears-it-apart.html",
+      "text": "\"Young Sheldon Episode 12 recap: The family's first computer almost tears it apart\""
+    },
+    {
+      "href": "#cite_ref-39",
+      "text": "^"
+    },
+    {
+      "href": "https://www.rockpapershotgun.com/2019/08/01/the-next-zachtronics-game-is-eliza-a-visual-novel-about-ai/",
+      "text": "\"The next Zachtronics game is Eliza, a visual novel about AI\""
+    },
+    {
+      "href": "/wiki/Rock_Paper_Shotgun",
+      "text": "Rock Paper Shotgun"
+    },
+    {
+      "href": "#cite_ref-40",
+      "text": "^"
+    },
+    {
+      "href": "https://arstechnica.com/gaming/2019/08/eliza-review-startup-culture-meets-sci-fi-in-a-touching-fascinating-tale/",
+      "text": "\"Eliza review: Startup culture meets sci-fi in a touching, fascinating tale\""
+    },
+    {
+      "href": "/wiki/Ars_Technica",
+      "text": "Ars Technica"
+    },
+    {
+      "href": "/w/index.php?title=ELIZA&action=edit&section=8",
+      "text": "edit"
+    },
+    {
+      "href": "/wiki/Special:BookSources/978-0262517539",
+      "text": "978-0262517539"
+    },
+    {
+      "href": "/wiki/W._H._Freeman_and_Company",
+      "text": "W. H. Freeman and Company"
+    },
+    {
+      "href": "/wiki/Special:BookSources/0-7167-0463-3",
+      "text": "0-7167-0463-3"
+    },
+    {
+      "href": "/wiki/Blay_Whitby",
+      "text": "Whitby, Blay"
+    },
+    {
+      "href": "https://web.archive.org/web/20080619033628/http://www.cogs.susx.ac.uk/users/blayw/tt.html",
+      "text": "Machines and Thought: The Legacy of Alan Turing"
+    },
+    {
+      "href": "/wiki/Oxford_University_Press",
+      "text": "Oxford University Press"
+    },
+    {
+      "href": "/wiki/Special:BookSources/0-19-823876-2",
+      "text": "0-19-823876-2"
+    },
+    {
+      "href": "http://www.cogs.susx.ac.uk/users/blayw/tt.html",
+      "text": "the original"
+    },
+    {
+      "href": "/w/index.php?title=ELIZA&action=edit&section=9",
+      "text": "edit"
+    },
+    {
+      "href": "/wiki/Pamela_McCorduck",
+      "text": "McCorduck, Pamela"
+    },
+    {
+      "href": "/wiki/Special:BookSources/1-56881-205-1",
+      "text": "1-56881-205-1"
+    },
+    {
+      "href": "/w/index.php?title=ELIZA&action=edit&section=10",
+      "text": "edit"
+    },
+    {
+      "href": "https://sites.google.com/view/elizagen-org/original-eliza",
+      "text": "ELIZAGEN"
+    },
+    {
+      "href": "https://github.com/jeffshrager/elizagen.org",
+      "text": "Collection"
+    },
+    {
+      "href": "/wiki/GitHub",
+      "text": "GitHub"
+    },
+    {
+      "href": "https://web.archive.org/web/20130120161839/http://www.stanford.edu/group/SHR/4-2/text/dialogues.html",
+      "text": "dialogues with colorful personalities of early AI"
+    },
+    {
+      "href": "/wiki/Wayback_Machine",
+      "text": "Wayback Machine"
+    },
+    {
+      "href": "http://www.ilmarefilm.org/archive/weizenbaum_archiv_E.html",
+      "text": "Weizenbaum. Rebel at work"
+    },
+    {
+      "href": "https://web.archive.org/web/20210225134608/http://www.ilmarefilm.org/archive/weizenbaum_archiv_E.html",
+      "text": "Archived"
+    },
+    {
+      "href": "https://corecursive.com/eliza-with-jeff-shrager/",
+      "text": "CORECURSIVE #078; The History and Mystery Of Eliza; With Jeff Shrager"
+    },
+    {
+      "href": "https://en.wikipedia.org/w/index.php?title=ELIZA&oldid=1248163118",
+      "text": "https://en.wikipedia.org/w/index.php?title=ELIZA&oldid=1248163118"
+    },
+    {
+      "href": "/wiki/Help:Category",
+      "text": "Categories"
+    },
+    {
+      "href": "/wiki/Category:History_of_artificial_intelligence",
+      "text": "History of artificial intelligence"
+    },
+    {
+      "href": "/wiki/Category:Chatbots",
+      "text": "Chatbots"
+    },
+    {
+      "href": "/wiki/Category:Health_software",
+      "text": "Health software"
+    },
+    {
+      "href": "/wiki/Category:Psychotherapy",
+      "text": "Psychotherapy"
+    },
+    {
+      "href": "/wiki/Category:Public-domain_software_with_source_code",
+      "text": "Public-domain software with source code"
+    },
+    {
+      "href": "/wiki/Category:1960s_electronic_literature_works",
+      "text": "1960s electronic literature works"
+    },
+    {
+      "href": "/wiki/Category:American_electronic_literature_works",
+      "text": "American electronic literature works"
+    },
+    {
+      "href": "/wiki/Category:CS1_German-language_sources_(de)",
+      "text": "CS1 German-language sources (de)"
+    },
+    {
+      "href": "/wiki/Category:Articles_with_short_description",
+      "text": "Articles with short description"
+    },
+    {
+      "href": "/wiki/Category:Short_description_matches_Wikidata",
+      "text": "Short description matches Wikidata"
+    },
+    {
+      "href": "/wiki/Category:All_articles_with_unsourced_statements",
+      "text": "All articles with unsourced statements"
+    },
+    {
+      "href": "/wiki/Category:Articles_with_unsourced_statements_from_June_2013",
+      "text": "Articles with unsourced statements from June 2013"
+    },
+    {
+      "href": "/wiki/Category:Articles_with_unsourced_statements_from_September_2023",
+      "text": "Articles with unsourced statements from September 2023"
+    },
+    {
+      "href": "/wiki/Category:Articles_with_unsourced_statements_from_March_2023",
+      "text": "Articles with unsourced statements from March 2023"
+    },
+    {
+      "href": "/wiki/Category:Webarchive_template_wayback_links",
+      "text": "Webarchive template wayback links"
+    },
+    {
+      "href": "//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License",
+      "text": "Creative Commons Attribution-ShareAlike License 4.0"
+    },
+    {
+      "href": "//foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use",
+      "text": "Terms of Use"
+    },
+    {
+      "href": "//foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy",
+      "text": "Privacy Policy"
+    },
+    {
+      "href": "//wikimediafoundation.org/",
+      "text": "Wikimedia Foundation, Inc."
+    },
+    {
+      "href": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy",
+      "text": "Privacy policy"
+    },
+    {
+      "href": "/wiki/Wikipedia:General_disclaimer",
+      "text": "Disclaimers"
+    },
+    {
+      "href": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct",
+      "text": "Code of Conduct"
+    },
+    {
+      "href": "https://developer.wikimedia.org",
+      "text": "Developers"
+    },
+    {
+      "href": "https://stats.wikimedia.org/#/en.wikipedia.org",
+      "text": "Statistics"
+    },
+    {
+      "href": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement",
+      "text": "Cookie statement"
+    },
+    {
+      "href": "//en.m.wikipedia.org/w/index.php?title=ELIZA&mobileaction=toggle_view_mobile",
+      "text": "Mobile view"
+    },
+    {
+      "href": "https://wikimediafoundation.org/",
       "text": ""
     },
     {
-      "href": "/nyheter/lokalt/",
-      "text": "Lokalt"
-    },
-    {
-      "href": "/nyheter/utrikes/experten-darfor-ar-konflikten-mellan-israel-och-hizbollah-att-klassa-som-ett-krig?lokalmeny=1",
+      "href": "https://www.mediawiki.org/",
       "text": ""
-    },
-    {
-      "href": "/sport/",
-      "text": "Sport"
-    },
-    {
-      "href": "/nyheter/utrikes/experten-darfor-ar-konflikten-mellan-israel-och-hizbollah-att-klassa-som-ett-krig?sportmeny=1",
-      "text": ""
-    },
-    {
-      "href": "https://www.svtplay.se/",
-      "text": "SVT Play"
-    },
-    {
-      "href": "https://www.svt.se/barnkanalen/",
-      "text": "Barn"
-    },
-    {
-      "href": "https://www.svtplay.se/kanaler",
-      "text": "Tv-tablå"
-    },
-    {
-      "href": "https://www.svtplay.se/program",
-      "text": "Alla program"
-    },
-    {
-      "href": "https://omoss.svt.se/",
-      "text": "Om SVT"
-    },
-    {
-      "href": "/nyheter/utrikes/",
-      "text": "Utrikes"
-    },
-    {
-      "href": "https://www.svt.se/kontakt/systemkrav-svtse",
-      "text": "Läs mer om webbläsarstöd"
-    },
-    {
-      "href": "https://www.svt.se/nyheter/utrikes/sa-gillrades-fallan-for-hizbollah-kraver-en-ovanligt-hog-kapacitet",
-      "text": "kommunikationsutrustning exploderade"
-    },
-    {
-      "href": "https://www.svt.se/nyheter/om/personsokare-exploderade-flera-doda-i-libanon",
-      "text": "trappats upp."
-    },
-    {
-      "href": "https://www.svt.se/nyheter/utrikes/dodligaste-israeliska-attackerna-pa-flera-ar-i-libanon",
-      "text": "550 personer dödats"
-    },
-    {
-      "href": "/nyheter/om/personsokare-exploderade-flera-doda-i-libanon",
-      "text": "Upptrappning mellan Israel och Hizbollah i Libanon"
-    },
-    {
-      "href": "/nyheter/utrikes/vem-var-hassan-nasrallah",
-      "text": "Vem var Hizbollahs ledare Hassan Nasrallah?"
-    },
-    {
-      "href": "/nyheter/utrikes/svts-mellanosternkorrespondent-om-attackerna-mot-hizbollah-i-beirut",
-      "text": "Stina Blomgren: Alla ögon riktas nu mot Iran"
-    },
-    {
-      "href": "https://www.svt.se/nyheter/utrikes/fn-ryter-ifran-efter-ny-evakueringorder-i-gaza-situationen-saknar-motstycke",
-      "text": "pågår i Gaza."
-    },
-    {
-      "href": "https://ucdp.uu.se/",
-      "text": "nio krig i världen"
-    },
-    {
-      "href": "/nyheter/video/802c33dcc682c2c7-hur-ar-stamningen-i-libanon-nu?spellista=WyJhc3RyaWQtdmlkZW9wbGF5bGlzdCIsIjg1a3EwaSJd",
-      "text": "Hur är stämningen i Libanon nu?53 sek"
-    },
-    {
-      "href": "/nyheter/video/aabbd368f7b46164-hur-ar-stamningen-i-israel-nu?spellista=WyJhc3RyaWQtdmlkZW9wbGF5bGlzdCIsIjg1a3EwaSJd",
-      "text": "Hur är stämningen i Israel nu?41 sek"
-    },
-    {
-      "href": "/nyheter/video/9b0798603755d502-vad-vill-israel-uppna-med-attackerna?spellista=WyJhc3RyaWQtdmlkZW9wbGF5bGlzdCIsIjg1a3EwaSJd",
-      "text": "Vad vill Israel uppnå med attackerna?41 sek"
-    },
-    {
-      "href": "/nyheter/video/8aae8146cc755633-vad-sager-befolkningen-i-libanon?spellista=WyJhc3RyaWQtdmlkZW9wbGF5bGlzdCIsIjg1a3EwaSJd",
-      "text": "Vad säger befolkningen i Libanon?25 sek"
-    },
-    {
-      "href": "/nyheter/video/b0718cb8f93c8243-hur-stor-ar-risken-for-en-markoffensiv-fran-israels-sida?spellista=WyJhc3RyaWQtdmlkZW9wbGF5bGlzdCIsIjg1a3EwaSJd",
-      "text": "Finns det risk för en markoffensiv i Libanon?51 sek"
-    },
-    {
-      "href": "/nyheter/video/5a910b878055c212-vad-menas-med-en-ny-fas-i-konflikten?spellista=WyJhc3RyaWQtdmlkZW9wbGF5bGlzdCIsIjg1a3EwaSJd",
-      "text": "Vad menas med en ”ny fas” i konflikten?54 sek"
-    },
-    {
-      "href": "/nyheter/om/uppsala-universitet",
-      "text": "Uppsala universitet"
-    },
-    {
-      "href": "/nyheter/om/krig",
-      "text": "Krig"
-    },
-    {
-      "href": "/nyheter/om/politik",
-      "text": "Politik"
-    },
-    {
-      "href": "/nyheter/om/israel",
-      "text": "Israel"
-    },
-    {
-      "href": "/nyheter/om/libanon",
-      "text": "Libanon"
-    },
-    {
-      "href": "/nyheter/utrikes/dodligaste-israeliska-attackerna-pa-flera-ar-i-libanon",
-      "text": "51 sekDödligaste attackerna sedan flera år mellan Israel och Hizbollah i Libanon23 september 2024"
-    },
-    {
-      "href": "/nyheter/utrikes/anna-bor-i-gransstaden-mellan-israel-och-libanon-som-en-spokstad",
-      "text": "2 min”Anna” bor i gränsstaden mellan Israel och Libanon: ”Som en spökstad”21 september 2024"
-    },
-    {
-      "href": "/nyheter/lokalt/stockholm/carola-har-hela-slakten-i-libanon-jag-ar-alltid-orolig",
-      "text": "1 minCarola har hela släkten i Libanon: ”Jag är alltid orolig”20 september 2024"
-    },
-    {
-      "href": "/nyheter/utrikes/darfor-ger-inte-israel-svar-om-attackerna-i-libanon",
-      "text": "2 minDärför ger inte Israel svar om attackerna i Libanon20 september 2024"
-    },
-    {
-      "href": "mailto:nils.jonsson@svt.se",
-      "text": "Nils Jönsson"
-    },
-    {
-      "href": "mailto:korr@svt.se?cc=nils.jonsson@svt.se&subject=Hittat%20fel%20i%3A%20%22Experten%3A%20D%C3%A4rf%C3%B6r%20%C3%A4r%20konflikten%20mellan%20Israel%20och%20Hizbollah%20att%20klassa%20som%20ett%20krig%22&body=Jag%20har%20hittat%20fel%20i%20artikeln%20%22Experten%3A%20D%C3%A4rf%C3%B6r%20%C3%A4r%20konflikten%20mellan%20Israel%20och%20Hizbollah%20att%20klassa%20som%20ett%20krig%22%0A(https%3A%2F%2Fwww.svt.se%2Fnyheter%2Futrikes%2Fexperten-darfor-ar-konflikten-mellan-israel-och-hizbollah-att-klassa-som-ett-krig)%0A%0AKommentar%3A",
-      "text": "Hittat språk- eller faktafel i texten? Skriv och berätta."
-    },
-    {
-      "href": "https://www.svt.se/nyheter/sa-arbetar-vi-pa-svt-nyheter",
-      "text": "Läs mer om hur vi arbetar."
-    },
-    {
-      "href": "/nyheter/utrikes/gazabor-oroliga-att-bli-bortglomda",
-      "text": "3 minGazabor oroliga att bli bortglömdaGazabon Mohammed: ”När Gaza inte längre är i blickfånget kan de göra vad de vill här”"
-    },
-    {
-      "href": "https://www.svtplay.se/video/jJy5pmX/rapport/idag-16-00",
-      "text": "3 minRapportIdag 16:00"
-    },
-    {
-      "href": "/nyheter/utrikes/fouads-usa-jim-jagar-migranter-pa-sin-ranch-donald-trumps-mur-raddar-liv",
-      "text": "Fouads USA: Jim jagar migranter på sin ranch – ”Donald Trumps mur räddar liv”"
-    },
-    {
-      "href": "/nyheter/utrikes/experten-om-kinberg-batras-agerande-ren-och-skar-korruption",
-      "text": "Experten om Kinberg Batras agerande: ”Ren och skär korruption”"
-    },
-    {
-      "href": "/nyheter/utrikes/oklart-lage-kring-nasrallah-efter-israel-havdat-hans-dod",
-      "text": "Hizbollahs högste ledare Nasrallah är död"
-    },
-    {
-      "href": "/nyheter/utrikes/hamas-attack-mot-israel",
-      "text": "Senaste nytt om konflikten i Mellanöstern"
-    },
-    {
-      "href": "/nyheter/utrikes/orkanen-helene-nastan-i-land",
-      "text": "Flera döda efter ”Helenes” framfart i sydöstra USA"
-    },
-    {
-      "href": "/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage",
-      "text": "Senaste nytt om kriget i Ukraina"
-    },
-    {
-      "href": "/nyheter/granskning/tipsa-svt-nyheter",
-      "text": "Hör av dig till våra granskande reportrarTipsa SVT Nyheter på ett säkert sätt"
-    },
-    {
-      "href": "/vader/",
-      "text": "Väder"
-    },
-    {
-      "href": "/text-tv/100",
-      "text": "Text-tv"
-    },
-    {
-      "href": "https://www.svtplay.se",
-      "text": "SVT Play"
-    },
-    {
-      "href": "/barnkanalen/",
-      "text": "Barn"
-    },
-    {
-      "href": "https://www.svtplay.se/kategori/oppet-arkiv",
-      "text": "Öppet arkiv"
-    },
-    {
-      "href": "/recept",
-      "text": "Recept"
-    },
-    {
-      "href": "https://www.svtplay.se/rapport",
-      "text": "Rapport"
-    },
-    {
-      "href": "https://www.svtplay.se/aktuellt",
-      "text": "Aktuellt"
-    },
-    {
-      "href": "https://www.svtplay.se/morgonstudion",
-      "text": "Morgonstudion"
-    },
-    {
-      "href": "https://www.svtplay.se/sportnytt",
-      "text": "Sportnytt"
-    },
-    {
-      "href": "https://omoss.svt.se/kontakt/",
-      "text": "Kontakta SVT"
-    },
-    {
-      "href": "/nyheter/sa-kontaktar-du-svt-nyheter",
-      "text": "Kontakta SVT Nyheter"
-    },
-    {
-      "href": "/nyheter/tipsa-svt-nyheter",
-      "text": "Tipsa SVT Nyheter"
-    },
-    {
-      "href": "https://omoss.svt.se/about-svt.html",
-      "text": "About SVT"
-    },
-    {
-      "href": "https://omoss.svt.se/svt-bloggen.html",
-      "text": "SVT-bloggen"
-    },
-    {
-      "href": "https://omoss.svt.se/svts-roll/sa-granskas-svts-publiceringar.html",
-      "text": "Anmäl till medieombudsmannen"
-    },
-    {
-      "href": "/kontakt/cookies-och-personuppgifter",
-      "text": "Om personuppgiftsbehandling och cookies"
-    },
-    {
-      "href": "mailto:justina.hull@svt.se",
-      "text": "Justina Hüll"
-    },
-    {
-      "href": "mailto:svtnyheter@svt.se",
-      "text": "svtnyheter@svt.se"
     }
   ],
   "spans": [
-    "Hör Mellanösternexperten – det kan hända nu i kriget mellan Hizbollah och Israel: ”Hizbollahs svar hittills är förvånansvärt svagt”. Foto: Reuters/SVT",
-    "Foto: Reuters/SVT",
-    "Uppdaterad 25 september 2024",
-    "Uppdaterad",
-    "Publicerad 24 september 2024",
-    "Publicerad",
-    "Tusentals libaneser försöker ta sig från södra Libanon till en säker plats, här människor som kommit till Beirut. Enligt hälsominister Firass Abiad har tiotusentals personer flytt sina hem de senaste dagarna och FN:s flyktingorgan bekräftar omfattningen. Foto: AP/TT",
-    "Foto: AP/TT",
-    "SVT:s korrespondenter på plats i Libanon och Israel",
-    "Hur är stämningen i Libanon nu?",
-    "53 sek",
-    "Hur är stämningen i Israel nu?",
-    "41 sek",
-    "Vad vill Israel uppnå med attackerna?",
-    "Vad säger befolkningen i Libanon?",
-    "25 sek",
-    "Finns det risk för en markoffensiv i Libanon?",
-    "51 sek",
-    "Vad menas med en ”ny fas” i konflikten?",
-    "54 sek",
-    "Dödligaste attackerna sedan flera år mellan Israel och Hizbollah i Libanon",
-    "2 min",
-    "”Anna” bor i gränsstaden mellan Israel och Libanon: ”Som en spökstad”",
-    "1 min",
-    "Carola har hela släkten i Libanon: ”Jag är alltid orolig”",
-    "Därför ger inte Israel svar om attackerna i Libanon",
-    "Nils Jönsson",
-    "Hittat språk- eller faktafel i texten? Skriv och berätta.",
-    "Skriv och berätta.",
-    "Vem var Hizbollahs ledare Hassan Nasrallah?",
-    "Så kom Hizbollah-ledaren till makten • Företrädaren dödades på samma sätt",
-    "”Alla ögon riktas nu mot Hizbollahs sponsor Iran”",
-    "Stina Blomgren på plats i Beirut: ”Redan nu ropas det på hämnd”",
-    "3 min",
-    "Gazabor oroliga att bli bortglömda",
-    "Gazabon Mohammed: ”När Gaza inte längre är i blickfånget kan de göra vad de vill här”",
-    "Mer i ämnet",
+    "Main menu",
+    "Main page",
+    "Contents",
+    "Current events",
+    "Random article",
+    "About Wikipedia",
+    "Contact us",
+    "Help",
+    "Learn to edit",
+    "Community portal",
+    "Recent changes",
+    "Upload file",
+    "Search",
+    "Donate",
+    "Appearance",
+    "Create account",
+    "Log in",
+    "Personal tools",
+    "learn more",
+    "Contributions",
+    "Talk",
     "1",
+    "Overview",
     "2",
+    "Design",
+    "Toggle Design subsection",
+    "2.1",
+    "Pseudocode",
     "3",
-    "Tjänstgörande onlineredaktör: Justina Hüll|",
-    "|",
-    "E-post: svtnyheter@svt.se|",
-    "Telefon: 08-784 00 00|",
-    "© Sveriges Television AB"
+    "Response and legacy",
+    "4",
+    "In popular culture",
+    "5",
+    "See also",
+    "6",
+    "References",
+    "Toggle References subsection",
+    "6.1",
+    "Bibliography",
+    "7",
+    "Further reading",
+    "8",
+    "External links",
+    "Toggle the table of contents",
+    "ELIZA",
+    "26 languages",
+    "العربية",
+    "Azərbaycanca",
+    "Català",
+    "Čeština",
+    "Dansk",
+    "Deutsch",
+    "Español",
+    "Esperanto",
+    "Euskara",
+    "فارسی",
+    "Français",
+    "한국어",
+    "Íslenska",
+    "Italiano",
+    "עברית",
+    "Magyar",
+    "Nederlands",
+    "日本語",
+    "Polski",
+    "Português",
+    "Русский",
+    "Simple English",
+    "Slovenčina",
+    "Українська",
+    "粵語",
+    "中文",
+    "Edit links",
+    "Article",
+    "English",
+    "Read",
+    "Edit",
+    "View history",
+    "Tools",
+    "What links here",
+    "Related changes",
+    "Special pages",
+    "Permanent link",
+    "Page information",
+    "Cite this page",
+    "Get shortened URL",
+    "Download QR code",
+    "Wikidata item",
+    "Download as PDF",
+    "Printable version",
+    "[",
+    "]",
+    "[edit]",
+    "edit",
+    "citation needed",
+    "Linguistics portal",
+    "Psychology portal",
+    "^ a b",
+    ".mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#d33)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#d33)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}\"Alan Turing at 100\". Harvard Gazette. 13 September 2012. Retrieved 2016-02-22.",
+    ". Retrieved 2016-02-22",
+    "2016-02-22",
+    "Berry, David M. (2018). \"Weizenbaum, ELIZA and the End of Human Reason\". In Baranovska, Marianna; Höltgen, Stefan (eds.). Hello, I'm Eliza: Fünfzig Jahre Gespräche mit Computern [Hello, I'm Eliza: Fifty Years of Conversations with Computers] (in German) (1st ed.). Berlin: Projekt Verlag. pp. 53–70. ISBN 9783897334670.",
+    "^ a b c d e f",
+    "Weizenbaum, Joseph (1976). Computer Power and Human Reason: From Judgment to Calculation. New York: W. H. Freeman and Company. ISBN 0-7167-0464-1.",
+    "Norvig, Peter (1992). Paradigms of Artificial Intelligence Programming. New York: Morgan Kaufmann Publishers. pp. 151–154. ISBN 1-55860-191-0.",
+    "^ a b c",
+    "Weizenbaum, Joseph (January 1966). \"ELIZA--A Computer Program for the Study of Natural Language Communication Between Man and Machine\" (PDF). Communications of the ACM. 9: 36–45. doi:10.1145/365153.365168. S2CID 1896290 – via universelle-automation.",
+    "(PDF)",
+    "Baranovska, Marianna; Höltgen, Stefan, eds. (2018). Hello, I'm Eliza fünfzig Jahre Gespräche mit Computern (1st ed.). Bochum: Bochum Freiburg projektverlag. ISBN 978-3-89733-467-0. OCLC 1080933718.",
+    "^",
+    "\"ELIZAGEN - The Original ELIZA\". sites.google.com. Retrieved 2021-05-31.",
+    ". Retrieved 2021-05-31",
+    "2021-05-31",
+    "Berry, David M. (2023-11-06). \"The Limits of Computation: Joseph Weizenbaum and the ELIZA Chatbot\". Weizenbaum Journal of the Digital Society. 3 (3). doi:10.34669/WI.WJDS/3.3.2. ISSN 2748-5625.",
+    "Dillon, Sarah (2020-01-02). \"The Eliza effect and its dangers: from demystification to gender critique\". Journal for Cultural Research. 24 (1): 1–15. doi:10.1080/14797585.2020.1754642. ISSN 1479-7585. S2CID 219465727.",
+    "Bassett, Caroline (2019). \"The computational therapeutic: exploring Weizenbaum's ELIZA as a history of the present\". AI & Society. 34 (4): 803–812. doi:10.1007/s00146-018-0825-9.",
+    "10.1007/s00146-018-0825-9",
+    "\"The Samantha Test\". The New Yorker. Archived from the original on 2020-07-31. Retrieved 2019-05-25.",
+    ". Retrieved 2019-05-25",
+    "2019-05-25",
+    "Marino, Mark (2006). Chatbot: The Gender and Race Performativity of Conversational Agents. University of California.",
+    "Colby, Kenneth Mark; Watt, James B.; Gilbert, John P. (1966). \"A Computer Method of Psychotherapy\". The Journal of Nervous and Mental Disease. 142 (2): 148–52. doi:10.1097/00005053-196602000-00005. PMID 5936301. S2CID 36947398.",
+    "Shah, Huma; Warwick, Kevin; Vallverdú, Jordi; Wu, Defeng (2016). \"Can machines talk? Comparison of Eliza with modern dialogue systems\" (PDF). Computers in Human Behavior. 58: 278–95. doi:10.1016/j.chb.2016.01.004.",
+    "Shrager, Jeff; Berry, David M.; Hay, Anthony; Millican, Peter (2022). \"Finding ELIZA - Rediscovering Weizenbaum's Source Code, Comments and Faksimiles\". In Baranovska, Marianna; Höltgen, Stefan (eds.). Hello, I'm Eliza: Fünfzig Jahre Gespräche mit Computern (2nd ed.). Berlin: Projekt Verlag. pp. 247–248.",
+    "Weizenbaum 1976, p. 188.",
+    "Epstein, J.; Klinkenberg, W. D. (2001). \"From Eliza to Internet: A brief history of computerized assessment\". Computers in Human Behavior. 17 (3): 295–314. doi:10.1016/S0747-5632(01)00004-8.",
+    "Wortzel, Adrianne (2007). \"ELIZA REDUX: A Mutable Iteration\". Leonardo. 40 (1): 31–6. doi:10.1162/leon.2007.40.1.31. JSTOR 20206337. S2CID 57565169.",
+    "^ a b c d e f g h i",
+    "Weizenbaum, Joseph (1966). \"ELIZA—a computer program for the study of natural language communication between man and machine\". Communications of the ACM. 9: 36–45. doi:10.1145/365153.365168. S2CID 1896290.",
+    "10.1145/365153.365168",
+    "Wardrip-Fruin, Noah (2009). Expressive Processing: Digital Fictions, Computer Games, and Software Studies. Cambridge, Massachusetts: MIT Press. p. 33. ISBN 9780262013437. OCLC 827013290.",
+    "Markoff, John (2008-03-13), \"Joseph Weizenbaum, Famed Programmer, Is Dead at 85\", The New York Times, retrieved 2009-01-07.",
+    ", retrieved 2009-01-07",
+    "2009-01-07",
+    "Weizenbaum, Joseph (1976). Computer power and human reason: from judgment to calculation. W. H. Freeman. p. 7.",
+    "Computer power and human reason: from judgment to calculation",
+    "Meyer, Robinson (2015-06-23). \"Even Early Focus Groups Hated Clippy\". The Atlantic. Retrieved 2023-11-07.",
+    ". Retrieved 2023-11-07",
+    "2023-11-07",
+    "Megan, Garber (Jun 9, 2014). \"When PARRY Met ELIZA: A Ridiculous Chatbot Conversation From 1972\". The Atlantic. Archived from the original on 2017-01-18. Retrieved 19 January 2017.",
+    ". Retrieved 19 January 2017",
+    "19 January",
+    "Walden, David; Van Vleck, Tom, eds. (2011). \"Compatible Time-Sharing System (1961-1973): Fiftieth Anniversary Commemorative Overview\" (PDF). IEEE Computer Society. Retrieved February 20, 2022. Joe Wiezenbaum's most famous CTSS project was ELIZA",
+    ". Retrieved February 20, 2022",
+    "February 20,",
+    "Wardip-Fruin, Noah (2014). Expressive Processing: Digital Fictions, Computer Games, and Software Studies. Cambridge: The MIT Press. p. 33. ISBN 9780262013437 – via eBook Collection (EBSCOhost).",
+    "\"Coders at Work: Bernie Cosell\". codersatwork.com.",
+    "\"elizagen.org\". elizagen.org.",
+    "Big Computer Games: Eliza – Your own psychotherapist at www.atariarchives.org.",
+    "\"Chatbots & Dialogue Systems\" (PDF). stanford.edu. Retrieved 6 April 2023.",
+    ". Retrieved 6 April 2023",
+    "6 April",
+    "Berry, David M. (2014). Critical theory and the digital. London: Bloomsbury Publishing. ISBN 978-1-4411-1830-1. OCLC 868488916.",
+    "maschafilm. \"Content: Plug & Pray Film – Artificial Intelligence – Robots\". plugandpray-film.de.",
+    "Avidan, David (2010), Collected Poems, vol. 3, Jerusalem: Hakibbutz Hameuchad, OCLC 804664009.",
+    "\"lol:> psychoanalyze-pinhead\". IBM. Archived from the original on October 23, 2007.",
+    "Edwards, Benj (2023-12-01). \"1960s chatbot ELIZA beat OpenAI's GPT-3.5 in a recent Turing test study\". Ars Technica. Retrieved 2023-12-03.",
+    ". Retrieved 2023-12-03",
+    "2023-12-03",
+    "Tassi, Paul. \"'Deus Ex: Mankind Divided's Ending Is Disappointing In A Different Way\". Forbes. Retrieved 2020-04-04.",
+    ". Retrieved 2020-04-04",
+    "2020-04-04",
+    "\"The Quietus | Opinion | Black Sky Thinking | HyperNormalisation: Is Adam Curtis, Like Trump, Just A Master Manipulator?\". The Quietus. 6 October 2016. Retrieved 26 June 2021.",
+    ". Retrieved 26 June 2021",
+    "26 June",
+    "McCarthy, Tyler (2018-01-18). \"Young Sheldon Episode 12 recap: The family's first computer almost tears it apart\". Fox News. Retrieved 2018-01-24.",
+    ". Retrieved 2018-01-24",
+    "2018-01-24",
+    "O'Connor, Alice (2019-08-01). \"The next Zachtronics game is Eliza, a visual novel about AI\". Rock Paper Shotgun. Retrieved 2019-08-01.",
+    ". Retrieved 2019-08-01",
+    "2019-08-01",
+    "Machkovech, Sam (August 12, 2019). \"Eliza review: Startup culture meets sci-fi in a touching, fascinating tale\". Ars Technica. Retrieved August 12, 2019.",
+    ". Retrieved August 12, 2019",
+    "August 12,",
+    ", retrieved 2008-08-11",
+    "2008-08-11",
+    "(UTC)"
   ],
   "lists": [
     {
       "tag": "ul",
       "items": [
-        "Nyheter",
-        "Lokalt",
-        "Sport",
-        "SVT Play",
-        "Barn",
-        "Tv-tablå",
-        "Alla program",
-        "Om SVT"
+        "Main page",
+        "Contents",
+        "Current events",
+        "Random article",
+        "About Wikipedia",
+        "Contact us"
       ]
     },
     {
       "tag": "ul",
       "items": [
-        "Vem var Hizbollahs ledare Hassan Nasrallah?",
-        "Stina Blomgren: Alla ögon riktas nu mot Iran"
+        "Help",
+        "Learn to edit",
+        "Community portal",
+        "Recent changes",
+        "Upload file"
       ]
     },
     {
       "tag": "ul",
       "items": [
-        "Hur är stämningen i Libanon nu?53 sek",
-        "Hur är stämningen i Israel nu?41 sek",
-        "Vad vill Israel uppnå med attackerna?41 sek",
-        "Vad säger befolkningen i Libanon?25 sek",
-        "Finns det risk för en markoffensiv i Libanon?51 sek",
-        "Vad menas med en ”ny fas” i konflikten?54 sek"
+        "Donate"
       ]
     },
     {
       "tag": "ul",
       "items": [
-        "Upptrappning mellan Israel och Hizbollah i Libanon",
-        "Uppsala universitet",
-        "Krig",
-        "Politik",
-        "Israel",
-        "Libanon"
+        "Create account",
+        "Log in"
       ]
     },
     {
       "tag": "ul",
       "items": [
-        "51 sekDödligaste attackerna sedan flera år mellan Israel och Hizbollah i Libanon23 september 2024",
-        "2 min”Anna” bor i gränsstaden mellan Israel och Libanon: ”Som en spökstad”21 september 2024",
-        "1 minCarola har hela släkten i Libanon: ”Jag är alltid orolig”20 september 2024",
-        "2 minDärför ger inte Israel svar om attackerna i Libanon20 september 2024"
+        "Create account",
+        "Log in"
       ]
     },
     {
       "tag": "ul",
       "items": [
-        "Nils Jönsson"
+        "Contributions",
+        "Talk"
       ]
     },
     {
       "tag": "ul",
       "items": [
-        "2 minVem var Hizbollahs ledare Hassan Nasrallah?Så kom Hizbollah-ledaren till makten • Företrädaren dödades på samma sätt",
-        "2 min”Alla ögon riktas nu mot Hizbollahs sponsor Iran”Stina Blomgren på plats i Beirut: ”Redan nu ropas det på hämnd”",
-        "3 minGazabor oroliga att bli bortglömdaGazabon Mohammed: ”När Gaza inte längre är i blickfånget kan de göra vad de vill här”"
+        "(Top)",
+        "1\n\t\t\t\tOverview",
+        "2\n\t\t\t\tDesign\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\tToggle Design subsection\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t2.1\n\t\t\t\t\tPseudocode",
+        "2.1\n\t\t\t\t\tPseudocode",
+        "3\n\t\t\t\tResponse and legacy",
+        "4\n\t\t\t\tIn popular culture",
+        "5\n\t\t\t\tSee also",
+        "6\n\t\t\t\tReferences\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\tToggle References subsection\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t6.1\n\t\t\t\t\tBibliography",
+        "6.1\n\t\t\t\t\tBibliography",
+        "7\n\t\t\t\tFurther reading",
+        "8\n\t\t\t\tExternal links"
       ]
     },
     {
       "tag": "ul",
       "items": [
-        "Fouads USA: Jim jagar migranter på sin ranch – ”Donald Trumps mur räddar liv”",
-        "Experten om Kinberg Batras agerande: ”Ren och skär korruption”",
-        "Hizbollahs högste ledare Nasrallah är död"
+        "2.1\n\t\t\t\t\tPseudocode"
       ]
     },
     {
       "tag": "ul",
       "items": [
-        "1Senaste nytt om konflikten i Mellanöstern",
-        "2Flera döda efter ”Helenes” framfart i sydöstra USA",
-        "3Senaste nytt om kriget i Ukraina"
+        "6.1\n\t\t\t\t\tBibliography"
       ]
     },
     {
       "tag": "ul",
       "items": [
-        "Startsida",
-        "Lokala nyheter",
-        "Sport",
-        "Väder",
-        "Text-tv"
+        "العربية",
+        "Azərbaycanca",
+        "Català",
+        "Čeština",
+        "Dansk",
+        "Deutsch",
+        "Español",
+        "Esperanto",
+        "Euskara",
+        "فارسی",
+        "Français",
+        "한국어",
+        "Íslenska",
+        "Italiano",
+        "עברית",
+        "Magyar",
+        "Nederlands",
+        "日本語",
+        "Polski",
+        "Português",
+        "Русский",
+        "Simple English",
+        "Slovenčina",
+        "Українська",
+        "粵語",
+        "中文"
       ]
     },
     {
       "tag": "ul",
       "items": [
-        "SVT Play",
-        "Barn",
-        "TV-tablå",
-        "Alla program",
-        "Öppet arkiv",
-        "Recept"
+        "Article",
+        "Talk"
       ]
     },
     {
       "tag": "ul",
       "items": [
-        "Rapport",
-        "Aktuellt",
-        "Morgonstudion",
-        "Sportnytt"
+        "Read",
+        "Edit",
+        "View history"
       ]
     },
     {
       "tag": "ul",
       "items": [
-        "Kontakta SVT",
-        "Kontakta SVT Nyheter",
-        "Tipsa SVT Nyheter",
-        "Om SVT",
-        "About SVT",
-        "SVT-bloggen",
-        "Anmäl till medieombudsmannen",
-        "Om personuppgiftsbehandling och cookies",
-        "Cookie-inställningar"
+        "Read",
+        "Edit",
+        "View history"
+      ]
+    },
+    {
+      "tag": "ul",
+      "items": [
+        "What links here",
+        "Related changes",
+        "Upload file",
+        "Special pages",
+        "Permanent link",
+        "Page information",
+        "Cite this page",
+        "Get shortened URL",
+        "Download QR code",
+        "Wikidata item"
+      ]
+    },
+    {
+      "tag": "ul",
+      "items": [
+        "Download as PDF",
+        "Printable version"
+      ]
+    },
+    {
+      "tag": "ul",
+      "items": [
+        "Linguistics portal",
+        "Psychology portal"
+      ]
+    },
+    {
+      "tag": "ul",
+      "items": [
+        "ELIZA effect",
+        "ChatGPT"
+      ]
+    },
+    {
+      "tag": "ul",
+      "items": [
+        "Norvig, Peter (1992), ELIZA: Paradigms of Artificial Intelligence Programming, San Francisco: Morgan Kaufmann Publishers, pp. 151–154, 159, 163–169, 175, 181, ISBN 1-55860-191-0.",
+        "Wardip-Fruin, Noah (2014), Expressing Processing: Digital Fictions, Computer Games, and Software Studies, Cumberland: MIT Press, pp. 24–36, ISBN 978-0262517539.",
+        "Weizenbaum, Joseph (1976), Computer power and human reason: from judgment to calculation, W. H. Freeman and Company, ISBN 0-7167-0463-3.",
+        "Whitby, Blay (1996), \"The Turing Test: AI's Biggest Blind Alley?\", in Millican, Peter; Clark, Andy (eds.), Machines and Thought: The Legacy of Alan Turing, vol. 1, Oxford University Press, pp. 53–62, ISBN 0-19-823876-2, archived from the original on 2008-06-19, retrieved 2008-08-11."
+      ]
+    },
+    {
+      "tag": "ul",
+      "items": [
+        "McCorduck, Pamela (2004), Machines Who Think (2nd ed.), Natick, MA: A. K. Peters, Ltd., ISBN 1-56881-205-1"
+      ]
+    },
+    {
+      "tag": "ul",
+      "items": [
+        "ELIZAGEN - Weizenbaum's original code for ELIZA",
+        "Collection of several source code versions at GitHub",
+        "dialogues with colorful personalities of early AI at the Wayback Machine (archived January 20, 2013), a collection of dialogues between ELIZA and various conversants, such as a company vice president and PARRY (a simulation of a paranoid schizophrenic)",
+        "Weizenbaum. Rebel at work Archived 2021-02-25 at the Wayback Machine – Peter Haas, Silvia Holzinger, Documentary film with Joseph Weizenbaum and ELIZA.",
+        "CORECURSIVE #078; The History and Mystery Of Eliza; With Jeff Shrager – Adam Gordon Bell interviews Jeff Shrager, author of the 1973/77 BASIC ELIZA, and discoverer of the original ELIZA code."
+      ]
+    },
+    {
+      "tag": "ul",
+      "items": [
+        "History of artificial intelligence",
+        "Chatbots",
+        "Health software",
+        "Psychotherapy",
+        "Public-domain software with source code",
+        "1960s electronic literature works",
+        "American electronic literature works"
+      ]
+    },
+    {
+      "tag": "ul",
+      "items": [
+        "CS1 German-language sources (de)",
+        "Articles with short description",
+        "Short description matches Wikidata",
+        "All articles with unsourced statements",
+        "Articles with unsourced statements from June 2013",
+        "Articles with unsourced statements from September 2023",
+        "Articles with unsourced statements from March 2023",
+        "Webarchive template wayback links"
+      ]
+    },
+    {
+      "tag": "ul",
+      "items": [
+        "This page was last edited on 28 September 2024, at 01:00 (UTC).",
+        "Text is available under the Creative Commons Attribution-ShareAlike License 4.0;\nadditional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization."
+      ]
+    },
+    {
+      "tag": "ul",
+      "items": [
+        "Privacy policy",
+        "About Wikipedia",
+        "Disclaimers",
+        "Contact Wikipedia",
+        "Code of Conduct",
+        "Developers",
+        "Statistics",
+        "Cookie statement",
+        "Mobile view"
       ]
     }
   ]

@@ -90,13 +90,6 @@ class WebScraper {
                     items: items
                 })
             }
-            /*    for(let i = 0; i <liElements.length; i++) {
-                   const li = liElements[i]
-                   if(li.textContent && li.textContent.trim()) {
-                       items.push(li.textContent.trim())
-                   }
-                  
-               } */
         })
         return lists
     }
@@ -117,8 +110,8 @@ class WebScraper {
                 uniqueImages.add(uniqueId)
                 const imageData = {
                     src: src,
-                    alt: alt /*img.getAttribute('alt') || ''*/,
-                    title: title /*img.getAttribute('title') || ''*/
+                    alt: alt,
+                    title: title
                 }
                 images.push(imageData)
             }
@@ -141,16 +134,6 @@ class WebScraper {
                 })
             }
         })
-    /*     for (let i = 0; i < aElements.length; i++) {
-            const a = aElements[i]
-            const href = a.getAttribute('href')
-            if (href) {
-                links.push({
-                    href: href,
-                    text: a.textContent ? a.textContent.trim() : ''
-                })
-            }
-        } */
         return links
     }
 
@@ -164,7 +147,6 @@ class WebScraper {
                 uniqueSpans.add(text)
                 spans.push(text)
             }
-            //spans.push(span.textContent.trim())
         })
         return spans
     }
