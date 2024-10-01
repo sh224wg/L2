@@ -7,12 +7,27 @@ A web scraper that scrapes a website for HTML elements and outputs it into the c
  The module sohuld be able to scrape a URL and extract HTML elements, including p, h, li, ul, img, links, spans, tables, and metadata.
 
 ## Code example
+```javascript
+    // Import webscraper
+    import WebScraper from 'webscraper'
 
-## Installations Description 
+    // Create new instance of the webscraper
+    const scraper = new WebScraper()
+
+    // Scrape a website while inserting User-Agent in the header
+    async scrape(url, options = {}) {
+    const headers = options.headers || {
+        'User-Agent': this.getRandomUserAgent()
+     }
+    }
+```
 
 ## Installation
-npm install webscraper
+To install the WebScraper module, run the following command:
 
+```sh
+npm install webscraper
+```
 ## Dependencies
 JSDOM
 node-fetch
