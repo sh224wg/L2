@@ -4,16 +4,18 @@ import { JSDOM } from 'jsdom'
 class WebScraper {
     constructor() { }
 
-    async scrape(url, options = {}) {
+    getRandomUserAgent() {
         const userAgents = [
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3',
             'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
             'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0'
         ]
-        const randomizeUserAgent = userAgents[Math.floor(Math.random() * userAgents.length)]
+        return userAgents[Math.floor(Math.random() * userAgents.length)]
+    }
 
+    async scrape(url, options = {}) {
         const headers = options.headers || {
-            'User-Agent': randomizeUserAgent
+            'User-Agent': this.getRandomUserAgent()
         }
         const fetchOptions = { headers }
 
@@ -39,7 +41,7 @@ class WebScraper {
             }
             return content
         } catch (error) {
-            console.log(`failed to scrape the URL: ${url}`, error)
+            console.log(`failed to scrape URL: ${url}`, error)
             throw new Error('Failed to scrape')
         }
     }
@@ -50,17 +52,14 @@ class WebScraper {
             description: '',
             keywords: ''
         }
-
         const descriptionMeta = document.querySelector('meta[name="description"]')
         if (descriptionMeta) {
             metadata.description = descriptionMeta.getAttribute('content')
         }
-
         const keywordsMeta = document.querySelector('meta[name="keyword"]')
         if (keywordsMeta) {
             metadata.keywords = keywordsMeta.getAttribute('content')
         }
-
         return metadata
     }
 
@@ -96,7 +95,6 @@ class WebScraper {
                 })
             }
         }
-
         return paragraphs
     }
 

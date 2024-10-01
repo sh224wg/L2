@@ -1,22 +1,19 @@
 # WebScraper
 
-## Beskrivning
-Create a web scraper that scrapes a website for founatonaal elements and outputs it into the console.
+## Description
+A web scraper that scrapes a website for HTML elements and outputs it into the console. While also considering User-Agents to perform better on certain websites which may inhibit multiple scrapes.
 
-## Krav
-Skrapa en webbsida på grundläggande element som p, h, li, ul, href, alt, src, title. 
+## Requirements
+ The module sohuld be able to scrape a URL and extract HTML elements, including p, h, li, ul, img, links, spans, tables, and metadata.
 
-Scraper-modulen ska kunna användas på de flesta webbsidor utan dynamiska element för att få fram grundläggande information.
+## Code example
 
-
-## Kodexempel
-
-## Installationsbeskrivning 
+## Installations Description 
 
 ## Installation
 npm install webscraper
 
-## Beroenden
+## Dependencies
 JSDOM
 node-fetch
 
