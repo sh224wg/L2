@@ -1,4 +1,4 @@
-import StartWebScraper from "./src/start.js"
-// start the app
+import StartWebScraper from "./src/example.js"
+ // start the app
 const start = new StartWebScraper
 start.askForUrl()

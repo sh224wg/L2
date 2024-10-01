@@ -23,9 +23,10 @@ Testresultat
 |-----------------|-----------------|-----------------|
 
 test 1 
+Setup URL and Mock Response
 
-- organised into divs and presented as such in format
-- resulted in many emptry arrays and strings ns such was reworked to organise in a list of different elements
+test 2 
+should use provided headers
 
 test 2
 - some information is repeated as simliar p or h elemnts, use sets to solve this 
@@ -39,5 +40,3 @@ test 4
 test 5
 - allow user to enter url, if not a url it crashes, use if else in askforurl function to ensure it doesnt crash
 
-test 6
- - data is sometimes too large in terminal, write into a file

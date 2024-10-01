@@ -36,16 +36,17 @@ class StartWebScraper {
     }
 
     async run(url) {
-        //const url = 'https://www.svt.se/nyheter/utrikes/experten-darfor-ar-konflikten-mellan-israel-och-hizbollah-att-klassa-som-ett-krig'
         try {
             const content = await this.webScraper.scrape(url)
             const format = {
+                metaData: content.metaData || [],
                 titles: content.titles || [],
                 paragraphs: content.paragraphs || [],
                 images: content.images || [],
                 links: content.links || [],
                 spans: content.spans || [],
-                lists: content.lists || []
+                lists: content.lists || [],
+                tables: content.tables || []
             }
 
             const scrapedData = JSON.stringify(format, null, 2)

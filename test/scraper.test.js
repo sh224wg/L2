@@ -1,1 +1,0 @@
-import WebScraper from "../src/scraper.js";

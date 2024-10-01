@@ -15,11 +15,7 @@ class WebScraper {
         const headers = options.headers || {
             'User-Agent': randomizeUserAgent
         }
-        const proxy = options.proxy || null
         const fetchOptions = { headers }
-        if (proxy) {
-            fetchOptions.agent = new HttpsProxyAgent(proxy)
-        }
 
         try {
             const response = await fetch(url, fetchOptions)
@@ -38,7 +34,8 @@ class WebScraper {
                 lists: this.getLists(document),
                 images: this.getImages(document),
                 links: this.getLinks(document),
-                spans: this.getSpans(document)
+                spans: this.getSpans(document),
+                tables: this.getTables(document)
             }
             return content
         } catch (error) {
@@ -49,18 +46,18 @@ class WebScraper {
 
     getMetaData(document) {
         const metadata = {
-            title: document.querySelector('title') ? document.querySelector('title').textContent: '',
+            title: document.querySelector('title') ? document.querySelector('title').textContent : '',
             description: '',
             keywords: ''
         }
 
         const descriptionMeta = document.querySelector('meta[name="description"]')
-        if (descriptionMeta){
+        if (descriptionMeta) {
             metadata.description = descriptionMeta.getAttribute('content')
         }
 
         const keywordsMeta = document.querySelector('meta[name="keyword"]')
-        if(keywordsMeta) {
+        if (keywordsMeta) {
             metadata.keywords = keywordsMeta.getAttribute('content')
         }
 
@@ -187,8 +184,34 @@ class WebScraper {
         return spans
     }
 
+    getTables(document) {
+        const tables = []
+        const uniqueTables = new Set()
+        const tableElement = document.querySelectorAll('table')
+
+        tableElement.forEach(table => {
+            const rows = []
+            const rowElements = table.querySelectorAll('tr')
+
+            rowElements.forEach(row => {
+                const cells = []
+                const cellElements = row.querySelectorAll('td, th')
+                cellElements.forEach(cell => {
+                    cells.push(cell.textContent.trim())
+                })
+                rows.push(cells)
+            })
+            const tableHTML = table.outerHTML.trim()
+            if(rows.length > 0 && !uniqueTables.has(tableHTML)) {
+                uniqueTables.add(tableHTML)
+                tables.push(rows)
+            }
+        })
+        return tables
+    }
+
     async retryScrape(url, tries = 3) {
-        for (let i = 1; attempt <= tries; attempt++) {
+        for (let attempt = 1; attempt <= tries; attempt++) {
             try {
                 console.log(`Attempt ${attempt} to scrape ${url}`)
                 return await this.scrape(url)
@@ -203,19 +226,19 @@ class WebScraper {
         }
     }
 
- /*    async scrapeNextPage(url, maxPages = 5) {
+    async scrapeNextPage(url, maxPages = 5) {
         let startUrl = url
         let content = []
 
-        for(let i = 1; i <= maxPages; i++) {
+        for (let i = 1; i <= maxPages; i++) {
             console.log(`Scraping page ${i}: ${startUrl}`)
             const pageContent = await this.scrape(startUrl)
-            if(pageContent) {
+            if (pageContent) {
                 content.push(pageContent)
 
-                const nextLink = pageContent.links.find(link => link.text.toLowerCase().includes('next'))
-                if(nextLink && nextLink.href) {
-                    startUrl = nextLink.href
+                const nextLink = this.findNextLink(pageContent)
+                if (nextLink) {
+                    startUrl = nextLink
                 } else {
                     break
                 }
@@ -224,22 +247,24 @@ class WebScraper {
             }
 
         }
-        return content 
-            // scrape
-            // push
-            // next button link
-    } */
+        return content
+    }
 
-    // handle scraping multiple pages
-
-    // error handling
-
-    // get Videos
-
-    // scrape tables
-
-    // meta data?
-
+    findNextPage(content) {
+        let nextLink = content.links.find(link =>
+            (link.text && (link.text.toLowerCase().includes('next') || link.text.includes('>'))) ||
+            (link.title && link.title.toLowerCase() === 'nästa sida') ||
+            (link.dataset && link.dataset.elid === 'pagination-next-page-button')
+        )
+        if (nextLink && nextLink.href) {
+            return nextLink.href
+        }
+        const nextButton = content.buttons.find(button => button.dataset && button.dataset.elid === 'pagination-next-page-button')
+        if (nextButton && nextButton.href) {
+            return nextButton.href
+        }
+        return null
+    }
 }
 
 export default WebScraper

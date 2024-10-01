@@ -1,4 +1,9 @@
 {
+  "metaData": {
+    "title": "Experten: Därför är konflikten mellan Israel och Hizbollah att klassa som ett krig | SVT Nyheter",
+    "description": "Israel genomför allt intensivare attacker mot Libanon och Hizbollah svarar med raketbeskjutning. – Det är ingen tvekan om att det nu är att betrakta som ett regelrätt krig, säger Mellanösternexperten Anders Persson.",
+    "keywords": ""
+  },
   "titles": [
     {
       "tag": "h1",
@@ -30,15 +35,15 @@
     },
     {
       "tag": "h1",
+      "text": "Överstelöjtnanten: Israel ser möjlighet att krossa Hizbollah"
+    },
+    {
+      "tag": "h1",
       "text": "”Tror markinvasion har varit planen hela tiden”"
     },
     {
       "tag": "h1",
       "text": "Sjuksköterskan Elie i Libanon efter helgens attacker: ”Fler döda än skadade”"
-    },
-    {
-      "tag": "h1",
-      "text": "Skilda reaktioner världen över – efter Hizbollahledarens död"
     },
     {
       "tag": "h1",
@@ -163,8 +168,8 @@
       "title": "Foto: Reuters/SVT"
     },
     {
-      "src": "https://www.svtstatic.se/image-news/600/square/0.5/0.5/97b136d54c57e13f5ac0fd150c186feee2abccb92a7bd490b21185d9dc0bcc63",
-      "alt": "Tre personer står vid ett podium under en studiodiskussion. Det finns glas vatten på bordet och en mörk bakgrund som framhäver scenen.",
+      "src": "https://www.svtstatic.se/image-news/600/square/0.51/0.39/f2bcaede0803c2e62365ce00a9fa890389cc3f14e2ba33db856335a9e263c5ea",
+      "alt": "överstelöjtnant Anders Ekholm",
       "title": "Foto: SVT"
     },
     {
@@ -173,8 +178,8 @@
       "title": ""
     },
     {
-      "src": "https://www.svtstatic.se/image-news/600/square/0.54/0.48/065ec240b5280e94522626c83b2184d41022130487c1a73ab256b87d6cc91a58",
-      "alt": "En person sitter i en stol med hörlurar. Bakgrunden visar en del av ett rum med fönster och en ljus vägg. Personen är klädd i en ljus sjukskötersketröja.",
+      "src": "https://www.svtstatic.se/image-news/600/square/0.5/0.5/97b136d54c57e13f5ac0fd150c186feee2abccb92a7bd490b21185d9dc0bcc63",
+      "alt": "Tre personer står vid ett podium under en studiodiskussion. Det finns glas vatten på bordet och en mörk bakgrund som framhäver scenen.",
       "title": "Foto: SVT"
     },
     {
@@ -228,14 +233,14 @@
       "title": "Foto: SVT"
     },
     {
+      "src": "https://www.svtstatic.se/image-news/600/square/0.75/0.49/51f263fd79414a4ec868f5ad2caf3a1e5dcbca6df4f3c8a3aad358bc511f10c2",
+      "alt": "",
+      "title": "Foto: RABIH DAHER"
+    },
+    {
       "src": "https://www.svtstatic.se/image-news/600/square/0.49/0.59/5330053dc1d45007befbc510ffe7020032da96e85b33d943e6432df107b60ebf",
       "alt": "",
       "title": "Foto: Hassan Ammar"
-    },
-    {
-      "src": "https://www.svtstatic.se/image-news/600/square/0.33/0.37/86a23d99d71b9cccff6bf90f800972b7f55270ae173979e7fdff9b4955ddc431",
-      "alt": "Bild med tre sektioner: Den första sektionen visar personer som håller en brinnande flagga under en kvällsprotest; den andra sektionen visar en person som bär en svart huvtröja och tittar ner, omgiven av en oskarp bakgrund; den tredje sektionen visar en person som interagerar med en väggmålning som har en politisk budskap och färgglada inslag.",
-      "title": "Foto: TT/EPA/AP"
     },
     {
       "src": "https://www.svtstatic.se/image/wide/992/35812861/1686133144?format=auto",
@@ -350,12 +355,12 @@
       "text": "Upptrappning mellan Israel och Hizbollah i Libanon"
     },
     {
-      "href": "/nyheter/utrikes/tror-markinvasion-har-varit-planen-hela-tiden",
-      "text": "”Tror markinvasion har varit planen hela tiden”"
+      "href": "/nyheter/utrikes/overstelojtnanten-israel-ser-mojlighet-att-krossa-hizbollah",
+      "text": "Överstelöjtnanten: Israel ser möjlighet att krossa Hizbollah"
     },
     {
-      "href": "/nyheter/utrikes/sjukskoterskan-elie-i-libanon-efter-helgens-attacker-mer-doda-kroppar-an-skadade",
-      "text": "Sjuksköterskan Elie i Libanon efter helgens attacker: ”Fler döda kroppar än skadade”"
+      "href": "/nyheter/utrikes/tror-markinvasion-har-varit-planen-hela-tiden",
+      "text": "”Tror markinvasion har varit planen hela tiden”"
     },
     {
       "href": "https://www.svt.se/nyheter/utrikes/fn-ryter-ifran-efter-ny-evakueringorder-i-gaza-situationen-saknar-motstycke",
@@ -442,12 +447,12 @@
       "text": "Läs mer om hur vi arbetar."
     },
     {
-      "href": "/nyheter/utrikes/sorg-och-lycka-efter-hizbollahledarens-nasrallahs-dod",
-      "text": "2 minSkilda reaktioner världen över – efter Hizbollahledarens död”Lättad” • ”Utan tvekan hämnd”"
+      "href": "/nyheter/utrikes/sjukskoterskan-elie-i-libanon-efter-helgens-attacker-mer-doda-kroppar-an-skadade",
+      "text": "1 minSjuksköterskan Elie i Libanon efter helgens attacker: ”Fler döda än skadade”Vårdpersonal bland offren • ”Vet inte hur länge vi klarar av det”"
     },
     {
-      "href": "https://www.svtplay.se/video/KkAakD2/rapport/idag-16-00",
-      "text": "3 minRapportIdag 16:00"
+      "href": "https://www.svtplay.se/video/8qPpnq2/rapport/ikvall-18-00",
+      "text": "17 minRapportIkväll 18:00"
     },
     {
       "href": "/nyheter/utrikes/50-vikingagravar-hittade-i-danmark-sparen-leder-till-sverige",
@@ -580,14 +585,14 @@
     "Nils Jönsson",
     "Hittat språk- eller faktafel i texten? Skriv och berätta.",
     "Skriv och berätta.",
+    "Överstelöjtnanten: Israel ser möjlighet att krossa Hizbollah",
+    "Anders Ekholm svarar på frågor om attackerna mot Libanon – så verkar Israels mål ha skiftat",
     "”Tror markinvasion har varit planen hela tiden”",
     "Mellanösternanalytiker Aron Lund i Agenda",
     "Sjuksköterskan Elie i Libanon efter helgens attacker: ”Fler döda än skadade”",
     "Vårdpersonal bland offren • ”Vet inte hur länge vi klarar av det”",
-    "Skilda reaktioner världen över – efter Hizbollahledarens död",
-    "”Lättad” • ”Utan tvekan hämnd”",
     "Mer i ämnet",
-    "3 min",
+    "17 min",
     "1",
     "2",
     "3",
@@ -614,8 +619,8 @@
     {
       "tag": "ul",
       "items": [
-        "”Tror markinvasion har varit planen hela tiden”",
-        "Sjuksköterskan Elie i Libanon efter helgens attacker: ”Fler döda kroppar än skadade”"
+        "Överstelöjtnanten: Israel ser möjlighet att krossa Hizbollah",
+        "”Tror markinvasion har varit planen hela tiden”"
       ]
     },
     {
@@ -659,9 +664,9 @@
     {
       "tag": "ul",
       "items": [
+        "2 minÖverstelöjtnanten: Israel ser möjlighet att krossa HizbollahAnders Ekholm svarar på frågor om attackerna mot Libanon – så verkar Israels mål ha skiftat",
         "1 min”Tror markinvasion har varit planen hela tiden”Mellanösternanalytiker Aron Lund i Agenda",
-        "1 minSjuksköterskan Elie i Libanon efter helgens attacker: ”Fler döda än skadade”Vårdpersonal bland offren • ”Vet inte hur länge vi klarar av det”",
-        "2 minSkilda reaktioner världen över – efter Hizbollahledarens död”Lättad” • ”Utan tvekan hämnd”"
+        "1 minSjuksköterskan Elie i Libanon efter helgens attacker: ”Fler döda än skadade”Vårdpersonal bland offren • ”Vet inte hur länge vi klarar av det”"
       ]
     },
     {
@@ -724,5 +729,6 @@
         "Cookie-inställningar"
       ]
     }
-  ]
+  ],
+  "tables": []
 }
