@@ -1,6 +1,8 @@
 # Test Rapport
 
-because its a node applikation i cannot use a console or ui to test this and therefore i am creating a test application to run tests
+The module was tested through the use of automatic testing written with Jest, a JavaScript-framework. In order to test the module mock HTTP-requests were created through node-fetch. Every test verifies the functionality of the functions in the module, such as the removal of duplicate information using Set, illigitimate URLs, and the use of random User-Agents in the request headers.
+To see the test code repository please see:
+https://github.com/sh224wg/TestL2.git
 
 ## Bug Reports / Issues
 
@@ -13,69 +15,49 @@ because its a node applikation i cannot use a console or ui to test this and the
 | 5        | Next page function should scrape multiple pages  | Open     | Variation in next page id       |
 
 
-|------------------|-----------------|-----------------|
 | Metodnamn        | Testmetod       | Testresultat    |
 |------------------|-----------------|-----------------|
 | isValid          | Unit Test       | Pass            |
-| scrapeUrl        | Unit Test       | Pass            |
+| scrape           | Unit Test       | Pass            |
 | getParagraphs    | Unit Test       | Pass            |
+| getTitles        |                 |                 |
 | getImages        | Unit Test       | Pass            |
-| getTitles        | Unit Test       | Pass            |
 | askForUrl        | Unit Test       | Pass            |
-|------------------|-----------------|-----------------|
 
 ## Testresultat
-|-----------------|-----------------|-----------------|
-|Metodnamn        | Testmetod       | Testresultat    |
-|-----------------|-----------------|-----------------|
-| URL Validation  |Test with valid  | Pass            |
-| (isValid)       |and invalid URLs.|                 |
-|-----------------|-----------------|-----------------|
-|Scraping         |Test with URL    | Pass            |
-|Functionality    | & checked the   |                 | 
-|(scrape)         |scraping result. |                 |
-|-----------------|-----------------|-----------------|
-|Handle Duplicate |Test with URL    |Pass             |
-|Information      | and checked the |                 |
-|Using Sets in    | scraping result.|                 | 
-|each function    |                 |                 |
-|-----------------|-----------------|-----------------|
-|HandleDuplicate  |Test with mock   | Pass            |
-|Images(getImages)|HTML containing  |                 |
-|                 |images with      |                 |
-|                 | similar src     |                 |
-|-----------------|-----------------|-----------------|
-|User-Agent Header|Test if random   | Pass            |
-|(part of scrape) |User-Agent header|                 |
-|                 |works in scrape  |                 |
-|-----------------|-----------------|-----------------|
-|Custom Headers   |Test if headers  | Pass            |
-|(part of scrape) | are used during |                 |
-|                 | scraping        |                 |
-|-----------------|-----------------|-----------------|
-|Retry Mechanism  |Test retry logic | Pass            |
-|(retryScrape)    |with failes and  |                 |
-|                 |retries          |                 |
-|-----------------|-----------------|-----------------|
-|Prompt Function  |Test with 
-|(askForUrl)
-|-----------------|-----------------|-----------------|
-
-test 1 
-Setup URL and Mock Response
-
-test 2 
-should use provided headers
-
-test 2
-- some information is repeated as simliar p or h elemnts, use sets to solve this 
-
-test 3
-- images are repeated because src differ slightly while titels and alt do not, slice to use inital base of src to reduce duplicates
-
-test 4
-- ensure url is valid 
-
-test 5
-- allow user to enter url, if not a url it crashes, use if else in askforurl function to ensure it doesnt crash
-
+|Metodnamn        | Testmetod               | Testresultat    |
+|-----------------|-------------------------|-----------------|
+| URL Validation  |Test with invalid URL and| Passed, invalid |
+| (isValid)       |scraper is should throw  | URL throws error|
+|                 |error.                   |                 |
+|-----------------|-------------------------|-----------------|
+|Scraping         |Test with URL            | Passed, scrapes |
+|Functionality    | & checked the           | content of      | 
+|(scrape)         |scraping result.         | website         |
+|-----------------|-------------------------|-----------------|
+|Handle Duplicate |A test scrapes a website | Passed,         |
+|Information      |with repeated <p> & <h>  | duplicates      |
+|Using Sets in    |tags, expect duplicate   | removed         | 
+|each function    | removal using Set       |                 |
+|(getTitles/paragraphs)|                    |                 |
+|-----------------|-------------------------|-----------------|
+|HandleDuplicate  |Test scrapes website with| Passed,         |
+|Images(getImages)|repeated image paths,    | duplicates      | 
+|                 |expecting unique images  | identified      |
+|                 |after slicing            |                 |
+|-----------------|-------------------------|-----------------|
+|User-Agent Header|Scraper should randomly  | Passed, random  |
+|(part of scrape) |select a User-Agent from | User-Agent used |
+|                 |list when making request |in request headers|
+|-----------------|-------------------------|-----------------|
+|Custom Headers   |Test ensures when custom | Passed, custom  |
+|(part of scrape) | headers are present     | headers correctly|                  
+|                 |they are used in request |   used          |
+|-----------------|-------------------------|-----------------|
+|Retry Mechanism  |Test retry logic         | Passed, retries |
+|(retryScrape)    |with fails and           | after failure   |
+|                 |retries                  |                 |
+|-----------------|-------------------------|-----------------|
+|Prompt Function  |Test with valid &        | Passed          |
+|(askForUrl)      |invalid URLs with        |                 |
+|part of Example  |mocked prompt            |                 |
