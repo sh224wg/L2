@@ -7,6 +7,8 @@ A web scraper that scrapes a website for HTML elements and outputs it into the c
  The module sohuld be able to scrape a URL and extract HTML elements, including p, h, li, ul, img, links, spans, tables, and metadata.
 
 ## Code example
+In the example.js file an example of how the webscraper can be used can be found. It contains code that allows the user to interact with the scraper, enter a URL and have the content or data entered into a JSON file. 
+
 ```javascript
     // Import webscraper
     import WebScraper from 'webscraper'
@@ -21,7 +23,6 @@ A web scraper that scrapes a website for HTML elements and outputs it into the c
      }
     }
 ```
-
 ## Installation
 To install the WebScraper module, run the following command:
 

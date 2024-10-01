@@ -25,33 +25,35 @@ seperated user agents into own function to contribute to modularity
 ## Reflection Names
 
 ## Läs kapitel 2 i Clean Code. Skapa en tabell över fem namn på identifierare (ex. namn på klasser, metoder/funktioner och variabler)Utgå ifrån kapitel 2s titlar och ange de viktigaste “reglerna” som applicerats eller skulle kunna appliceras på just ditt namn. Försök variera vilka regler du analyserar mellan namnen så att inte alla har samma regel-titlar applicerade. Visa upp att ni förstår flera regler och inte bara ett par. 
+
 # Ange även en kort reflektion kring innehållet i kapitel 2. Ni kanske upptäcker en brist hos er tidigare namngivning, ni kanske inte håller med någon av “reglerna” från kursboken. Jag ser hellre att ni hittar och reflekterar över era brister än att ni döljer dem.
 
-I worked on applying clean code as i worked on each function. For example in the scrape function in the WebScraper Class I considered the isolation of error handling when using try and catch blocks. In the book it states that instead of try catch blocks a seperate error function should be used. However, as i placed the try keyword at the start of the function and ending the function with the catch block, ensuring that there is no functionality beyond the block i have isolated the functionality of the function to the error which i felt would be acceptable this time due to the lack of complexity of the function.(78 cc) Thereby focusing on the error handling of the function and improving readiblity and maintainablity while adhering to its primary function.
+I have created a table below with the most relevant name rules from clean code. Before i began reflecting and considering the rules I felt that i had adhered to the name rules relatively well. However, upon reflection it is clear that I too fall into some of the pitfalls of naming. 
 
-Another focus i had was names. clean code names, changed text to paragraph to highlight book and indicate funcitonality to make it as clear as possible what each function is doing.
+While i was working and writing code there were some rules from the book that i remebered and implemented such as 'Use intention revealing names', which made me change text to paragraph to indicate functionality while making it as clear as possible that the function concerned the <p> tag and not just a String or block of text. 
 
 
-| Name Rules            | Method Names    | Reasoning       |
-|-----------------      |-----------------|-----------------|
-|Use Intention-Revealing|                 |
-|Names                  | Row 1, Col 2    | Row 1, Col 3    |
-|-----------------      |-----------------|-----------------|
-|Avoid Disinformation   | Row 2, Col 2    | Row 2, Col 3    |
-|-----------------      |-----------------|-----------------|
-|Use Searchable Name    | Row 2, Col 2    | Row 2, Col 3    |
-|-----------------      |-----------------|-----------------|
-|Avoid Disinformation   |
-|-----------------      |-----------------|-----------------|
-|Class Names            | Row 2, Col 2    | Row 2, Col 3    |
-|-----------------      |-----------------|-----------------|
+| Name Rules            | Method Names    | Reasoning               |
+|-----------------------|-----------------|-----------------        |
+|Use Intention-Revealing|  getMetaData    | Names should clearly indicate the purpose and usage of a variable or method 
+|Names                  |                 | clear attempt of getting metadata
+|-----------------------|-----------------|-----------------        |
+|Avoid Disinformation   |findNextPage      Avoid names that could mislead or confuse other developers, like using    
+                                            names that look too similar.| Problem here, didnt consider at first. 
+                        |ScrapeNextPage    different functions are clear, scrape and find but too simliar
+|-----------------------|-----------------|-----------------        |
+|Use Searchable Name    |getTitle         |Methods with getTitle, getLink etc, are simple easy to search.
+|                       |                  - descriptive names that are easy to locate across a codebase. 
+|-----------------------|-----------------|-----------------|
+|Class Names            | WebScraper      |should be nouns or noun phrases, it is a Webscraper, to the point
+|-----------------------|-----------------|-----------------|
 |Method Names           |
-|-----------------      |-----------------|-----------------|
-|Use Problem Domain
+|-----------------------|-----------------|-----------------|
+|Use Problem Domain     |
 |Names                  | Row 2, Col 2    | Row 2, Col 3    |
-|-----------------      |-----------------|-----------------|
+|-----------------------|-----------------|-----------------|
 |Add Meaningful Context | Row 2, Col 2    | Row 2, Col 3    |
-|-----------------      |-----------------|-----------------|
+|-----------------------|-----------------|-----------------|
 
 
  Meaningful Distinctions
@@ -66,6 +68,8 @@ Use Problem Domain Names
  instead of using generic names like dom, h, or p, use more descriptive names like document, header, or paragraph. Making it clear what each variable or function is supposed to represent or do. I do a little of both
 
 ## Reflection Functions
+
+I worked on applying clean code as I worked on each function. For example in the scrape function in the WebScraper Class I considered the isolation of error handling when using try and catch blocks. In the book it states that instead of try catch blocks a seperate error function should be used. , as i placed the try keyword at the start of the function and ending the function with the catch block, ensuring that there is no functionality beyond the block i have isolated the functionality of the function to the error which i felt would be acceptable this time due to the lack of complexity of the function.(78 cc) Thereby focusing on the error handling of the function and improving readiblity and maintainablity while adhering to its primary function.
 
 Struggling with function length, book states it should be up to 3 lines but mine are 10 t0 15.
 
