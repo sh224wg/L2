@@ -2,24 +2,63 @@
 
 because its a node applikation i cannot use a console or ui to test this and therefore i am creating a test application to run tests
 
-Varje rad blir ett test.
+## Bug Reports / Issues
+
+| Issue ID | Description                                      | Status   | Comments                        |
+|----------|--------------------------------------------------|----------|---------------------------------|
+| 1        | Invalid URL handling throws incorrect error      | Resolved | Fixed                           |
+| 2        | Duplicate images not correctly identified        | Resolved | Fixed                           |
+| 3        | User-Agent header not set randomly               | Resolved | Fixed                           |
+| 4        | Prompt function does not handle empty input      | Resolved | Fixed                           |
+| 5        | Next page function should scrape multiple pages  | Open     | Variation in next page id       |
 
 
-Vad som testats / Ex metodnamn, eller krav
-Hur det testats
-Testresultat
+|------------------|-----------------|-----------------|
+| Metodnamn        | Testmetod       | Testresultat    |
+|------------------|-----------------|-----------------|
+| isValid          | Unit Test       | Pass            |
+| scrapeUrl        | Unit Test       | Pass            |
+| getParagraphs    | Unit Test       | Pass            |
+| getImages        | Unit Test       | Pass            |
+| getTitles        | Unit Test       | Pass            |
+| askForUrl        | Unit Test       | Pass            |
+|------------------|-----------------|-----------------|
 
+## Testresultat
+|-----------------|-----------------|-----------------|
 |Metodnamn        | Testmetod       | Testresultat    |
 |-----------------|-----------------|-----------------|
-| Row 1, Col 1    | Row 1, Col 2    | Row 1, Col 3    |
+| URL Validation  |Test with valid  | Pass            |
+| (isValid)       |and invalid URLs.|                 |
 |-----------------|-----------------|-----------------|
-| Row 2, Col 1    | Row 2, Col 2    | Row 2, Col 3    |
+|Scraping         |Test with URL    | Pass            |
+|Functionality    | & checked the   |                 | 
+|(scrape)         |scraping result. |                 |
 |-----------------|-----------------|-----------------|
-| Row 2, Col 1    | Row 2, Col 2    | Row 2, Col 3    |
+|Handle Duplicate |Test with URL    |Pass             |
+|Information      | and checked the |                 |
+|Using Sets in    | scraping result.|                 | 
+|each function    |                 |                 |
 |-----------------|-----------------|-----------------|
-| Row 2, Col 1    | Row 2, Col 2    | Row 2, Col 3    |
+|HandleDuplicate  |Test with mock   | Pass            |
+|Images(getImages)|HTML containing  |                 |
+|                 |images with      |                 |
+|                 | similar src     |                 |
 |-----------------|-----------------|-----------------|
-| Row 2, Col 1    | Row 2, Col 2    | Row 2, Col 3    |
+|User-Agent Header|Test if random   | Pass            |
+|(part of scrape) |User-Agent header|                 |
+|                 |works in scrape  |                 |
+|-----------------|-----------------|-----------------|
+|Custom Headers   |Test if headers  | Pass            |
+|(part of scrape) | are used during |                 |
+|                 | scraping        |                 |
+|-----------------|-----------------|-----------------|
+|Retry Mechanism  |Test retry logic | Pass            |
+|(retryScrape)    |with failes and  |                 |
+|                 |retries          |                 |
+|-----------------|-----------------|-----------------|
+|Prompt Function  |Test with 
+|(askForUrl)
 |-----------------|-----------------|-----------------|
 
 test 1 
