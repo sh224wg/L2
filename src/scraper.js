@@ -88,10 +88,10 @@ class WebScraper {
      * @param {Document} document - The DOM document.
      * @returns {Array<Object>} The extracted titles.
      */
-    #getTitles(content) {
+    #getTitles(document) {
         const titles = []
         const uniqueTitles = new Set()
-        const hElements = content.querySelectorAll('h1, h2, h3, h4, h5, h6')
+        const hElements = document.querySelectorAll('h1, h2, h3, h4, h5, h6')
         hElements.forEach(h => {
             const text = h.textContent.trim()
             if (text && !uniqueTitles.has(text)) {
@@ -110,10 +110,10 @@ class WebScraper {
     * @param {Document} document - The DOM document.
     * @returns {Array<Object>} The extracted paragraphs.
     */
-    #getParagraphs(content) {
+    #getParagraphs(document) {
         const paragraphs = []
         const uniqueParagraphs = new Set()
-        const pElements = content.querySelectorAll('p')
+        const pElements = document.querySelectorAll('p')
         for (let i = 0; i < pElements.length; i++) {
             const p = pElements[i]
             const text = p.textContent.trim()
@@ -133,10 +133,10 @@ class WebScraper {
      * @param {Document} document - The DOM document.
      * @returns {Array<Object>} The extracted lists.
      */
-    #getLists(content) {
+    #getLists(document) {
         const lists = []
         const uniqueList = new Set()
-        const ulElements = content.querySelectorAll('ul')
+        const ulElements = document.querySelectorAll('ul')
         ulElements.forEach(ul => {
             const items = []
             const liElements = ul.querySelectorAll('li')
@@ -165,10 +165,10 @@ class WebScraper {
      * @param {Document} document - The DOM document.
      * @returns {Array<Object>} The extracted images.
      */
-    #getImages(content) {
+    #getImages(document) {
         const images = []
         const uniqueImages = new Set()
-        const imageElements = content.querySelectorAll('img')
+        const imageElements = document.querySelectorAll('img')
         for (let i = 0; i < imageElements.length; i++) {
             const img = imageElements[i]
             const src = img.getAttribute('src')
@@ -195,10 +195,10 @@ class WebScraper {
      * @param {Document} document - The DOM document.
      * @returns {Array<Object>} The extracted links.
      */
-    #getLinks(content) {
+    #getLinks(document) {
         const links = []
         const uniqueLinks = new Set()
-        const aElements = content.querySelectorAll('a')
+        const aElements = document.querySelectorAll('a')
 
         aElements.forEach(a => {
             const href = a.getAttribute('href')
@@ -317,11 +317,11 @@ class WebScraper {
 
     /**
      * Find the next page link or button in the content.
-     * @param {Object} content - The scraped content.
+     * @param {Document} document - The Dom document.
      * @returns {string|null} The URL of the next page or null if not found.
      */
-    #findNextPage(content) {
-        let nextLink = content.links.find(link =>
+    #findNextPage(document) {
+        let nextLink = document.links.find(link =>
             (link.text && (link.text.toLowerCase().includes('next') || link.text.includes('>'))) ||
             (link.title && link.title.toLowerCase() === 'nästa sida') ||
             (link.dataset && link.dataset.elid === 'pagination-next-page-button')
