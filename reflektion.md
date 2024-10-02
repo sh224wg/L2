@@ -32,30 +32,49 @@ I have created a table below with the most relevant name rules from clean code. 
 
 While i was working and writing code there were some rules from the book that i remebered and implemented such as 'Use intention revealing names', which made me change text to paragraph to indicate functionality while making it as clear as possible that the function concerned the <p> tag and not just a String or block of text. 
 
-
-| Name Rules            | Method Names    | Reasoning               |
-|-----------------------|-----------------|-----------------        |
-|Use Intention-Revealing|  getMetaData    | Names should clearly indicate the purpose and usage of a variable or method 
-|Names                  |                 | clear attempt of getting metadata
-|-----------------------|-----------------|-----------------        |
-|Avoid Disinformation   |findNextPage      Avoid names that could mislead or confuse other developers, like using    
-                                            names that look too similar.| Problem here, didnt consider at first. 
-                        |ScrapeNextPage    different functions are clear, scrape and find but too simliar
-|-----------------------|-----------------|-----------------        |
-|Use Searchable Name    |getTitle         |Methods with getTitle, getLink etc, are simple easy to search.
-|                       |                  - descriptive names that are easy to locate across a codebase. 
-|-----------------------|-----------------|-----------------|
-|Class Names            | WebScraper      |should be nouns or noun phrases, it is a Webscraper, to the point
-|-----------------------|-----------------|-----------------|
-|Method Names           |
-|-----------------------|-----------------|-----------------|
-|Use Problem Domain     |
-|Names                  | Row 2, Col 2    | Row 2, Col 3    |
-|-----------------------|-----------------|-----------------|
-|Add Meaningful Context | Row 2, Col 2    | Row 2, Col 3    |
-|-----------------------|-----------------|-----------------|
+Problem Domain
+The getList method focuses on scraping and processing HTML list elements, specifically <ul> and <li>. Using these domain-specific terms ensures clarity and aligns with the function's purpose of handling HTML lists in a web scraping context.
 
 
+| Name Rules       | Method Names         | Reasoning                                                                       |
+|------------------|-----------------     |---------------------------------------------------------------------------------|
+|getMetaData       |Avoid Disinformation  |Name could confuser other developers because of the use of the term get, implying| 
+ (method that      |                      |its a getter. I did not consider this at first and the use of get for most 
+|scrapes a site for|                      |of the methods might lead to confusion about functionality.
+ the metadata)     |                      |
+                   |Avoid Mental Mapping  |The names of most of the methods are getMETHOD which i thought was clear and 
+                   |                      |concise indicating purpose(get the data/content). The name describes the purpose| 
+                   |                      |and writes out the tag and information without excpeting the programming to 
+                   |                      |understand abbreviations or in depth knowledge. 
+|------------------|----------------------|---------------------------------------------------------------------------------|
+|findNextPage        Use Intention-         The name is clear and indicates the purpose of the function, to get metadata. 
+                    Revealing Names         Could be mistaken as a getter, could be better to use term that isnt  
+|ScrapeNextPage                            
+                     Dont be Cute           Avoid using clever or humorous names in your code, Instead, choose clear, 
+                                            straightforward names that accurately describe the function or variable. 
+|------------------|-----------------     |-----------------        |
+|getTitle          |Use Searchable Name   |Methods with getTitle, getLink etc, are simple easy to search.
+|                  |                      | descriptive names that are easy to locate across a codebase. 
+ getList            Use Problem Domain 
+                    Names                   getList method focuses on speicifc HTML and DOm elements, emphasising the 
+                                            importance of relevant terms such as li and ul in accordance with the funciton of the method                     
+|------------------|----------------------|-----------------|
+| getUserAgents    |Method Names             Method names should be verbs or verb phrases. Use standard prefixes for accessors 
+                                            and mutators (e.g., get, set, is).
+
+                    Pick One Word per       Use a consistent term for a particular concept across your codebase. Avoid using 
+                    |Concept                 different words like "fetch," "retrieve," and "get" for similar actions, as this 
+                                            can create confusion. 
+|------------------|-----------------     |-----------------|
+| The webscraper   |Add Meaningful         the methods in the class are all grouped in relation to their funciton 
+|class             | Context               providing. context to the class and its methods.  all the get methods are grouped
+                                            together, the next page methods are grouped togethter at the bottom. 
+                                            The user agent method is first, to reflect the header that is sent in the request
+                   |Class Names
+                                          |should be nouns or noun phrases, it is a Webscraper, to the point
+|------------------|-----------------     |-----------------|
+
+ 
  Meaningful Distinctions
  Unfortunelay something i suffer from
  Names should be distinct and meaningful, not just slightly altered versions of each other 
