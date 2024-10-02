@@ -24,9 +24,9 @@ I think the chapter was very rewarding as i gained alot of insight into naming f
 
 | Name Rules       | Method Names         | Reasoning                                                                       |
 |------------------|----------------------|---------------------------------------------------------------------------------|
-|getMetaData       |Avoid Disinformation  |Name could confuser other developers because of the use of the term get, implying| 
-|(method that      |                      |its a getter. I did not consider this at first and the use of get for most 
-|scrapes a site for|                      |of the methods might lead to confusion about functionality.
+|getMetaData       |Avoid Disinformation  |Name could confuser developers due to the use of the term get, implying its a| 
+|(method that      |                      |getter. I didnt consider this first and the use of get might lead to confusion 
+|scrapes a site for|                      |about functionality. But is does imply what information is being retreived.
 | the metadata)    |                      |
 |                  |Avoid Mental Mapping  |The names of most of the methods are getMETHOD which i thought was clear and 
 |                  |                      |concise indicating purpose(get the data/content). The name describes the purpose | 
@@ -42,28 +42,28 @@ I think the chapter was very rewarding as i gained alot of insight into naming f
 |next 5 pages)     |                      |Both of these functions have simliar names but my intention with the use of find
 |                  |                      |and scrape was to distinguish between their functionality.
 |------------------|----------------------|---------------------------------------------------------------------------------|
-|getTitle          |Use Searchable Name   |Methods with getTitle, getLink etc, are simple, easy to search. Its Get followed by
+|getTitle          |Use Searchable Name   |Methods with getTitle, getLink etc, are simple, easy to search. Get followed by  |
 |(Method to get h  |                      |a HTML element, which makes it intuitive and descriptive and easy to find in the 
 |elements)         |                      |codebase. A programmer could easily guess the following names of the functions.
 |                  |                      |
-|getList           |                      |All the getELEMENT methods focus on specific HTML and DOM elements underlining the 
-|(method to get ul |Use Problem Domain    |importanve of relevant terms within the relevant domain, in this case HTML li and ul
-|and li elements)  | Names                |elements reflecting the functionality and purpose of the function
+|getList           |                      |All the getELEMENT methods focus on specific HTML & DOM elements underlining the | 
+|(method to get ul |Use Problem Domain    |importanve of relevant terms within the relevant domain, in this case HTML li and|
+|and li elements)  | Names                |ul elements reflecting the functionality and purpose of the function
 |------------------|----------------------|---------------------------------------------------------------------------------|
-| getUserAgents    |Method Names            Method names should be verbs or verb phrases. Use standard prefixes for accessors 
-|                                           and mutators (e.g., get, set, is).
-|
-|                   Pick One Word per       Use a consistent term for a particular concept across your codebase. Avoid using 
-|                   |Concept                 different words like "fetch," "retrieve," and "get" for similar actions, as this 
-|                                           can create confusion. 
-|------------------|-----------------     |-----------------|
-| The webscraper   |Add Meaningful         the methods in the class are all grouped in relation to their funciton 
-|class             | Context               providing. context to the class and its methods.  all the get methods are grouped
-                                            together, the next page methods are grouped togethter at the bottom. 
-                                            The user agent method is first, to reflect the header that is sent in the request
-                   |Class Names
-                                          |should be nouns or noun phrases, it is a Webscraper, to the point
-|------------------|-----------------     |-----------------|
+| getUserAgents    |Method Names          | By using get, the method name becomes a verb however 'get' is a standard prefix |  
+|(method to create |                      | for accessors and could lead to confusions. I would change it next time but it  |
+|user Agents)      |                      | appeared logical at the time.
+|                  |                      |
+|                  |Pick One Word per     | I used the consistent term get throughout the codebase, however this was a  
+|                  |Concept               | mistake as it has been discussed. But it does imply im accesing information. 
+|------------------|----------------------|---------------------------------------------------------------------------------|
+| The webscraper   |Add Meaningful        |The methods in the class are all grouped in relation to their function providing
+|class             | Context              |a context to the class and its methods, to scrape. The get methods are grouped
+|                  |                      |together, the next page methods are grouped together at the bottom. The user agent 
+|                  |                      |method is first, to reflect the header sent in the request.                      |
+|                  |
+|                  |Class Names           |Class names should be nouns which Webscraper is, indicating its intention & use. |
+|------------------|----------------------|---------------------------------------------------------------------------------|
 
 
 ## Reflection Functions
