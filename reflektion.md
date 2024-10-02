@@ -71,6 +71,7 @@ I think the chapter was very rewarding as i gained alot of insight into naming f
 ## Reflection Functions
 
 scrape har jag isvalid egen functin 
+scrape is 34 lines book prefers less than 20
 
 Det finns vissa saker jag inte följer i boken som jag insåg att jag behövde bättra. Jag använder mig av en try catch block i scrape, vilket ska förvirra error processer man normala processer. Jag förstår poängen här och kan i framtiden använda mig av error funktioner istället för att använda try blocks. I detta fall, då det är en enkel modul är det acceptabelt men i framtiden är detta ett bra sätt att förtydliga kod och inte krångla funktioner.
 
@@ -91,8 +92,28 @@ considering clean code, instead of adding more lines, used && to make the line l
 ### Function Table
 
 | Funciton Name    | Antal Rader  | Reflection                                                                       |
-|------------------|--------------|---------------------------------------------------------------------------------|
-|scrape             34
+|------------------|--------------|----------------------------------------------------------------------------------|
+|scrape             34              Do one Thing : The function focuses one one task, to scrape, and the scraping is |
+|                                   seperated into other functions for each HTML that is extracted.                  |
+|
+|                                   Clear Intent: It calls on other functions like getTitles, isValid to break the 
+|                                  function down and divide functionality into other functions making it more 
+|                                  understandable.
+|
+|                                   Function Length: The function is longer than it could be, alot of empty lines to|
+|                                   seperate parts of the function which could be removed. this.scrapedData is messy| 
+|                                    because it handles order and format. Could be a seperate function
+|
+|                                   Error Handling: Could extract the try block and create a error handling function|
+|                                   instead. Now the function is full of lots of different things and error function|
+|                                   would reduce complexity and length
+|
+|                                   Function Arguments: Function takes two arguments (dyadic) url and options, which|
+|                                   isnt ideal as the book suggests zero or one. 
+|
+|                                   Dont Repeat Yourself: this.scrapedData repeats the pattern for textContent.trim |
+|                                   and it would be better to extract this and create a function which could be used|
+|                                   in this function and the one used to extract HTML.                              |
 |------------------|--------------|---------------------------------------------------------------------------------|
 |getImages          23
 |------------------|--------------|---------------------------------------------------------------------------------|
