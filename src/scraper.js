@@ -5,7 +5,23 @@ import { JSDOM } from 'jsdom'
  * Class representing a web scraper.
  */
 class WebScraper {
-    constructor() { }
+    constructor() { 
+        this.scrapedData = null
+    }
+
+
+    isValid(url) {
+        try {
+            new URL(url)
+            return true
+        } catch (error) {
+            return false
+        }
+    }
+
+    getScrapedData() {
+        return this.scrapedData;
+    }
 
     /**
      * Scrape a URL for content.
@@ -30,7 +46,7 @@ class WebScraper {
             const dom = new JSDOM(text)
             const document = dom.window.document
 
-            const content = {
+            this.scrapedData = {
                 text: document.body.textContent ? document.body.textContent.trim() : '',
                 metaData: this.#getMetaData(document),
                 titles: this.#getTitles(document),
@@ -41,7 +57,7 @@ class WebScraper {
                 spans: this.#getSpans(document),
                 tables: this.#getTables(document)
             }
-            return content
+            return this.scrapedData
         } catch (error) {
             console.log(`failed to scrape URL: ${url}`, error)
             throw new Error('Failed to scrape')

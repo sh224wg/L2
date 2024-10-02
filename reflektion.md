@@ -61,7 +61,7 @@ I think the chapter was very rewarding as i gained alot of insight into naming f
 |class             | Context              |a context to the class and its methods, to scrape. The get methods are grouped
 |                  |                      |together, the next page methods are grouped together at the bottom. The user agent 
 |                  |                      |method is first, to reflect the header sent in the request.                      |
-|                  |
+|                  |                      |
 |                  |Class Names           |Class names should be nouns which Webscraper is, indicating its intention & use. |
 |------------------|----------------------|---------------------------------------------------------------------------------|
 
