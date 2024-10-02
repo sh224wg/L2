@@ -69,29 +69,15 @@ I think the chapter was very rewarding as i gained alot of insight into naming f
 
 
 ## Reflection Functions
-
-scrape har jag isvalid egen functin 
-scrape is 34 lines book prefers less than 20
-
-dont repeat yourself is main problem
-- long functions, empty lines
-ALSO step down rule seperate absttraction
-
-Det finns vissa saker jag inte följer i boken som jag insåg att jag behövde bättra. Jag använder mig av en try catch block i scrape, vilket ska förvirra error processer man normala processer. Jag förstår poängen här och kan i framtiden använda mig av error funktioner istället för att använda try blocks. I detta fall, då det är en enkel modul är det acceptabelt men i framtiden är detta ett bra sätt att förtydliga kod och inte krångla funktioner.
-
+Det finns vissa saker jag inte följer i boken som jag insåg att jag behövde bättra. Jag använder mig av en try catch block i scrape, vilket ska förvirra error processer med normala processer. Jag förstår poängen här och kan i framtiden använda mig av error funktioner istället för att använda try blocks. I detta fall, då det är en enkel modul är det acceptabelt men i framtiden är detta ett bra sätt att förtydliga kod och inte krångla funktioner.
 
 Mina funktioner är ofta långa och inte som föreslås i boken korta. Enligt boken ska funktioner inte ens vara 20 rader långa vilken många utav mina är. Jag gör mitt bästa för att göra de korta men brukar fördela funktioner på flera rader, något som boken avslår, och uppmanar att man har en lång rad som kan vara tex en while sats, vilket skulle göra det svårare för mig att hitta eventuella fel och läsa koden. Den förslår kring blocks and indets, att men max har två indets i en funktion vilket jag i min getLinks funktion inte lyckas med. 
 
 Jag använder mig också av nested funktions med if satser inom for satser vilken jag kan erkänna gör saker lite väl komplicerade, då man lätt skriver fel. Detta vill jag bättre och förstår motivering av att det gör det enklare att förstå funktionen. Enligt boken ska dessa sepereras ut från metoden och göras till en egen metod. Jag har separerat ut vissa delar av metoder för att göra individuella funktioner mindre och mer förståeliga, getRandomUserAgents brukade vara en del av scrape men är nu en egen metod. Men vissa av min metoder skulle kunna fördelas ut till mindre funktioner för att undvika nesting.
 
-I worked on applying clean code as I worked on each function. For example in the scrape function in the WebScraper Class I considered the isolation of error handling when using try and catch blocks. In the book it states that instead of try catch blocks a seperate error function should be used. , as i placed the try keyword at the start of the function and ending the function with the catch block, ensuring that there is no functionality beyond the block i have isolated the functionality of the function to the error which i felt would be acceptable this time due to the lack of complexity of the function.(78 cc) Thereby focusing on the error handling of the function and improving readiblity and maintainablity while adhering to its primary function.
+Allmänt har jag inset att mina största fallgropar är Dont Repeat Yourself, då jag ofta har långa funktioner med tomma rader och repeaterad kod eller kod som skulle kunna förenklas ner. Med denna uppgift har jag lyckats göra det till en litan nivå pga boken och dess insikter, isValid blev en egen helper funktion som används i scrape för att kontrollera URL. Vilket leder mig till mitt andra problem vilket är Abstraction/ Step Down rule, jag har ofta både hög och låg abstraktion i funktionerna och kunde istället skapa en funktion med hög abstraktion och flytta resten ut i helper funktioner vilket skulle lösa mina långa funktioner.  
 
-Struggling with function length, book states it should be up to 3 lines but mine are 10 t0 15.
-
-in index for the run function the repetition of console.log is repeated for 9 lines in order to cover the seperate sections for the scraping. This is too long than is wanted in clean code. 
-
-in divs to remove empty arrays added for loop which causes the empty arrays that are strings to become undefined and developed the for loop to include undefined. 
-considering clean code, instead of adding more lines, used && to make the line longer and the function shorter
+Jag har skapat en tabell över funktioner nedan.
 
 ### Function Table
 
@@ -108,10 +94,7 @@ considering clean code, instead of adding more lines, used && to make the line l
 |                  |              |Function Arguments: Function takes two arguments (dyadic) url and options, which |
 |                  |              |isnt ideal as the book suggests zero or one*                                     |
 |------------------|--------------|---------------------------------------------------------------------------------|
-|getImages         |23            | Do one Thing : The function focuses one one task, extract images from the
-|                  |              | document, reflecting the single responsiblity principle. 
-|                  |              |
-|                  |              |Avoid Side effect: function only works with local variables (images, uniqueImag) |
+|getImages         |23            |Avoid Side effect: function only works with local variables (images, uniqueImag) |
 |                  |              |which reduces side effects and simple.
 |                  |              |
 |                  |              |Function size: The function is longer than it should be, but core (alt, title    |
@@ -119,25 +102,26 @@ considering clean code, instead of adding more lines, used && to make the line l
 |                  |              | loops i could reduce the number of lines and make it more concise.              |
 |------------------|--------------|---------------------------------------------------------------------------------|
 |getTables         |24            |Single Responsiblity : there is alot of code because it looks at rows, cells, 
-                   |              | tables and i could seperate these into helper functions to make it simpler.
-                   |              |
-                   |              |Dont Repeat Yourself: The pattern for textContent.trim to trim content is used 
-                   |              |here and it scrape and getTables and it would be better to turn it into a 
-                   |              |seperate helper function to make it less crowded.
+|                  |              | tables and i could seperate these into helper functions to make it simpler.
+|                  |              |
+|                  |              |Dont Repeat Yourself: The pattern for textContent.trim to trim content is used 
+|                  |              |here and it scrape and getTables and it would be better to turn it into a 
+|                  |              |seperate helper function to make it less crowded.
 |------------------|--------------|---------------------------------------------------------------------------------|
 |getList           |25            |One level of Abstraction: The function could seperate ul and li to seperate the
-|                  |              |level of abstraction and follow the step down rule which keeps the code simple   |
+|                  |              |level of abstraction and follow the step down rule which keeps the code simple.
+|                  |              | I dont do that but it would make it shorter/simpler                             |
 |                  |              |
 |                  |              |Function argument: The function is monadic which is perfered and the argument is | 
 |                  |              |required in order to scrape the page of li and ul elements. 
 |------------------|--------------|---------------------------------------------------------------------------------|
-|scrapeNextPage    |21            | Abstraction: Focuses on one level of abstraction without mixing the two. Making |
-                   |              | it easy to understand.                                                          |
+|scrapeNextPage    |21            | Abstraction: The function focuses on one level of abstraction without mixing the|
+|                  |              | two making it easy to understand.                                               |
 |                  |              |
-                                    Avoid Flag arguments: I dont use booleans instead i keep it concise and simple 
-                                    to avoid complexity. 
-
-                                   Clear Intent: It does one thing, scraping the next 5 pages, making it logical    |   
-                                   and simple. One of the few longer functions were i have managed to reduce        |
-                                   unecessary complexity
+|                  |              | Avoid Flag arguments: I dont use booleans instead i keep it concise and simple 
+|                  |              | to avoid complexity. 
+|                  |              |
+|                  |              |Clear Intent: It does one thing, scraping the next 5 pages, making it logical    |   
+|                  |              |and simple. One of the few longer functions were i have managed to reduce        |
+|                  |              |unecessary complexity
 |------------------|--------------|---------------------------------------------------------------------------------|
