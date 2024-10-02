@@ -37,7 +37,7 @@ The getList method focuses on scraping and processing HTML list elements, specif
 
 
 | Name Rules       | Method Names         | Reasoning                                                                       |
-|------------------|-----------------     |---------------------------------------------------------------------------------|
+|------------------|----------------------|---------------------------------------------------------------------------------|
 |getMetaData       |Avoid Disinformation  |Name could confuser other developers because of the use of the term get, implying| 
  (method that      |                      |its a getter. I did not consider this at first and the use of get for most 
 |scrapes a site for|                      |of the methods might lead to confusion about functionality.
@@ -47,11 +47,14 @@ The getList method focuses on scraping and processing HTML list elements, specif
                    |                      |and writes out the tag and information without excpeting the programming to 
                    |                      |understand abbreviations or in depth knowledge. 
 |------------------|----------------------|---------------------------------------------------------------------------------|
-|findNextPage        Use Intention-         The name is clear and indicates the purpose of the function, to get metadata. 
-                    Revealing Names         Could be mistaken as a getter, could be better to use term that isnt  
-|ScrapeNextPage                            
-                     Dont be Cute           Avoid using clever or humorous names in your code, Instead, choose clear, 
-                                            straightforward names that accurately describe the function or variable. 
+|findNextPage      | Use Intention-       | The name is clear and indicates the intention of the function, to find the next
+|                  | Revealing Names      | page, might be unclear how, could be findLinkToNextPage, but it long and 
+|                  |                      | complicated. But it does imply the purpose of the function clearly.          
+|ScrapeNextPage    |                      | 
+|                  | Dont be Cute         |The name is straighforward, scrape the next page, which accuretly describe the 
+|                                         |functionlity of the function. References back to the main scrape function.
+|                                         |Both of these functions have simliar names but my intention with the use of find 
+|                                         |and scrape was to distinguish between their functionality.
 |------------------|-----------------     |-----------------        |
 |getTitle          |Use Searchable Name   |Methods with getTitle, getLink etc, are simple easy to search.
 |                  |                      | descriptive names that are easy to locate across a codebase. 
