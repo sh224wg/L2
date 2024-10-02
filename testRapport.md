@@ -16,15 +16,6 @@ https://github.com/sh224wg/TestL2.git
 
 ![Test Results](./test.png)
 
-| Metodnamn        | Testmetod       | Testresultat    |
-|------------------|-----------------|-----------------|
-| isValid          | Unit Test       | Pass            |
-| scrape           | Unit Test       | Pass            |
-| getParagraphs    | Unit Test       | Pass            |
-| getTitles        |                 |                 |
-| getImages        | Unit Test       | Pass            |
-| askForUrl        | Unit Test       | Pass            |
-
 ## Testresultat
 |Metodnamn        | Testmetod               | Testresultat    |
 |-----------------|-------------------------|-----------------|
