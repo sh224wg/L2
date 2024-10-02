@@ -1,37 +1,25 @@
 # Reflektion
-### Skriv en kortare reflektion (halv sida 12pt) där du beskriver dina erfarenheter från din egen kodkvalitet. Använd begrepp från boken. 
 
-Jag började med att etablera en Scraper class som kunde exporteras och började med att fokusera på p och h element för att testa om den grundläggande scrapan fungerade men också hur formatet skulle se ut när den skrevs ut i konsolen. Efter att ha arbetat med detta och scrapat en variation av sidor som recept sidor, svt, wikipedia, och bloggsidor har jag inset att detta inte är nog. Jag tänker lägga till mer element som scrapas som HTML element: p, h, div, and li/ul.
-och CSS Element som kan ge mer information om det tex finns en bild på sidan : href, src, alt, och title. Senare ska dessa delas up i respektive div för bättre formatering. 
-
-Jag försökte med att organisera det genom div:ar men insåg att med div blir det fler tomma divar i formatering och inte användarvänligt. Bättre om använderen har en lista med olika element. Introduktion av sets i varje function för att se till att information inte repeteras gjorde utdatan mer koncis. Detta skapade vissa problem med getImages då titlar och alt kan vara identiskt men src varierar minimalt, för att hantera detta använda jag split på src för att hitta de delar där src av två lika bilder överfaller. Jag utökade modulen mer med getUserAgent för att använda mig av user agents i headern som skickas med varje request för att se till att scrapan inte får avslag från en hemsida och begären verkar mer legitim. Jag använde mig bara av 3 och det valet av den som används randomiseras. Denna metod är privat då funktionaliteten är intern och används inte utanför klassen detta gör koden mer objectorienterad. Med samma anledning har jag gjort alla metoder för att finna HTML element i Webscraper klassen privata. FindNextPage är också privat då den bara används inom klassen av scrapeNextPage. På detta sätt gömmer jag implementationen och koden blir enklare att underhålla.
+ Denna module följer en objekt orienterad design genom användingen av klasser och encapsulation. Vissa metoder är privata då funktionaliteten är intern och används inte utanför klassen. Alla metoder för att finna HTML element i Webscraper klassen privata. FindNextPage är också privat då den bara används inom klassen av scrapeNextPage metoden. På detta sätt gömmer jag implementationen och koden blir enklare att underhålla.
 
 ## KodKvalite 
 
 Innan denna uppgift trodde jag att min kodkvalite var relativt bra, men insåg genomgående att det fanns en del problem. Mina metodnamn skulle kunna vara tydligare. Men främst kom mitt problem med funktioner. 
 
-Mina funktioner är ofta långa och inte som föreslås i boken korta. Enligt boken ska funktioner inte ens vara 20 rader långa vilken mång utav mina är. Jag gör mitt bästa för att göra de korta men brukar fördela funktioner på flera rader, något som boken avslår, och uppmanar att man har en lång rad som kan vara tex en while sats, vilket skulle göra det svårare för mig att hitta eventuella fel. Den förslår kring blocks and indets, att men max har två indets i en funktion vilket jag i min getLinks funktion inte lyckas med. Men för mig är det enklare att indentera och använda flera rader för att det gör det enklare att läsa koden, se fel och ändra på saker. Möjligen med mer erfarenhet kan jag uppnå det boken förslår.
-
-Jag använder mig också av nested funktions med if satser inom for satser vilken jag kan erkänna gör saker lite väl komplicerade, då man lätt skriver fel. Detta vill jag bättre och förstår motivering av att det gör det enklare att förstå funktionen. Vidare använder jag mig ofta av if satser inom for loopar eller if satser inom if satser vilket enligt boken helst ska sepereras ut från metoden och göras till en egen metod. Jag har separerat ut vissa delar av metoder för att göra individuella funktioner mindre och mer förståeliga, getRandomUserAgents brukade vara en del av scrape men är nu en egen metod. Men vissa av min metoder skulle kunna fördelas ut till mindre funktioner för att undvika nesting.
-
 Boken talar också om low och high levels of abstraction och inom denna uppgift har jag gjort mitt bästa att följa the stepdown rule, med funktioner som fungerar på en låg abstraktionsnivå som kan läsas som top down sets av to paragraphs med ett tydligt narrativ. Detta reflekteras i min webscraper klass där scrape metoden är först och kallar de andra följade funktionerna i tur och ordning i ett logiskt flöde. 
 
+Vidare så är min kod rätt bloated. Jag använder sets i varje metod och for loopen. Mina funktioner är väldigt liknande då de letar efter olika element i en DOM struktur. Detta skulle jag gärna förbättre, men inser att i en scraper är det sannolikt att det blir repetivit.
 
-
-
+Jag förstår att man vill unvika att använda flera argument men generellt verkar det som att det inte alltid är möjligt att följa alla dessa regler som boken föreslår, nilic argument, långa rader av kod för att ha korta funktioner, stepdown rule. I vissa fall måste det finnas avikelser vilket inte borde betyda att koden är dålig eller otydlig. Boken upphöjer tydlighet, genom tex function namn som indikerar om den frågar något, omvandlar ett argument, eller är ett event; och att man är konsekvent. Det är detta som man kan bära med sig och använda för att uppnå clean code, då det alltid kan finnas undantag till de andra reglerna.
 
 ## Reflection Names
-
-## Läs kapitel 2 i Clean Code. Skapa en tabell över fem namn på identifierare (ex. namn på klasser, metoder/funktioner och variabler)Utgå ifrån kapitel 2s titlar och ange de viktigaste “reglerna” som applicerats eller skulle kunna appliceras på just ditt namn. Försök variera vilka regler du analyserar mellan namnen så att inte alla har samma regel-titlar applicerade. Visa upp att ni förstår flera regler och inte bara ett par. 
-
-# Ange även en kort reflektion kring innehållet i kapitel 2. Ni kanske upptäcker en brist hos er tidigare namngivning, ni kanske inte håller med någon av “reglerna” från kursboken. Jag ser hellre att ni hittar och reflekterar över era brister än att ni döljer dem.
-
 I have created a table below with the most relevant name rules from clean code. Before i began reflecting and considering the rules I felt that i had adhered to the name rules relatively well. However, upon reflection it is clear that I too fall into some of the pitfalls of naming. 
 
-While i was working and writing code there were some rules from the book that i remebered and implemented such as 'Use intention revealing names', which made me change text to paragraph to indicate functionality while making it as clear as possible that the function concerned the <p> tag and not just a String or block of text. 
+While i was working and writing code there were some rules from the book that i remebered and implemented such as 'Use intention revealing names', which made me change text to paragraph to indicate functionality while making it as clear as possible that the function concerned the <p> tag and not just a String or block of text. However, i realised what i thought was intention revealing names, descriptive names, and searchable names, can also be argued to be misleading as i use get before the element i am scraping. This may give the impression of being a getter and mislead a programmer who is reading it. In regards to Meaningful Distinctions i am concerned that perhaps they are not distinct enough because they are just slightly alterned versions of each other. 
+ 
+In findNextPage and ScrapeNextPage the only distinction is the first word which could easily lead to confusion. I could have made it more distinct with findNextPage and scrapeFollowingPages or scrapeFiveMore. The rule Pick One Word per Concept, highlight this problem the most as it states to avoid using different simliar words like 'get' for similiar actions or as in the above example find and scrape.
 
-Problem Domain
-The getList method focuses on scraping and processing HTML list elements, specifically <ul> and <li>. Using these domain-specific terms ensures clarity and aligns with the function's purpose of handling HTML lists in a web scraping context.
+I think the chapter was very rewarding as i gained alot of insight into naming functions for the external programmer. Some rules i follow already such as dont pun and done use abbreviations or symbols. But i could make my names more distinguisable and descriptive in regards to functionality. My only concern is how do we know when it is too descriptive or too intention revealing, what is enough. I think prior some of the names are clear but after reading the chapter it is easy to doubt oneself.
 
 
 | Name Rules       | Method Names         | Reasoning                                                                       |
@@ -77,19 +65,16 @@ The getList method focuses on scraping and processing HTML list elements, specif
                                           |should be nouns or noun phrases, it is a Webscraper, to the point
 |------------------|-----------------     |-----------------|
 
- 
- Meaningful Distinctions
- Unfortunelay something i suffer from
- Names should be distinct and meaningful, not just slightly altered versions of each other 
-
- also suffering from 
- Pick One Word per Concept + Don’t Pun
-Avoid using different words like "fetch," "retrieve," and "get" for similar actions, as this can create confusion. 
-
-Use Problem Domain Names 
- instead of using generic names like dom, h, or p, use more descriptive names like document, header, or paragraph. Making it clear what each variable or function is supposed to represent or do. I do a little of both
 
 ## Reflection Functions
+
+
+Det finns vissa saker jag inte följer i boken som jag insåg att jag behövde bättra. Jag använder mig av en try catch block i scrape, vilket ska förvirra error processer man normala processer. Jag förstår poängen här och kan i framtiden använda mig av error funktioner istället för att använda try blocks. I detta fall, då det är en enkel modul är det acceptabelt men i framtiden är detta ett bra sätt att förtydliga kod och inte krångla funktioner.
+
+
+Mina funktioner är ofta långa och inte som föreslås i boken korta. Enligt boken ska funktioner inte ens vara 20 rader långa vilken många utav mina är. Jag gör mitt bästa för att göra de korta men brukar fördela funktioner på flera rader, något som boken avslår, och uppmanar att man har en lång rad som kan vara tex en while sats, vilket skulle göra det svårare för mig att hitta eventuella fel och läsa koden. Den förslår kring blocks and indets, att men max har två indets i en funktion vilket jag i min getLinks funktion inte lyckas med. 
+
+Jag använder mig också av nested funktions med if satser inom for satser vilken jag kan erkänna gör saker lite väl komplicerade, då man lätt skriver fel. Detta vill jag bättre och förstår motivering av att det gör det enklare att förstå funktionen. Enligt boken ska dessa sepereras ut från metoden och göras till en egen metod. Jag har separerat ut vissa delar av metoder för att göra individuella funktioner mindre och mer förståeliga, getRandomUserAgents brukade vara en del av scrape men är nu en egen metod. Men vissa av min metoder skulle kunna fördelas ut till mindre funktioner för att undvika nesting.
 
 I worked on applying clean code as I worked on each function. For example in the scrape function in the WebScraper Class I considered the isolation of error handling when using try and catch blocks. In the book it states that instead of try catch blocks a seperate error function should be used. , as i placed the try keyword at the start of the function and ending the function with the catch block, ensuring that there is no functionality beyond the block i have isolated the functionality of the function to the error which i felt would be acceptable this time due to the lack of complexity of the function.(78 cc) Thereby focusing on the error handling of the function and improving readiblity and maintainablity while adhering to its primary function.
 
