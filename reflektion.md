@@ -93,27 +93,27 @@ considering clean code, instead of adding more lines, used && to make the line l
 
 | Funciton Name    | Antal Rader  | Reflection                                                                       |
 |------------------|--------------|----------------------------------------------------------------------------------|
-|scrape             34              Do one Thing : The function focuses one one task, to scrape, and the scraping is |
-|                                   seperated into other functions for each HTML that is extracted.                  |
-|
-|                                   Clear Intent: It calls on other functions like getTitles, isValid to break the 
-|                                  function down and divide functionality into other functions making it more 
-|                                  understandable.
-|
-|                                   Function Length: The function is longer than it could be, alot of empty lines to|
-|                                   seperate parts of the function which could be removed. this.scrapedData is messy| 
-|                                    because it handles order and format. Could be a seperate function
-|
-|                                   Error Handling: Could extract the try block and create a error handling function|
-|                                   instead. Now the function is full of lots of different things and error function|
-|                                   would reduce complexity and length
-|
-|                                   Function Arguments: Function takes two arguments (dyadic) url and options, which|
-|                                   isnt ideal as the book suggests zero or one. 
-|
-|                                   Dont Repeat Yourself: this.scrapedData repeats the pattern for textContent.trim |
-|                                   and it would be better to extract this and create a function which could be used|
-|                                   in this function and the one used to extract HTML.                              |
+|scrape            |34            | Do one Thing : The function focuses one one task, to scrape, and the scraping is |
+|                  |              | seperated into other functions for each HTML that is extracted.                  |
+|                  |              |
+|                  |              | Clear Intent: It calls on other functions like getTitles, isValid to break the 
+|                  |              |function down and divide functionality into other functions making it more 
+|                  |              |understandable.
+|                  |              |
+|                  |              | Function Length: The function is longer than it could be, alot of empty lines to|
+|                  |              | seperate parts of the function which could be removed. this.scrapedData is messy| 
+|                  |              | because it handles order and format. Could be a seperate function
+|                  |              |
+|                  |              |Error Handling: Could extract the try block and create a error handling function|
+|                  |              |instead. Now the function is full of lots of different things and error function|
+|                  |              |would reduce complexity and length
+|                  |              |
+|                  |              |Function Arguments: Function takes two arguments (dyadic) url and options, which|
+|                  |              |isnt ideal as the book suggests zero or one. 
+|                  |              |
+|                  |              |Dont Repeat Yourself: this.scrapedData repeats the pattern for textContent.trim |
+|                  |              |and it would be better to extract this and create a function which could be used|
+|                  |              |in this function and the one used to extract HTML.                              |
 |------------------|--------------|---------------------------------------------------------------------------------|
 |getImages          23
 |------------------|--------------|---------------------------------------------------------------------------------|
