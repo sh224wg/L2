@@ -46,10 +46,6 @@ https://github.com/sh224wg/TestL2.git
 |(part of scrape) | headers are present     | headers correctly|                  
 |                 |they are used in request |   used          |
 |-----------------|-------------------------|-----------------|
-|Retry Mechanism  |Test retry logic         | Passed, retries |
-|(retryScrape)    |with fails and           | after failure   |
-|                 |retries                  |                 |
-|-----------------|-------------------------|-----------------|
 |Prompt Function  |Test with valid &        | Passed          |
 |(askForUrl)      |invalid URLs with        |                 |
 |part of Example  |mocked prompt            |                 |
