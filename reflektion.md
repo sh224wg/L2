@@ -97,11 +97,7 @@ considering clean code, instead of adding more lines, used && to make the line l
 
 | Funciton Name    | Antal Rader  | Reflection                                                                      |
 |------------------|--------------|---------------------------------------------------------------------------------|
-|scrape            |34            |Clear Intent: It calls on other functions like getTitles, isValid to break the   |
-|                  |              |function down and divide functionality into other functions making it more
-|                  |              |understandable.
-|                  |              |
-|                  |              | Function Length: The function is longer than it could be, alot of empty lines to|
+|scrape            |34            | Function Length: The function is longer than it could be, alot of empty lines to|
 |                  |              | seperate parts of the function which could be removed. this.scrapedData is messy| 
 |                  |              | because it handles order and format. Could be a seperate function
 |                  |              |
@@ -129,11 +125,19 @@ considering clean code, instead of adding more lines, used && to make the line l
                    |              |here and it scrape and getTables and it would be better to turn it into a 
                    |              |seperate helper function to make it less crowded.
 |------------------|--------------|---------------------------------------------------------------------------------|
-|getList            25            |One level of Abstraction: The function could seperate ul and li to seperate the
-                                  |level of abstraction and follow the step down rule which keeps the code simple   |
-
-                                  |Function argument: The function is monadic which is perfered and the argument is | 
-                                  |required in order to scrape the page of li and ul elements. 
+|getList           |25            |One level of Abstraction: The function could seperate ul and li to seperate the
+|                  |              |level of abstraction and follow the step down rule which keeps the code simple   |
+|                  |              |
+|                  |              |Function argument: The function is monadic which is perfered and the argument is | 
+|                  |              |required in order to scrape the page of li and ul elements. 
 |------------------|--------------|---------------------------------------------------------------------------------|
-|scrapeNextPage    |21
+|scrapeNextPage    |21            | Abstraction: Focuses on one level of abstraction without mixing the two. Making |
+                   |              | it easy to understand.                                                          |
+|                  |              |
+                                    Avoid Flag arguments: I dont use booleans instead i keep it concise and simple 
+                                    to avoid complexity. 
+
+                                   Clear Intent: It does one thing, scraping the next 5 pages, making it logical    |   
+                                   and simple. One of the few longer functions were i have managed to reduce        |
+                                   unecessary complexity
 |------------------|--------------|---------------------------------------------------------------------------------|
