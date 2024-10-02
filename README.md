@@ -1,7 +1,7 @@
 # WebScraper
 
 ## Description
-A web scraper that scrapes a website for HTML elements and outputs it into the console. While also considering User-Agents to perform better on certain websites which may inhibit multiple scrapes.
+A web scraper that scrapes a website for HTML elements and outputs it into the console. While also considering User-Agents to perform better on certain websites which may inhibit multiple scrapes. The methods concerning HTML elements are public and you can through this decide if you want all the HTML scraped or specific elements, like span, images, etc.
 
 ## Requirements
  The module sohuld be able to scrape a URL and extract HTML elements, including p, h, li, ul, img, links, spans, tables, and metadata.

@@ -15,7 +15,7 @@ class StartWebScraper {
         })
 
         rl.question('Please Enter URL to scrape: ', (url) => {
-            if (this.isValid(url)) {
+            if (url) {
                 rl.close()
                 this.run(url)
             } else {
@@ -24,15 +24,6 @@ class StartWebScraper {
                 this.askForUrl()
             }
         })
-    }
-
-    isValid(url) {
-        try {
-            new URL(url)
-            return true
-        } catch (error) {
-            return false
-        }
     }
 
     async run(url) {
