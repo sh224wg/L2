@@ -14,6 +14,7 @@ https://github.com/sh224wg/TestL2.git
 | 4        | Prompt function does not handle empty input      | Resolved | Fixed                           |
 | 5        | Next page function should scrape multiple pages  | Open     | Variation in next page id       |
 
+![Test Results](./test.png)
 
 | Metodnamn        | Testmetod       | Testresultat    |
 |------------------|-----------------|-----------------|
