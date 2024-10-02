@@ -1,24 +1,18 @@
 # Reflektion TÄNK PÅ K2 NAMN K3 FUNKTIONER
 ### Skriv en kortare reflektion (halv sida 12pt) där du beskriver dina erfarenheter från din egen kodkvalitet. Använd begrepp från boken. 
 
-Jag började med att skapa en grunläggande struktur på mappen. Jag skapade gitignore, README, package.json, en mapp för test, och en src map för min kod. Jag gjorde detta först för att förstå mig på storleken på uppgiften men främst för att etablera vad jag behövde så att allt skulle vara tillgängligt när jag skulle behöva det. Sedan satt jag ner och skrev pseudokod för att ge mig själv en ide kring hur scrapan skulle fungera. En separat fil för scrapan och sedan en index fil för att köra programmet.
-
-Jag började sedan med att etablera en Scraper class som kunde exporteras och började med att fokusera på p och h element för att testa om den grundläggande scrapan fungerade men också hur formatet skulle se ut när den skrevs ut i konsolen. Efter att ha arbetat med detta och scrapat en variation av sidor som recept sidor, svt, wikipedia, och bloggsidor har jag inset att detta inte är nog. Jag tänker lägga till mer element som scrapas som HTML element: p, h, div, and li/ul.
+Jag började med att etablera en Scraper class som kunde exporteras och började med att fokusera på p och h element för att testa om den grundläggande scrapan fungerade men också hur formatet skulle se ut när den skrevs ut i konsolen. Efter att ha arbetat med detta och scrapat en variation av sidor som recept sidor, svt, wikipedia, och bloggsidor har jag inset att detta inte är nog. Jag tänker lägga till mer element som scrapas som HTML element: p, h, div, and li/ul.
 och CSS Element som kan ge mer information om det tex finns en bild på sidan : href, src, alt, och title. Senare ska dessa delas up i respektive div för bättre formatering. 
 
-ref 4
+Jag försökte med att organisera det genom div:ar men insåg att med div blir det fler tomma divar i formatering och inte användarvänligt. Bättre om använderen har en lista med olika element. Introduktion av sets i varje function för att se till att information inte repeteras gjorde utdatan mer koncis. Detta skapade vissa problem med getImages då titlar och alt kan vara identiskt men src varierar minimalt, för att hantera detta använda jag split på src för att hitta de delar där src av två lika bilder överfaller. Jag utökade modulen mer med getUserAgent för att använda mig av user agents i headern som skickas med varje request för att se till att scrapan inte får avslag från en hemsida och begären verkar mer legitim. Jag använde mig bara av 3 och det valet av den som används randomiseras. Denna metod är privat då funktionaliteten är intern och används inte utanför klassen detta gör koden mer objectorienterad. Med samma anledning har jag gjort alla metoder för att finna HTML element i Webscraper klassen privata då de bara används inom klassen. FindNextPage är också privat då den bara används inom klassen av scrapeNextPage. På detta sätt gömmer jag implementationen och koden blir enklare att underhålla.
 
-Bättre att inte orgnaisera i div då det blir fler tomma divar i formatering och inte användarvänligt. bättre om använderen har en lista med olika element 
+Innan denna uppgift trodde jag att min kodkvalite var relativt bra, men insåg genomgående att det fanns en del problem. Mina metodnamn skulle kunna vara tydligare. Men främst kom mitt problem med funktioner. 
 
-introduktion av sets i varje för att se till att information inte repeteras
-difficult in image as titles alt alt may overlap while src differ slightly even though images are the same, split src to find commonality in url with identical alt and title. 
+Mina funktioner är ofta långa och inte som föreslås i boken korta. Enligt boken ska funktioner inte ens vara 20 rader långa vilken mång utav mina är. Jag gör mitt bästa för att göra de korta men brukar fördela funktioner på flera rader, något som boken avslår, och uppmanar att man har en lång rad som kan vara tex en while sats, vilket skulle göra det svårare för mig att hitta eventuella fel. Den förslår kring blocks and indets, att men max har två indets i en funktion vilket jag i min getLinks funktion inte lyckas med. Men för mig är det enklare att indentera och använda flera rader för att det gör det enklare att läsa koden, se fel och ändra på saker. Möjligen med mer erfarenhet kan jag uppnå det boken förslår.
 
-repeated use of set uncertain for each function but inlikley to great function for it due to unique use of seat with each element
+Jag använder mig också av nested funktions med if satser inom for satser vilken jag kan erkänna gör saker lite väl komplicerade, då man lätt skriver fel. Detta vill jag bättre och förstår motivering av att det gör det enklare att förstå funktionen. Boken talar också om low och high levels of abstraction och inom denna uppgift har jag gjort mitt bästa att följa the stepdown rule, med funktioner som fungerar på en låg abstraktionsnivå som kan läsas som top down sets av to paragraphs med ett tydligt narrativ. Detta reflekteras i min webscraper klass där scrape metoden är först och kallar de andra följade funktionerna i tur och ordning i ett logiskt flöde. 
 
-reflection 5
-
-seperated user agents into own function to contribute to modularity
-
+Vidare använder jag mig ofta av if satser inom for loopar eller if satser inom if satser vilket enligt boken helst ska sepereras ut från metoden och göras till en egen metod. 
 
 # KodKvalite 
 
@@ -39,35 +33,37 @@ The getList method focuses on scraping and processing HTML list elements, specif
 | Name Rules       | Method Names         | Reasoning                                                                       |
 |------------------|----------------------|---------------------------------------------------------------------------------|
 |getMetaData       |Avoid Disinformation  |Name could confuser other developers because of the use of the term get, implying| 
- (method that      |                      |its a getter. I did not consider this at first and the use of get for most 
+|(method that      |                      |its a getter. I did not consider this at first and the use of get for most 
 |scrapes a site for|                      |of the methods might lead to confusion about functionality.
- the metadata)     |                      |
-                   |Avoid Mental Mapping  |The names of most of the methods are getMETHOD which i thought was clear and 
-                   |                      |concise indicating purpose(get the data/content). The name describes the purpose| 
-                   |                      |and writes out the tag and information without excpeting the programming to 
-                   |                      |understand abbreviations or in depth knowledge. 
+| the metadata)    |                      |
+|                  |Avoid Mental Mapping  |The names of most of the methods are getMETHOD which i thought was clear and 
+|                  |                      |concise indicating purpose(get the data/content). The name describes the purpose | 
+|                  |                      |and writes out the tag and information without excpeting the programming to      |
+|                  |                      |understand abbreviations or in depth knowledge.                                  |
 |------------------|----------------------|---------------------------------------------------------------------------------|
-|findNextPage      | Use Intention-       | The name is clear and indicates the intention of the function, to find the next
-|                  | Revealing Names      | page, might be unclear how, could be findLinkToNextPage, but it long and 
-|                  |                      | complicated. But it does imply the purpose of the function clearly.          
-|ScrapeNextPage    |                      | 
-|                  | Dont be Cute         |The name is straighforward, scrape the next page, which accuretly describe the 
-|                                         |functionlity of the function. References back to the main scrape function.
-|                                         |Both of these functions have simliar names but my intention with the use of find 
-|                                         |and scrape was to distinguish between their functionality.
-|------------------|-----------------     |-----------------        |
-|getTitle          |Use Searchable Name   |Methods with getTitle, getLink etc, are simple easy to search.
-|                  |                      | descriptive names that are easy to locate across a codebase. 
- getList            Use Problem Domain 
-                    Names                   getList method focuses on speicifc HTML and DOm elements, emphasising the 
-                                            importance of relevant terms such as li and ul in accordance with the funciton of the method                     
-|------------------|----------------------|-----------------|
-| getUserAgents    |Method Names             Method names should be verbs or verb phrases. Use standard prefixes for accessors 
-                                            and mutators (e.g., get, set, is).
-
-                    Pick One Word per       Use a consistent term for a particular concept across your codebase. Avoid using 
-                    |Concept                 different words like "fetch," "retrieve," and "get" for similar actions, as this 
-                                            can create confusion. 
+|findNextPage      | Use Intention-       |The name is clear and indicates the intention of the function, to find the next  |
+|(method to find   | Revealing Names      |page, might be unclear how, could be findLinkToNextPage, but it long and         |
+|link to next page)|                      |complicated. But it does imply the purpose of the function clearly.              |
+|                  |                      |          
+|ScrapeNextPage    | Dont be Cute         |The name is straighforward, scrape the next page, which accuretly describe the 
+|(method to scrape |                      |functionlity of the function. References back to the main scrape function.       |
+|next 5 pages)     |                      |Both of these functions have simliar names but my intention with the use of find
+|                  |                      |and scrape was to distinguish between their functionality.
+|------------------|----------------------|---------------------------------------------------------------------------------|
+|getTitle          |Use Searchable Name   |Methods with getTitle, getLink etc, are simple, easy to search. Its Get followed by
+|(Method to get h  |                      |a HTML element, which makes it intuitive and descriptive and easy to find in the 
+|elements)         |                      |codebase. A programmer could easily guess the following names of the functions.
+|                  |                      |
+|getList           |                      |All the getELEMENT methods focus on specific HTML and DOM elements underlining the 
+|(method to get ul |Use Problem Domain    |importanve of relevant terms within the relevant domain, in this case HTML li and ul
+|and li elements)  | Names                |elements reflecting the functionality and purpose of the function
+|------------------|----------------------|---------------------------------------------------------------------------------|
+| getUserAgents    |Method Names            Method names should be verbs or verb phrases. Use standard prefixes for accessors 
+|                                           and mutators (e.g., get, set, is).
+|
+|                   Pick One Word per       Use a consistent term for a particular concept across your codebase. Avoid using 
+|                   |Concept                 different words like "fetch," "retrieve," and "get" for similar actions, as this 
+|                                           can create confusion. 
 |------------------|-----------------     |-----------------|
 | The webscraper   |Add Meaningful         the methods in the class are all grouped in relation to their funciton 
 |class             | Context               providing. context to the class and its methods.  all the get methods are grouped

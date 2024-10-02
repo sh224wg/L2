@@ -8,19 +8,6 @@ class WebScraper {
     constructor() { }
 
     /**
-     * Get a random User-Agent string.
-     * @returns {string} A random User-Agent string.
-     */
-    getRandomUserAgent() {
-        const userAgents = [
-            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3',
-            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
-            'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0'
-        ]
-        return userAgents[Math.floor(Math.random() * userAgents.length)]
-    }
-
-    /**
      * Scrape a URL for content.
      * @param {string} url - The URL to scrape.
      * @param {Object} [options={}] - Optional settings.
@@ -30,7 +17,7 @@ class WebScraper {
      */
     async scrape(url, options = {}) {
         const headers = options.headers || {
-            'User-Agent': this.getRandomUserAgent()
+            'User-Agent': this.#getRandomUserAgent()
         }
         const fetchOptions = { headers }
 
@@ -45,14 +32,14 @@ class WebScraper {
 
             const content = {
                 text: document.body.textContent ? document.body.textContent.trim() : '',
-                metaData: this.getMetaData(document),
-                titles: this.getTitles(document),
-                paragraphs: this.getParagraphs(document),
-                lists: this.getLists(document),
-                images: this.getImages(document),
-                links: this.getLinks(document),
-                spans: this.getSpans(document),
-                tables: this.getTables(document)
+                metaData: this.#getMetaData(document),
+                titles: this.#getTitles(document),
+                paragraphs: this.#getParagraphs(document),
+                lists: this.#getLists(document),
+                images: this.#getImages(document),
+                links: this.#getLinks(document),
+                spans: this.#getSpans(document),
+                tables: this.#getTables(document)
             }
             return content
         } catch (error) {
@@ -62,11 +49,24 @@ class WebScraper {
     }
 
     /**
+   * Get a random User-Agent string.
+   * @returns {string} A random User-Agent string.
+   */
+    #getRandomUserAgent() {
+        const userAgents = [
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3',
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+            'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0'
+        ]
+        return userAgents[Math.floor(Math.random() * userAgents.length)]
+    }
+
+    /**
      * Extract metadata from the document.
      * @param {Document} document - The DOM document.
      * @returns {Object} The extracted metadata.
      */
-    getMetaData(document) {
+    #getMetaData(document) {
         const metadata = {
             title: document.querySelector('title') ? document.querySelector('title').textContent : '',
             description: '',
@@ -88,7 +88,7 @@ class WebScraper {
      * @param {Document} document - The DOM document.
      * @returns {Array<Object>} The extracted titles.
      */
-    getTitles(content) {
+    #getTitles(content) {
         const titles = []
         const uniqueTitles = new Set()
         const hElements = content.querySelectorAll('h1, h2, h3, h4, h5, h6')
@@ -110,7 +110,7 @@ class WebScraper {
     * @param {Document} document - The DOM document.
     * @returns {Array<Object>} The extracted paragraphs.
     */
-    getParagraphs(content) {
+    #getParagraphs(content) {
         const paragraphs = []
         const uniqueParagraphs = new Set()
         const pElements = content.querySelectorAll('p')
@@ -133,7 +133,7 @@ class WebScraper {
      * @param {Document} document - The DOM document.
      * @returns {Array<Object>} The extracted lists.
      */
-    getLists(content) {
+    #getLists(content) {
         const lists = []
         const uniqueList = new Set()
         const ulElements = content.querySelectorAll('ul')
@@ -165,7 +165,7 @@ class WebScraper {
      * @param {Document} document - The DOM document.
      * @returns {Array<Object>} The extracted images.
      */
-    getImages(content) {
+    #getImages(content) {
         const images = []
         const uniqueImages = new Set()
         const imageElements = content.querySelectorAll('img')
@@ -195,7 +195,7 @@ class WebScraper {
      * @param {Document} document - The DOM document.
      * @returns {Array<Object>} The extracted links.
      */
-    getLinks(content) {
+    #getLinks(content) {
         const links = []
         const uniqueLinks = new Set()
         const aElements = content.querySelectorAll('a')
@@ -218,7 +218,7 @@ class WebScraper {
      * @param {Document} document - The DOM document.
      * @returns {Array<string>} The extracted spans.
      */
-    getSpans(document) {
+    #getSpans(document) {
         const spans = []
         const uniqueSpans = new Set()
         const spanElements = document.querySelectorAll('span')
@@ -237,7 +237,7 @@ class WebScraper {
      * @param {Document} document - The DOM document.
      * @returns {Array<Array<string>>} The extracted tables.
      */
-    getTables(document) {
+    #getTables(document) {
         const tables = []
         const uniqueTables = new Set()
         const tableElement = document.querySelectorAll('table')
@@ -302,7 +302,7 @@ class WebScraper {
             if (pageContent) {
                 content.push(pageContent)
 
-                const nextLink = this.findNextLink(pageContent)
+                const nextLink = this.#findNextPage(pageContent)
                 if (nextLink) {
                     startUrl = nextLink
                 } else {
@@ -314,13 +314,13 @@ class WebScraper {
         }
         return content
     }
-    
+
     /**
      * Find the next page link or button in the content.
      * @param {Object} content - The scraped content.
      * @returns {string|null} The URL of the next page or null if not found.
      */
-    findNextPage(content) {
+    #findNextPage(content) {
         let nextLink = content.links.find(link =>
             (link.text && (link.text.toLowerCase().includes('next') || link.text.includes('>'))) ||
             (link.title && link.title.toLowerCase() === 'nästa sida') ||
