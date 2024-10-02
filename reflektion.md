@@ -75,6 +75,7 @@ scrape is 34 lines book prefers less than 20
 
 dont repeat yourself is main problem
 - long functions, empty lines
+ALSO step down rule seperate absttraction
 
 Det finns vissa saker jag inte följer i boken som jag insåg att jag behövde bättra. Jag använder mig av en try catch block i scrape, vilket ska förvirra error processer man normala processer. Jag förstår poängen här och kan i framtiden använda mig av error funktioner istället för att använda try blocks. I detta fall, då det är en enkel modul är det acceptabelt men i framtiden är detta ett bra sätt att förtydliga kod och inte krångla funktioner.
 
@@ -94,46 +95,45 @@ considering clean code, instead of adding more lines, used && to make the line l
 
 ### Function Table
 
-| Funciton Name    | Antal Rader  | Reflection                                                                       |
-|------------------|--------------|----------------------------------------------------------------------------------|
-|scrape            |34            |Clear Intent: It calls on other functions like getTitles, isValid to break the 
-|                  |              |function down and divide functionality into other functions making it more 
+| Funciton Name    | Antal Rader  | Reflection                                                                      |
+|------------------|--------------|---------------------------------------------------------------------------------|
+|scrape            |34            |Clear Intent: It calls on other functions like getTitles, isValid to break the   |
+|                  |              |function down and divide functionality into other functions making it more
 |                  |              |understandable.
 |                  |              |
 |                  |              | Function Length: The function is longer than it could be, alot of empty lines to|
 |                  |              | seperate parts of the function which could be removed. this.scrapedData is messy| 
 |                  |              | because it handles order and format. Could be a seperate function
 |                  |              |
-|                  |              |Error Handling: Could extract the try block and create a error handling function|
-|                  |              |instead. Now the function is full of lots of different things and error function|
+|                  |              |Error Handling: Could extract the try block and create a error handling function |
+|                  |              |instead. Now the function is full of lots of different things and error function |
 |                  |              |would reduce complexity and length
 |                  |              |
-|                  |              |Function Arguments: Function takes two arguments (dyadic) url and options, which|
-|                  |              |isnt ideal as the book suggests zero or one. 
-|                  |              |
-|                  |              |Dont Repeat Yourself: The pattern for textContent.trim |
-|                  |              |and it would be better to extract this and create a function which could be used|
-|                  |              |in this function and tex getTables.                                             |
+|                  |              |Function Arguments: Function takes two arguments (dyadic) url and options, which |
+|                  |              |isnt ideal as the book suggests zero or one*                                     |
 |------------------|--------------|---------------------------------------------------------------------------------|
 |getImages         |23            | Do one Thing : The function focuses one one task, extract images from the
-                                    document, reflecting the single responsiblity principle. 
-
-                                    Avoid Side effect: function only works with local variables (images, uniqueImages)
-                                    which reduces side effects and simple.
-
-                                    Function size: The function is longer than it should be, but the core (alt, title
-                                    img) could be moved into a helper function, and by using forEach instead of for 
-                                    loops i could reduce the number of lines and make it more concise.
+|                  |              | document, reflecting the single responsiblity principle. 
+|                  |              |
+|                  |              |Avoid Side effect: function only works with local variables (images, uniqueImag) |
+|                  |              |which reduces side effects and simple.
+|                  |              |
+|                  |              |Function size: The function is longer than it should be, but core (alt, title    |
+|                  |              | img) could be moved into a helper function, and by using forEach instead of for |
+|                  |              | loops i could reduce the number of lines and make it more concise.              |
 |------------------|--------------|---------------------------------------------------------------------------------|
-|getTables          24              Single Responsiblity : there is alot of code because it looks at rows, cells, 
-                                    tables and i could seperate these into helper functions to make it simpler.
-
-                                  |Dont Repeat Yourself: The pattern for textContent.trim to trim content is used 
-                                  |here and it scrape and getTables and it would be better to turn it into a 
-                                  |seperate helper function to make it less crowded.
-
+|getTables         |24            |Single Responsiblity : there is alot of code because it looks at rows, cells, 
+                   |              | tables and i could seperate these into helper functions to make it simpler.
+                   |              |
+                   |              |Dont Repeat Yourself: The pattern for textContent.trim to trim content is used 
+                   |              |here and it scrape and getTables and it would be better to turn it into a 
+                   |              |seperate helper function to make it less crowded.
 |------------------|--------------|---------------------------------------------------------------------------------|
-|getList            16
+|getList            25            |One level of Abstraction: The function could seperate ul and li to seperate the
+                                  |level of abstraction and follow the step down rule which keeps the code simple   |
+
+                                  |Function argument: The function is monadic which is perfered and the argument is | 
+                                  |required in order to scrape the page of li and ul elements. 
 |------------------|--------------|---------------------------------------------------------------------------------|
-|scrapeNextPage     21
+|scrapeNextPage    |21
 |------------------|--------------|---------------------------------------------------------------------------------|
