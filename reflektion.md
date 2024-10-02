@@ -74,6 +74,7 @@ scrape har jag isvalid egen functin
 scrape is 34 lines book prefers less than 20
 
 dont repeat yourself is main problem
+- long functions, empty lines
 
 Det finns vissa saker jag inte följer i boken som jag insåg att jag behövde bättra. Jag använder mig av en try catch block i scrape, vilket ska förvirra error processer man normala processer. Jag förstår poängen här och kan i framtiden använda mig av error funktioner istället för att använda try blocks. I detta fall, då det är en enkel modul är det acceptabelt men i framtiden är detta ett bra sätt att förtydliga kod och inte krångla funktioner.
 
@@ -110,21 +111,27 @@ considering clean code, instead of adding more lines, used && to make the line l
 |                  |              |Function Arguments: Function takes two arguments (dyadic) url and options, which|
 |                  |              |isnt ideal as the book suggests zero or one. 
 |                  |              |
-|                  |              |Dont Repeat Yourself: this.scrapedData repeats the pattern for textContent.trim |
+|                  |              |Dont Repeat Yourself: The pattern for textContent.trim |
 |                  |              |and it would be better to extract this and create a function which could be used|
-|                  |              |in this function and the one used to extract HTML.                              |
+|                  |              |in this function and tex getTables.                                             |
 |------------------|--------------|---------------------------------------------------------------------------------|
-|getImages          23              Do one Thing : The function focuses one one task, extract images from the
+|getImages         |23            | Do one Thing : The function focuses one one task, extract images from the
                                     document, reflecting the single responsiblity principle. 
 
                                     Avoid Side effect: function only works with local variables (images, uniqueImages)
                                     which reduces side effects and simple.
 
-                                    Function size
-
-                                    Avoid Loops : less for loops more forEach  = less lines 
+                                    Function size: The function is longer than it should be, but the core (alt, title
+                                    img) could be moved into a helper function, and by using forEach instead of for 
+                                    loops i could reduce the number of lines and make it more concise.
 |------------------|--------------|---------------------------------------------------------------------------------|
-|getTables          24
+|getTables          24              Single Responsiblity : there is alot of code because it looks at rows, cells, 
+                                    tables and i could seperate these into helper functions to make it simpler.
+
+                                  |Dont Repeat Yourself: The pattern for textContent.trim to trim content is used 
+                                  |here and it scrape and getTables and it would be better to turn it into a 
+                                  |seperate helper function to make it less crowded.
+
 |------------------|--------------|---------------------------------------------------------------------------------|
 |getList            16
 |------------------|--------------|---------------------------------------------------------------------------------|
