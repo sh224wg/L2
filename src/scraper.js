@@ -190,7 +190,13 @@ class WebScraper {
     }
 
     extractListItems(ul){
-        
+        const items = []
+        const liElements = ul.querySelectorAll('li')
+        liElements.forEach(li => {
+            const text = li.textContent.trim()
+            if(text) { items.push(text) }
+        })
+        return items
     }
 
     /**
