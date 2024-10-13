@@ -55,7 +55,7 @@ class WebScraper {
         return {
             text: document.body.textContent ? document.body.textContent.trim() : '',
             metaData: this.extractMetaData(document),
-            titles: this.findTitles(document),
+            titles: this.extractTitles(document),
             paragraphs: this.findParagraphs(document),
             lists: this.findLists(document),
             images: this.findImages(document),
@@ -116,30 +116,18 @@ class WebScraper {
             description: collectMetadata('description'),
             keywords: collectMetadata('keywords')
         }
-
-/*         }
-        const descriptionMeta = document.querySelector('meta[name="description"]')
-        if (descriptionMeta) {
-            metadata.description = descriptionMeta.getAttribute('content')
-        }
-        const keywordsMeta = document.querySelector('meta[name="keyword"]')
-        if (keywordsMeta) {
-            metadata.keywords = keywordsMeta.getAttribute('content')
-        }
-        return metadata */
     }
-
 
     /**
      * Extract titles from the document.
      * @param {Document} document - The DOM document.
      * @returns {Array<Object>} The extracted titles.
      */
-    findTitles(document) {
+    extractTitles(document) {
         const titles = []
         const uniqueTitles = new Set()
-        const hElements = document.querySelectorAll('h1, h2, h3, h4, h5, h6')
-        hElements.forEach(h => {
+        const headerElements = document.querySelectorAll('h1, h2, h3, h4, h5, h6')
+        headerElements.forEach(h => {
             const text = h.textContent.trim()
             if (text && !uniqueTitles.has(text)) {
                 uniqueTitles.add(text)
