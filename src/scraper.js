@@ -58,7 +58,7 @@ class WebScraper {
             titles: this.extractTitles(document),
             paragraphs: this.extractParagraphs(document),
             lists: this.extractLists(document),
-            images: this.findImages(document),
+            images: this.extractImages(document),
             links: this.findLinks(document),
             spans: this.findSpans(document),
             tables: this.findTables(document)
@@ -168,24 +168,23 @@ class WebScraper {
         const ulElements = document.querySelectorAll('ul')
         ulElements.forEach(ul => {
             const items = this.extractListItems(ul)
-            
-            })
             if (items.length > 0) {
                 const itemString = JSON.stringify(items)
                 if (!uniqueList.has(itemString)) {
                     uniqueList.add(itemString)
+                    lists.push({ tag: 'ul', items: items })
                 }
-                lists.push({ tag: 'ul', items: items })
             }
+        })
         return lists
     }
 
-    extractListItems(ul){
+    extractListItems(ul) {
         const items = []
         const liElements = ul.querySelectorAll('li')
         liElements.forEach(li => {
             const text = li.textContent.trim()
-            if(text) { items.push(text) }
+            if (text) { items.push(text) }
         })
         return items
     }
@@ -195,29 +194,40 @@ class WebScraper {
      * @param {Document} document - The DOM document.
      * @returns {Array<Object>} The extracted images.
      */
-    findImages(document) {
+    extractImages(document) {
         const images = []
         const uniqueImages = new Set()
         const imageElements = document.querySelectorAll('img')
         for (let i = 0; i < imageElements.length; i++) {
             const img = imageElements[i]
-            const src = img.getAttribute('src')
+/*             const src = img.getAttribute('src')
             const alt = img.getAttribute('alt') || ''
-            const title = img.getAttribute('title') || ''
+            const title = img.getAttribute('title') || '' */
 
-            const overlap = src.split('/').slice(-1)[0].split('?')[0]
-            const uniqueId = `${overlap}-${alt}-${title}`
+   /*          const overlap = src.split('/').slice(-1)[0].split('?')[0]
+            const uniqueId = `${overlap}-${alt}-${title}` */
             if (src && !uniqueImages.has(uniqueId)) {
                 uniqueImages.add(uniqueId)
-                const imageData = {
-                    src: src,
-                    alt: alt,
-                    title: title
+                const imageData = { src: src, alt: alt, title: title
                 }
                 images.push(imageData)
             }
         }
         return images
+    }
+
+    createImageData(img) {
+        const src = img.getAttribute('src')
+        const alt = img.getAttribute('alt') || ''
+        const title = img.getAttribute('title') || ''
+        if(!src) {
+            return null
+        }
+        const overlap = src.split('/').slice(-1)[0].split('?')[0]
+        const uniqueId = `${overlap}-${alt}-${title}`
+        return {
+            uniqueId, data: { src, alt, title }
+        }
     }
 
     /**
