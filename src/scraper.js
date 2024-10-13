@@ -59,8 +59,8 @@ class WebScraper {
             paragraphs: this.extractParagraphs(document),
             lists: this.extractLists(document),
             images: this.extractImages(document),
-            links: this.findLinks(document),
-            spans: this.findSpans(document),
+            links: this.extractLinks(document),
+            spans: this.extractSpans(document),
             tables: this.findTables(document)
         }
     }
@@ -204,18 +204,6 @@ class WebScraper {
                 uniqueImages.add(imageData.uniqueId)
                 images.push(imageData.data)
             }
-/*             const src = img.getAttribute('src')
-            const alt = img.getAttribute('alt') || ''
-            const title = img.getAttribute('title') || '' */
-
-   /*          const overlap = src.split('/').slice(-1)[0].split('?')[0]
-            const uniqueId = `${overlap}-${alt}-${title}` */
-         /*    if (src && !uniqueImages.has(uniqueId)) {
-                uniqueImages.add(uniqueId)
-                const imageData = { src: src, alt: alt, title: title
-                }
-                images.push(imageData)
-            } */
         }
         return images
     }
@@ -239,19 +227,15 @@ class WebScraper {
      * @param {Document} document - The DOM document.
      * @returns {Array<Object>} The extracted links.
      */
-    findLinks(document) {
+    extractLinks(document) {
         const links = []
         const uniqueLinks = new Set()
         const aElements = document.querySelectorAll('a')
-
         aElements.forEach(a => {
             const href = a.getAttribute('href')
             if (href && !uniqueLinks.has(href)) {
                 uniqueLinks.add(href)
-                links.push({
-                    href: href,
-                    text: a.textContent ? a.textContent.trim() : ''
-                })
+                links.push({ href: href, text: a.textContent ? a.textContent.trim() : '' })
             }
         })
         return links
@@ -262,7 +246,7 @@ class WebScraper {
      * @param {Document} document - The DOM document.
      * @returns {Array<string>} The extracted spans.
      */
-    findSpans(document) {
+    extractSpans(document) {
         const spans = []
         const uniqueSpans = new Set()
         const spanElements = document.querySelectorAll('span')
