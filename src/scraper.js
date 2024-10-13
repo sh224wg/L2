@@ -198,20 +198,24 @@ class WebScraper {
         const images = []
         const uniqueImages = new Set()
         const imageElements = document.querySelectorAll('img')
-        for (let i = 0; i < imageElements.length; i++) {
-            const img = imageElements[i]
+        for (const img of imageElements) {
+            const imageData = this.createImageData(img)
+            if(imageData && !uniqueImages.has(imageData.uniqueId)) {
+                uniqueImages.add(imageData.uniqueId)
+                images.push(imageData.data)
+            }
 /*             const src = img.getAttribute('src')
             const alt = img.getAttribute('alt') || ''
             const title = img.getAttribute('title') || '' */
 
    /*          const overlap = src.split('/').slice(-1)[0].split('?')[0]
             const uniqueId = `${overlap}-${alt}-${title}` */
-            if (src && !uniqueImages.has(uniqueId)) {
+         /*    if (src && !uniqueImages.has(uniqueId)) {
                 uniqueImages.add(uniqueId)
                 const imageData = { src: src, alt: alt, title: title
                 }
                 images.push(imageData)
-            }
+            } */
         }
         return images
     }

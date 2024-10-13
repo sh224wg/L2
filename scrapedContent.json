@@ -1,125 +1,69 @@
 {
   "metaData": {
-    "title": "Netanyahu: Dra tillbaka FN-soldater i Libanon – Senaste nytt om kriget i Mellanöstern | SVT Nyheter",
-    "description": "Efter Hamas attack mot Israel den 7 oktober 2023 svarade Israel med att invadera Gaza. Det har lett till svåra humanitära förhållanden och många civila dödsoffer. Kriget har vidgats till Libanon – med flyg- och markanfall som enligt IDF ska vara riktade mot Hizbollah. SVT rapporterar live om säkerhetsläget.",
+    "title": "Analys: Så var SVT:s partiledardebatt | SVT Nyheter",
+    "description": "Höstens politiska skandaler letade sig som väntat in i söndagskvällens partiledardebatt. Tonläget blev hätskt inte minst när Jimmie Åkessons bröllopsfest hamnade i fokus.",
     "keywords": ""
   },
   "titles": [
     {
       "tag": "h1",
-      "text": "Senaste nytt om kriget i Mellanöstern"
-    },
-    {
-      "tag": "h1",
       "text": "Javascript är avstängt"
     },
     {
+      "tag": "h1",
+      "text": "Så var SVT:s partiledardebatt"
+    },
+    {
+      "tag": "h1",
+      "text": "Mats Knutson"
+    },
+    {
       "tag": "h2",
-      "text": "Senaste nytt om Hamas, Israel och konflikten i Mellanöstern"
+      "text": "Bröllopsfesten en belastning"
+    },
+    {
+      "tag": "h2",
+      "text": "Het och saklig ekonomisk debatt"
     },
     {
       "tag": "h3",
-      "text": "Netanyahu: Dra tillbaka FN-soldater i Libanon"
-    },
-    {
-      "tag": "h3",
-      "text": "Överblick"
-    },
-    {
-      "tag": "h4",
-      "text": "Källor: Israel har kommit fram till anfallsmål i Iran"
-    },
-    {
-      "tag": "h4",
-      "text": "Unifil: Israel bad oss lämna våra positioner"
-    },
-    {
-      "tag": "h4",
-      "text": "Ny evakueringsorder i norra Gaza"
-    },
-    {
-      "tag": "h4",
-      "text": "Minst 61 palestinier ska ha dödats under fredagen"
-    },
-    {
-      "tag": "h3",
-      "text": "Kristersson: Terrorklassa Islamiska revolutionsgardet"
-    },
-    {
-      "tag": "h3",
-      "text": "USA planerar att skicka avancerat luftvärn till Israel"
-    },
-    {
-      "tag": "h3",
-      "text": "UNIFIL: Stridsvagnar forcerade FN-postering"
-    },
-    {
-      "tag": "h3",
-      "text": "Yvette har släktingar i Libanon: Ringer varje dag"
-    },
-    {
-      "tag": "h3",
-      "text": "Stenergard: Fördömer alla attacker mot FN-styrkor"
-    },
-    {
-      "tag": "h3",
-      "text": "Iran: Inga röda linjer för att försvara oss"
-    },
-    {
-      "tag": "h3",
-      "text": "Israel uppmanar till evakuering i södra Libanon"
-    },
-    {
-      "tag": "h3",
-      "text": "Boxning, musik och pariserhjul för barnen – mitt i tältlägren i Gaza"
+      "text": "Relaterat"
     },
     {
       "tag": "h1",
-      "text": "Så arbetar vi"
+      "text": "Det här är en analys"
     },
     {
       "tag": "h1",
-      "text": "Barnen undervisas igen – på mattor som lagts ut på sanden"
+      "text": "Senaste avsnittet på SVT Play"
     },
     {
       "tag": "h1",
-      "text": "Guide · Hizbollah, Huthi och Hamas – så hänger grupperna ihop"
+      "text": "Rapport"
     },
     {
       "tag": "h1",
-      "text": "Statsvetaren: Saknas förutsättningar för nedtrappning"
+      "text": "Mest tittat Inrikes"
     },
     {
       "tag": "h1",
-      "text": "Libanon, Gaza och Israel – tre kvinnor om krigets skräck"
+      "text": "Partiledardebatt i SVT:s Agenda"
     },
     {
       "tag": "h1",
-      "text": "Så fungerar Israels luftvärn – från ”Iron dome” till ”Arrow”"
+      "text": "”Skandalerna duggar tätt – kan bli högt tonläge i partiledardebatten”"
     },
     {
       "tag": "h1",
-      "text": "Senaste om: Krig mellan Israel och Hamas"
+      "text": "Mest läst Inrikes"
     },
     {
       "tag": "h1",
-      "text": "Israel beordrar ny evakuering – tusentals fast i flyktingläger"
+      "text": "Hör av dig till våra granskande reportrar"
     },
     {
       "tag": "h1",
-      "text": "Boxning och pariserhjul för barnen – mitt i tältlägren"
-    },
-    {
-      "tag": "h1",
-      "text": "Air France-plan flög över Irak under attack"
-    },
-    {
-      "tag": "h1",
-      "text": "Debattören om davidsstjärnan för att markera mot antisemitism"
-    },
-    {
-      "tag": "h1",
-      "text": "Offer hedrades i synagogan ett år efter Hamas attack"
+      "text": "Tipsa SVT Verifierar"
     },
     {
       "tag": "h2",
@@ -149,139 +93,63 @@
     },
     {
       "tag": "p",
-      "text": "Efter Hamas attack mot Israel den 7 oktober 2023 svarade Israel med att invadera Gaza. Det har lett till svåra humanitära förhållanden och många civila dödsoffer. Kriget har vidgats till Libanon – med flyg- och markanfall som enligt IDF ska vara riktade mot Hizbollah. SVT rapporterar live om säkerhetsläget."
+      "text": "Höstens politiska skandaler letade sig som väntat in i söndagskvällens partiledardebatt. Tonläget blev hätskt inte minst när Jimmie Åkessons bröllopsfest hamnade i fokus."
     },
     {
       "tag": "p",
-      "text": "Samtidigt som Israels försvarsminister Yoav Gallant har gett besked om att man kommer att vidta åtgärder för att undvika att FN:s fredsbevarande styrkor i södra Libanon skadas uppmanar premiärminister Benjamin Netanyahu nu FN:s generalsekreterare António Guterres att \"ta bort\" sina soldater från stridsområden, rapporterar internationella medier."
+      "text": "Som väntat fick S-ledaren Magdalena Andersson prata lotterier och gängkriminella och V-ledaren Nooshi Dadgostar fick försvara sig mot anklagelser om antisemitism."
     },
     {
       "tag": "p",
-      "text": "\"Din vägran att dra tillbaka Unfil-soldater gör dem till Hizbollahs gisslan\", säger Netanyahu i ett skriftligt uttalande på söndagen, enligt Haaretz. Han tillägger att deras närvaro också äventyrar \"våra soldaters säkerhet\"."
+      "text": "Men debatten om Åkessons bröllopsfest var fränast. Bakgrunden är att en av deltagarna är en ledare för ett mc-gäng, som enligt polisen är kriminellt."
     },
     {
       "tag": "p",
-      "text": "Enligt Netanyahu ska Israels militär vid flera tidigare tillfällen ha bett FN att dra tillbaka sina trupper från området."
+      "text": "Nooshi Dadgostar hävdade att detta innebär att regeringens arbete mot gängbrottsligheten saknar trovärdighet. Magdalena Andersson varnade för infiltration av kriminella. Jimmie Åkesson själv avfärdade anklagelserna som bisarra och slog ifrån sig. Liberalernas partiledare Johan Pehrson talade om gyttjebrottning."
     },
     {
       "tag": "p",
-      "text": "Statsminister Ulf Kristersson (M) säger till Expressen att han vill att EU terrorstämplar Irans Islamiska revolutionsgarde. Bland annat nämner Kristersson de attacker mot israeliska mål, där Iran pekas ut för att ligga bakom."
+      "text": "Oavsett vad är det uppenbart att bröllopsfesten blivit en belastning för Jimmie Åkesson och Sverigedemokraterna."
     },
     {
       "tag": "p",
-      "text": "Frågan kommer att lyftas innan nästa veckas möten i Europeiska rådet"
+      "text": "SD är det parti som brukar hävda att man har de hårdaste förslagen mot brottslingarna. Den retoriken går inte ihop med avslöjandena om bröllopsfesten."
     },
     {
       "tag": "p",
-      "text": "– Vi vill att Sverige på allvar tar upp med de andra EU-länderna den otroligt problematiska kopplingen mellan Islamiska revolutionsgardet, deras destruktiva roll i regionen men också deras eskalerande agerande runtom i olika Europeiska länder, där Sverige är ett av dem."
+      "text": "På samma sätt är den tveksamma försäljningen av S-lotter en belastning för Magdalena Andersson. Inte heller detta går ihop med de värderingar som S anser sig stå för."
     },
     {
       "tag": "p",
-      "text": "För att terrorstämpla krävs en total enighet bland EU:s medlemsländer."
+      "text": "Men söndagens partiledardebatt hade också ett annat ansikte. Diskussionen om den ekonomiska politiken blev het, men också saklig. Det var en klassisk höger-vänsterdebatt där alternativen mellan skatter och bidrag blev tydliga, även om det idag är svårt att se hur Centerpartiet ska kunna passa in ett regeringsunderlag till Magdalena Andersson."
     },
     {
       "tag": "p",
-      "text": "Bidenadministrationen planerar att skicka avancerat luftvärn till Israel tillsammans med amerikanska trupper som ska driva dem. Det enligt Wall Street Journal (WSJ) som citerar amerikanska tjänstemän."
+      "text": "C accepterar de flesta av regeringens skattesänkningar, medan partier som V och MP vill genomföra kraftiga skattehöjningar."
     },
     {
       "tag": "p",
-      "text": "Enligt uppgifterna till WSJ ska det röra sig om Thaad-systemet som är ett antirobot-system designat för att skjuta ned ballistiska robotar med kort till medellång räckvidd."
+      "text": "Ta del av hela Mats Knutsons analys i videon ovan."
     },
     {
       "tag": "p",
-      "text": "Vidare skriver tidningen att det handlar om strax under 100 soldater som ska bemanna systemet, men när det kan vara på plats är i nuläget inte känt och Vita Huset har inte kommenterat saken."
+      "text": "Uppdaterad13 oktober 2024 kl 22:28"
     },
     {
       "tag": "p",
-      "text": "FN:s fredsbevarande styrkor Unifil skriver i ett uttalande att man under söndagsmorgonen vid posteringen i Ramyah observerade tre israeliska plutoner korsa den så kallade blå linjen i Libanon."
+      "text": "Publicerad13 oktober 2024 kl 22:20"
     },
     {
       "tag": "p",
-      "text": "De skriver även att omkring 04.30 på söndagsmorgonen ska två israeliska stridsvagnar ha forcerat posteringens grindar. De ska ha dragit sig tillbaka efter 45 minuter, står det i inlägget."
+      "text": "Slutsatserna är journalistens egna. SVT:s medarbetare agerar inte i något politiskt parti-, företags- eller intresseorganisations intresse. Det är förenligt med SVT:s sändningstillstånd §8 att ”kommentera och belysa händelser och skeenden”."
     },
     {
       "tag": "p",
-      "text": "Omkring 06.30 rapporterade samma styrka att skott avlossats norrut, vilket lett till rök som resulterat i att 15 soldater i fredsstyrkan drabbats av bland annat hudirritation."
+      "text": "Tipsa SVT Nyheter på ett säkert sätt"
     },
     {
       "tag": "p",
-      "text": "Unifil har begärt en förklaring från IDF för vad man beskriver som \"chockerande kränkningar\"."
-    },
-    {
-      "tag": "p",
-      "text": "När Yvette Constantin från Umeå var sex år förlorade hon sin mamma och morfar i inbördeskriget i Libanon. Hon har fortfarande släktingar kvar i landet och är orolig för den senaste tidens utveckling."
-    },
-    {
-      "tag": "p",
-      "text": "– Det finns inget slut på den här konflikten, säger hon och fortsätter:"
-    },
-    {
-      "tag": "p",
-      "text": "– Det känns som att historien upprepar sig. Det finns ingen stabilitet och ingen trygghet."
-    },
-    {
-      "tag": "p",
-      "text": "Se Yvette berätta om mammans död för snart 50 år sedan och rädslan kring att hon har släktingar som befinner sig i Libanon nu i videon ovan."
-    },
-    {
-      "tag": "p",
-      "text": "I veckan har flera FN-soldater skadats av israelisk beskjutning i Libanon. Under söndagen uppmanade Israels premiärminister Benjamin Netanyahu FN att dra tillbaka styrkor från stridsområden i södra Libanon."
-    },
-    {
-      "tag": "p",
-      "text": "Den senaste tidens eskalering är något utrikesminister Maria Malmer Stenergard (M) ser med stor oro på."
-    },
-    {
-      "tag": "p",
-      "text": "\"Vi fördömer alla attacker mot FN-styrkor. De fredsbevarande styrkorna har en mycket viktigt roll för att skapa trygghet i södra Libanon\", skriver hon i en kommentar till SVT."
-    },
-    {
-      "tag": "p",
-      "text": "\"FN och generalsekreteraren behöver ha full möjlighet att verka och uppfylla sitt mandat i alla länder, inklusive medla vid konflikter och bistå med humanitärt stöd\"."
-    },
-    {
-      "tag": "p",
-      "text": "Hizbollahs räddningsarbetare använder bulldozer för att röja upp på en handelsgata i staden Nabatieh i södra Libanon, efter att byggnader förstörts i israeliska flyganfall."
-    },
-    {
-      "tag": "p",
-      "text": "I ett inlägg på X skriver Irans utrikesminister Sayed Abbas att landet \"inte har några röda linjer\" när det kommer till att försvara sig själva."
-    },
-    {
-      "tag": "p",
-      "text": "Uttalandet kommer i en tid då regionen inväntar ett israeliskt svar på den iranska attacken i början av oktober."
-    },
-    {
-      "tag": "p",
-      "text": "Israels militär beordrar nu även invånarna i 21 byar i södra Libanon att evakuera, till norr om floden al-Awali, rapporterar Reuters och hänvisar till ett uttalande. Det sker när Israel nu intensifierar sina attacker i området – och uppmanar FN att dra tillbaka sina fredsbevarande styrkor från stridsområden."
-    },
-    {
-      "tag": "p",
-      "text": "Mitt i den humanitära katastrofen i Gaza, där dödssiffran stigit över 41 700, får flickor träna boxning i ett tältläger."
-    },
-    {
-      "tag": "p",
-      "text": "– Hela Gaza bombas. Det finns ingen säker plats där vi kan träna, men vi fortsätter, säger tränaren Osama Ayoub."
-    },
-    {
-      "tag": "p",
-      "text": "I Gaza stad får barn lära sig musik och sjunga, med musikern Fehmi."
-    },
-    {
-      "tag": "p",
-      "text": "Från boxningsträning till pariserhjul – mitt i tältlägren. Se tre ljusglimtar för barnen i Gaza i videon ovan."
-    },
-    {
-      "tag": "p",
-      "text": "Publicerad7 oktober 2023 kl 09:53"
-    },
-    {
-      "tag": "p",
-      "text": "Uppdaterad13 oktober 2024 kl 13:08"
-    },
-    {
-      "tag": "p",
-      "text": "SVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar."
+      "text": "SVT Verifierar · Misstänker du falsk information eller fejkade bilder? Hör av dig via Verifieringshjälpen"
     }
   ],
   "images": [
@@ -291,94 +159,54 @@
       "title": ""
     },
     {
+      "src": "https://www.svtstatic.se/image-news/992/16:9/0.5/0.5/f5eacd6ecfe7312de87eb3e4ac2c1be46124316c6a2554c4e04538911a62c84b",
+      "alt": "",
+      "title": "Foto: Pontus Lundahl/TT"
+    },
+    {
+      "src": "https://www.svtstatic.se/image-news/125/square/0.41/0.42/e-27853447-1597669624000",
+      "alt": "",
+      "title": ""
+    },
+    {
       "src": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
       "alt": "",
       "title": ""
     },
     {
-      "src": "https://www.svtstatic.se/image-news/992/wide/0.4/0.25/c58c78a6303c5118f07f87dd706eaaf21ecd246bd422d42d941275d2168db924",
-      "alt": "",
-      "title": ""
-    },
-    {
-      "src": "https://www.svtstatic.se/image-news/992/16:9/0.45/0.32/da0f3a465c8e75251da9c9c1c715f070b00c88456738c4e057c5dff7ebeb6d34",
-      "alt": "En vuxen man som bär en grön filt interagerar med två barn, varav det ena boxar på en kudde som han håller i. Bakgrunden visar tälten i en lägermiljö i Gaza.",
-      "title": "Foto: CCTV, WAFA via EBU"
-    },
-    {
-      "src": "/static/build/direktcenter-svt-icon-03705889fbe32b5d916c.svg",
-      "alt": "SVT-avatar",
-      "title": ""
-    },
-    {
-      "src": "/static/build/direktcenter-svt-icon-dark-8240f3ea08540d975d91.svg",
-      "alt": "SVT-avatar",
-      "title": ""
-    },
-    {
-      "src": "https://www.svtstatic.se/image-news/992/1:1/0.66/0.44/2d382cff3eed44bc7109c1d410ddc08d2c6f8d9331a81046a50a440d496249b5",
-      "alt": "",
-      "title": ""
-    },
-    {
-      "src": "https://svt-direktcenter.imgix.net/242f1efc96e6?auto=format",
-      "alt": "",
-      "title": ""
-    },
-    {
-      "src": "https://svt-direktcenter.imgix.net/de6733dc224d?auto=format",
-      "alt": "Ett grått kvarter i spillror och räddningsfordon",
-      "title": ""
-    },
-    {
-      "src": "https://www.svtstatic.se/image-news/992/16:9/0.45/0.32/da0f3a465c8e75251da9c9c1c715f070b00c88456738c4e057c5dff7ebeb6d34",
-      "alt": "",
-      "title": ""
-    },
-    {
-      "src": "https://www.svtstatic.se/image-news/400/square/0.68/0.32/30529e5e22ade3a966905aed574405293572cbdb2db3618e1bcba986ec57efdf",
-      "alt": "Sjätteklassaren Jihan sitter i den provosoriska skolan i Gaza, där mattor lagts ut på marken. I bakgrunden syns flera andra barn.",
-      "title": "Foto: Youssef Ruzzi"
-    },
-    {
-      "src": "https://www.svtstatic.se/image-news/400/square/0.47/0.31/443fc608545a17f84b67f44c7284e0a2ed943b9217e6cc003b81847b4bad3328",
-      "alt": "Irans högste ledare Ali Khamenei.",
-      "title": "Foto: TT"
-    },
-    {
-      "src": "https://www.svtstatic.se/image-news/400/square/0.24/0.39/bb42e1fe8dea9373ad68542670933a3c85606ac32ff1586d92fba16d3f1bda1e",
-      "alt": "En delad bild med två sektioner. Den vänstra sektionen visar en person i en intervju, klädd i en mörk jacka och blus. Den högra sektionen visar en scen där flera personer står på en stridsvagn.",
-      "title": "Foto: SVT/Reuters"
-    },
-    {
-      "src": "https://www.svtstatic.se/image-news/400/square/0.15/0.26/1b10e2c138ee05505ce4510466a8cdb67b7527781182e92eb01787e66f73240b",
-      "alt": "Tre sektioner av en delad bild som visar olika scener. Den första sektionen visar en person som sitter på ett avstånd med huvudet lutat mot handen. Den andra sektionen visar en person som knäböjer över en blå bunke och tvättar kläder. Den tredje sektionen visar en person som står upp, vänd mot kameran med en ljus bakgrund.",
-      "title": "Foto: Pernilla Edholm/Pablo Torres/Youssef Ruzzi"
-    },
-    {
-      "src": "https://www.svtstatic.se/image-news/400/square/0.53/0.47/9d2489715320f57930c249b780333d27742009656fe67115164e03b49d7f1556",
-      "alt": "En grafisk illustration som visar Iron Dome-systemet. Den röda zonen representerar det skyddade området, medan en flygplansikon och en missilbanan visualiserar hotet som avvärjs av systemet. I bakgrunden syns en horisontlinje med silhuetter av städer eller byggnader.",
-      "title": "Foto: Truls Wallin"
-    },
-    {
-      "src": "https://www.svtstatic.se/image-news/125/square/0.47/0.41/57a5944e883a9a9dfc0c4c9f5c4c7a260c64e6200d7b1908f8a8b1ee04d75026",
-      "alt": "Kvinna i sjal med bandage över ena ögat",
-      "title": "Foto: AP"
-    },
-    {
-      "src": "https://www.svtstatic.se/image-news/125/square/0.5/0.6/adc22ba45bf48be781a4c4c27d6b01b01d2efe63ed6fdb69eeb9881a18370303",
-      "alt": "",
-      "title": "Foto: Johan Nilsson/TT"
-    },
-    {
-      "src": "https://www.svtstatic.se/image-news/125/square/0.37/0.53/8f3a8dfb7aa3d0c8cab8daf1201477cf81edb90ef6589a886d53e563fd1236b9",
-      "alt": "Under måndagen bar Tove Lifvendahl, politisk chefredaktör på Svenska Dagbladet, en davidsstjärna för att markera mot antisemitism.",
-      "title": "Foto: Fredrik Samuelson/SVT"
-    },
-    {
-      "src": "https://www.svtstatic.se/image-news/125/square/0.39/0.37/bbcae7ca17621e4d1d5832992f02632205ab2908402b2a2303f5dba28e1078f0",
-      "alt": "Minnesdag 7 oktober",
+      "src": "https://www.svtstatic.se/image-news/600/square/0.48/0.41/7207e7c575bfa98e63acd28edbb0741bc8d06bf80e24345724c6423481558456",
+      "alt": "Programledare Camilla Kvartoft",
       "title": "Foto: SVT"
+    },
+    {
+      "src": "https://www.svtstatic.se/image-news/600/square/0.76/0.32/b453f1f515789357bced6c0123965829c65e869946887cfdff61995cb2d52caf",
+      "alt": "Liberalerna jagar nya medlemmar i Danderyd",
+      "title": "Foto: Cornelia Schauermann"
+    },
+    {
+      "src": "https://www.svtstatic.se/image/wide/992/35812861/1686133144?format=auto",
+      "alt": "Rapport",
+      "title": ""
+    },
+    {
+      "src": "https://www.svtstatic.se/image-news/600/square/0.5/0.5/c6710f19f8d981687924c7196f2bec4c342264f420f43c2e1aebce3326d927f8",
+      "alt": "Partiledarna för alla åtta riksdagspartier möts i direktsänd debatt i Agenda. Programledare: Camilla Kvartoft och Anders Holmberg. – Partiledardebatt med för- och eftersnack",
+      "title": "Foto: Janne Danielsson"
+    },
+    {
+      "src": "https://www.svtstatic.se/image-news/600/square/0.49/0.24/fab9ce36584d873d5556acca90d1a7cc3c9a239e9f9170ea1d2f0692d1177e9e",
+      "alt": "Anna Kingberg Batra, Jimmie Åkesson och Magdalena Andersson",
+      "title": "Foto: Johan Nilsson/TT Linus Sundahl-Djerf/SVD/TT"
+    },
+    {
+      "src": "https://www.svtstatic.se/image-news/680/cinema/0.5/0.42/2ea150e6fe5f16eb433b0a8d516c115e3a862dcd0157f50983356d1e4d87815d",
+      "alt": "Bilden föreställer SVT:s granskande journalister Max Sohl Stjernberg, Marja Grill, Aris Velizelos, Johan Wikén, Oskar Jönsson och Kristina Lagerström.",
+      "title": "Foto: Antonia Sehlstedt"
+    },
+    {
+      "src": "https://www.svtstatic.se/image-news/680/cinema/0.35/0.31/0de3d85b96460e0281c34359056db60c3bc489bf1aebc09f0a70442079a9f919",
+      "alt": "Journalisterna på SVT Verifierar samarbetar vid en redigeringsdator i en nyhetsredaktion. En person pekar mot en dataskärm, medan de andra lyssnar uppmärksamt.",
+      "title": "Foto: Simon Krona"
     },
     {
       "src": "/static/build/svt-nyheter-logo-inverted-7d508c15fa165f83bd48.svg",
@@ -400,11 +228,11 @@
       "text": ""
     },
     {
-      "href": "/nyheter/utrikes/senaste-nytt-om-kriget-i-mellanostern?inlagg=1f7ae5669bd3d0ca2158cdcafbc94843&mobilmeny=1",
+      "href": "/nyheter/inrikes/det-stack-ut-under-kvallens-partiledardebatt?mobilmeny=1",
       "text": ""
     },
     {
-      "href": "/nyheter/utrikes/senaste-nytt-om-kriget-i-mellanostern?inlagg=1f7ae5669bd3d0ca2158cdcafbc94843&nyhetsmeny=1",
+      "href": "/nyheter/inrikes/det-stack-ut-under-kvallens-partiledardebatt?nyhetsmeny=1",
       "text": ""
     },
     {
@@ -412,7 +240,7 @@
       "text": "Lokalt"
     },
     {
-      "href": "/nyheter/utrikes/senaste-nytt-om-kriget-i-mellanostern?inlagg=1f7ae5669bd3d0ca2158cdcafbc94843&lokalmeny=1",
+      "href": "/nyheter/inrikes/det-stack-ut-under-kvallens-partiledardebatt?lokalmeny=1",
       "text": ""
     },
     {
@@ -420,7 +248,7 @@
       "text": "Sport"
     },
     {
-      "href": "/nyheter/utrikes/senaste-nytt-om-kriget-i-mellanostern?inlagg=1f7ae5669bd3d0ca2158cdcafbc94843&sportmeny=1",
+      "href": "/nyheter/inrikes/det-stack-ut-under-kvallens-partiledardebatt?sportmeny=1",
       "text": ""
     },
     {
@@ -444,128 +272,80 @@
       "text": "Om SVT"
     },
     {
-      "href": "/nyheter/utrikes/",
-      "text": "Utrikes"
+      "href": "/nyheter/inrikes/",
+      "text": "Inrikes"
     },
     {
       "href": "https://www.svt.se/kontakt/systemkrav-svtse",
       "text": "Läs mer om webbläsarstöd"
     },
     {
-      "href": "/nyheter/utrikes/senaste-nytt-om-kriget-i-mellanostern",
-      "text": "×"
+      "href": "/nyheter/profiler/mats-knutson",
+      "text": "Mats KnutsonInrikespolitisk kommentator"
     },
     {
-      "href": "?inlagg=1f7ae5669bd3d0ca2158cdcafbc94843",
-      "text": ""
+      "href": "/nyheter/om/mats-knutson",
+      "text": "Mats Knutson"
     },
     {
-      "href": "https://www.svt.se/nyheter/utrikes/senaste-nytt-om-kriget-i-mellanostern?inlagg=03630691cf64f582b0004f9095035f80",
-      "text": "har gett besked"
+      "href": "/nyheter/om/partiledardebatter",
+      "text": "Partiledardebatter"
     },
     {
-      "href": "https://www.haaretz.com/israel-news/2024-10-13/ty-article-live/report-israel-strikes-south-west-lebanon-north-israeli-towns-declared-military-zones/00000192-83a5-d3f8-afb6-cfe5f2e00000?liveBlogItemId=1351504035&utm_source=site&utm_medium=button&utm_campaign=live_blog_item#1351504035",
-      "text": "Haaretz"
+      "href": "/nyheter/om/politik",
+      "text": "Politik"
     },
     {
-      "href": "?inlagg=9ae3def7b0999b3f46d556fa846931af",
-      "text": ""
+      "href": "/nyheter/inrikes/har-ar-amnena-i-agendas-partiledardebatt",
+      "text": "41 sekHär är ämnena i Agendas partiledardebatt11 oktober 2024"
     },
     {
-      "href": "https://www.expressen.se/nyheter/sverige/kristersson-terrorstampla-islamiska-revolutionsgardet/",
-      "text": "Expressen"
+      "href": "/nyheter/inrikes/medlemsras-for-liberalerna-storst-tapp-bland-riksdagspartierna",
+      "text": "2 minMedlemsras för Liberalerna – störst tapp bland riksdagspartiernaIdag 10:38"
     },
     {
-      "href": "?inlagg=0cd01f48849ffc2fb4c33182b976b711",
-      "text": ""
+      "href": "mailto:mats.knutson@svt.se",
+      "text": "Mats Knutson"
     },
     {
-      "href": "?inlagg=9f5298466cd4a471011b4acb35aed997",
-      "text": ""
-    },
-    {
-      "href": "?inlagg=4f8ea8945417a24850e5519ab71fee77",
-      "text": ""
-    },
-    {
-      "href": "https://www.svt.se/nyheter/lokalt/vasterbotten/yvette-constantin-fran-umea-har-slaktingar-i-libanon-historien-upprepar-sig",
-      "text": "När Yvette Constantin från Umeå"
-    },
-    {
-      "href": "?inlagg=5d6f4a540ceea16594edaf06aa74799f",
-      "text": ""
-    },
-    {
-      "href": "?inlagg=d6cf752e9178179194cf9c7900f0bdd5",
-      "text": ""
-    },
-    {
-      "href": "?inlagg=0af7d298df8f949b405f0c8bd7c4907c",
-      "text": ""
-    },
-    {
-      "href": "?inlagg=9e6028fcdc5dfe9bcc62abdcf3331142",
-      "text": ""
-    },
-    {
-      "href": "https://www.svt.se/nyheter/utrikes/senaste-nytt-om-kriget-i-mellanostern?inlagg=1f7ae5669bd3d0ca2158cdcafbc94843",
-      "text": "uppmanar FN att dra tillbaka sina fredsbevarande styrkor"
-    },
-    {
-      "href": "?inlagg=e3e2404f3cc5c00b51b31660d2d51c5c",
-      "text": ""
-    },
-    {
-      "href": "mailto:korr@svt.se?subject=Hittat%20fel%20i%3A%20%22Senaste%20nytt%20om%20kriget%20i%20Mellan%C3%B6stern%22&body=Jag%20har%20hittat%20fel%20i%20artikeln%20%22Senaste%20nytt%20om%20kriget%20i%20Mellan%C3%B6stern%22%0A(https%3A%2F%2Fwww.svt.se%2Fnyheter%2Futrikes%2Fsenaste-nytt-om-kriget-i-mellanostern)%0A%0AKommentar%3A",
+      "href": "mailto:korr@svt.se?cc=mats.knutson@svt.se&subject=Hittat%20fel%20i%3A%20%22S%C3%A5%20var%20SVT%3As%20partiledardebatt%22&body=Jag%20har%20hittat%20fel%20i%20artikeln%20%22S%C3%A5%20var%20SVT%3As%20partiledardebatt%22%0A(https%3A%2F%2Fwww.svt.se%2Fnyheter%2Finrikes%2Fdet-stack-ut-under-kvallens-partiledardebatt)%0A%0AKommentar%3A",
       "text": "Hittat språk- eller faktafel i texten? Skriv och berätta."
     },
     {
-      "href": "https://www.svt.se/nyheter/sa-arbetar-vi-pa-svt-nyheter",
-      "text": "Läs mer om hur vi arbetar."
+      "href": "https://omoss.svt.se/download/18.7c348ba01715d7a6e919ceb/1587721628570/19-02007%20Tillst%C3%A5nd%20f%C3%B6r%20Sveriges%20Television%20AB%20att%20s%C3%A4nda%20tv%20och%20s%C3%B6kbar%20text-tv.pdf",
+      "text": "SVT:s sändningstillstånd §8"
     },
     {
-      "href": "/nyheter/utrikes/barnen-i-gaza-far-undervisning-for-forsta-gangen-pa-ett-ar",
-      "text": "2 minBarnen undervisas igen – på mattor som lagts ut på sandenFörsta gången på ett år i Gaza • Sjätteklassaren Jihan: ”Rädd för höga skrämmande ljud”"
+      "href": "https://www.svtplay.se/video/Kn4dZz6/rapport/ikvall-23-15",
+      "text": "5 minRapportIkväll 23:15"
     },
     {
-      "href": "/nyheter/utrikes/hamas-hizbollah-och-huthirebellerna-sa-hanger-grupperna-ihop",
-      "text": "2 minGuide · Hizbollah, Huthi och Hamas – så hänger grupperna ihop”En del händelser är direkt kopplade till kriget – andra inte”"
+      "href": "/nyheter/inrikes/partiledardebatt-i-svts-agenda",
+      "text": "Partiledardebatt i SVT:s Agenda"
     },
     {
-      "href": "/nyheter/utrikes/statsvetaren-saknas-forutsattningar-for-nedtrappning",
-      "text": "1 minStatsvetaren: Saknas förutsättningar för nedtrappningSå går förhandlingarna om vapenvila"
+      "href": "/nyheter/inrikes/det-stack-ut-under-kvallens-partiledardebatt",
+      "text": "Så var SVT:s partiledardebatt"
     },
     {
-      "href": "/nyheter/utrikes/libanon-gaza-och-israel-tre-kvinnor-berattar-om-krigets-skrack",
-      "text": "4 minLibanon, Gaza och Israel – tre kvinnor om krigets skräckÖnskar sig alla samma sak: Ett slut på kriget"
+      "href": "/nyheter/inrikes/skandalerna-duggar-tatt-kan-bli-hogt-tonlage-i-partiledardebatten",
+      "text": "”Skandalerna duggar tätt – kan bli högt tonläge i partiledardebatten”"
     },
     {
-      "href": "/nyheter/utrikes/sa-fungerar-israels-luftvarn-fran-iron-dome-till-arrow",
-      "text": "1 minSå fungerar Israels luftvärn – från ”Iron dome” till ”Arrow”Flera lager – slipat på systemet i åratal"
+      "href": "/nyheter/inrikes/svt-verifierar-publikens-tips-eleverna-trodde-pa-fejkade-kaviartuben",
+      "text": "Greta Thunberg, Mellanöstern och kaviar när SVT:s publik undrar över virala klipp"
     },
     {
-      "href": "/nyheter/om/krig-mellan-israel-och-hamas",
-      "text": "Senaste om: Krig mellan Israel och Hamas"
+      "href": "/nyheter/inrikes/sverige-bland-europas-samsta-att-ta-tillvara-utlandsk-talang",
+      "text": "Sverige bland Europas sämsta att ta tillvara utländsk talang"
     },
     {
-      "href": "/nyheter/utrikes/israel-beordrar-ny-evakuering-tusentals-fast-i-flyktinglager",
-      "text": "42 sekIsrael beordrar ny evakuering – tusentals fast i flyktinglägerLäkare utan gränser: ”Alla som försöker lämna lägret skjuts –  finns inget vatten eller mat”"
+      "href": "/nyheter/granskning/tipsa-svt-nyheter",
+      "text": "Hör av dig till våra granskande reportrarTipsa SVT Nyheter på ett säkert sätt"
     },
     {
-      "href": "/nyheter/utrikes/boxning-och-pariserhjul-for-barnen-mitt-i-taltlagren-i-gaza",
-      "text": "2 minBoxning och pariserhjul för barnen – mitt i tältlägrenTre ljusglimtar mitt i katastrofen i Gaza • ”Det minsta vi kan göra för de modiga tjejerna”"
-    },
-    {
-      "href": "/nyheter/utrikes/air-france-plan-flog-over-irak-under-attack",
-      "text": "Air France-plan flög över Irak under attack"
-    },
-    {
-      "href": "/nyheter/lokalt/uppsala/tove-lifvendahl-bar-davidsstjarna-for-att-markera-mot-antisemitism",
-      "text": "1 minDebattören om davidsstjärnan för att markera mot antisemitismBar davidsstjärna under måndagens minnesdag"
-    },
-    {
-      "href": "/nyheter/lokalt/vast/offer-hedrades-i-synagogan-ett-ar-efter-hamas-attack",
-      "text": "1 minOffer hedrades i synagogan ett år efter Hamas attackJudiska församlingen höll en hågkomstceremoni i Göteborg"
+      "href": "/nyheter/inrikes/nu-kan-du-tipsa-svt-verifierar-med-verifieringshjalpen",
+      "text": "54 sekTipsa SVT VerifierarSVT Verifierar · Misstänker du falsk information eller fejkade bilder? Hör av dig via Verifieringshjälpen"
     },
     {
       "href": "/vader/",
@@ -646,51 +426,27 @@
   ],
   "spans": [
     "Viktigt meddelande:Viktigt meddelande till allmänheten i Bollnäs och Freluga, Bollnäs kommun, Gävleborgs län.\n\nVattnet hos vattenbolaget HelsingeVatten är otjänligt.\n\nBoenden i området uppmanas att koka vattnet före förtäring.\n\nFör mer information lyssna på Sveriges Radio P4 Gävleborg.",
-    "Från boxningsträning till pariserhjul – mitt i tältlägren. Se tre ljusglimtar för barnen i Gaza. Foto: CCTV, WAFA via EBU",
-    "Foto: CCTV, WAFA via EBU",
-    "Idag",
-    "12:41",
-    "×",
-    "SVT",
-    "Reporter",
-    "24 min",
-    "39 min",
-    "16:04",
-    "15:58",
-    "15:39",
-    "Utrikesminister Maria Malmer Stenergard (M). Foto: Stephani Spindel/EPA/TT",
-    "13:28",
-    "Foto: Mohammed/AP/TT",
-    "13:22",
-    "13:04",
-    "13:00",
+    "”Sällan har en partiledardebatt hållits i ett läge när det har pågått så många olika skandaler samtidigt” – Hör SVT:s inrikespolitiske kommentator om kvällens debatt. Foto: Pontus Lundahl/TT",
+    "Foto: Pontus Lundahl/TT",
+    "Uppdaterad idag 22:28",
+    "Uppdaterad",
+    "Publicerad idag 22:20",
+    "Publicerad",
+    "Analys ·",
+    "41 sek",
+    "Här är ämnena i Agendas partiledardebatt",
+    "2 min",
+    "Medlemsras för Liberalerna – störst tapp bland riksdagspartierna",
+    "Mats Knutson",
+    "Inrikespolitisk kommentator",
     "Hittat språk- eller faktafel i texten? Skriv och berätta.",
     "Skriv och berätta.",
-    "2 min",
-    "Barnen undervisas igen – på mattor som lagts ut på sanden",
-    "Första gången på ett år i Gaza • Sjätteklassaren Jihan: ”Rädd för höga skrämmande ljud”",
-    "•",
-    "Guide ·",
-    "Hizbollah, Huthi och Hamas – så hänger grupperna ihop",
-    "”En del händelser är direkt kopplade till kriget – andra inte”",
-    "1 min",
-    "Statsvetaren: Saknas förutsättningar för nedtrappning",
-    "Så går förhandlingarna om vapenvila",
-    "4 min",
-    "Libanon, Gaza och Israel – tre kvinnor om krigets skräck",
-    "Önskar sig alla samma sak: Ett slut på kriget",
-    "Så fungerar Israels luftvärn – från ”Iron dome” till ”Arrow”",
-    "Flera lager – slipat på systemet i åratal",
-    "42 sek",
-    "Israel beordrar ny evakuering – tusentals fast i flyktingläger",
-    "Läkare utan gränser: ”Alla som försöker lämna lägret skjuts –  finns inget vatten eller mat”",
-    "Boxning och pariserhjul för barnen – mitt i tältlägren",
-    "Tre ljusglimtar mitt i katastrofen i Gaza • ”Det minsta vi kan göra för de modiga tjejerna”",
-    "Air France-plan flög över Irak under attack",
-    "Debattören om davidsstjärnan för att markera mot antisemitism",
-    "Bar davidsstjärna under måndagens minnesdag",
-    "Offer hedrades i synagogan ett år efter Hamas attack",
-    "Judiska församlingen höll en hågkomstceremoni i Göteborg",
+    "5 min",
+    "1",
+    "2",
+    "3",
+    "54 sek",
+    "SVT Verifierar ·",
     "Tjänstgörande onlineredaktör: Clarence Frenker|",
     "|",
     "E-post: svtnyheter@svt.se|",
@@ -720,22 +476,38 @@
     {
       "tag": "ul",
       "items": [
-        "2 minBarnen undervisas igen – på mattor som lagts ut på sandenFörsta gången på ett år i Gaza • Sjätteklassaren Jihan: ”Rädd för höga skrämmande ljud”",
-        "2 minGuide · Hizbollah, Huthi och Hamas – så hänger grupperna ihop”En del händelser är direkt kopplade till kriget – andra inte”",
-        "1 minStatsvetaren: Saknas förutsättningar för nedtrappningSå går förhandlingarna om vapenvila",
-        "4 minLibanon, Gaza och Israel – tre kvinnor om krigets skräckÖnskar sig alla samma sak: Ett slut på kriget",
-        "1 minSå fungerar Israels luftvärn – från ”Iron dome” till ”Arrow”Flera lager – slipat på systemet i åratal"
+        "Mats Knutson",
+        "Partiledardebatter",
+        "Politik"
       ]
     },
     {
       "tag": "ul",
       "items": [
-        "42 sekIsrael beordrar ny evakuering – tusentals fast i flyktinglägerLäkare utan gränser: ”Alla som försöker lämna lägret skjuts –  finns inget vatten eller mat”",
-        "2 minBoxning och pariserhjul för barnen – mitt i tältlägrenTre ljusglimtar mitt i katastrofen i Gaza • ”Det minsta vi kan göra för de modiga tjejerna”",
-        "Air France-plan flög över Irak under attack",
-        "1 minDebattören om davidsstjärnan för att markera mot antisemitismBar davidsstjärna under måndagens minnesdag",
-        "2 minBarnen undervisas igen – på mattor som lagts ut på sandenFörsta gången på ett år i Gaza • Sjätteklassaren Jihan: ”Rädd för höga skrämmande ljud”",
-        "1 minOffer hedrades i synagogan ett år efter Hamas attackJudiska församlingen höll en hågkomstceremoni i Göteborg"
+        "41 sekHär är ämnena i Agendas partiledardebatt11 oktober 2024",
+        "2 minMedlemsras för Liberalerna – störst tapp bland riksdagspartiernaIdag 10:38"
+      ]
+    },
+    {
+      "tag": "ul",
+      "items": [
+        "Mats KnutsonInrikespolitisk kommentator"
+      ]
+    },
+    {
+      "tag": "ul",
+      "items": [
+        "Partiledardebatt i SVT:s Agenda",
+        "Så var SVT:s partiledardebatt",
+        "”Skandalerna duggar tätt – kan bli högt tonläge i partiledardebatten”"
+      ]
+    },
+    {
+      "tag": "ul",
+      "items": [
+        "1Greta Thunberg, Mellanöstern och kaviar när SVT:s publik undrar över virala klipp",
+        "2Partiledardebatt i SVT:s Agenda",
+        "3Sverige bland Europas sämsta att ta tillvara utländsk talang"
       ]
     },
     {
