@@ -30,6 +30,26 @@ class WebScraper {
         }
     }
 
+    /**
+     * Get a random User-Agent string.
+     * @returns {string} A random User-Agent string.
+     */
+    getRandomUserAgent() {
+        const userAgents = [
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3',
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+            'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0'
+        ]
+        return userAgents[Math.floor(Math.random() * userAgents.length)]
+    }
+
+    getHeaderOptions(options) {
+        return {
+            headers: options.headers || {
+                'User-Agent': this.getRandomUserAgent()
+            }
+        }
+    }
 
     /**
     * Get the scraped data.
@@ -37,6 +57,20 @@ class WebScraper {
     */
     getScrapedData() {
         return this.scrapedData;
+    }
+
+    extractDataFromDom(document) {
+        return {
+            text: document.body.textContent ? document.body.textContent.trim() : '',
+            metaData: this.getMetaData(document),
+            titles: this.getTitles(document),
+            paragraphs: this.getParagraphs(document),
+            lists: this.getLists(document),
+            images: this.getImages(document),
+            links: this.getLinks(document),
+            spans: this.getSpans(document),
+            tables: this.getTables(document)
+        }
     }
 
     /**
@@ -82,18 +116,6 @@ class WebScraper {
         }
     }
 
-    /**
-   * Get a random User-Agent string.
-   * @returns {string} A random User-Agent string.
-   */
-    getRandomUserAgent() {
-        const userAgents = [
-            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3',
-            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
-            'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0'
-        ]
-        return userAgents[Math.floor(Math.random() * userAgents.length)]
-    }
 
     /**
      * Extract metadata from the document.
