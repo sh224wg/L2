@@ -1,6 +1,11 @@
 import fetch from 'node-fetch'
 import { JSDOM } from 'jsdom'
 
+const ERROR_MESSAGES = {
+    INVALID_URL: 'Invalid URL',
+    NETWORK_ERROR: 'Network error',
+    SCRAPING_FAILED: ' Failed to scrape'
+}
 
 /**
  * Class representing a web scraper.
@@ -24,6 +29,7 @@ class WebScraper {
             return false
         }
     }
+
 
     /**
     * Get the scraped data.
