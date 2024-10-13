@@ -1,6 +1,7 @@
 import fetch from 'node-fetch'
 import { JSDOM } from 'jsdom'
 
+
 /**
  * Class representing a web scraper.
  */
@@ -9,12 +10,13 @@ class WebScraper {
         this.scrapedData = null
     }
 
+
     /**
      * Validate if a given URL is valid.
      * @param {string} url - The URL to validate.
      * @returns {boolean} True if the URL is valid, false otherwise.
      */
-    isValid(url) {
+    validateUrl(url) {
         try {
             new URL(url)
             return true
@@ -39,10 +41,9 @@ class WebScraper {
      * @returns {Promise<Object>} The scraped content.
      * @throws {Error} If the network response is not ok or scraping fails.
      */
-    async scrape(url, options = {}) {
-        if(!this.isValid(url)) {
-            throw new Error('Invalid Url')
-        }
+    async scrapeWebPage(url, options = {}) {
+        this.validateUrl(url)
+
         const headers = options.headers || {
             'User-Agent': this.getRandomUserAgent()
         }
