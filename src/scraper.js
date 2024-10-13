@@ -34,7 +34,7 @@ class WebScraper {
      * Get a random User-Agent string.
      * @returns {string} A random User-Agent string.
      */
-    getRandomUserAgent() {
+    selectRandomUserAgent() {
         const userAgents = [
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3',
             'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
@@ -43,11 +43,25 @@ class WebScraper {
         return userAgents[Math.floor(Math.random() * userAgents.length)]
     }
 
-    getHeaderOptions(options) {
+    buildHeaderOptions(options) {
         return {
             headers: options.headers || {
-                'User-Agent': this.getRandomUserAgent()
+                'User-Agent': this.selectRandomUserAgent()
             }
+        }
+    }
+
+    extractDataFromDom(document) {
+        return {
+            text: document.body.textContent ? document.body.textContent.trim() : '',
+            metaData: this.findMetaData(document),
+            titles: this.findTitles(document),
+            paragraphs: this.findParagraphs(document),
+            lists: this.findLists(document),
+            images: this.findImages(document),
+            links: this.findLinks(document),
+            spans: this.findSpans(document),
+            tables: this.findTables(document)
         }
     }
 
@@ -57,20 +71,6 @@ class WebScraper {
     */
     getScrapedData() {
         return this.scrapedData;
-    }
-
-    extractDataFromDom(document) {
-        return {
-            text: document.body.textContent ? document.body.textContent.trim() : '',
-            metaData: this.getMetaData(document),
-            titles: this.getTitles(document),
-            paragraphs: this.getParagraphs(document),
-            lists: this.getLists(document),
-            images: this.getImages(document),
-            links: this.getLinks(document),
-            spans: this.getSpans(document),
-            tables: this.getTables(document)
-        }
     }
 
     /**
@@ -83,36 +83,20 @@ class WebScraper {
      */
     async scrapeWebPage(url, options = {}) {
         this.validateUrl(url)
-
-        const headers = options.headers || {
-            'User-Agent': this.getRandomUserAgent()
-        }
-        const fetchOptions = { headers }
-
+        const fetchOptions = this.buildHeaderOptions(options)
         try {
             const response = await fetch(url, fetchOptions)
             if (!response.ok) {
-                throw new Error('Network response error')
+                throw new Error(ERROR_MESSAGES.NETWORK_ERROR)
             }
             const text = await response.text()
             const dom = new JSDOM(text)
             const document = dom.window.document
-
-            this.scrapedData = {
-                text: document.body.textContent ? document.body.textContent.trim() : '',
-                metaData: this.getMetaData(document),
-                titles: this.getTitles(document),
-                paragraphs: this.getParagraphs(document),
-                lists: this.getLists(document),
-                images: this.getImages(document),
-                links: this.getLinks(document),
-                spans: this.getSpans(document),
-                tables: this.getTables(document)
-            }
+            this.scrapedData = this.extractDataFromDom(document)
             return this.scrapedData
         } catch (error) {
-            console.log(`failed to scrape URL: ${url}`, error)
-            throw new Error('Failed to scrape')
+            console.log(`Failed to scrape URL: ${url}. Error ${error.message}`)
+            throw new Error(ERROR_MESSAGES.SCRAPING_FAILED)
         }
     }
 
@@ -122,7 +106,7 @@ class WebScraper {
      * @param {Document} document - The DOM document.
      * @returns {Object} The extracted metadata.
      */
-    getMetaData(document) {
+    findMetaData(document) {
         const metadata = {
             title: document.querySelector('title') ? document.querySelector('title').textContent : '',
             description: '',
@@ -144,7 +128,7 @@ class WebScraper {
      * @param {Document} document - The DOM document.
      * @returns {Array<Object>} The extracted titles.
      */
-    getTitles(document) {
+    findTitles(document) {
         const titles = []
         const uniqueTitles = new Set()
         const hElements = document.querySelectorAll('h1, h2, h3, h4, h5, h6')
@@ -166,7 +150,7 @@ class WebScraper {
     * @param {Document} document - The DOM document.
     * @returns {Array<Object>} The extracted paragraphs.
     */
-    getParagraphs(document) {
+    findParagraphs(document) {
         const paragraphs = []
         const uniqueParagraphs = new Set()
         const pElements = document.querySelectorAll('p')
@@ -189,7 +173,7 @@ class WebScraper {
      * @param {Document} document - The DOM document.
      * @returns {Array<Object>} The extracted lists.
      */
-    getLists(document) {
+    findLists(document) {
         const lists = []
         const uniqueList = new Set()
         const ulElements = document.querySelectorAll('ul')
@@ -221,7 +205,7 @@ class WebScraper {
      * @param {Document} document - The DOM document.
      * @returns {Array<Object>} The extracted images.
      */
-    getImages(document) {
+    findImages(document) {
         const images = []
         const uniqueImages = new Set()
         const imageElements = document.querySelectorAll('img')
@@ -251,7 +235,7 @@ class WebScraper {
      * @param {Document} document - The DOM document.
      * @returns {Array<Object>} The extracted links.
      */
-    getLinks(document) {
+    findLinks(document) {
         const links = []
         const uniqueLinks = new Set()
         const aElements = document.querySelectorAll('a')
@@ -274,7 +258,7 @@ class WebScraper {
      * @param {Document} document - The DOM document.
      * @returns {Array<string>} The extracted spans.
      */
-    getSpans(document) {
+    findSpans(document) {
         const spans = []
         const uniqueSpans = new Set()
         const spanElements = document.querySelectorAll('span')
@@ -293,7 +277,7 @@ class WebScraper {
      * @param {Document} document - The DOM document.
      * @returns {Array<Array<string>>} The extracted tables.
      */
-    getTables(document) {
+    findTables(document) {
         const tables = []
         const uniqueTables = new Set()
         const tableElement = document.querySelectorAll('table')
