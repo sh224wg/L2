@@ -131,10 +131,7 @@ class WebScraper {
             const text = h.textContent.trim()
             if (text && !uniqueTitles.has(text)) {
                 uniqueTitles.add(text)
-                titles.push({
-                    tag: h.tagName.toLowerCase(),
-                    text: text
-                })
+                titles.push({ tag: h.tagName.toLowerCase(), text: text })
             }
         })
         return titles
@@ -170,13 +167,8 @@ class WebScraper {
         const uniqueList = new Set()
         const ulElements = document.querySelectorAll('ul')
         ulElements.forEach(ul => {
-            const items = []
-            const liElements = ul.querySelectorAll('li')
-
-            liElements.forEach(li => {
-                if (li.textContent && li.textContent.trim()) {
-                    items.push(li.textContent.trim())
-                }
+            const items = this.extractListItems(ul)
+            
             })
             if (items.length > 0) {
                 const itemString = JSON.stringify(items)
@@ -185,7 +177,6 @@ class WebScraper {
                 }
                 lists.push({ tag: 'ul', items: items })
             }
-        })
         return lists
     }
 
