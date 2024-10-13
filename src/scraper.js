@@ -57,7 +57,7 @@ class WebScraper {
             metaData: this.extractMetaData(document),
             titles: this.extractTitles(document),
             paragraphs: this.extractParagraphs(document),
-            lists: this.findLists(document),
+            lists: this.extractLists(document),
             images: this.findImages(document),
             links: this.findLinks(document),
             spans: this.findSpans(document),
@@ -154,7 +154,7 @@ class WebScraper {
             const text = p.textContent.trim()
             if (text && !uniqueParagraphs.has(text)) {
                 uniqueParagraphs.add(text)
-                paragraphs.push({ tag: 'p',text: text })
+                paragraphs.push({ tag: 'p', text: text })
             }
         }
         return paragraphs
@@ -165,7 +165,7 @@ class WebScraper {
      * @param {Document} document - The DOM document.
      * @returns {Array<Object>} The extracted lists.
      */
-    findLists(document) {
+    extractLists(document) {
         const lists = []
         const uniqueList = new Set()
         const ulElements = document.querySelectorAll('ul')
@@ -183,13 +183,14 @@ class WebScraper {
                 if (!uniqueList.has(itemString)) {
                     uniqueList.add(itemString)
                 }
-                lists.push({
-                    tag: 'ul',
-                    items: items
-                })
+                lists.push({ tag: 'ul', items: items })
             }
         })
         return lists
+    }
+
+    extractListItems(ul){
+        
     }
 
     /**
