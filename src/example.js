@@ -28,7 +28,7 @@ class StartWebScraper {
 
     async run(url) {
         try {
-            await this.webScraper.scrape(url)
+            await this.webScraper.scrapeWebPage(url)
             const content = this.webScraper.getScrapedData()
             const format = {
                 metaData: content.metaData || [],

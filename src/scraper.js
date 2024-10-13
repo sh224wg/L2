@@ -54,7 +54,7 @@ class WebScraper {
     extractDataFromDom(document) {
         return {
             text: document.body.textContent ? document.body.textContent.trim() : '',
-            metaData: this.findMetaData(document),
+            metaData: this.extractMetaData(document),
             titles: this.findTitles(document),
             paragraphs: this.findParagraphs(document),
             lists: this.findLists(document),
@@ -106,12 +106,18 @@ class WebScraper {
      * @param {Document} document - The DOM document.
      * @returns {Object} The extracted metadata.
      */
-    findMetaData(document) {
-        const metadata = {
-            title: document.querySelector('title') ? document.querySelector('title').textContent : '',
-            description: '',
-            keywords: ''
+    extractMetaData(document) {
+        const collectMetadata = (name) => {
+            const meta = document.querySelector(`meta[name="${name}"]`)
+            return meta ? meta.getAttribute('content').trim() : ''
         }
+        return {
+            title: document.querySelector('title') ? document.querySelector('title').textContent : '',
+            description: collectMetadata('description'),
+            keywords: collectMetadata('keywords')
+        }
+
+/*         }
         const descriptionMeta = document.querySelector('meta[name="description"]')
         if (descriptionMeta) {
             metadata.description = descriptionMeta.getAttribute('content')
@@ -120,8 +126,9 @@ class WebScraper {
         if (keywordsMeta) {
             metadata.keywords = keywordsMeta.getAttribute('content')
         }
-        return metadata
+        return metadata */
     }
+
 
     /**
      * Extract titles from the document.
