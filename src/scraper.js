@@ -56,7 +56,7 @@ class WebScraper {
             text: document.body.textContent ? document.body.textContent.trim() : '',
             metaData: this.extractMetaData(document),
             titles: this.extractTitles(document),
-            paragraphs: this.findParagraphs(document),
+            paragraphs: this.extractParagraphs(document),
             lists: this.findLists(document),
             images: this.findImages(document),
             links: this.findLinks(document),
@@ -145,19 +145,16 @@ class WebScraper {
     * @param {Document} document - The DOM document.
     * @returns {Array<Object>} The extracted paragraphs.
     */
-    findParagraphs(document) {
+    extractParagraphs(document) {
         const paragraphs = []
         const uniqueParagraphs = new Set()
-        const pElements = document.querySelectorAll('p')
-        for (let i = 0; i < pElements.length; i++) {
-            const p = pElements[i]
+        const paragraphElements = document.querySelectorAll('p')
+        for (let i = 0; i < paragraphElements.length; i++) {
+            const p = paragraphElements[i]
             const text = p.textContent.trim()
             if (text && !uniqueParagraphs.has(text)) {
                 uniqueParagraphs.add(text)
-                paragraphs.push({
-                    tag: 'p',
-                    text: text
-                })
+                paragraphs.push({ tag: 'p',text: text })
             }
         }
         return paragraphs
