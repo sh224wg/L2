@@ -2,12 +2,18 @@ import WebScraper from './scraper.js'
 import readline from 'readline'
 import fs from 'fs'
 
+/**
+ * Class representing the start of the web scraper application.
+ */
 class StartWebScraper {
 
     constructor() {
         this.webScraper = new WebScraper()
     }
 
+    /**
+     * Prompt the user to enter a URL to scrape.
+     */
     askForUrl() {
         const rl = readline.createInterface({
             input: process.stdin,
@@ -26,6 +32,10 @@ class StartWebScraper {
         })
     }
 
+    /**
+     * Run the web scraper with the provided URL.
+     * @param {string} url - The URL to scrape.
+     */
     async run(url) {
         try {
             await this.webScraper.scrapeWebPage(url)
