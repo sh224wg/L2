@@ -303,12 +303,18 @@ class WebScraper {
 
         rowElements.forEach((rowElement) => {
             const cells = this.extractTableCells(rowElement)
-
+            rows.push(cells)
         })
+        return rows
     }
 
     extractTableCells(tableElement){
-
+        const cells = []
+        const cellElements = row.querySelectorAll('td, th')
+        cellElements.forEach((cellElement) => {
+            cells.push(cellElement.textContent.trim())
+        })
+        rows.push(cells)
     }
     /**
      * Retry scraping a URL a specified number of times.
