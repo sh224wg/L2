@@ -312,7 +312,7 @@ class WebScraper {
         for (let attempt = 1; attempt <= tries; attempt++) {
             try {
                 console.log(`Attempt ${attempt} to scrape ${url}`)
-                return await this.scrape(url)
+                return await this.scrapeWebPage(url)
             } catch (error) {
                 if (attempt < tries) {
                     console.log(`Attempt ${attempt} failed. Trying again...`)
@@ -321,7 +321,7 @@ class WebScraper {
                     throw error
                 }
             }
-        }
+        } 
     }
 
     /**
