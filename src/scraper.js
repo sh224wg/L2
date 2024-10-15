@@ -272,7 +272,7 @@ class WebScraper {
 
         tableElements.forEach((tableElement) => {
             const rows = extractTableRows(tableElement)
-            const tableHTML = tableELement.outerHTML.trim()
+            const tableHTML = tableElement.outerHTML.trim()
 
             if (rows.length > 0 && !uniqueTables.has(tableHTML)) {
                 uniqueTables.add(tableHTML)
@@ -297,11 +297,17 @@ class WebScraper {
         return tables
     } */
 
-    extractTableRows(){
+    extractTableRows(tableElement){
+        const rows = []
+        const rowElements = tableElement.querySelectorAll('tr')
 
+        rowElements.forEach((rowElement) => {
+            const cells = this.extractTableCells(rowElement)
+
+        })
     }
 
-    extractTableCells(){
+    extractTableCells(tableElement){
 
     }
     /**
