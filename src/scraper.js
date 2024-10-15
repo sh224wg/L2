@@ -61,7 +61,7 @@ class WebScraper {
             images: this.extractImages(document),
             links: this.extractLinks(document),
             spans: this.extractSpans(document),
-            tables: this.findTables(document)
+            tables: this.extractTables(document)
         }
     }
 
@@ -265,16 +265,23 @@ class WebScraper {
      * @param {Document} document - The DOM document.
      * @returns {Array<Array<string>>} The extracted tables.
      */
-    findTables(document) {
+    extractTables(document) {
         const tables = []
         const uniqueTables = new Set()
         const tableElements = document.querySelectorAll('table')
 
-        tableElements.forEach((tableElement => {
+        tableElements.forEach((tableElement) => {
             const rows = extractTableRows(tableElement)
             const tableHTML = tableELement.outerHTML.trim()
 
-            const rowElements = table.querySelectorAll('tr')
+            if (rows.length > 0 && !uniqueTables.has(tableHTML)) {
+                uniqueTables.add(tableHTML)
+                tables.push(rows)
+            }
+        })
+        return tables
+    }
+  /*           const rowElements = table.querySelectorAll('tr')
 
             rowElements.forEach(row => {
                 const cells = []
@@ -285,20 +292,17 @@ class WebScraper {
                 rows.push(cells)
             })
             const tableHTML = table.outerHTML.trim()
-            if (rows.length > 0 && !uniqueTables.has(tableHTML)) {
-                uniqueTables.add(tableHTML)
-                tables.push(rows)
-            }
+           
         })
         return tables
-    }
+    } */
 
     extractTableRows(){
 
     }
 
     extractTableCells(){
-        
+
     }
     /**
      * Retry scraping a URL a specified number of times.
