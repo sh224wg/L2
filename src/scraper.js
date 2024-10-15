@@ -281,21 +281,6 @@ class WebScraper {
         })
         return tables
     }
-  /*           const rowElements = table.querySelectorAll('tr')
-
-            rowElements.forEach(row => {
-                const cells = []
-                const cellElements = row.querySelectorAll('td, th')
-                cellElements.forEach(cell => {
-                    cells.push(cell.textContent.trim())
-                })
-                rows.push(cells)
-            })
-            const tableHTML = table.outerHTML.trim()
-           
-        })
-        return tables
-    } */
 
     extractTableRows(tableElement){
         const rows = []
@@ -308,9 +293,9 @@ class WebScraper {
         return rows
     }
 
-    extractTableCells(tableElement){
+    extractTableCells(rowElement){
         const cells = []
-        const cellElements = row.querySelectorAll('td, th')
+        const cellElements = rowElement.querySelectorAll('td, th')
         cellElements.forEach((cellElement) => {
             cells.push(cellElement.textContent.trim())
         })
