@@ -268,10 +268,12 @@ class WebScraper {
     findTables(document) {
         const tables = []
         const uniqueTables = new Set()
-        const tableElement = document.querySelectorAll('table')
+        const tableElements = document.querySelectorAll('table')
 
-        tableElement.forEach(table => {
-            const rows = []
+        tableElements.forEach((tableElement => {
+            const rows = extractTableRows(tableElement)
+            const tableHTML = tableELement.outerHTML.trim()
+
             const rowElements = table.querySelectorAll('tr')
 
             rowElements.forEach(row => {
@@ -291,6 +293,13 @@ class WebScraper {
         return tables
     }
 
+    extractTableRows(){
+
+    }
+
+    extractTableCells(){
+        
+    }
     /**
      * Retry scraping a URL a specified number of times.
      * @param {string} url - The URL to scrape.
