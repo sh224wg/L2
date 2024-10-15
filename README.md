@@ -16,12 +16,19 @@ In the example.js file an example of how the webscraper can be used can be found
     // Create new instance of the webscraper
     const scraper = new WebScraper()
 
-    // Scrape a website while inserting User-Agent in the header
-    async scrape(url, options = {}) {
-    const headers = options.headers || {
-        'User-Agent': this.getRandomUserAgent()
-     }
+ // Function to scrape a website and save the content to a JSON file
+    async function scrapeWebsite(url) {
+    try {
+        await scraper.scrape(url)
+        scraper.saveToFile('scrapedContent.json')
+        console.log('Scraped data saved to scrapedContent.json')
+    } catch (error) {
+        console.error(`Error scraping the URL: ${error.message}`)
     }
+}
+// Example usage
+const url = 'https://www.example.com'
+scrapeWebsite(url)
 ```
 ## Installation
 To install the WebScraper module, run the following command:
