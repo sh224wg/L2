@@ -28,3 +28,6 @@ coverage/
 
 # Ignore Jest cache directory
 jest-cache/
+
+# Ignore the output data
+scrapedContent.json
