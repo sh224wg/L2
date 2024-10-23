@@ -334,23 +334,22 @@ class WebScraper {
         let currentUrl = url
         let scrapedContent = []
 
-        for (let i = 1; i <= maxPages; i++) {
-            console.log(`Scraping page ${i}: ${currentUrl}`)
+        for (let i = 1; i <= maxPages; i++) { console.log(`Scraping page ${i}: ${currentUrl}`)
             const pageContent = await this.scrapeWebPage(currentUrl)
             if (!pageContent) {
                 console.log(`No content found on page ${page}. Scraping ended.`)
-                break;
+                break
             }
             scrapedContent.push(pageContent)
             const nextPageUrl = this.#findNextPage(pageContent)
-            if (!nextLink) {
-                console.log(`No next page found after page ${page}. Scraping ended.`)
-                break;
+            if (!nextLink) { console.log(`No next page found after page ${page}. Scraping ended.`)
+                break
             }
             currentUrl = nextPageUrl
         }
         return scrapedContent
     }
+
 
     /**
      * Find the next page link or button in the content.
