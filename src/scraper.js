@@ -200,7 +200,7 @@ class WebScraper {
         const imageElements = document.querySelectorAll('img')
         for (const img of imageElements) {
             const imageData = this.createImageData(img)
-            if(imageData && !uniqueImages.has(imageData.uniqueId)) {
+            if (imageData && !uniqueImages.has(imageData.uniqueId)) {
                 uniqueImages.add(imageData.uniqueId)
                 images.push(imageData.data)
             }
@@ -212,7 +212,7 @@ class WebScraper {
         const src = img.getAttribute('src')
         const alt = img.getAttribute('alt') || ''
         const title = img.getAttribute('title') || ''
-        if(!src) {
+        if (!src) {
             return null
         }
         const overlap = src.split('/').slice(-1)[0].split('?')[0]
@@ -282,7 +282,7 @@ class WebScraper {
         return tables
     }
 
-    extractTableRows(tableElement){
+    extractTableRows(tableElement) {
         const rows = []
         const rowElements = tableElement.querySelectorAll('tr')
 
@@ -293,7 +293,7 @@ class WebScraper {
         return rows
     }
 
-    extractTableCells(rowElement){
+    extractTableCells(rowElement) {
         const cells = []
         const cellElements = rowElement.querySelectorAll('td, th')
         cellElements.forEach((cellElement) => {
@@ -321,7 +321,7 @@ class WebScraper {
                     throw error
                 }
             }
-        } 
+        }
     }
 
     /**
@@ -331,26 +331,25 @@ class WebScraper {
      * @returns {Promise<Array<Object>>} The scraped content from all pages.
      */
     async scrapeNextPage(url, maxPages = 5) {
-        let startUrl = url
-        let content = []
+        let currentUrl = url
+        let scrapedContent = []
 
         for (let i = 1; i <= maxPages; i++) {
-            console.log(`Scraping page ${i}: ${startUrl}`)
-            const pageContent = await this.scrape(startUrl)
-            if (pageContent) {
-                content.push(pageContent)
-
-                const nextLink = this.#findNextPage(pageContent)
-                if (nextLink) {
-                    startUrl = nextLink
-                } else {
-                    break
-                }
-            } else {
-                break
+            console.log(`Scraping page ${i}: ${currentUrl}`)
+            const pageContent = await this.scrapeWebPage(currentUrl)
+            if (!pageContent) {
+                console.log(`No content found on page ${page}. Scraping ended.`)
+                break;
             }
+            scrapedContent.push(pageContent)
+            const nextPageUrl = this.#findNextPage(pageContent)
+            if (!nextLink) {
+                console.log(`No next page found after page ${page}. Scraping ended.`)
+                break;
+            }
+            currentUrl = nextPageUrl
         }
-        return content
+        return scrapedContent
     }
 
     /**
