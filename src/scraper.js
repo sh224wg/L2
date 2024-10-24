@@ -343,7 +343,7 @@ class WebScraper {
             scrapedContent.push(pageContent)
             // parsed doc to find next apge url
             const nextPageUrl = this.#findNextPage(new JSDOM(pageContent.text).window.document)
-            if (!nextPageUrl) { console.log(`No next page found after page ${page}. Scraping ended.`)
+            if (!nextPageUrl) { console.log(`No next page found after page ${i}. Scraping ended.`)
                 break
             }
             currentUrl = new URL(nextPageUrl, currentUrl).href
@@ -358,7 +358,7 @@ class WebScraper {
      * @returns {string|null} The URL of the next page or null if not found.
      */
     #findNextPage(document) {
-        let nextLink = Array.from(document.links).find(link =>
+        const nextLink = Array.from(document.querySelectorAll('a')).find(link =>
             (link.text && (link.text.toLowerCase().includes('next') || link.text.includes('>'))) ||
             (link.title && link.title.toLowerCase() === 'nästa sida') ||
             (link.dataset && link.dataset.elid === 'pagination-next-page-button')
@@ -366,9 +366,9 @@ class WebScraper {
         if (nextLink && nextLink.href) {
             return nextLink.href
         }
-        const nextButton = Array.from(document.querySelectorAll('button')).find(button.dataset && button.dataset.elid === 'pagination-next-page-button')
-        if (nextButton && nextButton.href) {
-            return nextButton.href
+        const nextButton = Array.from(document.querySelectorAll('button')).find(button => button.dataset && button.dataset.elid === 'pagination-next-page-button')
+        if (nextButton && nextButton.dataset.url) {
+            return nextButton.dataset.url
         }
         return null
     }

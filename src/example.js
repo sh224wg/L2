@@ -22,8 +22,10 @@ class StartWebScraper {
 
         rl.question('Please Enter URL to scrape: ', (url) => {
             if (url) {
-                rl.close()
-                this.run(url)
+                rl.question('Please Enter the number of pages to scrape: ', (maxPages) => {
+                    rl.close()
+                    this.run(url, parseInt(maxPages, 5))
+                })
             } else {
                 console.log('Invalid URL, try again.')
                 rl.close()
@@ -36,20 +38,20 @@ class StartWebScraper {
      * Run the web scraper with the provided URL.
      * @param {string} url - The URL to scrape.
      */
-    async run(url) {
+    async run(url, maxPages = 5) {
         try {
-            await this.webScraper.scrapeWebPage(url)
-            const content = this.webScraper.getScrapedData()
-            const format = {
-                metaData: content.metaData || [],
-                titles: content.titles || [],
-                paragraphs: content.paragraphs || [],
-                images: content.images || [],
-                links: content.links || [],
-                spans: content.spans || [],
-                lists: content.lists || [],
-                tables: content.tables || []
-            }
+            //await this.webScraper.scrapeWebPage(url)
+            const content = await this.webScraper.scrapeNextPage(url, maxPages)//getScrapedData()
+            const format = content.map(pageContent => ({
+                metaData: pageContent.metaData || [],
+                titles: pageContent.titles || [],
+                paragraphs: pageContent.paragraphs || [],
+                images: pageContent.images || [],
+                links: pageContent.links || [],
+                spans: pageContent.spans || [],
+                lists: pageContent.lists || [],
+                tables: pageContent.tables || []
+            }))
 
             const scrapedData = JSON.stringify(format, null, 2)
             fs.writeFileSync('scrapedContent.json', scrapedData)
