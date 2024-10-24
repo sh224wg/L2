@@ -337,18 +337,14 @@ class WebScraper {
         for (let i = 1; i <= maxPages; i++) {
             console.log(`Scraping page ${i}: ${currentUrl}`)
             const pageContent = await this.scrapeWebPage(currentUrl)
-            if (!pageContent) {
-                console.log(`No content found on page ${page}. Scraping ended.`)
+            if (!pageContent) { console.log(`No content found on page ${page}. Scraping ended.`)
                 break
             }
             scrapedContent.push(pageContent)
-            // parsed doc to find next apge url
             const nextPageUrl = this.#findNextPage(new JSDOM(pageContent.text).window.document)
-            if (!nextPageUrl) {
-                console.log(`No next page found after page ${i}. Scraping ended.`)
+            if (!nextPageUrl) { console.log(`No next page found after page ${i}. Scraping ended.`)
                 break
             }
-
             currentUrl = new URL(nextPageUrl, currentUrl).href
         }
         console.log(`Total pages scraped: ${scrapedContent.length}`)

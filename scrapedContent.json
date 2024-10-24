@@ -1,221 +1,677 @@
 [
   {
     "metaData": {
-      "title": "1DV025 | Välkommen!",
-      "description": "metaDescription",
+      "title": "Så fick polisen bort nätverket från centrala Göteborg – med den nya lagen | SVT Nyheter",
+      "description": "Genom att porta fyra män har ett kriminellt nätverk förflyttats från centrala Göteborg. En effekt av den nya lagen om vistelseförbud, menar polisen som använder den nya metoden allt mer flitigt. – Vi har sett att deras närvaro i stort sett har upphört i området men det är viktigt att vi följer utvecklingen framåt när förbuden går ut, säger Christian Jensen, operativ samordnare på polisen.",
       "keywords": ""
     },
     "titles": [
       {
         "tag": "h1",
-        "text": "🎉 Välkommen!"
+        "text": "Javascript är avstängt"
+      },
+      {
+        "tag": "h1",
+        "text": "Så fick polisen bort nätverket från centrala Göteborg – med den nya lagen"
+      },
+      {
+        "tag": "h2",
+        "text": "Fyra män portade"
+      },
+      {
+        "tag": "h2",
+        "text": "Bröt mot förbudet – fick fängelse"
+      },
+      {
+        "tag": "h2",
+        "text": "Det här är lagen om preventiva vistelseförbud:"
+      },
+      {
+        "tag": "h3",
+        "text": "Relaterat"
+      },
+      {
+        "tag": "h1",
+        "text": "Här är männen som portats från områden i Göteborg"
+      },
+      {
+        "tag": "h1",
+        "text": "Advokaten sågar den nya lagen om vistelseförbud: ”Det är en illusion”"
+      },
+      {
+        "tag": "h1",
+        "text": "Han är portad från centrala Göteborg – med preventivt vistelseförbud"
+      },
+      {
+        "tag": "h1",
+        "text": "Ny lag om preventivt vistelseförbud: Därför portar polisen en 23-årig man från centrala Göteborg"
+      },
+      {
+        "tag": "h1",
+        "text": "Så arbetar vi"
+      },
+      {
+        "tag": "h1",
+        "text": "Senaste avsnittet på SVT Play"
+      },
+      {
+        "tag": "h1",
+        "text": "Lokala Nyheter Väst"
+      },
+      {
+        "tag": "h1",
+        "text": "Mest tittat Väst"
+      },
+      {
+        "tag": "h1",
+        "text": "Kristofer kräver staten på miljoner då tjäder stoppade avverkning"
+      },
+      {
+        "tag": "h1",
+        "text": "Professorns kritik mot åldersgräns på sociala medier: ”Kan leda till konflikt”"
+      },
+      {
+        "tag": "h1",
+        "text": "Mest läst Väst"
+      },
+      {
+        "tag": "h1",
+        "text": "Kontakta SVT Nyheter Väst"
+      },
+      {
+        "tag": "h2",
+        "text": "Nyheter"
+      },
+      {
+        "tag": "h2",
+        "text": "Tjänster"
+      },
+      {
+        "tag": "h2",
+        "text": "Aktuella program"
+      },
+      {
+        "tag": "h2",
+        "text": "Hjälp och kontakt"
       }
     ],
     "paragraphs": [
       {
         "tag": "p",
-        "text": "Välkommen till kursen \"Webbprogrammering på klientsidan (1DV025)\". Här hittar\ndu allt du behöver veta om kursens upplägg, schema med mera. Var noga med att\nbörja med att titta på vår översiktsvideo nedan och orientera dig här på kursens\nwebbplats!"
+        "text": "Genom att porta fyra män har ett kriminellt nätverk förflyttats från centrala Göteborg."
       },
       {
         "tag": "p",
-        "text": "Presentation"
+        "text": "En effekt av den nya lagen om vistelseförbud, menar polisen som använder den nya metoden allt mer flitigt."
+      },
+      {
+        "tag": "p",
+        "text": "– Vi har sett att deras närvaro i stort sett har upphört i området men det är viktigt att vi följer utvecklingen framåt när förbuden går ut, säger Christian Jensen, operativ samordnare på polisen."
+      },
+      {
+        "tag": "p",
+        "text": "I februari har det gått ett år sedan lagen om preventiva vistelseförbud började gälla, mot personer som polisen misstänker främjar brottslighet."
+      },
+      {
+        "tag": "p",
+        "text": "Sedan dess har omkring 80 personer i Sverige fått vistelseförbud – varav 18 i Göteborg."
+      },
+      {
+        "tag": "p",
+        "text": "I centrala Göteborg har polisen under ett par år haft problem med en kriminell gruppering som ägnar sig åt narkotikabrott, rån och hot och våld i offentlig miljö."
+      },
+      {
+        "tag": "p",
+        "text": "Nätverket har bestått av ett 30-tal individer. Totalt har fyra män i 25-årsåldern, som enligt polisen haft ledande roll i nätverket, portats från Vallgraven, Nordstaden, Masthugget och Lorensberg."
+      },
+      {
+        "tag": "p",
+        "text": "– Vi har ett nytt verktyg som vi har använt och vi kan just nu se konkreta resultat, säger Christian Jensen."
+      },
+      {
+        "tag": "p",
+        "text": "Siffror från polisen visar att antalet anmälda brott minskat mellan mars och september i år, jämfört med samma period förra året."
+      },
+      {
+        "tag": "p",
+        "text": "Ett exempel är antalet anmälda personrån som gått från 200 anmälningar till 85 under respektive period."
+      },
+      {
+        "tag": "p",
+        "text": "En del i förklaringen är vistelseförbuden, tror polisen."
+      },
+      {
+        "tag": "p",
+        "text": "– Vi ser att personerna som var aktuella med personrån inom det här området har fått vistelseförbud, säger Christian Jensen."
+      },
+      {
+        "tag": "p",
+        "text": "Har ni inte bara flyttat på problemet då?"
+      },
+      {
+        "tag": "p",
+        "text": "– Vi ser att vissa av individerna gick över till Hisingen och hänger där. Men de har inte alls samma starka lokala närvaro. Det är jättesvårt för dem att etablera en ny marknad på Hisingen och vi ser att de inte alls är lika aktiva."
+      },
+      {
+        "tag": "p",
+        "text": "Den första ansökan skickade polisen in i mars i år. Det gällde en 23-årig man som hade en ledande roll i nätverket. Han är sedan tidigare dömd för brott, bland annat misshandel, narkotikabrott och olaga hot."
+      },
+      {
+        "tag": "p",
+        "text": "Han har brutit mot förbudet flera gånger och avtjänar just nu ett fängelsestraff för överträdelse av vistelseförbud."
+      },
+      {
+        "tag": "p",
+        "text": "SVT Nyheter Väst träffade 23-åringen kort efter att vistelseförbudet meddelats och då berättade han att han trots förbudet visats i det förbjudna området – hör honom berätta om det i klippet nedan."
+      },
+      {
+        "tag": "p",
+        "text": "Flera av männen har fått fängelsestraff för att ha brutit mot vistelseförbudet."
+      },
+      {
+        "tag": "p",
+        "text": "Källa: Polisen"
+      },
+      {
+        "tag": "p",
+        "text": "Uppdaterad24 oktober 2024 kl 11:37"
+      },
+      {
+        "tag": "p",
+        "text": "Publicerad24 oktober 2024 kl 05:30"
+      },
+      {
+        "tag": "p",
+        "text": "SVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar."
       }
     ],
     "images": [
       {
-        "src": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIgogICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIgogICB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgdmlld0JveD0iMCAwIDMzNy4zNDY2OCA0NDYuNTYiCiAgIGhlaWdodD0iNDQ2LjU2IgogICB3aWR0aD0iMzM3LjM0NjY4IgogICB4bWw6c3BhY2U9InByZXNlcnZlIgogICBpZD0ic3ZnMiIKICAgdmVyc2lvbj0iMS4xIj48bWV0YWRhdGEKICAgICBpZD0ibWV0YWRhdGE4Ij48cmRmOlJERj48Y2M6V29yawogICAgICAgICByZGY6YWJvdXQ9IiI+PGRjOmZvcm1hdD5pbWFnZS9zdmcreG1sPC9kYzpmb3JtYXQ+PGRjOnR5cGUKICAgICAgICAgICByZGY6cmVzb3VyY2U9Imh0dHA6Ly9wdXJsLm9yZy9kYy9kY21pdHlwZS9TdGlsbEltYWdlIiAvPjwvY2M6V29yaz48L3JkZjpSREY+PC9tZXRhZGF0YT48ZGVmcwogICAgIGlkPSJkZWZzNiIgLz48ZwogICAgIHRyYW5zZm9ybT0ibWF0cml4KDEuMzMzMzMzMywwLDAsLTEuMzMzMzMzMywwLDQ0Ni41NikiCiAgICAgaWQ9ImcxMCI+PGcKICAgICAgIHRyYW5zZm9ybT0ic2NhbGUoMC4xKSIKICAgICAgIGlkPSJnMTIiPjxwYXRoCiAgICAgICAgIGlkPSJwYXRoMTQiCiAgICAgICAgIHN0eWxlPSJmaWxsOiMyMzFmMjA7ZmlsbC1vcGFjaXR5OjE7ZmlsbC1ydWxlOm5vbnplcm87c3Ryb2tlOm5vbmUiCiAgICAgICAgIGQ9Im0gODAzLjYzNywwIGggNTg0LjY0MyBjIDAsMCAtOTUuMTcsNDY0LjMyIC0xMDQuODYsMTE4MC42NiAzNy4zLDEzMjQuMTQgLTM4Mi43OTksMTUwMS4xOSAtODM0LjEzNSwxNTU3LjE0IC00NTEuMzE2MjUsNTUuOTYgLTU2LjAxNSwtNDguNjEgLTQ4LjQ5MiwtNDguNDkgNy41MjcsMC4xMyAxNjUuOTY5LDcuNDMgMzIxLjEyNSwtODguMyBDIDg3Ny4wNzQsMjUwNS4yOCAxMzA3LjE4LDIyMjMuMDYgMTAxOS45OCw5MjUuMDM5IDg0OS4xNzIsMTUzLjA1MSA4MDMuNjM3LDAgODAzLjYzNywwIiAvPjxwYXRoCiAgICAgICAgIGlkPSJwYXRoMTYiCiAgICAgICAgIHN0eWxlPSJmaWxsOiMyMzFmMjA7ZmlsbC1vcGFjaXR5OjE7ZmlsbC1ydWxlOm5vbnplcm87c3Ryb2tlOm5vbmUiCiAgICAgICAgIGQ9Im0gMjMyNS44MiwxNDIzIGMgMCwtMTMyLjAzIC0xMDcuMDQsLTIzOS4wNyAtMjM5LjA3LC0yMzkuMDcgLTEzMi4wNCwwIC0yMzkuMDcsMTA3LjA0IC0yMzkuMDcsMjM5LjA3IDAsMTMyLjAzIDEwNy4wMywyMzkuMDcgMjM5LjA3LDIzOS4wNyAxMzIuMDMsMCAyMzkuMDcsLTEwNy4wNCAyMzkuMDcsLTIzOS4wNyIgLz48cGF0aAogICAgICAgICBpZD0icGF0aDE4IgogICAgICAgICBzdHlsZT0iZmlsbDojMjMxZjIwO2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpub256ZXJvO3N0cm9rZTpub25lIgogICAgICAgICBkPSJtIDE4MjQuMDcsMTcyMi40MyBjIDAsLTEzMi4wNCAtMTA3LjAzLC0yMzkuMDggLTIzOS4wNywtMjM5LjA4IC0xMzIuMDQsMCAtMjM5LjA3LDEwNy4wNCAtMjM5LjA3LDIzOS4wOCAwLDEzMi4wMyAxMDcuMDMsMjM5LjA3IDIzOS4wNywyMzkuMDcgMTMyLjA0LDAgMjM5LjA3LC0xMDcuMDQgMjM5LjA3LC0yMzkuMDciIC8+PHBhdGgKICAgICAgICAgaWQ9InBhdGgyMCIKICAgICAgICAgc3R5bGU9ImZpbGw6IzIzMWYyMDtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6bm9uemVybztzdHJva2U6bm9uZSIKICAgICAgICAgZD0ibSAxODQxLjQ5LDExMzcuMTUgYyAwLC0xMzIuMDQgLTEwNy4wMywtMjM5LjA4IC0yMzkuMDYsLTIzOS4wOCAtMTMyLjA0LDAgLTIzOS4wOCwxMDcuMDQgLTIzOS4wOCwyMzkuMDggMCwxMzIuMDIgMTA3LjA0LDIzOS4wNiAyMzkuMDgsMjM5LjA2IDEzMi4wMywwIDIzOS4wNiwtMTA3LjA0IDIzOS4wNiwtMjM5LjA2IiAvPjxwYXRoCiAgICAgICAgIGlkPSJwYXRoMjIiCiAgICAgICAgIHN0eWxlPSJmaWxsOiMyMzFmMjA7ZmlsbC1vcGFjaXR5OjE7ZmlsbC1ydWxlOm5vbnplcm87c3Ryb2tlOm5vbmUiCiAgICAgICAgIGQ9Im0gMjI4NC43OSwyMDY0LjU1IGMgMCwtMTMyLjAzIC0xMDcuMDQsLTIzOS4wNyAtMjM5LjA3LC0yMzkuMDcgLTEzMi4wMywwIC0yMzkuMDcsMTA3LjA0IC0yMzkuMDcsMjM5LjA3IDAsMTMyLjAzIDEwNy4wNCwyMzkuMDcgMjM5LjA3LDIzOS4wNyAxMzIuMDMsMCAyMzkuMDcsLTEwNy4wNCAyMzkuMDcsLTIzOS4wNyIgLz48cGF0aAogICAgICAgICBpZD0icGF0aDI0IgogICAgICAgICBzdHlsZT0iZmlsbDojMjMxZjIwO2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpub256ZXJvO3N0cm9rZTpub25lIgogICAgICAgICBkPSJtIDE3NTIuODcsMjMwMS4wMiBjIDAsLTEzMi4wMyAtMTA3LjA0LC0yMzkuMDggLTIzOS4wNywtMjM5LjA4IC0xMzIuMDQsMCAtMjM5LjA3LDEwNy4wNSAtMjM5LjA3LDIzOS4wOCAwLDEzMi4wMyAxMDcuMDMsMjM5LjA3IDIzOS4wNywyMzkuMDcgMTMyLjAzLDAgMjM5LjA3LC0xMDcuMDQgMjM5LjA3LC0yMzkuMDciIC8+PHBhdGgKICAgICAgICAgaWQ9InBhdGgyNiIKICAgICAgICAgc3R5bGU9ImZpbGw6IzIzMWYyMDtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6bm9uemVybztzdHJva2U6bm9uZSIKICAgICAgICAgZD0ibSAyMjE0LjgyLDI2NDUuNzYgYyAwLC0xMzIuMDMgLTEwNy4wNCwtMjM5LjA3IC0yMzkuMDcsLTIzOS4wNyAtMTMyLjAzLDAgLTIzOS4wOCwxMDcuMDQgLTIzOS4wOCwyMzkuMDcgMCwxMzIuMDMgMTA3LjA1LDIzOS4wOCAyMzkuMDgsMjM5LjA4IDEzMi4wMywwIDIzOS4wNywtMTA3LjA1IDIzOS4wNywtMjM5LjA4IiAvPjxwYXRoCiAgICAgICAgIGlkPSJwYXRoMjgiCiAgICAgICAgIHN0eWxlPSJmaWxsOiMyMzFmMjA7ZmlsbC1vcGFjaXR5OjE7ZmlsbC1ydWxlOm5vbnplcm87c3Ryb2tlOm5vbmUiCiAgICAgICAgIGQ9Im0gMjUzMC4wOCwxNzY5LjM1IGMgMCwtNzcuMjkgLTYyLjY1LC0xMzkuOTQgLTEzOS45NCwtMTM5Ljk0IC03Ny4yOCwwIC0xMzkuOTQsNjIuNjUgLTEzOS45NCwxMzkuOTQgMCw3Ny4yOSA2Mi42NiwxMzkuOTQgMTM5Ljk0LDEzOS45NCA3Ny4yOSwwIDEzOS45NCwtNjIuNjUgMTM5Ljk0LC0xMzkuOTQiIC8+PHBhdGgKICAgICAgICAgaWQ9InBhdGgzMCIKICAgICAgICAgc3R5bGU9ImZpbGw6IzIzMWYyMDtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6bm9uemVybztzdHJva2U6bm9uZSIKICAgICAgICAgZD0ibSAxMzExLjI0LDMyMDkuMjkgYyAwLC03Ny4yOSAtNjIuNjcsLTEzOS45NCAtMTM5Ljk2LC0xMzkuOTQgLTc3LjI4LDAgLTEzOS45NCw2Mi42NSAtMTM5Ljk0LDEzOS45NCAwLDc3LjI4IDYyLjY2LDEzOS45NCAxMzkuOTQsMTM5Ljk0IDc3LjI5LDAgMTM5Ljk2LC02Mi42NiAxMzkuOTYsLTEzOS45NCIgLz48cGF0aAogICAgICAgICBpZD0icGF0aDMyIgogICAgICAgICBzdHlsZT0iZmlsbDojMjMxZjIwO2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpub256ZXJvO3N0cm9rZTpub25lIgogICAgICAgICBkPSJtIDgyNS42NTIsMjk1NS42MiBjIDAsLTc3LjI5IC02Mi42NiwtMTM5Ljk1IC0xMzkuOTQ1LC0xMzkuOTUgLTc3LjI4OSwwIC0xMzkuOTQxLDYyLjY2IC0xMzkuOTQxLDEzOS45NSAwLDc3LjI4IDYyLjY1MiwxMzkuOTQgMTM5Ljk0MSwxMzkuOTQgNzcuMjg1LDAgMTM5Ljk0NSwtNjIuNjYgMTM5Ljk0NSwtMTM5Ljk0IiAvPjxwYXRoCiAgICAgICAgIGlkPSJwYXRoMzQiCiAgICAgICAgIHN0eWxlPSJmaWxsOiMyMzFmMjA7ZmlsbC1vcGFjaXR5OjE7ZmlsbC1ydWxlOm5vbnplcm87c3Ryb2tlOm5vbmUiCiAgICAgICAgIGQ9Im0gNDA0LjkzOCwyMDQwLjU5IGMgMCwtNzcuMjkgLTYyLjY1NywtMTM5Ljk0IC0xMzkuOTUsLTEzOS45NCAtNzcuMjg5LDAgLTEzOS45MzcsNjIuNjUgLTEzOS45MzcsMTM5Ljk0IDAsNzcuMjggNjIuNjQ4LDEzOS45NCAxMzkuOTM3LDEzOS45NCA3Ny4yOTMsMCAxMzkuOTUsLTYyLjY2IDEzOS45NSwtMTM5Ljk0IiAvPjxwYXRoCiAgICAgICAgIGlkPSJwYXRoMzYiCiAgICAgICAgIHN0eWxlPSJmaWxsOiMyMzFmMjA7ZmlsbC1vcGFjaXR5OjE7ZmlsbC1ydWxlOm5vbnplcm87c3Ryb2tlOm5vbmUiCiAgICAgICAgIGQ9Im0gMTg1My4zNCwzMDMzLjM5IGMgMCwtMTMyLjA0IC0xMDcuMDQsLTIzOS4wOCAtMjM5LjA3LC0yMzkuMDggLTEzMi4wMywwIC0yMzkuMDcsMTA3LjA0IC0yMzkuMDcsMjM5LjA4IDAsMTMyLjAzIDEwNy4wNCwyMzkuMDYgMjM5LjA3LDIzOS4wNiAxMzIuMDMsMCAyMzkuMDcsLTEwNy4wMyAyMzkuMDcsLTIzOS4wNiIgLz48cGF0aAogICAgICAgICBpZD0icGF0aDM4IgogICAgICAgICBzdHlsZT0iZmlsbDojMjMxZjIwO2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpub256ZXJvO3N0cm9rZTpub25lIgogICAgICAgICBkPSJtIDE0MDMuNDIsMjcyOC4yMSBjIDAsLTEzMi4wMyAtMTA3LjA0LC0yMzkuMDcgLTIzOS4wNywtMjM5LjA3IC0xMzIuMDQsMCAtMjM5LjA3MywxMDcuMDQgLTIzOS4wNzMsMjM5LjA3IDAsMTMyLjAzIDEwNy4wMzMsMjM5LjA3IDIzOS4wNzMsMjM5LjA3IDEzMi4wMywwIDIzOS4wNywtMTA3LjA0IDIzOS4wNywtMjM5LjA3IiAvPjxwYXRoCiAgICAgICAgIGlkPSJwYXRoNDAiCiAgICAgICAgIHN0eWxlPSJmaWxsOiMyMzFmMjA7ZmlsbC1vcGFjaXR5OjE7ZmlsbC1ydWxlOm5vbnplcm87c3Ryb2tlOm5vbmUiCiAgICAgICAgIGQ9Im0gNDc4LjE0MSwyNzIyLjM2IGMgMCwtMTMyLjA0IC0xMDcuMDM2LC0yMzkuMDggLTIzOS4wNzUsLTIzOS4wOCBDIDEwNy4wMzUsMjQ4My4yOCAwLDI1OTAuMzIgMCwyNzIyLjM2IGMgMCwxMzIuMDMgMTA3LjAzNSwyMzkuMDYgMjM5LjA2NiwyMzkuMDYgMTMyLjAzOSwwIDIzOS4wNzUsLTEwNy4wMyAyMzkuMDc1LC0yMzkuMDYiIC8+PHBhdGgKICAgICAgICAgaWQ9InBhdGg0MiIKICAgICAgICAgc3R5bGU9ImZpbGw6IzIzMWYyMDtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6bm9uemVybztzdHJva2U6bm9uZSIKICAgICAgICAgZD0ibSA4OTEuMTY4LDIyNzIuNSBjIDAsLTEzMi4wMyAtMTA3LjAzNSwtMjM5LjA3IC0yMzkuMDc0LC0yMzkuMDcgLTEzMi4wMzEsMCAtMjM5LjA2NywxMDcuMDQgLTIzOS4wNjcsMjM5LjA3IDAsMTMyLjAzIDEwNy4wMzYsMjM5LjA3IDIzOS4wNjcsMjM5LjA3IDEzMi4wMzksMCAyMzkuMDc0LC0xMDcuMDQgMjM5LjA3NCwtMjM5LjA3IiAvPjxwYXRoCiAgICAgICAgIGlkPSJwYXRoNDQiCiAgICAgICAgIHN0eWxlPSJmaWxsOiMyMzFmMjA7ZmlsbC1vcGFjaXR5OjE7ZmlsbC1ydWxlOm5vbnplcm87c3Ryb2tlOm5vbmUiCiAgICAgICAgIGQ9Im0gMTA2MC4wMywxNzI0LjA0IGMgMCwtMTMyLjA0IC0xMDcuMDM0LC0yMzkuMDcgLTIzOS4wNjksLTIzOS4wNyAtMTMyLjAzMSwwIC0yMzkuMDY2LDEwNy4wMyAtMjM5LjA2NiwyMzkuMDcgMCwxMzIuMDMgMTA3LjAzNSwyMzkuMDcgMjM5LjA2NiwyMzkuMDcgMTMyLjAzNSwwIDIzOS4wNjksLTEwNy4wNCAyMzkuMDY5LC0yMzkuMDciIC8+PHBhdGgKICAgICAgICAgaWQ9InBhdGg0NiIKICAgICAgICAgc3R5bGU9ImZpbGw6IzIzMWYyMDtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6bm9uemVybztzdHJva2U6bm9uZSIKICAgICAgICAgZD0ibSA1MjUuMDUxLDE1OTUuMzMgYyAwLC0xMzIuMDMgLTEwNy4wMzksLTIzOS4wNyAtMjM5LjA3NCwtMjM5LjA3IC0xMzIuMDMyLDAgLTIzOS4wNjY4LDEwNy4wNCAtMjM5LjA2NjgsMjM5LjA3IDAsMTMyLjAzIDEwNy4wMzQ4LDIzOS4wNyAyMzkuMDY2OCwyMzkuMDcgMTMyLjAzNSwwIDIzOS4wNzQsLTEwNy4wNCAyMzkuMDc0LC0yMzkuMDciIC8+PHBhdGgKICAgICAgICAgaWQ9InBhdGg0OCIKICAgICAgICAgc3R5bGU9ImZpbGw6IzIzMWYyMDtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6bm9uemVybztzdHJva2U6bm9uZSIKICAgICAgICAgZD0ibSA5NTguNzMsMTE2Ni43NSBjIDAsLTEzMi4wMyAtMTA3LjAzNSwtMjM5LjA3IC0yMzkuMDc0LC0yMzkuMDcgLTEzMi4wMjcsMCAtMjM5LjA2NiwxMDcuMDQgLTIzOS4wNjYsMjM5LjA3IDAsMTMyLjAzIDEwNy4wMzksMjM5LjA3IDIzOS4wNjYsMjM5LjA3IDEzMi4wMzksMCAyMzkuMDc0LC0xMDcuMDQgMjM5LjA3NCwtMjM5LjA3IiAvPjwvZz48L2c+PC9zdmc+",
-        "alt": "logo",
+        "src": "/static/build/svt-nyheter-logo-cc32e1bea0b4054b7735.svg",
+        "alt": "SVT Nyheter",
         "title": ""
       },
       {
-        "src": "data:image/png;base64,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",
-        "alt": "logo-wordmark-sv.png",
-        "title": ""
+        "src": "https://www.svtstatic.se/image-news/992/1:1/0.27/0.43/86221ac2c64e92abd1c1815bb7287ab7a7589f4bee128f09628e591d51a410b0",
+        "alt": "Karta över ett område som markerar staden med röd och gul kontur, med namnen Masthugget, Nordstaden, Inom Vallgraven och Lorensberg väl synliga. Till höger står en polis i uniform och gestikulerar.",
+        "title": "Foto: George Adam/SVT"
       },
       {
-        "src": "data:image/svg+xml;base64,PHN2ZyBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0IiBoZWlnaHQ9IjFlbSIgd2lkdGg9IjFlbSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZT0iY3VycmVudENvbG9yIgogIGNsYXNzPSJpY29uLTdmNjczMGJlLS10ZXh0LTNmODlmMzgwIiBzdHlsZT0iY29sb3I6IHJnYigyNDcsIDEyNSwgNSk7Ij4KICA8Zz4KICAgIDxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIj48L2NpcmNsZT4KICAgIDxsaW5lIHgxPSIxMiIgeTE9IjgiIHgyPSIxMiIgeTI9IjEyIj48L2xpbmU+CiAgICA8bGluZSB4MT0iMTIiIHkxPSIxNiIgeDI9IjEyIiB5Mj0iMTYiPjwvbGluZT4KICA8L2c+Cjwvc3ZnPgo=",
+        "src": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
         "alt": "",
         "title": ""
       },
       {
-        "src": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDEzLjAuMiwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMTQ5NDgpICAtLT4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjAvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvVFIvMjAwMS9SRUMtU1ZHLTIwMDEwOTA0L0RURC9zdmcxMC5kdGQiPgo8c3ZnIHZlcnNpb249IjEuMCIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHdpZHRoPSI2NHB4IiBoZWlnaHQ9IjY0cHgiIHZpZXdCb3g9IjUuNSAtMy41IDY0IDY0IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDUuNSAtMy41IDY0IDY0IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8Y2lyY2xlIGZpbGw9IiNGRkZGRkYiIGN4PSIzNy43ODUiIGN5PSIyOC41MDEiIHI9IjI4LjgzNiIvPgoJPHBhdGggZmlsbD0iIzU1NTU1NSIgZD0iTTM3LjQ0MS0zLjVjOC45NTEsMCwxNi41NzIsMy4xMjUsMjIuODU3LDkuMzcyYzMuMDA4LDMuMDA5LDUuMjk1LDYuNDQ4LDYuODU3LDEwLjMxNAoJCWMxLjU2MSwzLjg2NywyLjM0NCw3Ljk3MSwyLjM0NCwxMi4zMTRjMCw0LjM4MS0wLjc3Myw4LjQ4Ni0yLjMxNCwxMi4zMTNjLTEuNTQzLDMuODI4LTMuODIsNy4yMS02LjgyOCwxMC4xNDMKCQljLTMuMTIzLDMuMDg1LTYuNjY2LDUuNDQ4LTEwLjYyOSw3LjA4NmMtMy45NjEsMS42MzgtOC4wNTcsMi40NTctMTIuMjg1LDIuNDU3cy04LjI3Ni0wLjgwOC0xMi4xNDMtMi40MjkKCQljLTMuODY2LTEuNjE4LTcuMzMzLTMuOTYxLTEwLjQtNy4wMjdjLTMuMDY3LTMuMDY2LTUuNC02LjUyNC03LTEwLjM3MlM1LjUsMzIuNzY3LDUuNSwyOC41YzAtNC4yMjksMC44MDktOC4yOTUsMi40MjgtMTIuMgoJCWMxLjYxOS0zLjkwNSwzLjk3Mi03LjQsNy4wNTctMTAuNDg2QzIxLjA4LTAuMzk0LDI4LjU2NS0zLjUsMzcuNDQxLTMuNXogTTM3LjU1NywyLjI3MmMtNy4zMTQsMC0xMy40NjcsMi41NTMtMTguNDU4LDcuNjU3CgkJYy0yLjUxNSwyLjU1My00LjQ0OCw1LjQxOS01LjgsOC42Yy0xLjM1NCwzLjE4MS0yLjAyOSw2LjUwNS0yLjAyOSw5Ljk3MmMwLDMuNDI5LDAuNjc1LDYuNzM0LDIuMDI5LDkuOTEzCgkJYzEuMzUzLDMuMTgzLDMuMjg1LDYuMDIxLDUuOCw4LjUxNmMyLjUxNCwyLjQ5Niw1LjM1MSw0LjM5OSw4LjUxNSw1LjcxNWMzLjE2MSwxLjMxNCw2LjQ3NiwxLjk3MSw5Ljk0MywxLjk3MQoJCWMzLjQyOCwwLDYuNzUtMC42NjUsOS45NzMtMS45OTljMy4yMTktMS4zMzUsNi4xMjEtMy4yNTcsOC43MTMtNS43NzFjNC45OS00Ljg3Niw3LjQ4NC0xMC45OSw3LjQ4NC0xOC4zNDQKCQljMC0zLjU0My0wLjY0OC02Ljg5NS0xLjk0My0xMC4wNTdjLTEuMjkzLTMuMTYyLTMuMTgtNS45OC01LjY1NC04LjQ1OEM1MC45ODQsNC44NDQsNDQuNzk1LDIuMjcyLDM3LjU1NywyLjI3MnogTTM3LjE1NiwyMy4xODcKCQlsLTQuMjg3LDIuMjI5Yy0wLjQ1OC0wLjk1MS0xLjAxOS0xLjYxOS0xLjY4NS0yYy0wLjY2Ny0wLjM4LTEuMjg2LTAuNTcxLTEuODU4LTAuNTcxYy0yLjg1NiwwLTQuMjg2LDEuODg1LTQuMjg2LDUuNjU3CgkJYzAsMS43MTQsMC4zNjIsMy4wODQsMS4wODUsNC4xMTNjMC43MjQsMS4wMjksMS43OTEsMS41NDQsMy4yMDEsMS41NDRjMS44NjcsMCwzLjE4MS0wLjkxNSwzLjk0NC0yLjc0M2wzLjk0MiwyCgkJYy0wLjgzOCwxLjU2My0yLDIuNzkxLTMuNDg2LDMuNjg2Yy0xLjQ4NCwwLjg5Ni0zLjEyMywxLjM0My00LjkxNCwxLjM0M2MtMi44NTcsMC01LjE2My0wLjg3NS02LjkxNS0yLjYyOQoJCWMtMS43NTItMS43NTItMi42MjgtNC4xOS0yLjYyOC03LjMxM2MwLTMuMDQ4LDAuODg2LTUuNDY2LDIuNjU3LTcuMjU3YzEuNzcxLTEuNzksNC4wMDktMi42ODYsNi43MTUtMi42ODYKCQlDMzIuNjA0LDE4LjU1OCwzNS40NDEsMjAuMTAxLDM3LjE1NiwyMy4xODd6IE01NS42MTMsMjMuMTg3bC00LjIyOSwyLjIyOWMtMC40NTctMC45NTEtMS4wMi0xLjYxOS0xLjY4Ni0yCgkJYy0wLjY2OC0wLjM4LTEuMzA3LTAuNTcxLTEuOTE0LTAuNTcxYy0yLjg1NywwLTQuMjg3LDEuODg1LTQuMjg3LDUuNjU3YzAsMS43MTQsMC4zNjMsMy4wODQsMS4wODYsNC4xMTMKCQljMC43MjMsMS4wMjksMS43ODksMS41NDQsMy4yMDEsMS41NDRjMS44NjUsMCwzLjE4LTAuOTE1LDMuOTQxLTIuNzQzbDQsMmMtMC44NzUsMS41NjMtMi4wNTcsMi43OTEtMy41NDEsMy42ODYKCQljLTEuNDg2LDAuODk2LTMuMTA1LDEuMzQzLTQuODU3LDEuMzQzYy0yLjg5NiwwLTUuMjA5LTAuODc1LTYuOTQxLTIuNjI5Yy0xLjczNi0xLjc1Mi0yLjYwMi00LjE5LTIuNjAyLTcuMzEzCgkJYzAtMy4wNDgsMC44ODUtNS40NjYsMi42NTgtNy4yNTdjMS43Ny0xLjc5LDQuMDA4LTIuNjg2LDYuNzEzLTIuNjg2QzUxLjExNywxOC41NTgsNTMuOTM4LDIwLjEwMSw1NS42MTMsMjMuMTg3eiIvPgo8L2c+Cjwvc3ZnPgo=",
-        "alt": "",
+        "src": "https://www.svtstatic.se/image-news/992/ninesixteen/0.53/0.79/882ca192c48e2fef0ff76e1f874d972634d352b147c682f6ed7665cb3f12e201",
+        "alt": "En silhuett av en person med keps framträder i förgrunden. I bakgrunden syns en karta.",
+        "title": "Foto: Map Creator/Adobe Firefly"
+      },
+      {
+        "src": "https://www.svtstatic.se/image-news/992/ninesixteen/0.54/0.76/05b6163c4e7641991ccc53722e173b4882cdbc829510614a40c5c7e921ea2d6a",
+        "alt": "Siluetter av två personer syns i förgrunden. I bakgrunden syns karta med ett område som är markerad med en röd kant.",
+        "title": "Foto: Map Creator/Adobe Firefly"
+      },
+      {
+        "src": "https://www.svtstatic.se/image-news/992/ninesixteen/0.59/0.84/814e4029a239cfd1c11208264156f25f3d88fed789060acc3410c421a6af42c5",
+        "alt": "Silhuetter av fyra personer framträder i förgrunden framför en karta med utmärkta områden, markerade i rött och grått, som visar olika geografiska platser.",
+        "title": "Foto: Map Creator/Adobe Firefly"
+      },
+      {
+        "src": "https://www.svtstatic.se/image-news/992/ninesixteen/0.51/0.8/bcfe19eb062760cb93d4766437d96fa4a9d87b3d5937ccd5438049f4c60c8132",
+        "alt": "I förgrunden syns skissade silhuetter av fyra personer. I bakgrunden syns en kartbild med en del som är markerad med röd kontur.",
+        "title": "Foto: Map Creator/Adobe Firefly"
+      },
+      {
+        "src": "https://www.svtstatic.se/image-news/992/ninesixteen/0.5/0.78/44af9a6f7e531d501b8d815da1680941cf22136a314cf6bc847567cc37ce2f34",
+        "alt": "Kartbild över ett område med en silhuett av fyra personer i förgrunden.",
+        "title": "Foto: Map Creator/Adobe Firefly"
+      },
+      {
+        "src": "https://www.svtstatic.se/image-news/992/ninesixteen/0.5/0.79/3912c4aa4159404b031071e079824ef10986477a6cd590db99eff769b9a7dc54",
+        "alt": "Silhuetter av tre personer i förgrunden med en karta i bakgrunden som markerar ett område med röd kontur. Kartan visar det avgränsade området där vistelseförbudet gäller.",
+        "title": "Foto: Map Creator/Adobe Firefly"
+      },
+      {
+        "src": "https://www.svtstatic.se/image-news/992/1:1/0.48/0.51/6aa908fdf4a36139dcec1e91f9538b257d6e31e1a521c1362e5655efb09f474f",
+        "alt": "En anonym man i förgrund och reportern i bakgrunden.",
+        "title": "Foto: Hanna Aqvilin/SVT"
+      },
+      {
+        "src": "https://www.svtstatic.se/image-news/600/square/0.43/0.62/b7e341b6850c768cebd41f3cb4df96f6bade4d3db602113bf0ac64f7b0f8bb6e",
+        "alt": "Siluetter av människor i förgrunden, med en karta av en stad i bakgrunden som har röda områden markerade.",
+        "title": "Foto: Adobe Firefly"
+      },
+      {
+        "src": "https://www.svtstatic.se/image-news/600/square/0.29/0.42/23a7df464f4c18951256353593f1a2dd241e058bdf5666620b9da4e556d63ef5",
+        "alt": "Ett montage med en bild på en man och en bild på en karta över centrala Göteborg.",
+        "title": "Foto: Hanna Aqvilin/SVT"
+      },
+      {
+        "src": "https://www.svtstatic.se/image-news/600/square/0.78/0.23/d2f3bbc85b8ec2bc90560edcc50c94726391f2bcf2057f3b22d4c834b463f66c",
+        "alt": "23-åring beläggs med vistelseförbud i centrala Göteborg",
+        "title": "Foto: SVT"
+      },
+      {
+        "src": "https://www.svtstatic.se/image/wide/992/34811567/1686135523?format=auto",
+        "alt": "Lokala Nyheter Väst",
         "title": ""
       },
       {
-        "src": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDEzLjAuMiwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMTQ5NDgpICAtLT4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjAvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvVFIvMjAwMS9SRUMtU1ZHLTIwMDEwOTA0L0RURC9zdmcxMC5kdGQiPgo8c3ZnIHZlcnNpb249IjEuMCIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHdpZHRoPSI2NHB4IiBoZWlnaHQ9IjY0cHgiIHZpZXdCb3g9IjUuNSAtMy41IDY0IDY0IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDUuNSAtMy41IDY0IDY0IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8Y2lyY2xlIGZpbGw9IiNGRkZGRkYiIGN4PSIzNy42MzciIGN5PSIyOC44MDYiIHI9IjI4LjI3NiIvPgoJPGc+CgkJPHBhdGggZmlsbD0iIzU1NTU1NSIgZD0iTTM3LjQ0My0zLjVjOC45ODgsMCwxNi41NywzLjA4NSwyMi43NDIsOS4yNTdDNjYuMzkzLDExLjk2Nyw2OS41LDE5LjU0OCw2OS41LDI4LjVjMCw4Ljk5MS0zLjA0OSwxNi40NzYtOS4xNDUsMjIuNDU2CgkJCUM1My44NzksNTcuMzE5LDQ2LjI0Miw2MC41LDM3LjQ0Myw2MC41Yy04LjY0OSwwLTE2LjE1My0zLjE0NC0yMi41MTQtOS40M0M4LjY0NCw0NC43ODQsNS41LDM3LjI2Miw1LjUsMjguNQoJCQljMC04Ljc2MSwzLjE0NC0xNi4zNDIsOS40MjktMjIuNzQyQzIxLjEwMS0wLjQxNSwyOC42MDQtMy41LDM3LjQ0My0zLjV6IE0zNy41NTcsMi4yNzJjLTcuMjc2LDAtMTMuNDI4LDIuNTUzLTE4LjQ1Nyw3LjY1NwoJCQljLTUuMjIsNS4zMzQtNy44MjksMTEuNTI1LTcuODI5LDE4LjU3MmMwLDcuMDg2LDIuNTksMTMuMjIsNy43NywxOC4zOThjNS4xODEsNS4xODIsMTEuMzUyLDcuNzcxLDE4LjUxNCw3Ljc3MQoJCQljNy4xMjMsMCwxMy4zMzQtMi42MDcsMTguNjI5LTcuODI4YzUuMDI5LTQuODM4LDcuNTQzLTEwLjk1Miw3LjU0My0xOC4zNDNjMC03LjI3Ni0yLjU1My0xMy40NjUtNy42NTYtMTguNTcxCgkJCUM1MC45NjcsNC44MjQsNDQuNzk1LDIuMjcyLDM3LjU1NywyLjI3MnogTTQ2LjEyOSwyMC41NTd2MTMuMDg1aC0zLjY1NnYxNS41NDJoLTkuOTQ0VjMzLjY0M2gtMy42NTZWMjAuNTU3CgkJCWMwLTAuNTcyLDAuMi0xLjA1NywwLjU5OS0xLjQ1N2MwLjQwMS0wLjM5OSwwLjg4Ny0wLjYsMS40NTctMC42aDEzLjE0NGMwLjUzMywwLDEuMDEsMC4yLDEuNDI4LDAuNgoJCQlDNDUuOTE4LDE5LjUsNDYuMTI5LDE5Ljk4Niw0Ni4xMjksMjAuNTU3eiBNMzMuMDQyLDEyLjMyOWMwLTMuMDA4LDEuNDg1LTQuNTE0LDQuNDU4LTQuNTE0czQuNDU3LDEuNTA0LDQuNDU3LDQuNTE0CgkJCWMwLDIuOTcxLTEuNDg2LDQuNDU3LTQuNDU3LDQuNDU3UzMzLjA0MiwxNS4zLDMzLjA0MiwxMi4zMjl6Ii8+Cgk8L2c+CjwvZz4KPC9zdmc+Cg==",
-        "alt": "",
+        "src": "https://www.svtstatic.se/image-news/600/square/0.77/0.37/9dec2959246a07746a1503728348915bf215da14b646c05c3cf77a69c4c7b860",
+        "alt": "Dubbelbild: tjäderhanne som sträcker på halsen till vänster, bekymrad skogsägare till vänster",
+        "title": "Foto: TT/SVT"
+      },
+      {
+        "src": "https://www.svtstatic.se/image-news/600/square/0.26/0.5/f7d9bd9eb37864866d7e565354e8a419f704d2d2df9089c8fceeb3fdf681da62",
+        "alt": "Tre personer står i en stadsbild med modern arkitektur i bakgrunden. De är klädda i avslappnade kläder och håller mobiltelefoner. I den delade bilden till höger syns en person med en ljus jacka som står utomhus bland höstlöv, också med en mobiltelefon i handen.",
+        "title": "Foto: SVT"
+      },
+      {
+        "src": "/static/build/svt-nyheter-logo-inverted-7d508c15fa165f83bd48.svg",
+        "alt": "SVT Nyheter Förstasida",
         "title": ""
       }
     ],
     "links": [
       {
-        "href": "/kurser/webbprogrammering-pa-klientsidan/",
-        "text": ".css-1qmeagp{background-color:#FFE31A;width:48px;height:48px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;border-radius:50%;margin-right:16px;box-shadow:0px 0px 0px 1px rgba(0,0,0,0.07);-webkit-transition:all 0.4s ease;transition:all 0.4s ease;-webkit-transform:translateZ(0);-moz-transform:translateZ(0);-ms-transform:translateZ(0);transform:translateZ(0);}.css-1qmeagp img{max-height:calc(100% - 12px);position:relative;left:1px;}.stickyMode .css-1qmeagp{-webkit-transform:scaley(120%) scaleX(65%);-moz-transform:scaley(120%) scaleX(65%);-ms-transform:scaley(120%) scaleX(65%);transform:scaley(120%) scaleX(65%);}@media (max-width: 400px){.css-1qmeagp{display:none;}}.css-1qj3bpv{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}.css-1qj3bpv img{max-width:230px;margin-bottom:4px;margin-top:2px;position:relative;-webkit-transition:all 0.4s ease;transition:all 0.4s ease;-webkit-transform:translateZ(0);-moz-transform:translateZ(0);-ms-transform:translateZ(0);transform:translateZ(0);}.stickyMode .css-1qj3bpv img{-webkit-transform:translateY(-100px);-moz-transform:translateY(-100px);-ms-transform:translateY(-100px);transform:translateY(-100px);}.css-1qj3bpv div{-webkit-transition:all 0.4s ease;transition:all 0.4s ease;-webkit-transform:translateZ(0);-moz-transform:translateZ(0);-ms-transform:translateZ(0);transform:translateZ(0);}.stickyMode .css-1qj3bpv div{-webkit-transform:translateY(-15px) translateX(-10px) scaley(200%);-moz-transform:translateY(-15px) translateX(-10px) scaley(200%);-ms-transform:translateY(-15px) translateX(-10px) scaley(200%);transform:translateY(-15px) translateX(-10px) scaley(200%);}@media (max-width: 400px){.stickyMode .css-1qj3bpv div{-webkit-transform:translateY(-15px) scaley(200%);-moz-transform:translateY(-15px) scaley(200%);-ms-transform:translateY(-15px) scaley(200%);transform:translateY(-15px) scaley(200%);}}.css-la839h{color:#000;font-size:16px;line-height:1.5;font-weight:300;}@media (max-width: 1023px){.css-la839h{white-space:nowrap;text-overflow:ellipsis;overflow:hidden;}.stickyMode .css-la839h{max-width:93%;}}@media (max-width: 400px){.css-la839h{font-size:14px;line-height:2;}.stickyMode .css-la839h{max-width:100%;}}Webbprogrammering på klientsidan (1DV025)"
-      },
-      {
-        "href": "https://gitlab.lnu.se/1dv025",
-        "text": "GitLab"
-      },
-      {
-        "href": "https://coursepress.lnu.se/kurser/webbprogrammering-pa-klientsidan/zoom",
-        "text": "Zoom"
-      },
-      {
-        "href": "https://moodle.lnu.se/course/view.php?id=63358",
-        "text": "Moodle"
-      },
-      {
-        "href": "https://www.youtube.com/cslnu",
-        "text": "YouTube"
-      },
-      {
-        "href": "https://cloud.timeedit.net/lnu/web/schema2/ri1YqX0QQYwZ5ZQv550X57c5ycY95Z7Y66Q5595Q6671Z0Q1yhb0ncdQnwcZpmc.html#",
-        "text": "Schema"
-      },
-      {
-        "href": "/kurser/webbprogrammering-pa-klientsidan/studieguide",
-        "text": "Studieguide"
-      },
-      {
-        "href": "/kurser/webbprogrammering-pa-klientsidan/studieguide/valkommen",
-        "text": "🎉 Välkommen!"
-      },
-      {
-        "href": "/kurser/webbprogrammering-pa-klientsidan/studieguide/forvantningar",
-        "text": "Förväntningar"
-      },
-      {
-        "href": "/kurser/webbprogrammering-pa-klientsidan/studieguide/kursledning",
-        "text": "Kursledning"
-      },
-      {
-        "href": "/kurser/webbprogrammering-pa-klientsidan/studieguide/registrering",
-        "text": "Registrering"
-      },
-      {
-        "href": "/kurser/webbprogrammering-pa-klientsidan/studieguide/kommunikationsstrategi",
-        "text": "Kommunikationsstrategi"
-      },
-      {
-        "href": "/kurser/webbprogrammering-pa-klientsidan/studieguide/examination",
-        "text": "Examination"
-      },
-      {
-        "href": "/kurser/webbprogrammering-pa-klientsidan/studieguide/larresurser",
-        "text": "Lärresurser"
-      },
-      {
-        "href": "/kurser/webbprogrammering-pa-klientsidan/studieguide/kursvardering",
-        "text": "Kursvärdering"
-      },
-      {
-        "href": "/kurser/webbprogrammering-pa-klientsidan/veckoanvisningar",
-        "text": "Veckoanvisningar"
-      },
-      {
-        "href": "/kurser/webbprogrammering-pa-klientsidan/examinationsuppgifter",
-        "text": "Examinationsuppgifter"
-      },
-      {
-        "href": "/kurser/webbprogrammering-pa-klientsidan/samlingar",
-        "text": "Samlingar"
-      },
-      {
-        "href": "https://gitlab.lnu.se/1dv025/content/coursesite/-/raw/main/content/studieguide/resurser/Studieguide.pdf?inline=false",
-        "text": "Presentation"
-      },
-      {
-        "href": "https://lnu.se/ny-student",
-        "text": "lnu.se/ny-student"
-      },
-      {
-        "href": "https://lnu.se/student",
-        "text": "lnu.se/student"
-      },
-      {
-        "href": "../veckoanvisningar/kursvecka-01/oversikt/",
-        "text": "kursintroduktionen"
-      },
-      {
-        "href": "https://lnu-se.zoom.us/download",
-        "text": "Zoom-applikationen"
-      },
-      {
-        "href": "https://creativecommons.org/licenses/by/4.0/",
+        "href": "#",
         "text": ""
+      },
+      {
+        "href": "#innehall",
+        "text": "Gå direkt till textinnehållet"
+      },
+      {
+        "href": "/",
+        "text": ""
+      },
+      {
+        "href": "/nyheter/lokalt/vast/sa-fick-polisen-bort-natverket-fran-centrala-goteborg-med-den-nya-lagen?mobilmeny=1",
+        "text": ""
+      },
+      {
+        "href": "/nyheter/lokalt/vast/sa-fick-polisen-bort-natverket-fran-centrala-goteborg-med-den-nya-lagen?nyhetsmeny=1",
+        "text": ""
+      },
+      {
+        "href": "/nyheter/lokalt/",
+        "text": "Lokalt"
+      },
+      {
+        "href": "/nyheter/lokalt/vast/sa-fick-polisen-bort-natverket-fran-centrala-goteborg-med-den-nya-lagen?lokalmeny=1",
+        "text": ""
+      },
+      {
+        "href": "/sport/",
+        "text": "Sport"
+      },
+      {
+        "href": "/nyheter/lokalt/vast/sa-fick-polisen-bort-natverket-fran-centrala-goteborg-med-den-nya-lagen?sportmeny=1",
+        "text": ""
+      },
+      {
+        "href": "https://www.svtplay.se/",
+        "text": "SVT Play"
+      },
+      {
+        "href": "https://www.svt.se/barnkanalen/",
+        "text": "Barn"
+      },
+      {
+        "href": "https://www.svtplay.se/kanaler",
+        "text": "Tv-tablå"
+      },
+      {
+        "href": "https://www.svtplay.se/program",
+        "text": "Alla program"
+      },
+      {
+        "href": "https://omoss.svt.se/",
+        "text": "Om SVT"
+      },
+      {
+        "href": "/nyheter/lokalt/vast/",
+        "text": "Väst"
+      },
+      {
+        "href": "https://www.svt.se/kontakt/systemkrav-svtse",
+        "text": "Läs mer om webbläsarstöd"
+      },
+      {
+        "href": "https://www.svt.se/nyheter/lokalt/vast/har-ar-mannen-som-portats-fran-omraden-i-goteborg",
+        "text": "omkring 80 personer i Sverige fått vistelseförbud – varav 18 i Göteborg"
+      },
+      {
+        "href": "/nyheter/video/cd301ddf245571ec-21-aring-med-vistelseforbud-i-backa-pa-hisingen?spellista=WyJhc3RyaWQtdmlkZW9wbGF5bGlzdCIsImFmbTVmcyJd",
+        "text": "Backa, Hisingen16 sek"
+      },
+      {
+        "href": "/nyheter/video/8118396fc8bbd700-tva-man-portas-fran-majorna-i-goteborg?spellista=WyJhc3RyaWQtdmlkZW9wbGF5bGlzdCIsImFmbTVmcyJd",
+        "text": "Majorna19 sek"
+      },
+      {
+        "href": "/nyheter/video/a4a8e94a2a91e17b-fyra-man-portas-fran-lovgardet-angereds-centrum-och-hammarkullen?spellista=WyJhc3RyaWQtdmlkZW9wbGF5bGlzdCIsImFmbTVmcyJd",
+        "text": "Göteborg, Partille24 sek"
+      },
+      {
+        "href": "/nyheter/video/fbb9270a95ac5b01-fyra-personer-belaggs-med-vistelseforbud-vid-frolunda-torg?spellista=WyJhc3RyaWQtdmlkZW9wbGF5bGlzdCIsImFmbTVmcyJd",
+        "text": "Frölunda torg21 sek"
+      },
+      {
+        "href": "/nyheter/video/dab610e4b68c531b-fyra-man-portas-fran-centrala-goteborg?spellista=WyJhc3RyaWQtdmlkZW9wbGF5bGlzdCIsImFmbTVmcyJd",
+        "text": "Centrala Göteborg19 sek"
+      },
+      {
+        "href": "/nyheter/video/79a04e05259e79eb-man-portas-fran-angereds-centrum-lovgardet-och-hammarkullen?spellista=WyJhc3RyaWQtdmlkZW9wbGF5bGlzdCIsImFmbTVmcyJd",
+        "text": "Angered, Lövgärdet, Hammarkullen24 sek"
+      },
+      {
+        "href": "/nyheter/om/vistelseforbud",
+        "text": "Vistelseförbud"
+      },
+      {
+        "href": "/nyheter/om/goteborg",
+        "text": "Göteborg"
+      },
+      {
+        "href": "/nyheter/lokalt/vast/har-ar-mannen-som-portats-fran-omraden-i-goteborg",
+        "text": "Här är männen som portats från områden i GöteborgIdag 05:30"
+      },
+      {
+        "href": "/nyheter/lokalt/vast/advokaten-sagar-den-nya-lagen-om-vistelseforbud-det-ar-en-illusion",
+        "text": "1 minAdvokaten sågar den nya lagen om vistelseförbud: ”Det är en illusion”22 april 2024"
+      },
+      {
+        "href": "/nyheter/lokalt/vast/han-portas-fran-centrala-goteborg-jag-kan-inte-rora-pa-mig",
+        "text": "1 minHan är portad från centrala Göteborg – med preventivt vistelseförbud22 april 2024"
+      },
+      {
+        "href": "/nyheter/lokalt/vast/ny-lag-om-preventivt-vistelseforbud-darfor-vill-polisen-porta-23-aring-fran-centrala-goteborg",
+        "text": "2 minNy lag om preventivt vistelseförbud: Därför portar polisen en 23-årig man från centrala Göteborg22 april 2024"
+      },
+      {
+        "href": "mailto:george.adam@svt.se",
+        "text": "George Adam"
+      },
+      {
+        "href": "mailto:korr@svt.se?cc=george.adam@svt.se&subject=Hittat%20fel%20i%3A%20%22S%C3%A5%20fick%20polisen%20bort%20n%C3%A4tverket%20fr%C3%A5n%20centrala%20G%C3%B6teborg%20%E2%80%93%20med%20den%20nya%20lagen%22&body=Jag%20har%20hittat%20fel%20i%20artikeln%20%22S%C3%A5%20fick%20polisen%20bort%20n%C3%A4tverket%20fr%C3%A5n%20centrala%20G%C3%B6teborg%20%E2%80%93%20med%20den%20nya%20lagen%22%0A(https%3A%2F%2Fwww.svt.se%2Fnyheter%2Flokalt%2Fvast%2Fsa-fick-polisen-bort-natverket-fran-centrala-goteborg-med-den-nya-lagen)%0A%0AKommentar%3A",
+        "text": "Hittat språk- eller faktafel i texten? Skriv och berätta."
+      },
+      {
+        "href": "https://www.svt.se/nyheter/sa-arbetar-vi-pa-svt-nyheter",
+        "text": "Läs mer om hur vi arbetar."
+      },
+      {
+        "href": "https://www.svtplay.se/video/ed6qwAE/lokala-nyheter-vast/idag-09-33",
+        "text": "3 minLokala Nyheter VästIdag 09:33"
+      },
+      {
+        "href": "/nyheter/lokalt/vast/sa-fick-polisen-bort-natverket-fran-centrala-goteborg-med-den-nya-lagen",
+        "text": "Så fick polisen bort nätverket från centrala Göteborg – med den nya lagen"
+      },
+      {
+        "href": "/nyheter/lokalt/vast/kristofer-kraver-staten-pa-miljoner-da-tjader-stoppade-avverkning",
+        "text": "Kristofer kräver staten på miljoner då tjäder stoppade avverkning"
+      },
+      {
+        "href": "/nyheter/lokalt/vast/professorns-kritik-mot-aldersgrans-pa-sociala-medier-kan-leda-till-konflikt",
+        "text": "Professorns kritik mot åldersgräns på sociala medier: ”Kan leda till konflikt”"
+      },
+      {
+        "href": "/nyheter/lokalt/vast/kristofer-lundberg-utesluts-ur-vansterpartiet",
+        "text": "Kristofer Lundberg utesluts ur Vänsterpartiet"
+      },
+      {
+        "href": "mailto:vast@svt.se",
+        "text": "Mejla redaktionen"
+      },
+      {
+        "href": "https://www.facebook.com/svtnyhetervast",
+        "text": "Följ oss på Facebook"
+      },
+      {
+        "href": "tel:031-837260",
+        "text": "Ring redaktionen: 031-83 72 60"
+      },
+      {
+        "href": "/vader/",
+        "text": "Väder"
+      },
+      {
+        "href": "/text-tv/100",
+        "text": "Text-tv"
+      },
+      {
+        "href": "https://www.svtplay.se",
+        "text": "SVT Play"
+      },
+      {
+        "href": "/barnkanalen/",
+        "text": "Barn"
+      },
+      {
+        "href": "https://www.svtplay.se/kategori/oppet-arkiv",
+        "text": "Öppet arkiv"
+      },
+      {
+        "href": "/recept",
+        "text": "Recept"
+      },
+      {
+        "href": "https://www.svtplay.se/rapport",
+        "text": "Rapport"
+      },
+      {
+        "href": "https://www.svtplay.se/aktuellt",
+        "text": "Aktuellt"
+      },
+      {
+        "href": "https://www.svtplay.se/morgonstudion",
+        "text": "Morgonstudion"
+      },
+      {
+        "href": "https://www.svtplay.se/sportnytt",
+        "text": "Sportnytt"
+      },
+      {
+        "href": "https://omoss.svt.se/kontakt/",
+        "text": "Kontakta SVT"
+      },
+      {
+        "href": "/nyheter/sa-kontaktar-du-svt-nyheter",
+        "text": "Kontakta SVT Nyheter"
+      },
+      {
+        "href": "/nyheter/tipsa-svt-nyheter",
+        "text": "Tipsa SVT Nyheter"
+      },
+      {
+        "href": "https://omoss.svt.se/about-svt.html",
+        "text": "About SVT"
+      },
+      {
+        "href": "https://omoss.svt.se/svt-bloggen.html",
+        "text": "SVT-bloggen"
+      },
+      {
+        "href": "https://omoss.svt.se/svts-roll/sa-granskas-svts-publiceringar.html",
+        "text": "Anmäl till medieombudsmannen"
+      },
+      {
+        "href": "/kontakt/cookies-och-personuppgifter",
+        "text": "Om personuppgiftsbehandling och cookies"
+      },
+      {
+        "href": "mailto:anton.svendsen@svt.se",
+        "text": "Anton Svendsen"
       }
     ],
     "spans": [
-      ".css-1q79kkk-skeletonStyles-Skeleton{background-color:#eee;background-image:linear-gradient( 90deg,#eee,#f5f5f5,#eee );background-size:200px 100%;background-repeat:no-repeat;border-radius:4px;display:inline-block;line-height:1;width:100%;-webkit-animation:animation-bzdot9 1.2s ease-in-out infinite;animation:animation-bzdot9 1.2s ease-in-out infinite;}@-webkit-keyframes animation-bzdot9{0%{background-position:-200px 0;}100%{background-position:calc(200px + 100%) 0;}}@keyframes animation-bzdot9{0%{background-position:-200px 0;}100%{background-position:calc(200px + 100%) 0;}}‌",
-      "‌"
+      "Hör polisen förklara hur det gått efter vistelseförbuden och se kartan över centrala Göteborg där männen inte fått vistas. Foto: George Adam/SVT",
+      "Foto: George Adam/SVT",
+      "Uppdaterad idag 11:37",
+      "Uppdaterad",
+      "Publicerad idag 05:30",
+      "Publicerad",
+      "Här är männen som fått preventivt vistelseförbud i Göteborg",
+      "Backa, Hisingen",
+      "16 sek",
+      "Majorna",
+      "19 sek",
+      "Göteborg, Partille",
+      "24 sek",
+      "Frölunda torg",
+      "21 sek",
+      "Centrala Göteborg",
+      "Angered, Lövgärdet, Hammarkullen",
+      "SVT:s reporter George Adam träffar 23-åringen som berättar om hur hans liv påverkas av förbudet att vistas i centrala Göteborg. Foto: Hanna Aqvilin/SVT",
+      "Foto: Hanna Aqvilin/SVT",
+      "Här är männen som portats från områden i Göteborg",
+      "1 min",
+      "Advokaten sågar den nya lagen om vistelseförbud: ”Det är en illusion”",
+      "Han är portad från centrala Göteborg – med preventivt vistelseförbud",
+      "2 min",
+      "Ny lag om preventivt vistelseförbud: Därför portar polisen en 23-årig man från centrala Göteborg",
+      "George Adam",
+      "Hittat språk- eller faktafel i texten? Skriv och berätta.",
+      "Skriv och berätta.",
+      "3 min",
+      "1",
+      "2",
+      "3",
+      "Mejla redaktionen",
+      "Följ oss på Facebook",
+      "Ring redaktionen: 031-83 72 60",
+      "031-83 72 60",
+      "Ansvarig utgivare: Anton Svendsen|",
+      "|",
+      "E-post: vast@svt.se|",
+      "Telefon: 031-83 72 60|",
+      "© Sveriges Television AB"
     ],
     "lists": [
       {
         "tag": "ul",
         "items": [
-          "GitLab",
-          "Zoom",
-          "Moodle",
-          "YouTube",
-          "Schema"
+          "Nyheter",
+          "Lokalt",
+          "Sport",
+          "SVT Play",
+          "Barn",
+          "Tv-tablå",
+          "Alla program",
+          "Om SVT"
         ]
       },
       {
         "tag": "ul",
         "items": [
-          "Studieguide🎉 Välkommen!FörväntningarKursledningRegistreringKommunikationsstrategiExaminationLärresurserKursvärderingVeckoanvisningarExaminationsuppgifterSamlingar",
-          "Studieguide🎉 Välkommen!FörväntningarKursledningRegistreringKommunikationsstrategiExaminationLärresurserKursvärdering",
-          "🎉 Välkommen!",
-          "Förväntningar",
-          "Kursledning",
-          "Registrering",
-          "Kommunikationsstrategi",
-          "Examination",
-          "Lärresurser",
-          "Kursvärdering",
-          "Veckoanvisningar",
-          "Examinationsuppgifter",
-          "Samlingar"
+          "Backa, Hisingen16 sek",
+          "Majorna19 sek",
+          "Göteborg, Partille24 sek",
+          "Frölunda torg21 sek",
+          "Centrala Göteborg19 sek",
+          "Angered, Lövgärdet, Hammarkullen24 sek"
         ]
       },
       {
         "tag": "ul",
         "items": [
-          "Studieguide🎉 Välkommen!FörväntningarKursledningRegistreringKommunikationsstrategiExaminationLärresurserKursvärdering",
-          "🎉 Välkommen!",
-          "Förväntningar",
-          "Kursledning",
-          "Registrering",
-          "Kommunikationsstrategi",
-          "Examination",
-          "Lärresurser",
-          "Kursvärdering",
-          "Veckoanvisningar",
-          "Examinationsuppgifter",
-          "Samlingar"
+          "Lagen innebär att en person kan förbjudas att vistas inom ett avgränsat område om denne medvetet främjar brottslighet som allvarligt kan skada tryggheten eller där det finns risk för användning av skjutvapen eller sprängämnen. Åtgärden kan beslutas utan att personen har dömts för brott.",
+          "Området kan vara exempelvis allmän plats, skolgårdar och i fordon på allmän plats. Ett vistelseförbud får inte avse ett större område än vad som är nödvändigt.",
+          "Även barn över 15 år ska kunna beläggas med vistelseförbud. Ett vistelseförbud ska förses med de begränsningar och undantag som är påkallade med hänsyn till förhållandena i det enskilda fallet.",
+          "Åtgärden gäller högst sex månader i taget och överträdelser ska bestraffas med upp till ett års fängelse.",
+          "Efter anmälan från polisen fattar åklagare beslut om förbudet. Åtgärden kan överklagas till domstol av den som belagts med ett vistelseförbud. Polismyndigheten kan inte överklaga åklagarens beslut."
         ]
       },
       {
         "tag": "ul",
         "items": [
-          "🎉 Välkommen!",
-          "Förväntningar",
-          "Kursledning",
-          "Registrering",
-          "Kommunikationsstrategi",
-          "Examination",
-          "Lärresurser",
-          "Kursvärdering"
+          "Vistelseförbud",
+          "Göteborg"
         ]
       },
       {
         "tag": "ul",
         "items": [
-          "Skapa studentkonto på lnu.se/ny-student",
-          "Registrera dig på kursen via lnu.se/student",
-          "Ta del av all information i studieguiden och var med på kursintroduktionen",
-          "Installera Zoom-applikationenpå din dator och testa att gå in i vårt rum (ovan)."
+          "Här är männen som portats från områden i GöteborgIdag 05:30",
+          "1 minAdvokaten sågar den nya lagen om vistelseförbud: ”Det är en illusion”22 april 2024",
+          "1 minHan är portad från centrala Göteborg – med preventivt vistelseförbud22 april 2024",
+          "2 minNy lag om preventivt vistelseförbud: Därför portar polisen en 23-årig man från centrala Göteborg22 april 2024"
+        ]
+      },
+      {
+        "tag": "ul",
+        "items": [
+          "George Adam"
+        ]
+      },
+      {
+        "tag": "ul",
+        "items": [
+          "Så fick polisen bort nätverket från centrala Göteborg – med den nya lagen",
+          "Kristofer kräver staten på miljoner då tjäder stoppade avverkning",
+          "Professorns kritik mot åldersgräns på sociala medier: ”Kan leda till konflikt”"
+        ]
+      },
+      {
+        "tag": "ul",
+        "items": [
+          "1Kristofer Lundberg utesluts ur Vänsterpartiet",
+          "2Kristofer kräver staten på miljoner då tjäder stoppade avverkning",
+          "3Så fick polisen bort nätverket från centrala Göteborg – med den nya lagen"
+        ]
+      },
+      {
+        "tag": "ul",
+        "items": [
+          "Mejla redaktionen",
+          "Följ oss på Facebook",
+          "Ring redaktionen: 031-83 72 60"
+        ]
+      },
+      {
+        "tag": "ul",
+        "items": [
+          "Startsida",
+          "Lokala nyheter",
+          "Sport",
+          "Väder",
+          "Text-tv"
+        ]
+      },
+      {
+        "tag": "ul",
+        "items": [
+          "SVT Play",
+          "Barn",
+          "TV-tablå",
+          "Alla program",
+          "Öppet arkiv",
+          "Recept"
+        ]
+      },
+      {
+        "tag": "ul",
+        "items": [
+          "Rapport",
+          "Aktuellt",
+          "Morgonstudion",
+          "Sportnytt"
+        ]
+      },
+      {
+        "tag": "ul",
+        "items": [
+          "Kontakta SVT",
+          "Kontakta SVT Nyheter",
+          "Tipsa SVT Nyheter",
+          "Om SVT",
+          "About SVT",
+          "SVT-bloggen",
+          "Anmäl till medieombudsmannen",
+          "Om personuppgiftsbehandling och cookies",
+          "Cookie-inställningar"
         ]
       }
     ],
