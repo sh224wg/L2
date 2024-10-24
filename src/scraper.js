@@ -388,9 +388,9 @@ class WebScraper {
     }
 
     /**
-     * 
-     * @param {*} element 
-     * @returns 
+     * Check if an element is a "next" link or button.
+     * @param {Element} element - The DOM element to check.
+     * @returns {boolean} True if the element is a "next" link or button, otherwise false.
      */
     #isNextLinkOrButton(element){
         const text = element.textContent?.toLowerCase() || '';
@@ -411,43 +411,6 @@ class WebScraper {
 
         return paginationContainer.querySelector('a.next, button.next, a[rel="next"], button[rel="next"]') || null
     }
-
-   /*  #findNextPage(document) {
-        const potentialNextLinks = [
-            ...document.querySelectorAll('a, button')
-        ];
-
-        const nextLink = potentialNextLinks.find(link =>
-            (link.textContent && (link.textContent.toLowerCase().includes('next') ||
-                link.textContent.includes('>') ||
-                link.textContent.includes('»'))) ||
-            (link.title && link.title.toLowerCase().includes('next')) ||
-            (link.dataset && link.dataset.elid && link.dataset.elid.includes('next')) ||
-            (link.getAttribute('aria-label') && link.getAttribute('aria-label').toLowerCase() === 'next')
-        )
-
-        if (nextLink && nextLink.href) {
-            return nextLink.href
-        }
-
-        const paginationContainer = document.querySelector('.pagination, .pagination-container')
-        if (paginationContainer) {
-            const nextButton = paginationContainer.querySelector('a.next, button.next, a[rel="next"], button[rel="next"]')
-            if (nextButton && nextButton.href) {
-                return nextButton.href
-            }
-        }
-
-        const paginationItems = Array.from(document.querySelectorAll('.pagination a'))
-        if (paginationItems.length > 0) {
-            const lastItem = paginationItems[paginationItems.length - 1]
-            if (lastItem && lastItem.href) {
-                return lastItem.href
-            }
-        }
-
-        return null
-    } */
 }
 
 export default WebScraper
