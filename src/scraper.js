@@ -387,15 +387,24 @@ class WebScraper {
         return potentialNextElements.find(element => this.#isNextLinkOrButton(element))
     }
 
-    #isNextLinkOrButton(){
-
+    /**
+     * 
+     * @param {*} element 
+     * @returns 
+     */
+    #isNextLinkOrButton(element){
+        const text = element.textContent?.toLowerCase() || '';
+        return (
+            text.includes('next') || text.includes('>') || text.includes('»') ||
+            (element.title?.toLowerCase().includes('next')) || (element.getAttribute('aria-label')?.toLowerCase() === 'next')
+        )
     }
 
     #findNextPaginationLink(){
 
     }
-    
-    #findNextPage(document) {
+
+   /*  #findNextPage(document) {
         const potentialNextLinks = [
             ...document.querySelectorAll('a, button')
         ];
@@ -430,7 +439,7 @@ class WebScraper {
         }
 
         return null
-    }
+    } */
 }
 
 export default WebScraper
