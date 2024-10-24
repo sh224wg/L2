@@ -360,61 +360,41 @@ class WebScraper {
      * @returns {string|null} The URL of the next page or null if not found.
      */
     #findNextPage(document) {
-        // Look for links and buttons that might represent the next page
         const potentialNextLinks = [
-            ...document.querySelectorAll('a, button') // Look for links and buttons
+            ...document.querySelectorAll('a, button')
         ];
 
-        // Try to find a next link based on text content
         const nextLink = potentialNextLinks.find(link =>
             (link.textContent && (link.textContent.toLowerCase().includes('next') ||
                 link.textContent.includes('>') ||
                 link.textContent.includes('»'))) ||
             (link.title && link.title.toLowerCase().includes('next')) ||
-            (link.dataset && link.dataset.elid && link.dataset.elid.includes('next'))
-        );
-
-        if (nextLink && nextLink.href) {
-            return nextLink.href;
-        }
-
-        // Optional: Search for common pagination class names (can be adjusted based on use case)
-        const paginationContainer = document.querySelector('.pagination, .pagination-container');
-        if (paginationContainer) {
-            const nextButton = paginationContainer.querySelector('a.next, button.next, a[rel="next"], button[rel="next"]');
-            if (nextButton && nextButton.href) {
-                return nextButton.href;
-            }
-        }
-
-        // Fallback: Check for the last link in a pagination list (if present)
-        const paginationItems = Array.from(document.querySelectorAll('.pagination a'));
-        if (paginationItems.length > 0) {
-            const lastItem = paginationItems[paginationItems.length - 1];
-            if (lastItem && lastItem.href) {
-                return lastItem.href; // Might need adjustments based on site structure
-            }
-        }
-
-        return null; // Return null if no next page found
-    }
-
-   /*  #findNextPage(document) {
-        const nextLink = Array.from(document.querySelectorAll('a')).find(link =>
-            (link.text && (link.text.toLowerCase().includes('next') || link.text.includes('>'))) ||
-            (link.title && link.title.toLowerCase() === 'nästa sida') ||
-            (link.dataset && link.dataset.elid === 'pagination-next-page-button')
+            (link.dataset && link.dataset.elid && link.dataset.elid.includes('next')) ||
+            (link.getAttribute('aria-label') && link.getAttribute('aria-label').toLowerCase() === 'next')
         )
+
         if (nextLink && nextLink.href) {
             return nextLink.href
         }
-        const nextButton = Array.from(document.querySelectorAll('button')).find(button => button.dataset && button.dataset.elid === 'pagination-next-page-button')
-        if (nextButton && nextButton.dataset.url) {
-            return nextButton.dataset.url
+
+        const paginationContainer = document.querySelector('.pagination, .pagination-container')
+        if (paginationContainer) {
+            const nextButton = paginationContainer.querySelector('a.next, button.next, a[rel="next"], button[rel="next"]')
+            if (nextButton && nextButton.href) {
+                return nextButton.href
+            }
+        }
+
+        const paginationItems = Array.from(document.querySelectorAll('.pagination a'))
+        if (paginationItems.length > 0) {
+            const lastItem = paginationItems[paginationItems.length - 1]
+            if (lastItem && lastItem.href) {
+                return lastItem.href
+            }
         }
 
         return null
-    } */
+    }
 }
 
 export default WebScraper
