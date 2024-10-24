@@ -359,6 +359,18 @@ class WebScraper {
      * @param {Document} document - The Dom document.
      * @returns {string|null} The URL of the next page or null if not found.
      */
+
+    #findNextPage(document) {
+        const nextLinkOrButton = this.findNextLinkOrButton(document)
+        if (nextLinkOrButton) {return nextLinkOrButton.href
+        }
+
+        const nextPaginationLink = this.findNextPaginationLink(document)
+        if (nextPaginationLink) { return nextPaginationLink.href
+        }
+        return null
+    }
+
     #findNextPage(document) {
         const potentialNextLinks = [
             ...document.querySelectorAll('a, button')
