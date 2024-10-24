@@ -401,9 +401,9 @@ class WebScraper {
     }
     
     /**
-     * 
-     * @param {*} document 
-     * @returns 
+     * Find the next pagination link or button in the content.
+     * @param {Document} document - The DOM document.
+     * @returns {Element|null} The next pagination link or button, null if not found.
      */
     #findNextPaginationLink(document){
         const paginationContainer = document.querySelector('.pagination, .pagination-container')
