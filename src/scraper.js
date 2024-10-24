@@ -334,7 +334,8 @@ class WebScraper {
         let currentUrl = url
         let scrapedContent = []
 
-        for (let i = 1; i <= maxPages; i++) { console.log(`Scraping page ${i}: ${currentUrl}`)
+        for (let i = 1; i <= maxPages; i++) {
+            console.log(`Scraping page ${i}: ${currentUrl}`)
             const pageContent = await this.scrapeWebPage(currentUrl)
             if (!pageContent) {
                 console.log(`No content found on page ${page}. Scraping ended.`)
@@ -343,10 +344,11 @@ class WebScraper {
             scrapedContent.push(pageContent)
             // parsed doc to find next apge url
             const nextPageUrl = this.#findNextPage(new JSDOM(pageContent.text).window.document)
-            if (!nextPageUrl) { console.log(`No next page found after page ${i}. Scraping ended.`)
+            if (!nextPageUrl) {
+                console.log(`No next page found after page ${i}. Scraping ended.`)
                 break
             }
-            
+
             currentUrl = new URL(nextPageUrl, currentUrl).href
         }
         console.log(`Total pages scraped: ${scrapedContent.length}`)
@@ -361,16 +363,38 @@ class WebScraper {
      */
 
     #findNextPage(document) {
-        const nextLinkOrButton = this.findNextLinkOrButton(document)
-        if (nextLinkOrButton) {return nextLinkOrButton.href
+        const nextLinkOrButton = this.#findNextLinkOrButton(document)
+        if (nextLinkOrButton) {
+            return nextLinkOrButton.href
         }
 
         const nextPaginationLink = this.findNextPaginationLink(document)
-        if (nextPaginationLink) { return nextPaginationLink.href
+        if (nextPaginationLink) {
+            return nextPaginationLink.href
         }
         return null
     }
 
+    /**
+    * Find the next link or button that represents a "next" action.
+    * @param {Document} document - The DOM document.
+    * @returns {Element|null} The next link or button element or null.
+    */
+    #findNextLinkOrButton(document) {
+        const potentialNextElements = [
+            ...document.querySelectorAll('a, button')
+        ]
+        return potentialNextElements.find(element => this.#isNextLinkOrButton(element))
+    }
+
+    #isNextLinkOrButton(){
+
+    }
+
+    #findNextPaginationLink(){
+
+    }
+    
     #findNextPage(document) {
         const potentialNextLinks = [
             ...document.querySelectorAll('a, button')
