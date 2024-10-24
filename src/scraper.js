@@ -368,7 +368,7 @@ class WebScraper {
             return nextLinkOrButton.href
         }
 
-        const nextPaginationLink = this.findNextPaginationLink(document)
+        const nextPaginationLink = this.#findNextPaginationLink(document)
         if (nextPaginationLink) {
             return nextPaginationLink.href
         }
@@ -399,9 +399,17 @@ class WebScraper {
             (element.title?.toLowerCase().includes('next')) || (element.getAttribute('aria-label')?.toLowerCase() === 'next')
         )
     }
+    
+    /**
+     * 
+     * @param {*} document 
+     * @returns 
+     */
+    #findNextPaginationLink(document){
+        const paginationContainer = document.querySelector('.pagination, .pagination-container')
+        if (!paginationContainer) return null
 
-    #findNextPaginationLink(){
-
+        return paginationContainer.querySelector('a.next, button.next, a[rel="next"], button[rel="next"]') || null
     }
 
    /*  #findNextPage(document) {
