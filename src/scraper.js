@@ -353,7 +353,6 @@ class WebScraper {
         return scrapedContent
     }
 
-
     /**
      * Find the next page link or button in the content.
      * @param {Document} document - The Dom document.
